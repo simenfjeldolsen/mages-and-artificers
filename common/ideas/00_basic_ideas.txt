@@ -1787,33 +1787,30 @@ mercenary_ideas = {
 	category = MIL 
 
 	bonus = {
-		mercenary_discipline = 0.05
 		possible_condottieri = 1 
+		adventurers_loyalty_modifier = 0.1
 	}
 
 	organised_mercenary_payment = {
 		mercenary_cost = -0.25
 	}
 	war_council = {
-		mil_advisor_cost = -0.25
 		merc_independent_from_trade_range = yes
 	}
 	expanded_contracts = {
 		merc_maintenance_modifier = -0.25
 	}
-	nation_of_war = {
-		mil_tech_cost_modifier = -0.1
+	seasoned_veterans = {
+		mercenary_discipline = 0.05
 	}
 	benefits_for_mercenaries = {
-		war_taxes_cost_modifier = -0.5
 		merc_leader_army_tradition = 0.5
 	}
-	seasoned_veterans = {
-		infantry_power = 0.1
+	nation_of_war = {
+		land_morale = 0.10
 	}
 	organised_mercenary_recruitment = { 
-		mercenary_manpower = 0.3
-		allow_mercenary_drill = yes
+		mercenary_manpower = 0.5
 	}
 
 	ai_will_do = {
