@@ -38,4 +38,18 @@ spriteTypes = {
 		
 		effectFile = "gfx/FX/buttonstate_linear.lua"
 	}
+	spriteType = {
+		name = "GFX_idea_shock_focus_ideas"
+		texturefile = "gfx//interface//ideas//idea_shockfocus.tga"
+		noOfFrames = 1
+		
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+	spriteType = {
+		name = "GFX_idea_fire_focus_ideas"
+		texturefile = "gfx//interface//ideas//idea_feuerfocus.tga"
+		noOfFrames = 1
+		
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
 }

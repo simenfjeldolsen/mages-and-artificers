@@ -636,3 +636,105 @@ conscription_ideas = {
 		}
 	}
 }
+
+shock_focus_ideas = {
+	category = MIL
+
+	bonus = {
+		max_general_shock = 1
+	}
+
+	trigger = {
+		NOT = {
+			has_idea_group = fire_focus_ideas
+		}
+	}
+	
+	shock_focus_1 = {
+		shock_damage = 0.10
+	}
+	shock_focus_2 = {
+		cavalry_power = 0.1
+	}
+	shock_focus_3 = {
+		infantry_power = 0.1
+	}
+	shock_focus_4 = {
+		fire_damage_received = -0.10
+	}
+	shock_focus_5 = {
+		assault_fort_ability = 0.5
+		may_refill_garrison = yes
+	}
+	shock_focus_6 = {
+		artillery_barrage_cost = -0.5
+		assault_fort_cost_modifier = -0.5
+	}
+	shock_focus_7 = {
+		max_general_maneuver = 1
+	}
+	
+
+	ai_will_do = {
+		factor = 2
+		
+		modifier = {
+			factor = 0.5
+			NOT = { monthly_mil = 7 }
+		}
+		modifier = {
+			factor = 1.1
+			personality = ai_militarist 
+		}
+	}
+}
+
+fire_focus_ideas = {
+	category = MIL
+
+	bonus = {
+		max_general_fire = 1
+	}
+
+	trigger = {
+		NOT = {
+			has_idea_group = shock_focus_ideas
+		}
+	}
+	
+	fire_focus_1 = {
+		artillery_cost = -0.25
+	}
+	fire_focus_2 = {
+		fire_damage = 0.10
+	}
+	fire_focus_3 = {
+		artillery_power = 0.1
+	}
+	fire_focus_4 = {
+		shock_damage_received = -0.10
+	}
+	fire_focus_5 = {
+		artillery_levels_available_vs_fort = 1
+	}
+	fire_focus_6 = {
+		backrow_artillery_damage = 0.10
+	}
+	fire_focus_7 = {
+		leader_siege = 1
+	}
+	
+
+	ai_will_do = {
+		factor = 2
+		
+		modifier = {
+			factor = 0.5
+			NOT = { monthly_mil = 7 }
+		}
+		modifier = {
+			factor = 1.1
+			personality = ai_militarist 
+		}
+	}
+}
