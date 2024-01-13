@@ -24,4 +24,18 @@ spriteTypes = {
 		
 		effectFile = "gfx/FX/buttonstate_linear.lua"
 	}
+	spriteType = {
+		name = "GFX_idea_standing_army_ideas"
+		texturefile = "gfx//interface//ideas//idea_standing_army.tga"
+		noOfFrames = 1
+		
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+	spriteType = {
+		name = "GFX_idea_conscription_ideas"
+		texturefile = "gfx//interface//ideas//idea_wehrpflicht.tga"
+		noOfFrames = 1
+		
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
 }
