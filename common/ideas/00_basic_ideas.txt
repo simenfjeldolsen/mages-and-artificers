@@ -1302,30 +1302,28 @@ quantity_ideas = {
 	category = MIL
 
 	bonus = {
-		land_forcelimit_modifier  = 0.33
-		num_of_pronoiars = 1
+		land_forcelimit_modifier  = 0.5
 	}
 	mass_army = {
-		global_manpower_modifier = 0.33
-		num_of_pronoiars = 1
+		global_manpower_modifier = 0.20
 	}
 	the_young_can_serve = {
 		manpower_recovery_speed = 0.20
+	}
+	expanded_supply_trains = {
+		land_attrition = -0.20
+	}
+	reinforcement_drafts = {
+		reinforce_cost_modifier = -0.20
+	}
+	the_old_and_infirm = {
+		may_build_supply_depot = yes
 	}
 	enforced_service = {
 		global_regiment_cost = -0.1
 	}
 	camp_followers = {
-		global_supply_limit_modifier = 0.33
-	}
-	reinforcement_drafts = {
-		reinforce_cost_modifier = -0.33
-	}
-	the_old_and_infirm = {
-		land_maintenance_modifier = -0.05
-	}
-	expanded_supply_trains = {
-		land_attrition = -0.25
+		global_supply_limit_modifier = 1.0
 	}
 
 	ai_will_do = {
