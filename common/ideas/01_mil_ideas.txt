@@ -116,7 +116,6 @@ defensive_ideas = {
 	}
 	regimental_system = {
 		defensiveness = 0.20
-		regiment_manpower_usage = -0.05
 	}
 	defensive_mentality = {
 		fort_maintenance_modifier = -0.2
@@ -416,6 +415,43 @@ leadership_ideas = {
 			factor = 0.5
 			is_subject = yes
 		}
+	}
+}
+
+militarism_ideas = {
+	category = MIL
+
+	bonus = {
+		possible_mil_policy = 1
+		free_mil_policy = 1
+	}
+	
+	militarism_1 = {
+		mil_tech_cost_modifier = -0.1
+	}
+	militarism_2 = {
+		regiment_manpower_usage = -0.1
+	}
+	militarism_3 = {
+		military_tactics = 0.1
+	}
+	militarism_4 = {
+		war_taxes_cost_modifier = -0.5
+	}
+	militarism_5 = {
+		mil_advisor_cost = -0.15
+	}
+	militarism_6 = {
+		land_forcelimit_modifier = 0.15
+	}
+	militarism_7 = {
+		war_exhaustion = -0.05
+		monthly_militarized_society = 0.05
+	}
+	
+
+	ai_will_do = {
+		factor = 0
 	}
 }
 
