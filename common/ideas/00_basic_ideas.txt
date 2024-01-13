@@ -1208,7 +1208,7 @@ quality_ideas = {
 	category = MIL
 
 	bonus = {
-		discipline = 0.05
+		discipline = 0.025
 		janissaries_loyalty_modifier = 0.1
 		ghulams_loyalty_modifier = 0.1
 	}
@@ -1217,20 +1217,19 @@ quality_ideas = {
 		infantry_power = 0.1
 	}
 	quality_education = {
-		army_tradition = 0.5
-		navy_tradition = 0.5
+		army_tradition_decay = -0.005
 	}
 	finest_of_horses = {
 		cavalry_power = 0.1
 	}
 	escort_ships = {
-		ship_durability = 0.05
+		reserves_organisation = 0.25
 	}
 	naval_drill = {
-		naval_morale = 0.10
+		movement_speed = 0.10
 	}
 	copper_bottoms = {
-		naval_attrition = -0.25
+		special_unit_forcelimit = 0.10
 	}
 	massed_battery = {
 		artillery_power = 0.1
