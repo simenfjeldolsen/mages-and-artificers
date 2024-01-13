@@ -3,4 +3,11 @@ spriteTypes = {
 		name = "GFX_nothing"
 		texturefile = "gfx/interface/nothing.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_leadership_ideas"
+		texturefile = "gfx//interface//ideas//idea_generalstab.tga"
+		noOfFrames = 1
+		
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
 }
