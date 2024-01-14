@@ -763,10 +763,10 @@ monarchy_ideas = {
 }
 
 plutocracy_ideas = {
-	category = MIL
+	category = ADM
 
 	bonus = {
-		global_prov_trade_power_modifier = 0.25
+		land_morale = 0.05
 		burghers_loyalty_modifier = 0.1
 		vaisyas_loyalty_modifier = 0.1
 	}
@@ -776,28 +776,25 @@ plutocracy_ideas = {
 	}
 
 	tradition_of_payment = {
-		mercenary_cost = -0.2
-		global_regiment_cost = -0.05
+		republican_tradition = 0.3
 	}
 	abolished_serfdom = {
-		land_morale = 0.10
-		global_unrest = -1
-	}
-	bill_of_rights = {
-		monthly_reform_progress = 0.1
+		stability_cost_modifier = -0.2	
 	}
 	free_merchants = {
-		merchants = 1
+		global_autonomy = -0.05
 	}
-	free_subjects = {
-		global_trade_goods_size_modifier = 0.1
+	bill_of_rights = {
+		global_unrest = -1
 	}
 	free_cities = {
-		caravan_power = 0.25
-		development_cost = -0.05
+		candidate_random_bonus = 1
+	}
+	free_subjects = {
+		global_trade_goods_size_modifier = 0.05
 	}
 	emancipation = {
-		manpower_recovery_speed = 0.2
+		reelection_cost = -0.1
 	}
 
 	ai_will_do = {
@@ -805,15 +802,7 @@ plutocracy_ideas = {
 		
 		modifier = {
 			factor = 1.25
-			trade_income_percentage = 0.4
-		}
-		modifier = {
-			factor = 1.25
 			production_income_percentage = 0.35
-		}
-		modifier = {
-			factor = 0.5
-			NOT = { monthly_mil = 7 }
 		}
 		modifier = {
 			factor = 1.1
