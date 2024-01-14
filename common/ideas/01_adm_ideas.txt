@@ -4,7 +4,6 @@ state_administration_ideas = {
 	bonus = {
 		possible_adm_policy = 1
 		free_adm_policy = 1
-		eunuchs_loyalty_modifier = 0.1
 	}
 
 	administrative_council = {
@@ -227,7 +226,7 @@ infrastructure_ideas = {
 	
 
 	bonus = {
-			development_cost_modifier = -0.1
+		development_cost_modifier = -0.1
 	}
 
 	fort_logistics = {
@@ -275,6 +274,83 @@ infrastructure_ideas = {
 			OR = {
 				has_idea_group = trade_ideas
 				has_idea_group = naval_ideas
+			}
+		}
+	}
+}
+
+jurisprudence_ideas = {
+	category = ADM
+
+	bonus = {
+		ae_impact = -0.1
+		imperial_mandate = 0.1
+		imperial_authority = 0.1
+		eunuchs_loyalty_modifier = 0.1
+	}
+
+	jurisprudence_1 = {
+		legitimacy = 0.5 
+		republican_tradition = 0.2
+		devotion = 0.5 
+		horde_unity = 0.5
+		meritocracy = 0.25 
+	}
+	jurisprudence_2 = {
+		yearly_corruption = -0.1
+	}
+	jurisprudence_3 = {
+		idea_cost = -0.1
+	}
+	jurisprudence_4 = {
+		interest = -0.5
+	}
+	jurisprudence_5 = {
+		core_creation = -0.1
+		diplomatic_annexation_cost = -0.1
+	}
+	jurisprudence_6 = {
+		stability_cost_modifier = -0.1
+	}
+	jurisprudence_7 = {
+		possible_policy = 1
+	}
+
+	ai_will_do = {
+		factor = 0.65
+		modifier = {
+			factor = 2
+			has_strong_mil_national_ideas = yes 
+		}
+		modifier = { 
+			factor = 0.75
+			NOT = { monthly_adm = 8 }
+		}
+		modifier = { 
+			factor = 1.05
+			is_great_power = yes 
+		}
+		modifier = { 
+			factor = 1.05
+			national_focus = ADM 
+		}
+		modifier = { 
+			factor = 1.1
+			personality = ai_militarist  
+		}
+		modifier = { 
+			factor = 1.25
+			OR = { 
+				has_global_modifier_value = { 
+					which = core_creation 
+					value = 0.15
+				}
+				has_reform = livonian_military_monarchy
+				has_reform = prussian_theocratic_reform
+				has_reform = prussian_republic_reform
+				has_reform = prussian_monarchy
+				has_reform = prussian_monarchy_base
+				governing_capacity_percentage = 0.9
 			}
 		}
 	}
