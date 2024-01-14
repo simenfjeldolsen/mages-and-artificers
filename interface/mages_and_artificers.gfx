@@ -39,6 +39,13 @@ spriteTypes = {
 		effectFile = "gfx/FX/buttonstate_linear.lua"
 	}
 	spriteType = {
+		name = "GFX_idea_horde_gov_ideas"
+		texturefile = "gfx//interface//ideas//idea_horde.dds"
+		noOfFrames = 1
+		
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+	spriteType = {
 		name = "GFX_idea_leadership_ideas"
 		texturefile = "gfx//interface//ideas//idea_generalstab.tga"
 		noOfFrames = 1
