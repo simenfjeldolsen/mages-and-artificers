@@ -701,6 +701,67 @@ decentralisation_ideas = {
 	}
 }
 
+monarchy_ideas = {
+	category = ADM
+
+	bonus = {
+		max_absolutism = 10
+		nobles_loyalty_modifier = 0.1
+	}
+
+	trigger = {
+		has_government_attribute = enables_aristocratic_idea_group
+	}
+
+	monarchy_1 = {
+		prestige_decay = -0.005
+	}
+	monarchy_2 = {
+		legitimacy = 1
+	}
+	monarchy_3 = {
+		vassal_income = 0.1
+		reduced_liberty_desire = 10
+	}
+	monarchy_4 = {
+		vassal_forcelimit_bonus = 0.5
+		vassal_naval_forcelimit_bonus = 0.5
+	}
+	monarchy_5 = {
+		heir_chance = 0.5
+	}
+	monarchy_6 = {
+		no_stability_loss_on_monarch_death = yes
+	}
+	monarchy_7 = {
+		yearly_absolutism = 1
+	}
+
+	ai_will_do = {
+		factor = 3.75
+		
+		modifier = {
+			factor = 1.25
+			trade_income_percentage = 0.4
+		}
+		modifier = {
+			factor = 1.25
+			production_income_percentage = 0.35
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { monthly_mil = 7 }
+		}
+		modifier = {
+			factor = 1.1
+			OR = {
+				personality = ai_capitalist
+				personality = ai_militarist 
+			}
+		}
+	}
+}
+
 plutocracy_ideas = {
 	category = MIL
 
