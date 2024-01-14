@@ -614,7 +614,7 @@ maritime_ideas = {
 	}
 }
 
-naval_ideas = {
+high_seas_ideas = {
 	category = DIP
 
 	trigger = {
@@ -622,36 +622,71 @@ naval_ideas = {
 	}
 
 	bonus = {
-		global_naval_barrage_cost = -1
-		disengagement_chance = 0.15
+		global_naval_engagement_modifier = 0.1
+	}
+
+	high_seas_1 = {
+		heavy_ship_cost = -0.2
+	}
+	high_seas_2 = {
+		heavy_ship_power = 0.10
+	}
+
+	high_seas_3 = {
+		naval_forcelimit_modifier = 0.25
+	}
+	
+	high_seas_4 = {
+		leader_naval_fire = 1
+		naval_attrition = -0.25
+	}
+	
+	high_seas_5 = {
+		allowed_marine_fraction = 0.25
+	}
+	high_seas_6 = {
+		max_flagships = 1
+	}
+	high_seas_7 = {
+		ship_durability = 0.1
+	}
+
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+home_waters_ideas = {
+	category = DIP
+
+	trigger = {
+		primitives = no
+	}
+
+	bonus = {
+		own_coast_naval_combat_bonus = 1.0
 	}
 
 	boarding_parties = {
-		leader_naval_shock = 1
-		landing_penalty = -1
+		galley_cost = -0.20
 	}
 	improved_rams = {
-		galley_power = 0.25
-	}
-	naval_cadets = {
-		leader_naval_fire = 1
-		sunk_ship_morale_hit_recieved = -0.33
-	}
-	naval_glory = {
-		navy_tradition = 1
-		siege_blockade_progress = 1
-	}
-	press_gangs = {
-		sailors_recovery_speed = 0.25
-		allowed_marine_fraction = 0.25
+		galley_power = 0.1
 	}
 	oak_forests_for_ships = {
-		heavy_ship_power = 0.20
-		ship_durability = 0.1
+		global_ship_recruit_speed = -0.20
+	}
+	naval_cadets = {
+		sunk_ship_morale_hit_recieved = -0.25
+	}
+	press_gangs = {
+		global_sailors_modifier = 0.25
 	}
 	superior_seamanship = {
+		disengagement_chance = 0.05
+	}
+	naval_glory = {
 		naval_morale = 0.1
-		global_naval_engagement_modifier = 0.1
 	}
 
 	ai_will_do = {
@@ -683,4 +718,5 @@ naval_ideas = {
 			has_government_attribute = is_pirate_republic_reform
 		}
 	}
+}
 }
