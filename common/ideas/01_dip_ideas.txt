@@ -211,6 +211,49 @@ imperial_ambition_ideas = {
 	}
 
 	ai_will_do = {
+		factor = 0
+	}
+}
+
+imperialism_ideas = {
+	category = DIP
+
+	bonus = {
+		governing_capacity_modifier = 0.1
+	}
+	trigger = {
+		OR = {
+			government_rank = 3 
+			is_emperor = yes 
+		}
+	}
+
+	imperialism_1 = {
+		prestige_decay = -0.005
+		imperial_authority = 0.1
+	}
+	imperialism_2 = {
+		diplomatic_upkeep = 2
+	}
+	imperialism_3 = {
+		global_tax_modifier = 0.15
+	}
+	
+	imperialism_4 = {
+		diplomatic_reputation = 1
+	}
+	
+	imperialism_5 = {
+		liberty_desire_from_subject_development = -0.20
+	}
+	imperialism_6 = {
+		land_maintenance_modifier = -0.1
+	}
+	imperialism_7 = {
+		max_absolutism_effect = 0.2
+	}
+
+	ai_will_do = {
 		factor = 0.5
 		modifier = {
 			factor = 1.5
