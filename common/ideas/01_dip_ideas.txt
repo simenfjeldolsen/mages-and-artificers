@@ -168,6 +168,69 @@ spy_ideas = {
 	}
 }
 
+imperial_ambition_ideas = {
+	category = DIP
+
+	bonus = {
+		reinforce_cost_modifier = -0.20
+	}
+	trigger = {
+		government_rank = 2
+			 
+		NOT = {
+			 OR = {
+				government_rank = 3 
+				is_emperor = yes 
+			}
+		}
+	}
+
+	imperial_ambition_1 = {
+		prestige_from_land = 0.50
+		prestige_from_naval = 0.50
+	}
+	imperial_ambition_2 = {
+		diplomatic_upkeep = 1
+	}
+	imperial_ambition_3 = {
+		global_tax_income = 24
+	}
+	
+	imperial_ambition_4 = {
+		core_creation = -0.15
+	}
+	
+	imperial_ambition_5 = {
+		diplomatic_annexation_cost = -0.15
+	}
+	imperial_ambition_6 = {
+		land_forcelimit = 15
+	}
+	imperial_ambition_7 = {
+		naval_forcelimit = 15
+	}
+
+	ai_will_do = {
+		factor = 0.5
+		modifier = {
+			factor = 1.5
+			is_emperor = yes
+		}
+		modifier = {
+			factor = 1.5
+			num_of_subjects = 2
+		}
+		modifier = {
+			factor = 1.5
+			num_of_subjects = 3
+		}
+		modifier = {
+			factor = 0.75
+			NOT = { monthly_dip = 8 }
+		}
+	}
+}
+
 exploration_ideas = {
 	category = DIP
 	important = yes
