@@ -26,7 +26,7 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_idea_logistics_ideas"
-		texturefile = "gfx//interface//ideas//idea_gesundheit.tga"
+		texturefile = "gfx//interface//ideas//Expert_Logistics.dds"
 		noOfFrames = 1
 		
 		effectFile = "gfx/FX/buttonstate_linear.lua"
