@@ -227,32 +227,33 @@ infrastructure_ideas = {
 	
 
 	bonus = {
-		development_cost = -0.1
+		local_development_cost_modifier = -0.25
 	}
 
-	state_efficiency = {
-		global_prosperity_growth = 0.25
-		state_maintenance_modifier = -0.33
-	}
+	fort_logistics = {
+		fort_maintenance_modifier = -0.2
+ 	}
 	organised_construction = {
-		build_cost = -0.1 
+		build_cost = -0.15 
 	}
 	efficient_construction_plans = {
-		expand_infrastructure_cost_modifier = -0.25
+		build_time = -0.25
 	}
 	expanded_infrastructure_network = {
-		movement_speed = 0.1
-		center_of_trade_upgrade_cost = -0.2
+		center_of_trade_upgrade_cost = -0.5
+		trade_company_investment_cost = -0.5
 	}
 	administrative_efficiency_idea = {
-		state_governing_cost = -0.1
+		expand_infrastructure_cost_modifier = -0.25
+		global_prosperity_growth = 0.5
 	}
-	fort_logistics = {
-		fort_maintenance_modifier = -0.25
- 	}
+	state_efficiency = {
+		global_supply_limit_modifier = 1.0
+	}
 	regulation_bureau = {
 		expand_administration_cost = -1
-		build_time = -0.25
+		great_project_upgrade_cost = -0.25
+		great_project_upgrade_time = -0.25
 	}
 
 	ai_will_do = {
