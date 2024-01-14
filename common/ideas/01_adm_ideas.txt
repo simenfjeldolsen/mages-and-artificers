@@ -815,10 +815,10 @@ plutocracy_ideas = {
 }
 
 theocracy_gov_ideas = {
-	category = MIL
+	category = ADM
 	
 	bonus = {
-		global_heretic_missionary_strength = 0.01
+		discipline = 0.05
 		church_loyalty_modifier = 0.1
 		brahmins_hindu_loyalty_modifier = 0.1
 		brahmins_muslim_loyalty_modifier = 0.1
@@ -827,31 +827,27 @@ theocracy_gov_ideas = {
 	trigger = {
 		has_government_attribute = enables_divine_idea_group
 	}
-	servants_of_god = {
+	flesh_is_weak = {
 		devotion = 1
-		legitimacy = 0.5
-		development_cost = -0.05
 	}
 	by_the_grace_of_god = {
-		fire_damage_received = -0.1
-	}
-	friends_in_high_places = {
-		leader_cost = -0.1
-		war_exhaustion_cost = -0.33
-	}
-	flesh_is_weak = {
-		morale_damage_received = -0.1
-	}
-	alpha_and_omega = {
-		enforce_religion_cost = -0.3
-		culture_conversion_cost = -0.1
+		tolerance_own = 1
 	}
 	conviction_of_sin = {
-		global_unrest = -2
+		missionaries = 1
 	}
 	martyrs = {
-		manpower_in_true_faith_provinces = 0.15
-		prestige_from_land = 0.5
+		global_regiment_cost = -0.1
+	}
+	servants_of_god = {
+		establish_order_cost = -0.5
+	}
+	alpha_and_omega = {
+		enforce_religion_cost = -0.25
+		warscore_cost_vs_other_religion = -0.10
+	}
+	friends_in_high_places = {
+		war_exhaustion = -0.03
 	}
 	ai_will_do = {
 		factor = 3.75
@@ -870,14 +866,6 @@ theocracy_gov_ideas = {
 			any_neighbor_country = { 
 				NOT = { religion = ROOT }
 			}
-		}
-		modifier = {
-			factor = 0.5
-			NOT = { monthly_mil = 7 }
-		}
-		modifier = {
-			factor = 1.25
-			personality = ai_militarist 
 		}
 	}
 }
