@@ -871,10 +871,10 @@ theocracy_gov_ideas = {
 }
 
 horde_gov_ideas = {
-	category = MIL
+	category = ADM
 	
 	bonus = {
-		cavalry_power = 0.25
+		movement_speed = 0.10
 		nomadic_tribes_loyalty_modifier = 0.1
 	}
 	
@@ -882,28 +882,27 @@ horde_gov_ideas = {
 		has_government_attribute = enables_horde_idea_group
 	}
 	
-	horse_lords = {
-		cavalry_cost = -0.33
-		cav_to_inf_ratio = 0.10
-	}
-	beyond_the_sun = {
-		ae_impact = -0.1
-	}
-	mandate_of_the_khan = {
-		religious_unity = 0.25
-	}
 	there_shall_be_no_grass = {
-		land_attrition = -0.2
-	}
-	horde_loyalty = {
-		global_unrest = -1
-		horde_unity = 0.5
+		raze_power_gain = 0.33
+		cavalry_cost = -0.15
 	}
 	watchers_of_the_silk_road = {	
-		caravan_power = 0.20
+		cavalry_cost = -0.15
+	}
+	mandate_of_the_khan = {
+		stability_cost_modifier = -0.2
+	}
+	horse_lords = {
+		cavalry_power = 0.15
+	}
+	horde_loyalty = {
+		horde_unity = 1
+	}
+	beyond_the_sun = {
+		governing_capacity_modifier = 0.2
 	}
 	a_magnanimous_empire = {
-		num_accepted_cultures = 2
+		reduced_liberty_desire = 10
 	}
 	
 	ai_will_do = {
