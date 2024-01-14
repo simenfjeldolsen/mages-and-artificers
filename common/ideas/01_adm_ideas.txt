@@ -154,7 +154,7 @@ economic_ideas = {
 	}
 
 	bureaucracy = { 
-		global_tax_modifier = 0.15
+		production_efficiency = 0.1
 	}
 	national_bank = {
 		inflation_reduction = 0.1
@@ -169,11 +169,12 @@ economic_ideas = {
 		interest = -0.5
 	}
 	nationalistic_enthusiasm = {
-		land_maintenance_modifier = -0.05
+		land_maintenance_modifier = -0.1
 	}
 	smithian_economics = { 
 		#Mechanic: +1/-1 Dev from Manufactories		#Note for modders; the two mechanics introduced in 1.35   
-		production_efficiency = 0.1					#for eco ideas are done so via on_actions 
+		#for eco ideas are done so via on_actions 
+		monthly_gold_inflation_modifier = -0.1
  	}	
 
 	ai_will_do = {
