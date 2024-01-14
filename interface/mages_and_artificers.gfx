@@ -12,7 +12,7 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_idea_jurisprudence_ideas"
-		texturefile = "gfx//interface//ideas//Basic_Wisdom.dds"
+		texturefile = "gfx//interface//ideas//idea_jurisprudence.dds"
 		noOfFrames = 1
 		
 		effectFile = "gfx/FX/buttonstate_linear.lua"
@@ -26,7 +26,7 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_idea_decentralisation_ideas"
-		texturefile = "gfx//interface//ideas//achievement_trustworthy.dds"
+		texturefile = "gfx//interface//ideas//idea_decentralisation.dds"
 		noOfFrames = 1
 		
 		effectFile = "gfx/FX/buttonstate_linear.lua"
