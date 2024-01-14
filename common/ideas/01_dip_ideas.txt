@@ -115,8 +115,8 @@ spy_ideas = {
 	category = DIP
 
 	bonus = {
-		rebel_support_efficiency = 1
 		spy_action_cost_modifier = -0.2
+		vampires_loyalty_modifier = 0.1
 	}
 	
 	claim_fabrication = {
@@ -128,30 +128,27 @@ spy_ideas = {
 		ae_impact = -0.2
 	}
 
+	privateers = {
+		province_warscore_cost = -0.2
+	}
+
 	efficient_spies = {
 		spy_offence = 0.5
-		siege_ability = 0.1
 	}	
 	
 	agent_training = {
 		diplomats = 1
-		advisor_cost = -0.15
+		envoy_travel_time = -0.25
 	}
 
 	vetting = {
-		global_spy_defence = 0.33
 		yearly_corruption = -0.2
 	}
 	
-	privateers = {
-		capture_ship_chance = 0.25
-		privateer_efficiency = 0.33
-	}
 	
 	blackmailing = {
-		monthly_favor_modifier = 0.33
-		accept_vassalization_reasons = 15
-		num_of_pronoiars = 1
+		siege_ability = 0.1
+		assault_fort_ability = 0.5
 	}
 
 	ai_will_do = {
