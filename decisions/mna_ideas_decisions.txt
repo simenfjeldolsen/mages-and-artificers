@@ -1,9 +1,7 @@
 country_decisions = {
 	mna_humanist_hire_advisor = {
 		potential = {
-			OR = { 
-				has_idea_group = humanist_ideas
-			}
+			has_idea_group = humanist_ideas
 		}
 
 		allow = {
@@ -23,4 +21,22 @@ country_decisions = {
 			factor = 0
 		}
 	}
+	mna_change_trait = {
+		potential = {
+			has_idea_group = humanist_ideas
+		}
+
+		allow = {
+			has_idea = cultural_ties
+			NOT = { 
+				has_ruler_modifier = mna_changed_trait
+			}
+		}
+
+		effect = {
+			country_event = { id = mna_idea_mechanics.5 }
+			custom_tooltip = mna_change_trait_tooltip
+		}
+	}
 }
+

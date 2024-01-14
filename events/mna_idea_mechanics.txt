@@ -427,3 +427,704 @@ country_event = {
 		hidden_effect = { country_event = { id = mna_idea_mechanics.1 } }
 	}
 }
+
+# Reroll Trait
+country_event = {
+	id = mna_idea_mechanics.5
+	title = "mna_idea_mechanics.5.t"
+	desc = "mna_idea_mechanics.5.d"
+	picture = FEAST_eventPicture
+
+	is_triggered_only = yes
+
+	option = {
+		name = "mna_idea_mechanics.5.exit"
+
+	}
+
+	option = {
+		name = "mna_idea_mechanics.5.o1"
+		trigger = {
+			ruler_has_personality = babbling_buffoon_personality
+		}
+		remove_ruler_personality = babbling_buffoon_personality
+		
+		add_ruler_modifier = {
+			name = mna_changed_trait
+			duration = 3650
+			hidden = yes
+		}
+	}
+
+	option = {
+		name = "mna_idea_mechanics.5.o2"
+		trigger = {
+			ruler_has_personality = embezzler_personality
+		}
+		remove_ruler_personality = embezzler_personality
+		
+		add_ruler_modifier = {
+			name = mna_changed_trait
+			duration = 3650
+			hidden = yes
+		}
+	}
+
+	option = {
+		name = "mna_idea_mechanics.5.o3"
+		trigger = {
+			ruler_has_personality = infertile_personality
+		}
+		remove_ruler_personality = infertile_personality
+		
+		add_ruler_modifier = {
+			name = mna_changed_trait
+			duration = 3650
+			hidden = yes
+		}
+	}
+
+	option = {
+		name = "mna_idea_mechanics.5.o4"
+		trigger = {
+			ruler_has_personality = drunkard_personality
+		}
+		remove_ruler_personality = drunkard_personality
+		
+		add_ruler_modifier = {
+			name = mna_changed_trait
+			duration = 3650
+			hidden = yes
+		}
+	}
+	
+	option = {
+		name = "mna_idea_mechanics.5.o5"
+		trigger = {
+			ruler_has_personality = sinner_personality
+		}
+		remove_ruler_personality = sinner_personality
+		
+		add_ruler_modifier = {
+			name = mna_changed_trait
+			duration = 3650
+			hidden = yes
+		}
+	}
+
+	option = {
+		name = "mna_idea_mechanics.5.o6"
+		trigger = {
+			ruler_has_personality = greedy_personality
+		}
+		remove_ruler_personality = greedy_personality
+		
+		add_ruler_modifier = {
+			name = mna_changed_trait
+			duration = 3650
+			hidden = yes
+		}
+	}
+
+	option = {
+		name = "mna_idea_mechanics.5.o7"
+		trigger = {
+			ruler_has_personality = cruel_personality
+		}
+		remove_ruler_personality = cruel_personality
+		
+		add_ruler_modifier = {
+			name = mna_changed_trait
+			duration = 3650
+			hidden = yes
+		}
+	}
+
+	option = {
+		name = "mna_idea_mechanics.5.o8"
+		trigger = {
+			ruler_has_personality = naive_personality
+		}
+		remove_ruler_personality = naive_personality
+		
+		add_ruler_modifier = {
+			name = mna_changed_trait
+			duration = 3650
+			hidden = yes
+		}
+	}
+
+	option = {
+		name = "mna_idea_mechanics.5.o9"
+		trigger = {
+			ruler_has_personality = craven_personality
+		}
+		remove_ruler_personality = craven_personality
+		
+		add_ruler_modifier = {
+			name = mna_changed_trait
+			duration = 3650
+			hidden = yes
+		}
+	}
+
+	option = {
+		name = "mna_idea_mechanics.5.o10"
+		trigger = {
+			ruler_has_personality = loose_lips_personality
+		}
+		remove_ruler_personality = loose_lips_personality
+		
+		add_ruler_modifier = {
+			name = mna_changed_trait
+			duration = 3650
+			hidden = yes
+		}
+	}
+
+	option = {
+		name = "mna_idea_mechanics.5.o11"
+		trigger = {
+			ruler_has_personality = obsessive_perfectionist_personality
+		}
+		remove_ruler_personality = obsessive_perfectionist_personality
+		
+		add_ruler_modifier = {
+			name = mna_changed_trait
+			duration = 3650
+			hidden = yes
+		}
+	}
+
+	option = {
+		name = "mna_idea_mechanics.5.o12"
+		trigger = {
+			ruler_has_personality = malevolent_personality
+		}
+		remove_ruler_personality = malevolent_personality
+		
+		add_ruler_modifier = {
+			name = mna_changed_trait
+			duration = 3650
+			hidden = yes
+		}
+	}
+
+	option = {
+		name = "mna_idea_mechanics.5.o13"
+		trigger = {
+			ruler_has_personality = just_personality
+		}
+		remove_ruler_personality = just_personality
+		
+		add_ruler_modifier = {
+			name = mna_changed_trait
+			duration = 3650
+			hidden = yes
+		}
+	}
+
+	option = {
+		name = "mna_idea_mechanics.5.o14"
+		trigger = {
+			ruler_has_personality = tolerant_personality
+		}
+		remove_ruler_personality = tolerant_personality
+		
+		add_ruler_modifier = {
+			name = mna_changed_trait
+			duration = 3650
+			hidden = yes
+		}
+	}
+
+	option = {
+		name = "mna_idea_mechanics.5.o15"
+		trigger = {
+			ruler_has_personality = righteous_personality
+		}
+		remove_ruler_personality = righteous_personality
+		
+		add_ruler_modifier = {
+			name = mna_changed_trait
+			duration = 3650
+			hidden = yes
+		}
+	}
+
+	option = {
+		name = "mna_idea_mechanics.5.o16"
+		trigger = {
+			ruler_has_personality = kind_hearted_personality
+		}
+		remove_ruler_personality = kind_hearted_personality
+		
+		add_ruler_modifier = {
+			name = mna_changed_trait
+			duration = 3650
+			hidden = yes
+		}
+	}
+
+	option = {
+		name = "mna_idea_mechanics.5.o17"
+		trigger = {
+			ruler_has_personality = free_thinker_personality
+		}
+		remove_ruler_personality = free_thinker_personality
+		
+		add_ruler_modifier = {
+			name = mna_changed_trait
+			duration = 3650
+			hidden = yes
+		}
+	}
+
+	option = {
+		name = "mna_idea_mechanics.5.o18"
+		trigger = {
+			ruler_has_personality = well_connected_personality
+		}
+		remove_ruler_personality = well_connected_personality
+		
+		add_ruler_modifier = {
+			name = mna_changed_trait
+			duration = 3650
+			hidden = yes
+		}
+	}
+
+	option = {
+		name = "mna_idea_mechanics.5.o19"
+		trigger = {
+			ruler_has_personality = calm_personality
+		}
+		remove_ruler_personality = calm_personality
+		
+		add_ruler_modifier = {
+			name = mna_changed_trait
+			duration = 3650
+			hidden = yes
+		}
+	}
+
+	option = {
+		name = "mna_idea_mechanics.5.o20"
+		trigger = {
+			ruler_has_personality = careful_personality
+		}
+		remove_ruler_personality = careful_personality
+		
+		add_ruler_modifier = {
+			name = mna_changed_trait
+			duration = 3650
+			hidden = yes
+		}
+	}
+
+	option = {
+		name = "mna_idea_mechanics.5.o21"
+		trigger = {
+			ruler_has_personality = secretive_personality
+		}
+		remove_ruler_personality = secretive_personality
+		
+		add_ruler_modifier = {
+			name = mna_changed_trait
+			duration = 3650
+			hidden = yes
+		}
+	}
+
+	option = {
+		name = "mna_idea_mechanics.5.o22"
+		trigger = {
+			ruler_has_personality = intricate_web_weaver_personality
+		}
+		remove_ruler_personality = intricate_web_weaver_personality
+		
+		add_ruler_modifier = {
+			name = mna_changed_trait
+			duration = 3650
+			hidden = yes
+		}
+	}
+
+	option = {
+		name = "mna_idea_mechanics.5.o23"
+		trigger = {
+			ruler_has_personality = fertile_personality
+		}
+		remove_ruler_personality = fertile_personality
+		
+		add_ruler_modifier = {
+			name = mna_changed_trait
+			duration = 3650
+			hidden = yes
+		}
+	}
+
+	option = {
+		name = "mna_idea_mechanics.5.o24"
+		trigger = {
+			ruler_has_personality = well_advised_personality
+		}
+		remove_ruler_personality = well_advised_personality
+		
+		add_ruler_modifier = {
+			name = mna_changed_trait
+			duration = 3650
+			hidden = yes
+		}
+	}
+
+	option = {
+		name = "mna_idea_mechanics.5.o25"
+		trigger = {
+			ruler_has_personality = benevolent_personality
+		}
+		remove_ruler_personality = benevolent_personality
+		
+		add_ruler_modifier = {
+			name = mna_changed_trait
+			duration = 3650
+			hidden = yes
+		}
+	}
+
+	option = {
+		name = "mna_idea_mechanics.5.o26"
+		trigger = {
+			ruler_has_personality = zealot_personality
+		}
+		remove_ruler_personality = zealot_personality
+		
+		add_ruler_modifier = {
+			name = mna_changed_trait
+			duration = 3650
+			hidden = yes
+		}
+	}
+
+	option = {
+		name = "mna_idea_mechanics.5.o27"
+		trigger = {
+			ruler_has_personality = pious_personality
+		}
+		remove_ruler_personality = pious_personality
+		
+		add_ruler_modifier = {
+			name = mna_changed_trait
+			duration = 3650
+			hidden = yes
+		}
+	}
+
+	option = {
+		name = "mna_idea_mechanics.5.o28"
+		trigger = {
+			ruler_has_personality = lawgiver_personality
+		}
+		remove_ruler_personality = lawgiver_personality
+		
+		add_ruler_modifier = {
+			name = mna_changed_trait
+			duration = 3650
+			hidden = yes
+		}
+	}
+
+	option = {
+		name = "mna_idea_mechanics.5.o29"
+		trigger = {
+			ruler_has_personality = midas_touched_personality
+		}
+		remove_ruler_personality = midas_touched_personality
+		
+		add_ruler_modifier = {
+			name = mna_changed_trait
+			duration = 3650
+			hidden = yes
+		}
+	}
+
+	option = {
+		name = "mna_idea_mechanics.5.o30"
+		trigger = {
+			ruler_has_personality = incorruptible_personality
+		}
+		remove_ruler_personality = incorruptible_personality
+		
+		add_ruler_modifier = {
+			name = mna_changed_trait
+			duration = 3650
+			hidden = yes
+		}
+	}
+
+	option = {
+		name = "mna_idea_mechanics.5.o31"
+		trigger = {
+			ruler_has_personality = architectural_visionary_personality
+		}
+		remove_ruler_personality = architectural_visionary_personality
+		
+		add_ruler_modifier = {
+			name = mna_changed_trait
+			duration = 3650
+			hidden = yes
+		}
+	}
+
+	option = {
+		name = "mna_idea_mechanics.5.o32"
+		trigger = {
+			ruler_has_personality = scholar_personality
+		}
+		remove_ruler_personality = scholar_personality
+		
+		add_ruler_modifier = {
+			name = mna_changed_trait
+			duration = 3650
+			hidden = yes
+		}
+	}
+
+	option = {
+		name = "mna_idea_mechanics.5.o33"
+		trigger = {
+			ruler_has_personality = entrepreneur_personality
+		}
+		remove_ruler_personality = entrepreneur_personality
+		
+		add_ruler_modifier = {
+			name = mna_changed_trait
+			duration = 3650
+			hidden = yes
+		}
+	}
+
+	option = {
+		name = "mna_idea_mechanics.5.o34"
+		trigger = {
+			ruler_has_personality = industrious_personality
+		}
+		remove_ruler_personality = industrious_personality
+		
+		add_ruler_modifier = {
+			name = mna_changed_trait
+			duration = 3650
+			hidden = yes
+		}
+	}
+
+	option = {
+		name = "mna_idea_mechanics.5.o35"
+		trigger = {
+			ruler_has_personality = expansionist_personality
+		}
+		remove_ruler_personality = expansionist_personality
+		
+		add_ruler_modifier = {
+			name = mna_changed_trait
+			duration = 3650
+			hidden = yes
+		}
+	}
+
+	option = {
+		name = "mna_idea_mechanics.5.o36"
+		trigger = {
+			ruler_has_personality = charismatic_negotiator_personality
+		}
+		remove_ruler_personality = charismatic_negotiator_personality
+		
+		add_ruler_modifier = {
+			name = mna_changed_trait
+			duration = 3650
+			hidden = yes
+		}
+	}
+
+	option = {
+		name = "mna_idea_mechanics.5.o37"
+		trigger = {
+			ruler_has_personality = silver_tongue_personality
+		}
+		remove_ruler_personality = silver_tongue_personality
+		
+		add_ruler_modifier = {
+			name = mna_changed_trait
+			duration = 3650
+			hidden = yes
+		}
+	}
+
+	option = {
+		name = "mna_idea_mechanics.5.o38"
+		trigger = {
+			ruler_has_personality = conqueror_personality
+		}
+		remove_ruler_personality = conqueror_personality
+		
+		add_ruler_modifier = {
+			name = mna_changed_trait
+			duration = 3650
+			hidden = yes
+		}
+	}
+
+	option = {
+		name = "mna_idea_mechanics.5.o39"
+		trigger = {
+			ruler_has_personality = tactical_genius_personality
+		}
+		remove_ruler_personality = tactical_genius_personality
+		
+		add_ruler_modifier = {
+			name = mna_changed_trait
+			duration = 3650
+			hidden = yes
+		}
+	}
+
+	option = {
+		name = "mna_idea_mechanics.5.o40"
+		trigger = {
+			ruler_has_personality = bold_fighter_personality
+		}
+		remove_ruler_personality = bold_fighter_personality
+		
+		add_ruler_modifier = {
+			name = mna_changed_trait
+			duration = 3650
+			hidden = yes
+		}
+	}
+
+	option = {
+		name = "mna_idea_mechanics.5.o41"
+		trigger = {
+			ruler_has_personality = strict_personality
+		}
+		remove_ruler_personality = strict_personality
+		
+		add_ruler_modifier = {
+			name = mna_changed_trait
+			duration = 3650
+			hidden = yes
+		}
+	}
+
+	option = {
+		name = "mna_idea_mechanics.5.o42"
+		trigger = {
+			ruler_has_personality = inspiring_leader_personality
+		}
+		remove_ruler_personality = inspiring_leader_personality
+		
+		add_ruler_modifier = {
+			name = mna_changed_trait
+			duration = 3650
+			hidden = yes
+		}
+	}
+
+	option = {
+		name = "mna_idea_mechanics.5.o43"
+		trigger = {
+			ruler_has_personality = martial_educator_personality
+		}
+		remove_ruler_personality = martial_educator_personality
+		
+		add_ruler_modifier = {
+			name = mna_changed_trait
+			duration = 3650
+			hidden = yes
+		}
+	}
+
+	option = {
+		name = "mna_idea_mechanics.5.o44"
+		trigger = {
+			ruler_has_personality = navigator_personality
+		}
+		remove_ruler_personality = navigator_personality
+		
+		add_ruler_modifier = {
+			name = mna_changed_trait
+			duration = 3650
+			hidden = yes
+		}
+	}
+
+	option = {
+		name = "mna_idea_mechanics.5.o45"
+		trigger = {
+			ruler_has_personality = fierce_negotiator_personality
+		}
+		remove_ruler_personality = fierce_negotiator_personality
+		
+		add_ruler_modifier = {
+			name = mna_changed_trait
+			duration = 3650
+			hidden = yes
+		}
+	}
+
+	option = {
+		name = "mna_idea_mechanics.5.o46"
+		trigger = {
+			ruler_has_personality = humane_personality
+		}
+		remove_ruler_personality = humane_personality
+		
+		add_ruler_modifier = {
+			name = mna_changed_trait
+			duration = 3650
+			hidden = yes
+		}
+	}
+
+	option = {
+		name = "mna_idea_mechanics.5.o47"
+		trigger = {
+			ruler_has_personality = petty_personality
+		}
+		remove_ruler_personality = petty_personality
+		
+		add_ruler_modifier = {
+			name = mna_changed_trait
+			duration = 3650
+			hidden = yes
+		}
+	}
+
+	option = {
+		name = "mna_idea_mechanics.5.o48"
+		trigger = {
+			ruler_has_personality = reformist_personality
+		}
+		remove_ruler_personality = reformist_personality
+		
+		add_ruler_modifier = {
+			name = mna_changed_trait
+			duration = 3650
+			hidden = yes
+		}
+	}
+
+	option = {
+		name = "mna_idea_mechanics.5.o49"
+		trigger = {
+			ruler_has_personality = patron_of_arts_personality
+		}
+		remove_ruler_personality = patron_of_arts_personality
+		
+		add_ruler_modifier = {
+			name = mna_changed_trait
+			duration = 3650
+			hidden = yes
+		}
+	}
+}

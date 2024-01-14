@@ -1,3 +1,2 @@
-recently_hired_advisor_mechanic = {
-	global_tax_modifier = 0.01
-}
+recently_hired_advisor_mechanic = {}
+mna_changed_trait = {}
