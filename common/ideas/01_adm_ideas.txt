@@ -227,7 +227,7 @@ infrastructure_ideas = {
 	
 
 	bonus = {
-		local_development_cost_modifier = -0.25
+			development_cost_modifier = -0.1
 	}
 
 	fort_logistics = {
