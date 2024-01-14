@@ -2312,7 +2312,7 @@
  cultural_ties:0 "Cultural Ties"
  cultural_ties_desc:0 "Different cultures have different customs, and for some reason tend to resist attempts from above to change said customs. We can turn this weakness into a strength by incorporating local leaders into our system of government and having them carry out our will in a way that is palatable to them."
  benevolence:0 "Benevolence"
- benevolence_desc:0 "Our nation is a bastion of tolerance and enlightenment. By ensuring that all other nations know this, we can foster better relations abroad."
+ benevolence_desc:0 "Our nation is a bastion of tolerance and enlightenment. By ensuring that all other nations know this, we can foster better relations abroad.\n\nDecision to hire Advisors"
  influence_ideas:0 "Influence Ideas"
  influence_ideas_bonus:0 "Full Influence"
  establish_cadet_branches:0 "Establish Cadet Branches"

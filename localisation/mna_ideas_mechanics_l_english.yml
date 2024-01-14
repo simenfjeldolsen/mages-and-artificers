@@ -1,0 +1,45 @@
+﻿l_english:
+
+ mna_humanist_hire_advisor_title: "§YHire an Advisor§!"
+ mna_humanist_hire_advisor_desc: "You have the ability to have a wide array of choice of advisors every 5 years for advisors to join your collective pool. You still have to pay them the initial and monthly pay."
+ recently_hired_advisor_mechanic: "Recently Hired an Advisor"
+
+ mna_idea_mechanics.1.t: "Picking an Advisor"
+ mna_idea_mechanics.1.d: "In this labyrinth of possibilities, your Liege, I beseech you to illuminate the path that aligns with your vision for the kingdom. Shall our advisor wield the pen, the olive branch, or the sword? The choice is yours, my Liege, as we await the revelation of the focus that will define the guiding light of your council."
+
+ mna_idea_mechanics.1.exit: "Actually, we don't need one."
+ mna_idea_mechanics.1.return: "Return to Selection"
+ mna_idea_mechanics.1.adm: "Administrative"
+ mna_idea_mechanics.1.dip: "Diplomatic"
+ mna_idea_mechanics.1.mil: "Military"
+
+ mna_idea_mechanics.2.t: "Hire an Administrative Advisor"
+ mna_idea_mechanics.2.d: "After an exhaustive odyssey spanning countless moons, a meticulous journey through the labyrinth of potential candidates has culminated in a peculiar and unexpected triumph. Like a skilled weaver threading a vibrant tapestry, we have intricately woven together a mosaic of individuals, each possessing unique hues and talents, to seamlessly fill the varied and essential roles within your distinguished court."
+ mna_idea_mechanics.3.t: "Hire a Diplomatic Advisor"
+ mna_idea_mechanics.3.d: "After an exhaustive odyssey spanning countless moons, a meticulous journey through the labyrinth of potential candidates has culminated in a peculiar and unexpected triumph. Like a skilled weaver threading a vibrant tapestry, we have intricately woven together a mosaic of individuals, each possessing unique hues and talents, to seamlessly fill the varied and essential roles within your distinguished court."
+ mna_idea_mechanics.4.t: "Hire a Military Advisor"
+ mna_idea_mechanics.4.d: "After an exhaustive odyssey spanning countless moons, a meticulous journey through the labyrinth of potential candidates has culminated in a peculiar and unexpected triumph. Like a skilled weaver threading a vibrant tapestry, we have intricately woven together a mosaic of individuals, each possessing unique hues and talents, to seamlessly fill the varied and essential roles within your distinguished court."
+
+ mna_idea_mechanics.2.o1: "Philosopher"
+ mna_idea_mechanics.2.o2: "Natural Scientist"
+ mna_idea_mechanics.2.o3: "Artist"
+ mna_idea_mechanics.2.o4: "Treasurer"
+ mna_idea_mechanics.2.o5: "Theologian"
+ mna_idea_mechanics.2.o6: "Master of Mint"
+ mna_idea_mechanics.2.o7: "Inquisitor"
+
+ mna_idea_mechanics.3.o1: "Statesman"
+ mna_idea_mechanics.3.o2: "Naval Reformer"
+ mna_idea_mechanics.3.o3: "Trader"
+ mna_idea_mechanics.3.o4: "Spymaster"
+ mna_idea_mechanics.3.o5: "Colonial Governor"
+ mna_idea_mechanics.3.o6: "Diplomat"
+ mna_idea_mechanics.3.o7: "Navigator"
+
+ mna_idea_mechanics.4.o1: "Army Reformer"
+ mna_idea_mechanics.4.o2: "Army Organiser"
+ mna_idea_mechanics.4.o3: "Commandant"
+ mna_idea_mechanics.4.o4: "Quartermaster"
+ mna_idea_mechanics.4.o5: "Recruitmaster"
+ mna_idea_mechanics.4.o6: "Fortification Expert"
+ mna_idea_mechanics.4.o7: "Grand Captain"

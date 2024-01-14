@@ -1,0 +1,429 @@
+namespace = mna_idea_mechanics
+
+
+# Hire advisor
+country_event = {
+	id = mna_idea_mechanics.1
+	title = mna_idea_mechanics.1.t
+	desc = mna_idea_mechanics.1.d
+	picture = ADVISOR_eventPicture
+
+	is_triggered_only = yes
+
+	option = {
+		name = mna_idea_mechanics.1.exit
+		clr_country_flag = mna_hire_advisor_event_present_flag
+	}
+
+	option = {
+		name = "mna_idea_mechanics.1.adm"
+		country_event = { id = mna_idea_mechanics.2 }
+	}
+	option = {
+		name = "mna_idea_mechanics.1.dip"
+		country_event = { id = mna_idea_mechanics.3 }
+	}
+	option = {
+		name = "mna_idea_mechanics.1.mil"
+		country_event = { id = mna_idea_mechanics.4 }
+	}
+}
+
+# Administrative
+country_event = {
+	id = mna_idea_mechanics.2
+	title = mna_idea_mechanics.2.t
+	desc = mna_idea_mechanics.2.d
+	picture = ADVISOR_eventPicture
+
+	is_triggered_only = yes
+
+	option = {
+		name = mna_idea_mechanics.1.return
+		hidden_effect = { country_event = { id = mna_idea_mechanics.1 } }
+	}
+
+	option = {
+		name = "mna_idea_mechanics.2.o1"
+		define_advisor = {
+			type = philosopher
+			cost_multiplier = 0.75
+			skill = 3
+		}
+		
+		hidden_effect = {
+			clr_country_flag = mna_hire_advisor_event_present_flag
+			add_country_modifier = {
+				name = "recently_hired_advisor_mechanic"
+				duration = 1825
+			}
+		}
+	}
+	option = {
+		name = "mna_idea_mechanics.2.o2"
+		define_advisor = {
+			type = natural_scientist
+			cost_multiplier = 0.75
+			skill = 3
+		}
+		
+		hidden_effect = {
+			clr_country_flag = mna_hire_advisor_event_present_flag
+			add_country_modifier = {
+				name = "recently_hired_advisor_mechanic"
+				duration = 1825
+			}
+		}
+	}
+	option = {
+		name = "mna_idea_mechanics.2.o3"
+		define_advisor = {
+			type = artist
+			cost_multiplier = 0.75
+			skill = 3
+		}
+		
+		hidden_effect = {
+			clr_country_flag = mna_hire_advisor_event_present_flag
+			add_country_modifier = {
+				name = "recently_hired_advisor_mechanic"
+				duration = 1825
+			}
+		}
+	}
+	option = {
+		name = "mna_idea_mechanics.2.o4"
+		define_advisor = {
+			type = treasurer
+			cost_multiplier = 0.75
+			skill = 3
+		}
+		
+		hidden_effect = {
+			clr_country_flag = mna_hire_advisor_event_present_flag
+			add_country_modifier = {
+				name = "recently_hired_advisor_mechanic"
+				duration = 1825
+			}
+		}
+	}
+	option = {
+		name = "mna_idea_mechanics.2.o5"
+		define_advisor = {
+			type = theologian
+			cost_multiplier = 0.75
+			skill = 3
+		}
+		
+		hidden_effect = {
+			clr_country_flag = mna_hire_advisor_event_present_flag
+			add_country_modifier = {
+				name = "recently_hired_advisor_mechanic"
+				duration = 1825
+			}
+		}
+	}
+	option = {
+		name = "mna_idea_mechanics.2.o6"
+		define_advisor = {
+			type = master_of_mint
+			cost_multiplier = 0.75
+			skill = 3
+		}
+		
+		hidden_effect = {
+			clr_country_flag = mna_hire_advisor_event_present_flag
+			add_country_modifier = {
+				name = "recently_hired_advisor_mechanic"
+				duration = 1825
+			}
+		}
+	}
+	option = {
+		name = "mna_idea_mechanics.2.o7"
+		define_advisor = {
+			type = inquisitor
+			cost_multiplier = 0.75
+			skill = 3
+		}
+		
+		hidden_effect = {
+			clr_country_flag = mna_hire_advisor_event_present_flag
+			add_country_modifier = {
+				name = "recently_hired_advisor_mechanic"
+				duration = 1825
+			}
+		}
+	}
+
+	option = {
+		name = mna_idea_mechanics.1.return
+		hidden_effect = { country_event = { id = mna_idea_mechanics.1 } }
+	}
+}
+
+# Diplomatic
+country_event = {
+	id = mna_idea_mechanics.3
+	title = mna_idea_mechanics.3.t
+	desc = mna_idea_mechanics.3.d
+	picture = ADVISOR_eventPicture
+
+	is_triggered_only = yes
+
+	option = {
+		name = mna_idea_mechanics.1.return
+		hidden_effect = { country_event = { id = mna_idea_mechanics.1 } }
+	}
+
+	option = {
+		name = "mna_idea_mechanics.3.o1"
+		define_advisor = {
+			type = statesman
+			cost_multiplier = 0.75
+			skill = 3
+		}
+		
+		hidden_effect = {
+			clr_country_flag = mna_hire_advisor_event_present_flag
+			add_country_modifier = {
+				name = "recently_hired_advisor_mechanic"
+				duration = 1825
+			}
+		}
+	}
+	option = {
+		name = "mna_idea_mechanics.3.o2"
+		define_advisor = {
+			type = naval_reformer
+			cost_multiplier = 0.75
+			skill = 3
+		}
+		
+		hidden_effect = {
+			clr_country_flag = mna_hire_advisor_event_present_flag
+			add_country_modifier = {
+				name = "recently_hired_advisor_mechanic"
+				duration = 1825
+			}
+		}
+	}
+	option = {
+		name = "mna_idea_mechanics.3.o3"
+		define_advisor = {
+			type = trader
+			cost_multiplier = 0.75
+			skill = 3
+		}
+		
+		hidden_effect = {
+			clr_country_flag = mna_hire_advisor_event_present_flag
+			add_country_modifier = {
+				name = "recently_hired_advisor_mechanic"
+				duration = 1825
+			}
+		}
+	}
+	option = {
+		name = "mna_idea_mechanics.3.o4"
+		define_advisor = {
+			type = spymaster
+			cost_multiplier = 0.75
+			skill = 3
+		}
+		
+		hidden_effect = {
+			clr_country_flag = mna_hire_advisor_event_present_flag
+			add_country_modifier = {
+				name = "recently_hired_advisor_mechanic"
+				duration = 1825
+			}
+		}
+	}
+	option = {
+		name = "mna_idea_mechanics.3.o5"
+		define_advisor = {
+			type = colonial_governor
+			cost_multiplier = 0.75
+			skill = 3
+		}
+		
+		hidden_effect = {
+			clr_country_flag = mna_hire_advisor_event_present_flag
+			add_country_modifier = {
+				name = "recently_hired_advisor_mechanic"
+				duration = 1825
+			}
+		}
+	}
+	option = {
+		name = "mna_idea_mechanics.3.o6"
+		define_advisor = {
+			type = diplomat
+			cost_multiplier = 0.75
+			skill = 3
+		}
+		
+		hidden_effect = {
+			clr_country_flag = mna_hire_advisor_event_present_flag
+			add_country_modifier = {
+				name = "recently_hired_advisor_mechanic"
+				duration = 1825
+			}
+		}
+	}
+	option = {
+		name = "mna_idea_mechanics.3.o7"
+		define_advisor = {
+			type = navigator
+			cost_multiplier = 0.75
+			skill = 3
+		}
+		
+		hidden_effect = {
+			clr_country_flag = mna_hire_advisor_event_present_flag
+			add_country_modifier = {
+				name = "recently_hired_advisor_mechanic"
+				duration = 1825
+			}
+		}
+	}
+
+	option = {
+		name = mna_idea_mechanics.1.return
+		hidden_effect = { country_event = { id = mna_idea_mechanics.1 } }
+	}
+}
+
+# Military
+country_event = {
+	id = mna_idea_mechanics.4
+	title = mna_idea_mechanics.4.t
+	desc = mna_idea_mechanics.4.d
+	picture = ADVISOR_eventPicture
+
+	is_triggered_only = yes
+
+	option = {
+		name = mna_idea_mechanics.1.return
+		hidden_effect = { country_event = { id = mna_idea_mechanics.1 } }
+	}
+
+	option = {
+		name = "mna_idea_mechanics.4.o1"
+		define_advisor = {
+			type = army_reformer
+			cost_multiplier = 0.75
+			skill = 3
+		}
+		
+		hidden_effect = {
+			clr_country_flag = mna_hire_advisor_event_present_flag
+			add_country_modifier = {
+				name = "recently_hired_advisor_mechanic"
+				duration = 1825
+			}
+		}
+	}
+	option = {
+		name = "mna_idea_mechanics.4.o2"
+		define_advisor = {
+			type = army_organiser
+			cost_multiplier = 0.75
+			skill = 3
+		}
+		
+		hidden_effect = {
+			clr_country_flag = mna_hire_advisor_event_present_flag
+			add_country_modifier = {
+				name = "recently_hired_advisor_mechanic"
+				duration = 1825
+			}
+		}
+	}
+	option = {
+		name = "mna_idea_mechanics.4.o3"
+		define_advisor = {
+			type = commandant
+			cost_multiplier = 0.75
+			skill = 3
+		}
+		
+		hidden_effect = {
+			clr_country_flag = mna_hire_advisor_event_present_flag
+			add_country_modifier = {
+				name = "recently_hired_advisor_mechanic"
+				duration = 1825
+			}
+		}
+	}
+	option = {
+		name = "mna_idea_mechanics.4.o4"
+		define_advisor = {
+			type = quartermaster
+			cost_multiplier = 0.75
+			skill = 3
+		}
+		
+		hidden_effect = {
+			clr_country_flag = mna_hire_advisor_event_present_flag
+			add_country_modifier = {
+				name = "recently_hired_advisor_mechanic"
+				duration = 1825
+			}
+		}
+	}
+	option = {
+		name = "mna_idea_mechanics.4.o5"
+		define_advisor = {
+			type = recruitmaster
+			cost_multiplier = 0.75
+			skill = 3
+		}
+		
+		hidden_effect = {
+			clr_country_flag = mna_hire_advisor_event_present_flag
+			add_country_modifier = {
+				name = "recently_hired_advisor_mechanic"
+				duration = 1825
+			}
+		}
+	}
+	option = {
+		name = "mna_idea_mechanics.4.o6"
+		define_advisor = {
+			type = fortification_expert
+			cost_multiplier = 0.75
+			skill = 3
+		}
+		
+		hidden_effect = {
+			clr_country_flag = mna_hire_advisor_event_present_flag
+			add_country_modifier = {
+				name = "recently_hired_advisor_mechanic"
+				duration = 1825
+			}
+		}
+	}
+	option = {
+		name = "mna_idea_mechanics.4.o7"
+		define_advisor = {
+			type = grand_captain
+			cost_multiplier = 0.75
+			skill = 3
+		}
+		
+		hidden_effect = {
+			clr_country_flag = mna_hire_advisor_event_present_flag
+			add_country_modifier = {
+				name = "recently_hired_advisor_mechanic"
+				duration = 1825
+			}
+		}
+	}
+
+	option = {
+		name = mna_idea_mechanics.1.return
+		hidden_effect = { country_event = { id = mna_idea_mechanics.1 } }
+	}
+}

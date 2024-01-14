@@ -1,0 +1,26 @@
+country_decisions = {
+	mna_humanist_hire_advisor = {
+		potential = {
+			OR = { 
+				has_idea_group = humanist_ideas
+			}
+		}
+
+		allow = {
+			has_idea = benevolence
+			NOT = { 
+				has_country_modifier = recently_hired_advisor_mechanic
+			}
+		}
+		effect = {
+			country_event = { id = mna_idea_mechanics.1 }
+			hidden_effect = {
+				set_country_flag = mna_hire_advisor_event_present_flag
+			}
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}

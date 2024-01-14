@@ -1,0 +1,3 @@
+recently_hired_advisor_mechanic = {
+	global_tax_modifier = 0.01
+}
