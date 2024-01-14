@@ -1,7 +1,6 @@
 court_ideas = {
 	category = DIP
 
-
 	bonus = {
 		legitimacy = 0.5 
 		republican_tradition = 0.2
@@ -13,29 +12,26 @@ court_ideas = {
 	}
 	
 	long_echo = {
-		power_projection_from_insults = 1
-		diplomatic_reputation = 1
+		power_projection_from_insults = 1	
 	}
 	recognize_hierarchy = {
 		all_estate_loyalty_equilibrium = 0.1
 		loyalty_change_on_revoked = 0.05
 	}
 	welcoming_ceremonies = {
-		prestige = 1 
+		prestige_decay = -0.005
 		monthly_persian_influence = 0.1
 	}
 	tranquil_coordination = {
-		reform_progress_growth = 0.2
+		diplomatic_reputation = 1
 	}
 	respected_authority = {
 		all_estate_possible_privileges = 1
 	}
 	palace_of_splendor = {
-		monthly_splendor = 2 
 		estate_interaction_cooldown_modifier = -0.20
 	}
 	court_embassies = {
-		possible_dip_policy = 1 
 		monarch_diplomatic_power = 1 
 	}
 
