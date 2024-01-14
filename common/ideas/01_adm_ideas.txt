@@ -511,41 +511,40 @@ religious_ideas = {
 	category = ADM
 
 	bonus = {
-		culture_conversion_cost = -0.25
+		manpower_in_true_faith_provinces = 0.15
 		brahmins_hindu_loyalty_modifier = 0.1
 		church_loyalty_modifier = 0.1
 	}
 
+	deus_vult = {
+		cb_on_religious_enemies = yes
+	}
+	inquisition = {
+		global_missionary_strength = 0.03
+	}
 	missionary_schools = {
 		missionaries = 1
 		missionary_maintenance_cost = -0.5
 	}
 	church_attendance_duty = { 
-		manpower_in_true_faith_provinces = 0.1
+		papal_influence = 2
+		devotion = 0.1
+		monthly_fervor_increase = 1
+		church_power_modifier = 0.20
+		monthly_piety_accelerator = 0.001
+		yearly_karma_decay = 0.2
+		yearly_doom_reduction = 1
+		yearly_authority = 0.3
+		yearly_patriarch_authority = 0.005
 	}
-	divine_supremacy = {
-		global_missionary_strength = 0.03
+	religious_tradition = {
+		prestige_per_development_from_conversion = 0.2
 	}
 	devoutness = {
 		tolerance_own = 2
 	}
-	inquisition = {
-		papal_influence = 2
-		devotion = 0.25
-		monthly_fervor_increase = 0.25
-		church_power_modifier = 0.1
-		monthly_piety_accelerator = 0.001
-		yearly_karma_decay = 0.1
-		yearly_doom_reduction = 1
-		yearly_authority = 0.15
-		yearly_patriarch_authority = 0.005
-		prestige_per_development_from_conversion = 0.1
-	}
-	religious_tradition = {
-		reverse_relation_with_same_religion = 10
-	}
-	deus_vult = {
-		cb_on_religious_enemies = yes
+	divine_supremacy = {
+		max_absolutism = 10
 	}
 
 	ai_will_do = {
