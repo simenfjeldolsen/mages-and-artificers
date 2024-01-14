@@ -56,6 +56,61 @@ court_ideas = {
 	}
 }
 
+influence_ideas = {
+	category = DIP
+
+	bonus = {
+		possible_dip_policy = 1
+		free_dip_policy = 1
+	}
+
+	tribute_system = {
+		improve_relation_modifier = 0.3
+	}
+	integrated_elites = {
+		reform_progress_growth = 0.20
+	}
+	postal_service = {
+		dip_tech_cost_modifier = -0.1
+	}
+	
+	buffer_states = {
+		diplomatic_upkeep = 1
+		diplomats = 1
+	}
+	
+	diplomatic_influence = {
+		diplomatic_reputation = 2
+	}
+	additional_loyalist_recruitment = {
+		reduced_liberty_desire = 15
+		diplomatic_annexation_cost = -0.25
+	}
+	marcher_lords = {
+		dip_advisor_cost = -0.15
+	}
+
+	ai_will_do = {
+		factor = 0.5
+		modifier = {
+			factor = 1.5
+			is_emperor = yes
+		}
+		modifier = {
+			factor = 1.5
+			num_of_subjects = 2
+		}
+		modifier = {
+			factor = 1.5
+			num_of_subjects = 3
+		}
+		modifier = {
+			factor = 0.75
+			NOT = { monthly_dip = 8 }
+		}
+	}
+}
+
 spy_ideas = {
 	category = DIP
 
@@ -112,60 +167,6 @@ spy_ideas = {
 		modifier = {
 			factor = 1.25
 			has_idea_group = aristocracy_ideas
-		}
-	}
-}
-
-influence_ideas = {
-	category = DIP
-
-	bonus = {
-		unjustified_demands = -0.5
-	}
-
-	tribute_system = {
-		vassal_income = 0.25
-	}
-	
-	additional_loyalist_recruitment = {
-		reduced_liberty_desire = 15
-		vassal_naval_forcelimit_bonus = 0.1
-	}
-	
-	integrated_elites = {
-		diplomatic_annexation_cost = -0.25
-	}
-	buffer_states = {
-		diplomatic_upkeep = 1
-	}
-	diplomatic_influence = {
-		diplomatic_reputation = 2
-	}
-	postal_service = {
-		envoy_travel_time = -0.25
-		liberty_desire_from_subject_development = -0.1
-	}
-	marcher_lords = {
-		vassal_forcelimit_bonus = 1
-	}
-
-	ai_will_do = {
-		factor = 0.5
-		modifier = {
-			factor = 1.5
-			is_emperor = yes
-		}
-		modifier = {
-			factor = 1.5
-			num_of_subjects = 2
-		}
-		modifier = {
-			factor = 1.5
-			num_of_subjects = 3
-		}
-		modifier = {
-			factor = 0.75
-			NOT = { monthly_dip = 8 }
 		}
 	}
 }
