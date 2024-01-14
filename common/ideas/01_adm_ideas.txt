@@ -226,7 +226,7 @@ infrastructure_ideas = {
 	
 
 	bonus = {
-		development_cost_modifier = -0.1
+		land_forcelimit_modifier = 0.15
 	}
 
 	fort_logistics = {
@@ -250,7 +250,6 @@ infrastructure_ideas = {
 		global_supply_limit_modifier = 1.0
 	}
 	regulation_bureau = {
-		expand_administration_cost = -1
 		great_project_upgrade_cost = -0.25
 		great_project_upgrade_time = -0.25
 	}
@@ -584,6 +583,121 @@ religious_ideas = {
 			factor = 0.5
 			NOT = { monthly_adm = 7 }
 		}
+	}
+}
+
+centralisation_ideas = {
+	category = ADM
+
+	bonus = {
+		development_cost_modifier = -0.1
+		patricians_loyalty_modifier = 0.1
+	}
+	trigger = {
+		NOT = {
+			has_idea_group = decentralisation_ideas
+		}
+	}
+
+	centralisation_1 = {
+		reform_progress_growth = 0.25
+	}
+	centralisation_2 = {
+		global_tax_modifier = 0.25
+	}
+	centralisation_3 = {
+		national_focus_years = -5
+	}
+	centralisation_4 = {
+		defensiveness = 0.10
+	}
+	centralisation_5 = {
+		centralize_state_cost = -0.25
+	}
+	centralisation_6 = {
+		expand_infrastructure_cost_modifier = -0.5
+	}
+	centralisation_7 = {
+		all_estate_influence_modifier = -0.1
+	}
+
+	ai_will_do = {
+		factor = 0.65
+		modifier = {
+			factor = 2
+			has_strong_mil_national_ideas = yes 
+		}
+		modifier = { 
+			factor = 0.75
+			NOT = { monthly_adm = 8 }
+		}
+		modifier = { 
+			factor = 1.05
+			is_great_power = yes 
+		}
+		modifier = { 
+			factor = 1.05
+			national_focus = ADM 
+		}
+		modifier = { 
+			factor = 1.1
+			personality = ai_militarist  
+		}
+		modifier = { 
+			factor = 1.25
+			OR = { 
+				has_global_modifier_value = { 
+					which = core_creation 
+					value = 0.15
+				}
+				has_reform = livonian_military_monarchy
+				has_reform = prussian_theocratic_reform
+				has_reform = prussian_republic_reform
+				has_reform = prussian_monarchy
+				has_reform = prussian_monarchy_base
+				governing_capacity_percentage = 0.9
+			}
+		}
+	}
+}
+
+decentralisation_ideas = {
+	category = ADM
+
+	bonus = {
+		governing_capacity_modifier = 0.2
+	}
+	trigger = {
+		NOT = {
+			has_idea_group = centralisation_ideas
+		}
+	}
+
+	decentralisation_1 = {
+		core_creation = -0.15
+	}
+	decentralisation_2 = {
+		global_monthly_devastation = -0.05
+	}
+	decentralisation_3 = {
+		global_autonomy = -0.05
+	}
+	decentralisation_4 = {
+		governing_capacity = 100
+	}
+	decentralisation_5 = {
+		expand_administration_cost = -1
+	}
+	decentralisation_6 = {
+		merchants = 1
+		trade_efficiency = 0.1
+	}
+	decentralisation_7 = {	
+		all_estate_influence_modifier = 0.1
+	}
+
+	ai_will_do = {
+		factor = 0.0
 	}
 }
 
