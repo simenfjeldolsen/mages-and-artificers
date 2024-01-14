@@ -719,4 +719,76 @@ home_waters_ideas = {
 		}
 	}
 }
+
+nationalism_ideas = {
+	category = DIP
+
+	bonus = {
+		years_of_nationalism = -10
+	}
+
+	nationalism_1 = {
+		hostile_attrition = 1
+	}
+	nationalism_2 = {
+		same_culture_advisor_cost = -0.15
+	}
+	nationalism_3 = {
+		war_exhaustion_cost = -0.25
+	}
+	
+	nationalism_4 = {
+		culture_conversion_cost = -0.25
+	}
+	
+	nationalism_5 = {
+		culture_conversion_time = -0.5
+	}
+	nationalism_6 = {
+		great_project_upgrade_cost = -0.15
+	}
+	nationalism_7 = {
+		manpower_in_own_culture_provinces = 0.15
+		manpower_in_culture_group_provinces = 0.15
+	}
+
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+pluralism_ideas = {
+	category = DIP
+
+	bonus = {
+		num_accepted_cultures = 2
+	}
+
+	pluralism_1 = {
+		num_accepted_cultures = 2
+	}
+	pluralism_2 = {
+		promote_culture_cost = -0.75
+	}
+	pluralism_3 = {
+		advisor_cost = -0.10
+	}
+	
+	pluralism_4 = {
+		advisor_pool = 2
+	}
+	
+	pluralism_5 = {
+		all_estate_loyalty_equilibrium = 0.05
+	}
+	pluralism_6 = {
+		manpower_in_accepted_culture_provinces = 0.20
+	}
+	pluralism_7 = {
+		num_of_parliament_issues = 1
+	}
+
+	ai_will_do = {
+		factor = 0
+	}
 }
