@@ -442,31 +442,30 @@ humanist_ideas = {
 	category = ADM
 
 	bonus = {
-		idea_cost = -0.1
 		yearly_harmony = 0.25  # Used if religion uses harmony (confucianism)
 		brahmins_muslim_loyalty_modifier = 0.1
 		dhimmi_loyalty_modifier = 0.1
 	}
 
 	local_traditions = {
-		global_unrest = -2
-		harmonization_speed = 0.25
+		idea_cost = -0.1
+		leader_cost = -0.10
 	}
 	indirect_rule = {
-		years_of_nationalism = -10
+		religious_unity = 0.25
+		harmonization_speed = 0.25
 	}
 	ecumenism = {
-		tolerance_heretic = 2
+		tolerance_heretic = 3
 	}
 	cultural_ties = {
-		num_accepted_cultures = 2
+		improve_relation_modifier = 0.3
 	}
 	humanist_tolerance = {
-		tolerance_heathen = 2
-		religious_unity = 0.2
+		tolerance_heathen = 3
 	}
 	benevolence = {
-		improve_relation_modifier = 0.3
+		global_unrest = -2
 	}
 	tolerance_idea = {
 		tolerance_of_heretics_capacity = 1 
