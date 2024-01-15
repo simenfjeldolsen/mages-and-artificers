@@ -728,10 +728,10 @@ monarchy_ideas = {
 		vassal_naval_forcelimit_bonus = 0.5
 	}
 	monarchy_5 = {
-		heir_chance = 0.5
+		no_stability_loss_on_monarch_death = yes
 	}
 	monarchy_6 = {
-		no_stability_loss_on_monarch_death = yes
+		heir_chance = 0.5
 	}
 	monarchy_7 = {
 		yearly_absolutism = 1
