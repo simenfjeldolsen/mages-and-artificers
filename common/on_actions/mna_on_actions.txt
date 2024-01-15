@@ -1,0 +1,135 @@
+on_expanded_infrastructure = { 
+	change_variable = { infrastructure_level = 1 }
+	
+	if = {
+		limit = {
+			FROM = {
+				has_idea = centralisation_6
+			}
+		} 
+		if = {
+			limit = {
+				ROOT = {
+					has_province_modifier = mna_centralisation_expanded_infrastructure_1
+				}
+			}
+			remove_province_modifier = mna_centralisation_expanded_infrastructure_1
+			add_province_modifier = {
+				name = mna_centralisation_expanded_infrastructure_2
+				duration = -1
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				ROOT = {
+					has_province_modifier = mna_centralisation_expanded_infrastructure_2
+				}
+			}
+			remove_province_modifier = mna_centralisation_expanded_infrastructure_2
+			add_province_modifier = {
+				name = mna_centralisation_expanded_infrastructure_3
+				duration = -1
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				ROOT = {
+					has_province_modifier = mna_centralisation_expanded_infrastructure_3
+				}
+			}
+			remove_province_modifier = mna_centralisation_expanded_infrastructure_3
+			add_province_modifier = {
+				name = mna_centralisation_expanded_infrastructure_4
+				duration = -1
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				ROOT = {
+					has_province_modifier = mna_centralisation_expanded_infrastructure_4
+				}
+			}
+			remove_province_modifier = mna_centralisation_expanded_infrastructure_4
+			add_province_modifier = {
+				name = mna_centralisation_expanded_infrastructure_5
+				duration = -1
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				ROOT = {
+					has_province_modifier = mna_centralisation_expanded_infrastructure_5
+				}
+			}
+			remove_province_modifier = mna_centralisation_expanded_infrastructure_5
+			add_province_modifier = {
+				name = mna_centralisation_expanded_infrastructure_6
+				duration = -1
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				ROOT = {
+					has_province_modifier = mna_centralisation_expanded_infrastructure_6
+				}
+			}
+			remove_province_modifier = mna_centralisation_expanded_infrastructure_6
+			add_province_modifier = {
+				name = mna_centralisation_expanded_infrastructure_7
+				duration = -1
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				ROOT = {
+					has_province_modifier = mna_centralisation_expanded_infrastructure_7
+				}
+			}
+			remove_province_modifier = mna_centralisation_expanded_infrastructure_7
+			add_province_modifier = {
+				name = mna_centralisation_expanded_infrastructure_8
+				duration = -1
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				ROOT = {
+					has_province_modifier = mna_centralisation_expanded_infrastructure_8
+				}
+			}
+			remove_province_modifier = mna_centralisation_expanded_infrastructure_8
+			add_province_modifier = {
+				name = mna_centralisation_expanded_infrastructure_9
+				duration = -1
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				ROOT = {
+					has_province_modifier = mna_centralisation_expanded_infrastructure_9
+				}
+			}
+			remove_province_modifier = mna_centralisation_expanded_infrastructure_9
+			add_province_modifier = {
+				name = mna_centralisation_expanded_infrastructure_10
+				duration = -1
+				hidden = yes
+			}
+		}
+		else_if = {
+			add_province_modifier = {
+				name = mna_centralisation_expanded_infrastructure_1
+				duration = -1
+				hidden = yes
+			}
+		}
+	}
+}
