@@ -19,7 +19,7 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_idea_centralisation_ideas"
-		texturefile = "gfx//interface//ideas//idea_gesellschaft.dds"
+		texturefile = "gfx//interface//ideas//idea_centralisation.dds"
 		noOfFrames = 1
 		
 		effectFile = "gfx/FX/buttonstate_linear.lua"
@@ -61,7 +61,7 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_idea_high_seas_ideas"
-		texturefile = "gfx//interface//ideas//idea_high_seas.dds"
+		texturefile = "gfx//interface//ideas//idea_high_seas2.dds"
 		noOfFrames = 1
 		
 		effectFile = "gfx/FX/buttonstate_linear.lua"
@@ -96,7 +96,7 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_idea_militarism_ideas"
-		texturefile = "gfx//interface//ideas//idea_militarismus.tga"
+		texturefile = "gfx//interface//ideas//idea_militarism.tga"
 		noOfFrames = 1
 		
 		effectFile = "gfx/FX/buttonstate_linear.lua"
