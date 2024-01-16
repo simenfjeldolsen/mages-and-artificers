@@ -2190,7 +2190,14 @@ country_event = {
 			country_event = { id = racial_pop_events_lizardfolk.14 days = 1 }
 		}
 		custom_tooltip = pop_menu_purge_desc_tt
-		add_adm_power = -100
+		if = {
+			limit = {
+				NOT = {
+					has_idea = nationalism_1
+				}
+			}
+			add_adm_power = -100
+		}
 		largest_decrease_of_lizardfolk_tolerance_effect = yes
 		add_country_modifier = { name = racial_pop_lizardfolk_purge duration = -1 }
 		
@@ -2333,7 +2340,14 @@ country_event = {
 		}
 		custom_tooltip = pop_menu_purge_desc_tt
 		remove_country_modifier = racial_pop_lizardfolk_purge
-		add_adm_power = -100
+		if = {
+			limit = {
+				NOT = {
+					has_idea = nationalism_1
+				}
+			}
+			add_adm_power = -100
+		}
 		
 		hidden_effect = {
 			if = { limit = { ai = no }
@@ -2613,7 +2627,14 @@ country_event = {
 			country_event = { id = racial_pop_events_lizardfolk.13 days = 1 }
 		}
 		custom_tooltip = pop_menu_expel_desc_tt
-		add_adm_power = -50
+		if = {
+			limit = {
+				NOT = {
+					has_idea = nationalism_1
+				}
+			}
+			add_adm_power = -50
+		}
 		large_decrease_of_lizardfolk_tolerance_effect = yes
 		
 		add_country_modifier = { 
@@ -2760,7 +2781,14 @@ country_event = {
 		}
 		custom_tooltip = pop_menu_expel_desc_tt
 		remove_country_modifier = racial_pop_lizardfolk_expulsion
-		add_adm_power = -50
+		if = {
+			limit = {
+				NOT = {
+					has_idea = nationalism_1
+				}
+			}
+			add_adm_power = -50
+		}
 		hidden_effect = {
 			if = { limit = { ai = no }
 				country_event = { id = racial_pop_events_lizardfolk.24 }
@@ -3274,7 +3302,14 @@ country_event = {
 		#Remove Minority from Origin Province
 		event_target:racial_pop_province_origin = {
 			remove_lizardfolk_minority_size_effect = yes
-			add_devastation = 5
+			if = {
+				limit = {
+					NOT = {
+						has_idea = nationalism_1
+					}
+				}
+				add_devastation = 5
+			}
 		}
 		
 		medium_decrease_of_lizardfolk_tolerance_effect = yes
@@ -3291,7 +3326,14 @@ country_event = {
 		#Remove Minority from Origin Province
 		event_target:racial_pop_province_origin = {
 			remove_lizardfolk_minority_size_effect = yes
-			add_devastation = 5
+			if = {
+				limit = {
+					NOT = {
+						has_idea = nationalism_1
+					}
+				}
+				add_devastation = 5
+			}
 		}
 		
 		if = {
@@ -3613,17 +3655,24 @@ country_event = {
 			change_culture = ROOT
 			change_religion = ROOT
 			mother_akasik_mountain_control_check = yes
-			add_devastation = 15
-			
-			random_list = {
-				1 = {
-					add_base_tax = -1
+			if = {
+				limit = {
+					NOT = {
+						has_idea = nationalism_1
+					}
 				}
-				1 = {
-					add_base_production = -1
-				}
-				1 = {
-					add_base_manpower = -1
+				add_devastation = 15
+				
+				random_list = {
+					1 = {
+						add_base_tax = -1
+					}
+					1 = {
+						add_base_production = -1
+					}
+					1 = {
+						add_base_manpower = -1
+					}
 				}
 			}
 			
@@ -3844,7 +3893,14 @@ country_event = {
 		#Remove Minority from Origin Province
 		event_target:racial_pop_province_origin = {
 			remove_lizardfolk_minority_size_effect = yes
-			add_devastation = 10
+			if = {
+				limit = {
+					NOT = {
+						has_idea = nationalism_1
+					}
+				}
+				add_devastation = 10
+			}
 		}
 		
 		large_decrease_of_lizardfolk_tolerance_effect = yes
@@ -3867,7 +3923,14 @@ country_event = {
 		event_target:racial_pop_province_origin = {
 			remove_lizardfolk_minority_size_effect = yes
 			remove_lizardfolk_minority_size_effect = yes
-			add_devastation = 10
+			if = {
+				limit = {
+					NOT = {
+						has_idea = nationalism_1
+					}
+				}
+				add_devastation = 10
+			}
 		}
 		
 		large_decrease_of_lizardfolk_tolerance_effect = yes
@@ -4096,21 +4159,28 @@ country_event = {
 		
 		#Remove Minority from Origin Province
 		event_target:racial_pop_province_origin = {
-			add_devastation = 25
+			if = {
+				limit = {
+					NOT = {
+						has_idea = nationalism_1
+					}
+				}
+				add_devastation = 25
+				random_list = {
+					1 = {
+						add_base_tax = -2
+					}
+					1 = {
+						add_base_production = -2
+					}
+					1 = {
+						add_base_manpower = -2
+					}
+				}
+			}
 			change_culture = ROOT
 			change_religion = ROOT
 			mother_akasik_mountain_control_check = yes
-			random_list = {
-				1 = {
-					add_base_tax = -2
-				}
-				1 = {
-					add_base_production = -2
-				}
-				1 = {
-					add_base_manpower = -2
-				}
-			}
 			
 			add_permanent_province_modifier = { name = purge_unrest_modifier duration = 9125 }
 			
@@ -4414,7 +4484,14 @@ country_event = {
 		#Remove Minority from Origin Province
 		event_target:racial_pop_province_origin = {
 			remove_lizardfolk_minority_size_effect = yes
-			add_devastation = 5
+			if = {
+				limit = {
+					NOT = {
+						has_idea = nationalism_1
+					}
+				}
+				add_devastation = 5
+			}
 		}
 		
 		medium_decrease_of_lizardfolk_tolerance_effect = yes
@@ -4722,21 +4799,28 @@ country_event = {
 		
 		#Remove majority from Origin Province
 		event_target:racial_pop_province_origin = {
-			add_devastation = 15
+			if = {
+				limit = {
+					NOT = {
+						has_idea = nationalism_1
+					}
+				}
+				add_devastation = 15
+				random_list = {
+					1 = {
+						add_base_tax = -1
+					}
+					1 = {
+						add_base_production = -1
+					}
+					1 = {
+						add_base_manpower = -1
+					}
+				}
+			}
 			change_culture = ROOT
 			change_religion = ROOT
 			mother_akasik_mountain_control_check = yes
-			random_list = {
-				1 = {
-					add_base_tax = -1
-				}
-				1 = {
-					add_base_production = -1
-				}
-				1 = {
-					add_base_manpower = -1
-				}
-			}
 			
 			hidden_effect = {
 				remove_province_modifier = lizardfolk_majority_oppressed
@@ -4954,7 +5038,14 @@ country_event = {
 			}
 			#Remove majority from Origin Province
 			event_target:racial_pop_province_origin = {
-				add_devastation = 3
+				if = {
+					limit = {
+						NOT = {
+							has_idea = nationalism_1
+						}
+					}
+					add_devastation = 3
+				}
 				add_unrest = 5
 			}
 		}
@@ -4965,7 +5056,14 @@ country_event = {
 			}
 			#Remove majority from Origin Province
 			event_target:racial_pop_province_origin = {
-				add_devastation = 5
+				if = {
+					limit = {
+						NOT = {
+							has_idea = nationalism_1
+						}
+					}
+					add_devastation = 5
+				}
 				add_unrest = 10
 			}
 		}

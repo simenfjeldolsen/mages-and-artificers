@@ -8678,7 +8678,14 @@ can_purge_race = {
 			}
 		}
 	}
-	adm_power = 100
+	if = {
+		limit = {
+			NOT = {
+				has_idea = nationalism_1
+			}
+		}
+		adm_power = 100
+	}
 }
 
 can_expel_race = {
@@ -8713,7 +8720,14 @@ can_expel_race = {
 			}
 		}
 	}
-	adm_power = 50
+	if = {
+		limit = {
+			NOT = {
+				has_idea = nationalism_1
+			}
+		}
+		adm_power = 50
+	}
 }
 
 is_not_purging_any_race_trigger = {
