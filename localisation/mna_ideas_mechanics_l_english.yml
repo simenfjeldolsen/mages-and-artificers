@@ -134,12 +134,3 @@
  mna_centralisation_expanded_infrastructure_8: "Centralisation Expanded Administration"
  mna_centralisation_expanded_infrastructure_9: "Centralisation Expanded Administration"
  mna_centralisation_expanded_infrastructure_10: "Centralisation Expanded Administration"
-
- mechanic_enables_plutocratic_idea_group_yes: "Allows §oRepublic§! Idea Group."
- mechanic_enables_plutocratic_idea_group_no: "Disallows §oRepublic§! Idea Group."
- mechanic_enables_aristocratic_idea_group_yes: "Allows §oMonarchy§! Idea Group."
- mechanic_enables_aristocratic_idea_group_no: "Disallows §oMonarchy§! Idea Group."
- mechanic_enables_horde_idea_group_yes: "Allows §oHorde§! Idea Group."
- mechanic_enables_horde_idea_group_no: "Disallows §oHorde§! Idea Group."
- mechanic_enables_divine_idea_group_yes: "Allows §oTheocracy§! Idea Group."
- mechanic_enables_divine_idea_group_no: "Disallows §oTheocracy§! Idea Group."
