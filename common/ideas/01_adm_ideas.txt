@@ -775,25 +775,25 @@ plutocracy_ideas = {
 		has_government_attribute = enables_plutocratic_idea_group
 	}
 
-	tradition_of_payment = {
+	plutocracy_1 = {
 		republican_tradition = 0.3
 	}
-	abolished_serfdom = {
+	plutocracy_2 = {
 		stability_cost_modifier = -0.2	
 	}
-	free_merchants = {
+	plutocracy_3 = {
 		global_autonomy = -0.05
 	}
-	bill_of_rights = {
+	plutocracy_4 = {
 		global_unrest = -1
 	}
-	free_cities = {
+	plutocracy_5 = {
 		candidate_random_bonus = 1
 	}
-	free_subjects = {
+	plutocracy_6 = {
 		global_trade_goods_size_modifier = 0.05
 	}
-	emancipation = {
+	plutocracy_7 = {
 		reelection_cost = -0.1
 	}
 
@@ -827,26 +827,26 @@ theocracy_gov_ideas = {
 	trigger = {
 		has_government_attribute = enables_divine_idea_group
 	}
-	flesh_is_weak = {
+	theocracy_1 = {
 		devotion = 1
 	}
-	by_the_grace_of_god = {
+	theocracy_2 = {
 		tolerance_own = 1
 	}
-	conviction_of_sin = {
+	theocracy_3 = {
 		missionaries = 1
 	}
-	martyrs = {
+	theocracy_4 = {
 		global_regiment_cost = -0.1
 	}
-	servants_of_god = {
+	theocracy_5 = {
 		establish_order_cost = -0.5
 	}
-	alpha_and_omega = {
+	theocracy_6 = {
 		enforce_religion_cost = -0.25
 		warscore_cost_vs_other_religion = -0.10
 	}
-	friends_in_high_places = {
+	theocracy_7 = {
 		war_exhaustion = -0.03
 	}
 	ai_will_do = {
@@ -882,25 +882,25 @@ horde_gov_ideas = {
 		has_government_attribute = enables_horde_idea_group
 	}
 	
-	there_shall_be_no_grass = {
+	horde_1 = {
 		raze_power_gain = 0.33
 	}
-	watchers_of_the_silk_road = {	
+	horde_2 = {	
 		cavalry_cost = -0.15
 	}
-	mandate_of_the_khan = {
+	horde_3 = {
 		stability_cost_modifier = -0.2
 	}
-	horse_lords = {
+	horde_4 = {
 		cavalry_power = 0.15
 	}
-	horde_loyalty = {
+	horde_5 = {
 		horde_unity = 1
 	}
-	beyond_the_sun = {
+	horde_6 = {
 		governing_capacity_modifier = 0.2
 	}
-	a_magnanimous_empire = {
+	horde_7 = {
 		reduced_liberty_desire = 10
 	}
 	

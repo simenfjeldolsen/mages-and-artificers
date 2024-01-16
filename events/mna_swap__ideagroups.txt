@@ -1,0 +1,1682 @@
+namespace = mna_swap_ideagroups
+
+#Monarchy ---> Republic, theocracy, Horde 
+country_event = { 
+
+	id = mna_swap_ideagroups.1
+	title = mna_swap_ideagroups.1.t
+	desc = mna_swap_ideagroups.1.d
+	
+	picture = OVEREXTENSION_eventPicture
+
+	hidden = yes
+	
+	trigger = {
+        NOT = { has_government_attribute = enables_aristocratic_idea_group }
+		has_idea_group = monarchy_ideas
+	}
+		
+	
+	immediate = {
+		#Monarchy to Republic
+		if = {
+            limit = {
+                has_government_attribute = enables_plutocratic_idea_group
+                has_idea_group = monarchy_ideas
+                NOT = { has_idea = monarchy_1 }
+            }
+            remove_idea_group = monarchy_ideas
+            add_idea_group = plutocracy_ideas
+		}
+		
+		if = {
+            limit = {
+                has_government_attribute = enables_plutocratic_idea_group
+                has_idea = monarchy_1
+                NOT = { has_idea = monarchy_2 }
+            }
+            remove_idea_group = monarchy_ideas
+            add_idea_group = plutocracy_ideas
+            add_idea = plutocracy_1
+		}
+
+		if = {
+            limit = {
+                has_government_attribute = enables_plutocratic_idea_group
+                has_idea = monarchy_2
+                NOT = { has_idea = monarchy_3 }
+            }
+            remove_idea_group = monarchy_ideas
+            add_idea_group = plutocracy_ideas
+            add_idea = plutocracy_1
+            add_idea = plutocracy_2
+		}
+
+		if = {
+            limit = {
+                has_government_attribute = enables_plutocratic_idea_group
+                has_idea = monarchy_3
+                NOT = { has_idea = monarchy_4 }
+            }
+            remove_idea_group = monarchy_ideas
+            add_idea_group = plutocracy_ideas
+            add_idea = plutocracy_1
+            add_idea = plutocracy_2
+            add_idea = plutocracy_3
+		}
+
+		if = {
+            limit = {
+                has_government_attribute = enables_plutocratic_idea_group
+                has_idea = monarchy_4
+                NOT = { has_idea = monarchy_5 }
+            }
+            remove_idea_group = monarchy_ideas
+            add_idea_group = plutocracy_ideas
+            add_idea = plutocracy_1
+            add_idea = plutocracy_2
+            add_idea = plutocracy_3
+            add_idea = plutocracy_4
+		}
+
+		if = {
+            limit = {
+                has_government_attribute = enables_plutocratic_idea_group
+                has_idea = monarchy_5
+                NOT = { has_idea = monarchy_6 }
+            }
+            remove_idea_group = monarchy_ideas
+            add_idea_group = plutocracy_ideas
+            add_idea = plutocracy_1
+            add_idea = plutocracy_2
+            add_idea = plutocracy_3
+            add_idea = plutocracy_4
+            add_idea = plutocracy_5
+		}
+
+		if = {
+            limit = {
+                has_government_attribute = enables_plutocratic_idea_group
+                has_idea = monarchy_6
+                NOT = { has_idea = monarchy_7 }
+            }
+            remove_idea_group = monarchy_ideas
+            add_idea_group = plutocracy_ideas
+            add_idea = plutocracy_1
+            add_idea = plutocracy_2
+            add_idea = plutocracy_3
+            add_idea = plutocracy_4
+            add_idea = plutocracy_5
+            add_idea = plutocracy_6
+		}
+
+		if = {
+            limit = {
+                has_government_attribute = enables_plutocratic_idea_group
+                has_idea = monarchy_7
+            }
+            remove_idea_group = monarchy_ideas
+            add_idea_group = plutocracy_ideas
+            add_idea = plutocracy_1
+            add_idea = plutocracy_2
+            add_idea = plutocracy_3
+            add_idea = plutocracy_4
+            add_idea = plutocracy_5
+            add_idea = plutocracy_6
+            add_idea = plutocracy_7
+		}
+
+		#Monarchy to theocracy
+		if = {
+            limit = {
+                has_government_attribute = enables_divine_idea_group
+                has_idea_group = monarchy_ideas
+                NOT = { has_idea = monarchy_1 }
+            }
+            remove_idea_group = monarchy_ideas
+            add_idea_group = theocracy_gov_ideas
+		}
+		
+		if = {
+            limit = {
+                has_government_attribute = enables_divine_idea_group
+                has_idea = monarchy_1
+                NOT = { has_idea = monarchy_2 }
+            }
+            remove_idea_group = monarchy_ideas
+            add_idea_group = theocracy_gov_ideas
+            add_idea = theocracy_1
+		}
+
+		if = {
+            limit = {
+                has_government_attribute = enables_divine_idea_group
+                has_idea = monarchy_2
+                NOT = { has_idea = monarchy_3 }
+            }
+            remove_idea_group = monarchy_ideas
+            add_idea_group = theocracy_gov_ideas
+            add_idea = theocracy_1
+            add_idea = theocracy_2
+		}
+
+		if = {
+            limit = {
+                has_government_attribute = enables_divine_idea_group
+                has_idea = monarchy_3
+                NOT = { has_idea = monarchy_4 }
+            }
+            remove_idea_group = monarchy_ideas
+            add_idea_group = theocracy_gov_ideas
+            add_idea = theocracy_1
+            add_idea = theocracy_2
+            add_idea = theocracy_3
+		}
+
+		if = {
+            limit = {
+                has_government_attribute = enables_divine_idea_group
+                has_idea = monarchy_4
+                NOT = { has_idea = monarchy_5 }
+            }
+            remove_idea_group = monarchy_ideas
+            add_idea_group = theocracy_gov_ideas
+            add_idea = theocracy_1
+            add_idea = theocracy_2
+            add_idea = theocracy_3
+            add_idea = theocracy_4
+		}
+
+		if = {
+            limit = {
+                has_government_attribute = enables_divine_idea_group
+                has_idea = monarchy_5
+                NOT = { has_idea = monarchy_6 }
+            }
+            remove_idea_group = monarchy_ideas
+            add_idea_group = theocracy_gov_ideas
+            add_idea = theocracy_1
+            add_idea = theocracy_2
+            add_idea = theocracy_3
+            add_idea = theocracy_4
+            add_idea = theocracy_5
+		}
+
+		if = {
+            limit = {
+                has_government_attribute = enables_divine_idea_group
+                has_idea = monarchy_6
+                NOT = { has_idea = monarchy_7 }
+            }
+            remove_idea_group = monarchy_ideas
+            add_idea_group = theocracy_gov_ideas
+            add_idea = theocracy_1
+            add_idea = theocracy_2
+            add_idea = theocracy_3
+            add_idea = theocracy_4
+            add_idea = theocracy_5
+            add_idea = theocracy_6
+		}
+
+		if = {
+            limit = {
+                has_government_attribute = enables_divine_idea_group
+                has_idea = monarchy_7
+            }
+            remove_idea_group = monarchy_ideas
+            add_idea_group = theocracy_gov_ideas
+            add_idea = theocracy_1
+            add_idea = theocracy_2
+            add_idea = theocracy_3
+            add_idea = theocracy_4
+            add_idea = theocracy_5
+            add_idea = theocracy_6
+            add_idea = theocracy_7
+		}
+		
+		# Monarchy to Horde
+		if = {
+            limit = {
+                has_government_attribute = enables_horde_idea_group
+                has_idea_group = monarchy_ideas
+                NOT = { has_idea = monarchy_1 }
+            }
+            remove_idea_group = monarchy_ideas
+            add_idea_group = horde_gov_ideas
+		}
+		
+		if = {
+            limit = {
+                has_government_attribute = enables_horde_idea_group
+                has_idea = monarchy_1
+                NOT = { has_idea = monarchy_2 }
+            }
+            remove_idea_group = monarchy_ideas
+            add_idea_group = horde_gov_ideas
+            add_idea = horde_1
+		}
+
+		if = {
+            limit = {
+                has_government_attribute = enables_horde_idea_group
+                has_idea = monarchy_2
+                NOT = { has_idea = monarchy_3 }
+            }
+            remove_idea_group = monarchy_ideas
+            add_idea_group = horde_gov_ideas
+            add_idea = horde_1
+            add_idea = horde_2
+		}
+
+		if = {
+            limit = {
+                has_government_attribute = enables_horde_idea_group
+                has_idea = monarchy_3
+                NOT = { has_idea = monarchy_4 }
+            }
+            remove_idea_group = monarchy_ideas
+            add_idea_group = horde_gov_ideas
+            add_idea = horde_1
+            add_idea = horde_2
+            add_idea = horde_3
+		}
+
+		if = {
+            limit = {
+                has_government_attribute = enables_horde_idea_group
+                has_idea = monarchy_4
+                NOT = { has_idea = monarchy_5 }
+            }
+            remove_idea_group = monarchy_ideas
+            add_idea_group = horde_gov_ideas
+            add_idea = horde_1
+            add_idea = horde_2
+            add_idea = horde_3
+            add_idea = horde_4
+		}
+
+		if = {
+            limit = {
+                has_government_attribute = enables_horde_idea_group
+                has_idea = monarchy_5
+                NOT = { has_idea = monarchy_6 }
+            }
+            remove_idea_group = monarchy_ideas
+            add_idea_group = horde_gov_ideas
+            add_idea = horde_1
+            add_idea = horde_2
+            add_idea = horde_3
+            add_idea = horde_4
+            add_idea = horde_5
+		}
+
+		if = {
+            limit = {
+                has_government_attribute = enables_horde_idea_group
+                has_idea = monarchy_6
+                NOT = { has_idea = monarchy_7 }
+            }
+            remove_idea_group = monarchy_ideas
+            add_idea_group = horde_gov_ideas
+            add_idea = horde_1
+            add_idea = horde_2
+            add_idea = horde_3
+            add_idea = horde_4
+            add_idea = horde_5
+            add_idea = horde_6
+		}
+
+		if = {
+            limit = {
+                has_government_attribute = enables_horde_idea_group
+                has_idea = monarchy_7
+            }
+            remove_idea_group = monarchy_ideas
+            add_idea_group = horde_gov_ideas
+            add_idea = horde_1
+            add_idea = horde_2
+            add_idea = horde_3
+            add_idea = horde_4
+            add_idea = horde_5
+            add_idea = horde_6
+            add_idea = horde_7
+		}
+	}
+		
+	mean_time_to_happen = {
+        days = 10
+	}
+
+
+	option = {
+		name = mna_swap_ideagroups.1.o1
+	}
+}
+
+
+# Republic ---> Monarchy, theocracy_y, Horde
+country_event = { 
+
+	id = mna_swap_ideagroups.2
+	title = mna_swap_ideagroups.2.t
+	desc = mna_swap_ideagroups.2.d
+	
+	picture = OVEREXTENSION_eventPicture
+
+	hidden = yes
+	
+	trigger = {
+        NOT = { has_government_attribute = enables_plutocratic_idea_group }
+		has_idea_group = plutocracy_ideas
+	}
+		
+	
+	immediate = {
+		# Republic to Monarchy
+		if = {
+            limit = {
+                has_government_attribute = enables_divine_idea_group
+                has_idea_group = plutocracy_ideas
+                NOT = { has_idea = plutocracy_1 }
+            }
+            remove_idea_group = plutocracy_ideas
+            add_idea_group = monarchy_ideas
+		}
+		
+		if = {
+            limit = {
+                has_government_attribute = enables_divine_idea_group
+                has_idea = plutocracy_1
+                NOT = { has_idea = plutocracy_2 }
+            }
+            remove_idea_group = plutocracy_ideas
+            add_idea_group = monarchy_ideas
+            add_idea = monarchy_1
+		}
+
+		if = {
+            limit = {
+                has_government_attribute = enables_divine_idea_group
+                has_idea = plutocracy_2
+                NOT = { has_idea = plutocracy_3 }
+            }
+            remove_idea_group = plutocracy_ideas
+            add_idea_group = monarchy_ideas
+            add_idea = monarchy_1
+            add_idea = monarchy_2
+		}
+
+		if = {
+            limit = {
+                has_government_attribute = enables_divine_idea_group
+                has_idea = plutocracy_3
+                NOT = { has_idea = plutocracy_4 }
+            }
+            remove_idea_group = plutocracy_ideas
+            add_idea_group = monarchy_ideas
+            add_idea = monarchy_1
+            add_idea = monarchy_2
+            add_idea = monarchy_3
+		}
+
+		if = {
+            limit = {
+                has_government_attribute = enables_divine_idea_group
+                has_idea = plutocracy_4
+                NOT = { has_idea = plutocracy_5 }
+            }
+            remove_idea_group = plutocracy_ideas
+            add_idea_group = monarchy_ideas
+            add_idea = monarchy_1
+            add_idea = monarchy_2
+            add_idea = monarchy_3
+            add_idea = monarchy_4
+		}
+
+		if = {
+            limit = {
+                has_government_attribute = enables_divine_idea_group
+                has_idea = plutocracy_5
+                NOT = { has_idea = plutocracy_6 }
+            }
+            remove_idea_group = plutocracy_ideas
+            add_idea_group = monarchy_ideas
+            add_idea = monarchy_1
+            add_idea = monarchy_2
+            add_idea = monarchy_3
+            add_idea = monarchy_4
+            add_idea = monarchy_5
+		}
+
+		if = {
+            limit = {
+                has_government_attribute = enables_divine_idea_group
+                has_idea = plutocracy_6
+                NOT = { has_idea = plutocracy_7 }
+            }
+            remove_idea_group = plutocracy_ideas
+            add_idea_group = monarchy_ideas
+            add_idea = monarchy_1
+            add_idea = monarchy_2
+            add_idea = monarchy_3
+            add_idea = monarchy_4
+            add_idea = monarchy_5
+            add_idea = monarchy_6
+		}
+
+		if = {
+            limit = {
+                has_government_attribute = enables_divine_idea_group
+                has_idea = plutocracy_7
+            }
+            remove_idea_group = plutocracy_ideas
+            add_idea_group = monarchy_ideas
+            add_idea = monarchy_1
+            add_idea = monarchy_2
+            add_idea = monarchy_3
+            add_idea = monarchy_4
+            add_idea = monarchy_5
+            add_idea = monarchy_6
+            add_idea = monarchy_7
+		}
+
+		# Republic to theocracy_y
+		if = {
+            limit = {
+                has_government_attribute = enables_divine_idea_group
+                has_idea_group = plutocracy_ideas
+                NOT = { has_idea = plutocracy_1 }
+            }
+            remove_idea_group = plutocracy_ideas
+            add_idea_group = theocracy_gov_ideas
+		}
+		
+		if = {
+            limit = {
+                has_government_attribute = enables_divine_idea_group
+                has_idea = plutocracy_1
+                NOT = { has_idea = plutocracy_2 }
+            }
+            remove_idea_group = plutocracy_ideas
+            add_idea_group = theocracy_gov_ideas
+            add_idea = theocracy_1
+		}
+
+		if = {
+            limit = {
+                has_government_attribute = enables_divine_idea_group
+                has_idea = plutocracy_2
+                NOT = { has_idea = plutocracy_3 }
+            }
+            remove_idea_group = plutocracy_ideas
+            add_idea_group = theocracy_gov_ideas
+            add_idea = theocracy_1
+            add_idea = theocracy_2
+		}
+
+		if = {
+            limit = {
+                has_government_attribute = enables_divine_idea_group
+                has_idea = plutocracy_3
+                NOT = { has_idea = plutocracy_4 }
+            }
+            remove_idea_group = plutocracy_ideas
+            add_idea_group = theocracy_gov_ideas
+            add_idea = theocracy_1
+            add_idea = theocracy_2
+            add_idea = theocracy_3
+		}
+
+		if = {
+            limit = {
+                has_government_attribute = enables_divine_idea_group
+                has_idea = plutocracy_4
+                NOT = { has_idea = plutocracy_5 }
+            }
+            remove_idea_group = plutocracy_ideas
+            add_idea_group = theocracy_gov_ideas
+            add_idea = theocracy_1
+            add_idea = theocracy_2
+            add_idea = theocracy_3
+            add_idea = theocracy_4
+		}
+
+		if = {
+            limit = {
+                has_government_attribute = enables_divine_idea_group
+                has_idea = plutocracy_5
+                NOT = { has_idea = plutocracy_6 }
+            }
+            remove_idea_group = plutocracy_ideas
+            add_idea_group = theocracy_gov_ideas
+            add_idea = theocracy_1
+            add_idea = theocracy_2
+            add_idea = theocracy_3
+            add_idea = theocracy_4
+            add_idea = theocracy_5
+		}
+
+		if = {
+            limit = {
+                has_government_attribute = enables_divine_idea_group
+                has_idea = plutocracy_6
+                NOT = { has_idea = plutocracy_7 }
+            }
+            remove_idea_group = plutocracy_ideas
+            add_idea_group = theocracy_gov_ideas
+            add_idea = theocracy_1
+            add_idea = theocracy_2
+            add_idea = theocracy_3
+            add_idea = theocracy_4
+            add_idea = theocracy_5
+            add_idea = theocracy_6
+		}
+
+		if = {
+            limit = {
+                has_government_attribute = enables_divine_idea_group
+                has_idea = plutocracy_7
+            }
+            remove_idea_group = plutocracy_ideas
+            add_idea_group = theocracy_gov_ideas
+            add_idea = theocracy_1
+            add_idea = theocracy_2
+            add_idea = theocracy_3
+            add_idea = theocracy_4
+            add_idea = theocracy_5
+            add_idea = theocracy_6
+            add_idea = theocracy_7
+		}
+		
+		# Republic to Horde
+		if = {
+            limit = {
+                has_government_attribute = enables_horde_idea_group
+                has_idea_group = plutocracy_ideas
+                NOT = { has_idea = plutocracy_1 }
+            }
+            remove_idea_group = plutocracy_ideas
+            add_idea_group = horde_gov_ideas
+		}
+		
+		if = {
+            limit = {
+                has_government_attribute = enables_horde_idea_group
+                has_idea = plutocracy_1
+                NOT = { has_idea = plutocracy_2 }
+            }
+            remove_idea_group = plutocracy_ideas
+            add_idea_group = horde_gov_ideas
+            add_idea = horde_1
+		}
+
+		if = {
+            limit = {
+                has_government_attribute = enables_horde_idea_group
+                has_idea = plutocracy_2
+                NOT = { has_idea = plutocracy_3 }
+            }
+            remove_idea_group = plutocracy_ideas
+            add_idea_group = horde_gov_ideas
+            add_idea = horde_1
+            add_idea = horde_2
+		}
+
+		if = {
+            limit = {
+                has_government_attribute = enables_horde_idea_group
+                has_idea = plutocracy_3
+                NOT = { has_idea = plutocracy_4 }
+            }
+            remove_idea_group = plutocracy_ideas
+            add_idea_group = horde_gov_ideas
+            add_idea = horde_1
+            add_idea = horde_2
+            add_idea = horde_3
+		}
+
+		if = {
+            limit = {
+                has_government_attribute = enables_horde_idea_group
+                has_idea = plutocracy_4
+                NOT = { has_idea = plutocracy_5 }
+            }
+            remove_idea_group = plutocracy_ideas
+            add_idea_group = horde_gov_ideas
+            add_idea = horde_1
+            add_idea = horde_2
+            add_idea = horde_3
+            add_idea = horde_4
+		}
+
+		if = {
+            limit = {
+                has_government_attribute = enables_horde_idea_group
+                has_idea = plutocracy_5
+                NOT = { has_idea = plutocracy_6 }
+            }
+            remove_idea_group = plutocracy_ideas
+            add_idea_group = horde_gov_ideas
+            add_idea = horde_1
+            add_idea = horde_2
+            add_idea = horde_3
+            add_idea = horde_4
+            add_idea = horde_5
+		}
+
+		if = {
+            limit = {
+                has_government_attribute = enables_horde_idea_group
+                has_idea = plutocracy_6
+                NOT = { has_idea = plutocracy_7 }
+            }
+            remove_idea_group = plutocracy_ideas
+            add_idea_group = horde_gov_ideas
+            add_idea = horde_1
+            add_idea = horde_2
+            add_idea = horde_3
+            add_idea = horde_4
+            add_idea = horde_5
+            add_idea = horde_6
+		}
+
+		if = {
+            limit = {
+                has_government_attribute = enables_horde_idea_group
+                has_idea = plutocracy_7
+            }
+            remove_idea_group = plutocracy_ideas
+            add_idea_group = horde_gov_ideas
+            add_idea = horde_1
+            add_idea = horde_2
+            add_idea = horde_3
+            add_idea = horde_4
+            add_idea = horde_5
+            add_idea = horde_6
+            add_idea = horde_7
+		}
+	}
+		
+	mean_time_to_happen = {
+        days = 10
+	}
+
+
+	option = {
+		name = mna_swap_ideagroups.2.o1
+	}
+}
+
+# theocracy_y ---> Republic, Monarchy, Horde
+country_event = { 
+
+	id = mna_swap_ideagroups.3
+	title = mna_swap_ideagroups.3.t
+	desc = mna_swap_ideagroups.3.d
+	
+	picture = OVEREXTENSION_eventPicture
+
+	hidden = yes
+	
+	trigger = {
+        NOT = { has_government_attribute = enables_divine_idea_group }
+		has_idea_group = theocracy_gov_ideas
+	}
+		
+	
+	immediate = {
+		# theocracy_y to Republic
+		if = {
+            limit = {
+                has_government_attribute = enables_plutocratic_idea_group
+                has_idea_group = theocracy_gov_ideas
+                NOT = { has_idea = theocracy_1 }
+            }
+            remove_idea_group = theocracy_gov_ideas
+            add_idea_group = plutocracy_ideas
+		}
+		
+		if = {
+            limit = {
+                has_government_attribute = enables_plutocratic_idea_group
+                has_idea = theocracy_1
+                NOT = { has_idea = theocracy_2 }
+            }
+            remove_idea_group = theocracy_gov_ideas
+            add_idea_group = plutocracy_ideas
+            add_idea = plutocracy_1
+		}
+
+		if = {
+            limit = {
+                has_government_attribute = enables_plutocratic_idea_group
+                has_idea = theocracy_2
+                NOT = { has_idea = theocracy_3 }
+            }
+            remove_idea_group = theocracy_gov_ideas
+            add_idea_group = plutocracy_ideas
+            add_idea = plutocracy_1
+            add_idea = plutocracy_2
+		}
+
+		if = {
+            limit = {
+                has_government_attribute = enables_plutocratic_idea_group
+                has_idea = theocracy_3
+                NOT = { has_idea = theocracy_4 }
+            }
+            remove_idea_group = theocracy_gov_ideas
+            add_idea_group = plutocracy_ideas
+            add_idea = plutocracy_1
+            add_idea = plutocracy_2
+            add_idea = plutocracy_3
+		}
+
+		if = {
+            limit = {
+                has_government_attribute = enables_plutocratic_idea_group
+                has_idea = theocracy_4
+                NOT = { has_idea = theocracy_5 }
+            }
+            remove_idea_group = theocracy_gov_ideas
+            add_idea_group = plutocracy_ideas
+            add_idea = plutocracy_1
+            add_idea = plutocracy_2
+            add_idea = plutocracy_3
+            add_idea = plutocracy_4
+		}
+
+		if = {
+            limit = {
+                has_government_attribute = enables_plutocratic_idea_group
+                has_idea = theocracy_5
+                NOT = { has_idea = theocracy_6 }
+            }
+            remove_idea_group = theocracy_gov_ideas
+            add_idea_group = plutocracy_ideas
+            add_idea = plutocracy_1
+            add_idea = plutocracy_2
+            add_idea = plutocracy_3
+            add_idea = plutocracy_4
+            add_idea = plutocracy_5
+		}
+
+		if = {
+            limit = {
+                has_government_attribute = enables_plutocratic_idea_group
+                has_idea = theocracy_6
+                NOT = { has_idea = theocracy_7 }
+            }
+            remove_idea_group = theocracy_gov_ideas
+            add_idea_group = plutocracy_ideas
+            add_idea = plutocracy_1
+            add_idea = plutocracy_2
+            add_idea = plutocracy_3
+            add_idea = plutocracy_4
+            add_idea = plutocracy_5
+            add_idea = plutocracy_6
+		}
+
+		if = {
+            limit = {
+                has_government_attribute = enables_plutocratic_idea_group
+                has_idea = theocracy_7
+            }
+            remove_idea_group = theocracy_gov_ideas
+            add_idea_group = plutocracy_ideas
+            add_idea = plutocracy_1
+            add_idea = plutocracy_2
+            add_idea = plutocracy_3
+            add_idea = plutocracy_4
+            add_idea = plutocracy_5
+            add_idea = plutocracy_6
+            add_idea = plutocracy_7
+		}
+		
+		# theocracy_y to Monarchy
+		if = {
+            limit = {
+                has_government_attribute = enables_divine_idea_group
+                has_idea_group = theocracy_gov_ideas
+                NOT = { has_idea = theocracy_1 }
+            }
+            remove_idea_group = theocracy_gov_ideas
+            add_idea_group = monarchy_ideas
+		}
+		
+		if = {
+            limit = {
+                has_government_attribute = enables_divine_idea_group
+                has_idea = theocracy_1
+                NOT = { has_idea = theocracy_2 }
+            }
+            remove_idea_group = theocracy_gov_ideas
+            add_idea_group = monarchy_ideas
+            add_idea = monarchy_1
+		}
+
+		if = {
+            limit = {
+                has_government_attribute = enables_divine_idea_group
+                has_idea = theocracy_2
+                NOT = { has_idea = theocracy_3 }
+            }
+            remove_idea_group = theocracy_gov_ideas
+            add_idea_group = monarchy_ideas
+            add_idea = monarchy_1
+            add_idea = monarchy_2
+		}
+
+		if = {
+            limit = {
+                has_government_attribute = enables_divine_idea_group
+                has_idea = theocracy_3
+                NOT = { has_idea = theocracy_4 }
+            }
+            remove_idea_group = theocracy_gov_ideas
+            add_idea_group = monarchy_ideas
+            add_idea = monarchy_1
+            add_idea = monarchy_2
+            add_idea = monarchy_3
+		}
+
+		if = {
+            limit = {
+                has_government_attribute = enables_divine_idea_group
+                has_idea = theocracy_4
+                NOT = { has_idea = theocracy_5 }
+            }
+            remove_idea_group = theocracy_gov_ideas
+            add_idea_group = monarchy_ideas
+            add_idea = monarchy_1
+            add_idea = monarchy_2
+            add_idea = monarchy_3
+            add_idea = monarchy_4
+		}
+
+		if = {
+            limit = {
+                has_government_attribute = enables_divine_idea_group
+                has_idea = theocracy_5
+                NOT = { has_idea = theocracy_6 }
+            }
+            remove_idea_group = theocracy_gov_ideas
+            add_idea_group = monarchy_ideas
+            add_idea = monarchy_1
+            add_idea = monarchy_2
+            add_idea = monarchy_3
+            add_idea = monarchy_4
+            add_idea = monarchy_5
+		}
+
+		if = {
+            limit = {
+                has_government_attribute = enables_divine_idea_group
+                has_idea = theocracy_6
+                NOT = { has_idea = theocracy_7 }
+            }
+            remove_idea_group = theocracy_gov_ideas
+            add_idea_group = monarchy_ideas
+            add_idea = monarchy_1
+            add_idea = monarchy_2
+            add_idea = monarchy_3
+            add_idea = monarchy_4
+            add_idea = monarchy_5
+            add_idea = monarchy_6
+		}
+
+		if = {
+            limit = {
+                has_government_attribute = enables_divine_idea_group
+                has_idea = theocracy_7
+            }
+            remove_idea_group = theocracy_gov_ideas
+            add_idea_group = monarchy_ideas
+            add_idea = monarchy_1
+            add_idea = monarchy_2
+            add_idea = monarchy_3
+            add_idea = monarchy_4
+            add_idea = monarchy_5
+            add_idea = monarchy_6
+            add_idea = monarchy_7
+		}
+		
+		# theocracy_y to Horde
+		if = {
+            limit = {
+                has_government_attribute = enables_horde_idea_group
+                has_idea_group = theocracy_gov_ideas
+                NOT = { has_idea = theocracy_1 }
+            }
+            remove_idea_group = theocracy_gov_ideas
+            add_idea_group = horde_gov_ideas
+		}
+		
+		if = {
+            limit = {
+                has_government_attribute = enables_horde_idea_group
+                has_idea = theocracy_1
+                NOT = { has_idea = theocracy_2 }
+            }
+            remove_idea_group = theocracy_gov_ideas
+            add_idea_group = horde_gov_ideas
+            add_idea = horde_1
+		}
+
+		if = {
+            limit = {
+                has_government_attribute = enables_horde_idea_group
+                has_idea = theocracy_2
+                NOT = { has_idea = theocracy_3 }
+            }
+            remove_idea_group = theocracy_gov_ideas
+            add_idea_group = horde_gov_ideas
+            add_idea = horde_1
+            add_idea = horde_2
+		}
+
+		if = {
+            limit = {
+                has_government_attribute = enables_horde_idea_group
+                has_idea = theocracy_3
+                NOT = { has_idea = theocracy_4 }
+            }
+            remove_idea_group = theocracy_gov_ideas
+            add_idea_group = horde_gov_ideas
+            add_idea = horde_1
+            add_idea = horde_2
+            add_idea = horde_3
+		}
+
+		if = {
+            limit = {
+                has_government_attribute = enables_horde_idea_group
+                has_idea = theocracy_4
+                NOT = { has_idea = theocracy_5 }
+            }
+            remove_idea_group = theocracy_gov_ideas
+            add_idea_group = horde_gov_ideas
+            add_idea = horde_1
+            add_idea = horde_2
+            add_idea = horde_3
+            add_idea = horde_4
+		}
+
+		if = {
+            limit = {
+                has_government_attribute = enables_horde_idea_group
+                has_idea = theocracy_5
+                NOT = { has_idea = theocracy_6 }
+            }
+            remove_idea_group = theocracy_gov_ideas
+            add_idea_group = horde_gov_ideas
+            add_idea = horde_1
+            add_idea = horde_2
+            add_idea = horde_3
+            add_idea = horde_4
+            add_idea = horde_5
+		}
+
+		if = {
+            limit = {
+                has_government_attribute = enables_horde_idea_group
+                has_idea = theocracy_6
+                NOT = { has_idea = theocracy_7 }
+            }
+            remove_idea_group = theocracy_gov_ideas
+            add_idea_group = horde_gov_ideas
+            add_idea = horde_1
+            add_idea = horde_2
+            add_idea = horde_3
+            add_idea = horde_4
+            add_idea = horde_5
+            add_idea = horde_6
+		}
+
+		if = {
+            limit = {
+                has_government_attribute = enables_horde_idea_group
+                has_idea = theocracy_7
+            }
+            remove_idea_group = theocracy_gov_ideas
+            add_idea_group = horde_gov_ideas
+            add_idea = horde_1
+            add_idea = horde_2
+            add_idea = horde_3
+            add_idea = horde_4
+            add_idea = horde_5
+            add_idea = horde_6
+            add_idea = horde_7
+		}
+	}
+		
+	mean_time_to_happen = {
+        days = 10
+	}
+
+
+	option = {
+		name = mna_swap_ideagroups.2.o1
+	}
+}
+
+# Horde ---> Republic, theocracy_y, Monarchy
+country_event = { 
+
+	id = mna_swap_ideagroups.4
+	title = mna_swap_ideagroups.4.t
+	desc = mna_swap_ideagroups.4.d
+	
+	picture = OVEREXTENSION_eventPicture
+
+	hidden = yes
+	
+	trigger = {
+        NOT = { has_government_attribute = enables_horde_idea_group }
+		has_idea_group = horde_gov_ideas
+	}
+		
+	
+	immediate = {
+		
+		# Horde to Republic
+		if = {
+            limit = {
+                has_government_attribute = enables_plutocratic_idea_group
+                has_idea_group = horde_gov_ideas
+                NOT = { has_idea = horde_1 }
+            }
+            remove_idea_group = horde_gov_ideas
+            add_idea_group = plutocracy_ideas
+		}
+		
+		if = {
+            limit = {
+                has_government_attribute = enables_plutocratic_idea_group
+                has_idea = horde_1
+                NOT = { has_idea = horde_2 }
+            }
+            remove_idea_group = horde_gov_ideas
+            add_idea_group = plutocracy_ideas
+            add_idea = plutocracy_1
+		}
+
+		if = {
+            limit = {
+                has_government_attribute = enables_plutocratic_idea_group
+                has_idea = horde_2
+                NOT = { has_idea = horde_3 }
+            }
+            remove_idea_group = horde_gov_ideas
+            add_idea_group = plutocracy_ideas
+            add_idea = plutocracy_1
+            add_idea = plutocracy_2
+		}
+
+		if = {
+            limit = {
+                has_government_attribute = enables_plutocratic_idea_group
+                has_idea = horde_3
+                NOT = { has_idea = horde_4 }
+            }
+            remove_idea_group = horde_gov_ideas
+            add_idea_group = plutocracy_ideas
+            add_idea = plutocracy_1
+            add_idea = plutocracy_2
+            add_idea = plutocracy_3
+		}
+
+		if = {
+            limit = {
+                has_government_attribute = enables_plutocratic_idea_group
+                has_idea = horde_4
+                NOT = { has_idea = horde_5 }
+            }
+            remove_idea_group = horde_gov_ideas
+            add_idea_group = plutocracy_ideas
+            add_idea = plutocracy_1
+            add_idea = plutocracy_2
+            add_idea = plutocracy_3
+            add_idea = plutocracy_4
+		}
+
+		if = {
+            limit = {
+                has_government_attribute = enables_plutocratic_idea_group
+                has_idea = horde_5
+                NOT = { has_idea = horde_6 }
+            }
+            remove_idea_group = horde_gov_ideas
+            add_idea_group = plutocracy_ideas
+            add_idea = plutocracy_1
+            add_idea = plutocracy_2
+            add_idea = plutocracy_3
+            add_idea = plutocracy_4
+            add_idea = plutocracy_5
+		}
+
+		if = {
+            limit = {
+                has_government_attribute = enables_plutocratic_idea_group
+                has_idea = horde_6
+                NOT = { has_idea = horde_7 }
+            }
+            remove_idea_group = horde_gov_ideas
+            add_idea_group = plutocracy_ideas
+            add_idea = plutocracy_1
+            add_idea = plutocracy_2
+            add_idea = plutocracy_3
+            add_idea = plutocracy_4
+            add_idea = plutocracy_5
+            add_idea = plutocracy_6
+		}
+
+		if = {
+            limit = {
+                has_government_attribute = enables_plutocratic_idea_group
+                has_idea = horde_7
+            }
+            remove_idea_group = horde_gov_ideas
+            add_idea_group = plutocracy_ideas
+            add_idea = plutocracy_1
+            add_idea = plutocracy_2
+            add_idea = plutocracy_3
+            add_idea = plutocracy_4
+            add_idea = plutocracy_5
+            add_idea = plutocracy_6
+            add_idea = plutocracy_7
+		}
+		######################################
+		######## Horde to theocracy_y ########
+        ######################################
+		if = {
+            limit = {
+                has_government_attribute = enables_divine_idea_group
+                has_idea_group = horde_gov_ideas
+                NOT = { has_idea = horde_1 }
+            }
+            remove_idea_group = horde_gov_ideas
+            add_idea_group = theocracy_gov_ideas
+		}
+		
+		if = {
+            limit = {
+                has_government_attribute = enables_divine_idea_group
+                has_idea = horde_1
+                NOT = { has_idea = horde_2 }
+            }
+            remove_idea_group = horde_gov_ideas
+            add_idea_group = theocracy_gov_ideas
+            add_idea = theocracy_1
+		}
+
+		if = {
+            limit = {
+                has_government_attribute = enables_divine_idea_group
+                has_idea = horde_2
+                NOT = { has_idea = horde_3 }
+            }
+            remove_idea_group = horde_gov_ideas
+            add_idea_group = theocracy_gov_ideas
+            add_idea = theocracy_1
+            add_idea = theocracy_2
+		}
+
+		if = {
+            limit = {
+                has_government_attribute = enables_divine_idea_group
+                has_idea = horde_3
+                NOT = { has_idea = horde_4 }
+            }
+            remove_idea_group = horde_gov_ideas
+            add_idea_group = theocracy_gov_ideas
+            add_idea = theocracy_1
+            add_idea = theocracy_2
+            add_idea = theocracy_3
+		}
+
+		if = {
+            limit = {
+                has_government_attribute = enables_divine_idea_group
+                has_idea = horde_4
+                NOT = { has_idea = horde_5 }
+            }
+            remove_idea_group = horde_gov_ideas
+            add_idea_group = theocracy_gov_ideas
+            add_idea = theocracy_1
+            add_idea = theocracy_2
+            add_idea = theocracy_3
+            add_idea = theocracy_4
+		}
+
+		if = {
+            limit = {
+                has_government_attribute = enables_divine_idea_group
+                has_idea = horde_5
+                NOT = { has_idea = horde_6 }
+            }
+            remove_idea_group = horde_gov_ideas
+            add_idea_group = theocracy_gov_ideas
+            add_idea = theocracy_1
+            add_idea = theocracy_2
+            add_idea = theocracy_3
+            add_idea = theocracy_4
+            add_idea = theocracy_5
+		}
+
+		if = {
+            limit = {
+                has_government_attribute = enables_divine_idea_group
+                has_idea = horde_6
+                NOT = { has_idea = horde_7 }
+            }
+            remove_idea_group = horde_gov_ideas
+            add_idea_group = theocracy_gov_ideas
+            add_idea = theocracy_1
+            add_idea = theocracy_2
+            add_idea = theocracy_3
+            add_idea = theocracy_4
+            add_idea = theocracy_5
+            add_idea = theocracy_6
+		}
+
+		if = {
+            limit = {
+                has_government_attribute = enables_divine_idea_group
+                has_idea = horde_7
+            }
+            remove_idea_group = horde_gov_ideas
+            add_idea_group = theocracy_gov_ideas
+            add_idea = theocracy_1
+            add_idea = theocracy_2
+            add_idea = theocracy_3
+            add_idea = theocracy_4
+            add_idea = theocracy_5
+            add_idea = theocracy_6
+            add_idea = theocracy_7
+		}
+		
+		# Horde to Monarchy
+		if = {
+            limit = {
+                has_government_attribute = enables_divine_idea_group
+                has_idea_group = horde_gov_ideas
+                NOT = { has_idea = horde_1 }
+            }
+            remove_idea_group = horde_gov_ideas
+            add_idea_group = monarchy_ideas
+		}
+		
+		if = {
+            limit = {
+                has_government_attribute = enables_divine_idea_group
+                has_idea = horde_1
+                NOT = { has_idea = horde_2 }
+            }
+            remove_idea_group = horde_gov_ideas
+            add_idea_group = monarchy_ideas
+            add_idea = monarchy_1
+		}
+
+		if = {
+            limit = {
+                has_government_attribute = enables_divine_idea_group
+                has_idea = horde_2
+                NOT = { has_idea = horde_3 }
+            }
+            remove_idea_group = horde_gov_ideas
+            add_idea_group = monarchy_ideas
+            add_idea = monarchy_1
+            add_idea = monarchy_2
+		}
+
+		if = {
+            limit = {
+                has_government_attribute = enables_divine_idea_group
+                has_idea = horde_3
+                NOT = { has_idea = horde_4 }
+            }
+            remove_idea_group = horde_gov_ideas
+            add_idea_group = monarchy_ideas
+            add_idea = monarchy_1
+            add_idea = monarchy_2
+            add_idea = monarchy_3
+		}
+
+		if = {
+            limit = {
+                has_government_attribute = enables_divine_idea_group
+                has_idea = horde_4
+                NOT = { has_idea = horde_5 }
+            }
+            remove_idea_group = horde_gov_ideas
+            add_idea_group = monarchy_ideas
+            add_idea = monarchy_1
+            add_idea = monarchy_2
+            add_idea = monarchy_3
+            add_idea = monarchy_4
+		}
+
+		if = {
+            limit = {
+                has_government_attribute = enables_divine_idea_group
+                has_idea = horde_5
+                NOT = { has_idea = horde_6 }
+            }
+            remove_idea_group = horde_gov_ideas
+            add_idea_group = monarchy_ideas
+            add_idea = monarchy_1
+            add_idea = monarchy_2
+            add_idea = monarchy_3
+            add_idea = monarchy_4
+            add_idea = monarchy_5
+		}
+
+		if = {
+            limit = {
+                has_government_attribute = enables_divine_idea_group
+                has_idea = horde_6
+                NOT = { has_idea = horde_7 }
+            }
+            remove_idea_group = horde_gov_ideas
+            add_idea_group = monarchy_ideas
+            add_idea = monarchy_1
+            add_idea = monarchy_2
+            add_idea = monarchy_3
+            add_idea = monarchy_4
+            add_idea = monarchy_5
+            add_idea = monarchy_6
+		}
+
+		if = {
+            limit = {
+                has_government_attribute = enables_divine_idea_group
+                has_idea = horde_7
+            }
+            remove_idea_group = horde_gov_ideas
+            add_idea_group = monarchy_ideas
+            add_idea = monarchy_1
+            add_idea = monarchy_2
+            add_idea = monarchy_3
+            add_idea = monarchy_4
+            add_idea = monarchy_5
+            add_idea = monarchy_6
+            add_idea = monarchy_7
+		}
+	}
+		
+	mean_time_to_happen = {
+        days = 10
+	}
+
+
+	option = {
+		name = mna_swap_ideagroups.4.o1
+	}
+}
+
+# imperial_ambition_ideas > imperialism_ideas
+country_event = { 
+
+	id = mna_swap_ideagroups.5
+	title = mna_swap_ideagroups.5.t
+	desc = mna_swap_ideagroups.5.d
+	
+	picture = OVEREXTENSION_eventPicture
+
+	hidden = yes
+	
+	trigger = {
+		has_idea_group = imperial_ambition_ideas
+		OR = {
+            government_rank = 3 
+            is_emperor = yes 
+        }
+	}
+		
+	
+	immediate = {
+		if = {
+			limit = {
+				has_idea_group = imperial_ambition_ideas
+				NOT = { has_idea = imperial_ambition_1 }
+			}
+			remove_idea_group = imperial_ambition_ideas
+			add_idea_group = imperialism_ideas
+		}
+		
+		
+		if = {
+			limit = { 
+				has_idea = imperial_ambition_1
+				NOT = { has_idea = imperial_ambition_2 }
+			}
+			remove_idea_group = imperial_ambition_ideas
+			add_idea_group = imperialism_ideas
+			add_idea = imperialism_ideas_1
+		}
+		
+		if = {
+			limit = {
+				has_idea = imperial_ambition_2
+				NOT = { has_idea = imperial_ambition_3}
+			}
+			remove_idea_group = imperial_ambition_ideas
+			add_idea_group = imperialism_ideas
+			add_idea = imperialism_ideas_1
+			add_idea = imperialism_ideas_2
+		}
+		
+		if = {
+			limit = {
+				has_idea = imperial_ambition_3
+				NOT = { has_idea = imperial_ambition_4 }
+			}
+			remove_idea_group = imperial_ambition_ideas
+			add_idea_group = imperialism_ideas
+			add_idea = imperialism_ideas_1
+			add_idea = imperialism_ideas_2
+			add_idea = imperialism_ideas_3
+		}
+		
+		if = {
+			limit = {
+				has_idea = imperial_ambition_4
+				NOT = { has_idea = imperial_ambition_5 }
+			}
+			remove_idea_group = imperial_ambition_ideas
+			add_idea_group = imperialism_ideas
+			add_idea = imperialism_ideas_1
+			add_idea = imperialism_ideas_2
+			add_idea = imperialism_ideas_3
+			add_idea = imperialism_ideas_4
+		}
+		
+		if = {
+			limit = {
+				has_idea = imperial_ambition_5
+				NOT = { has_idea = imperial_ambition_6 }
+			}
+			remove_idea_group = imperial_ambition_ideas
+			add_idea_group = imperialism_ideas
+			add_idea = imperialism_ideas_1
+			add_idea = imperialism_ideas_2
+			add_idea = imperialism_ideas_3
+			add_idea = imperialism_ideas_4
+			add_idea = imperialism_ideas_5
+		}
+		
+		if = {
+			limit = {
+				has_idea = imperial_ambition_6
+				NOT = { has_idea = imperial_ambition_7 }
+			}
+			remove_idea_group = imperial_ambition_ideas
+			add_idea_group = imperialism_ideas
+			add_idea = imperialism_ideas_1
+			add_idea = imperialism_ideas_2
+			add_idea = imperialism_ideas_3
+			add_idea = imperialism_ideas_4
+			add_idea = imperialism_ideas_5
+			add_idea = imperialism_ideas_6
+		}
+		
+		if = {
+			limit = {
+				has_idea = imperial_ambition_7
+			}
+			remove_idea_group = imperial_ambition_ideas
+			add_idea_group = imperialism_ideas
+			add_idea = imperialism_ideas_1
+			add_idea = imperialism_ideas_2
+			add_idea = imperialism_ideas_3
+			add_idea = imperialism_ideas_4
+			add_idea = imperialism_ideas_5
+			add_idea = imperialism_ideas_6
+			add_idea = imperialism_ideas_7
+		}
+	}
+		
+	mean_time_to_happen = {
+        days = 10
+	}
+
+
+	option = {
+		name = mna_swap_ideagroups.5.o1
+	}
+}
+
+#imperialism_ideas Power > imperial_ambition_ideas
+country_event = { 
+
+	id = mna_swap_ideagroups.6
+	title = mna_swap_ideagroups.6.t
+	desc = mna_swap_ideagroups.6.d
+	
+	picture = OVEREXTENSION_eventPicture
+
+	hidden = yes
+	
+	trigger = {
+		has_idea_group = imperialism_ideas
+		NOT = {
+             OR = {
+                government_rank = 3 
+                is_emperor = yes 
+            }
+        }
+	}
+		
+	
+	immediate = {
+		if = {
+			limit = {
+				has_idea_group = imperialism_ideas
+				NOT = { has_idea = imperialism_ideas_1 }
+			}
+			remove_idea_group = imperialism_ideas
+			add_idea_group = imperial_ambition_ideas
+		}
+		
+		
+		if = {
+			limit = { 
+				has_idea = imperialism_ideas_1
+				NOT = { has_idea = imperialism_ideas_2 }
+			}
+			remove_idea_group = imperialism_ideas
+			add_idea_group = imperial_ambition_ideas
+			add_idea = imperial_ambition_1
+		}
+		
+		if = {
+			limit = {
+				has_idea = imperialism_ideas_2
+				NOT = { has_idea = imperialism_ideas_3}
+			}
+			remove_idea_group = imperialism_ideas
+			add_idea_group = imperial_ambition_ideas
+			add_idea = imperial_ambition_1
+			add_idea = imperial_ambition_2
+		}
+		
+		if = {
+			limit = {
+				has_idea = imperialism_ideas_3
+				NOT = { has_idea = imperialism_ideas_4 }
+			}
+			remove_idea_group = imperialism_ideas
+			add_idea_group = imperial_ambition_ideas
+			add_idea = imperial_ambition_1
+			add_idea = imperial_ambition_2
+			add_idea = imperial_ambition_3
+		}
+		
+		if = {
+			limit = {
+				has_idea = imperialism_ideas_4
+				NOT = { has_idea = imperialism_ideas_5 }
+			}
+			remove_idea_group = imperialism_ideas
+			add_idea_group = imperial_ambition_ideas
+			add_idea = imperial_ambition_1
+			add_idea = imperial_ambition_2
+			add_idea = imperial_ambition_3
+			add_idea = imperial_ambition_4
+		}
+		
+		if = {
+			limit = {
+				has_idea = imperialism_ideas_5
+				NOT = { has_idea = imperialism_ideas_6 }
+			}
+			remove_idea_group = imperialism_ideas
+			add_idea_group = imperial_ambition_ideas
+			add_idea = imperial_ambition_1
+			add_idea = imperial_ambition_2
+			add_idea = imperial_ambition_3
+			add_idea = imperial_ambition_4
+			add_idea = imperial_ambition_5
+		}
+		
+		if = {
+			limit = {
+				has_idea = imperialism_ideas_6
+				NOT = { has_idea = imperialism_ideas_7 }
+			}
+			remove_idea_group = imperialism_ideas
+			add_idea_group = imperial_ambition_ideas
+			add_idea = imperial_ambition_1
+			add_idea = imperial_ambition_2
+			add_idea = imperial_ambition_3
+			add_idea = imperial_ambition_4
+			add_idea = imperial_ambition_5
+			add_idea = imperial_ambition_6
+		}
+		
+		if = {
+			limit = {
+				has_idea = imperialism_ideas_7
+			}
+			remove_idea_group = imperialism_ideas
+			add_idea_group = imperial_ambition_ideas
+			add_idea = imperial_ambition_1
+			add_idea = imperial_ambition_2
+			add_idea = imperial_ambition_3
+			add_idea = imperial_ambition_4
+			add_idea = imperial_ambition_5
+			add_idea = imperial_ambition_6
+			add_idea = imperial_ambition_7
+		}
+	}
+		
+	mean_time_to_happen = {
+        days = 10
+	}
+
+
+	option = {
+		name = mna_swap_ideagroups.6.o1
+	}
+}
