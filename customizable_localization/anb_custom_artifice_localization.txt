@@ -447,6 +447,24 @@ defined_text = {
 }
 
 defined_text = {
+	name = getArtificeIdeas
+	random = no
+	
+	text = {
+		localisation_key = artifice_innovative_ideas_yes
+		trigger = {
+			has_idea = print_culture
+		}
+	}
+	text = {
+		localisation_key = artifice_innovative_ideas_none
+		trigger = {
+			always = yes
+		}
+	}
+}
+
+defined_text = {
 	name = getArtificeHolds
 	random = no
 	

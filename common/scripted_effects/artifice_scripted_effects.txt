@@ -30,6 +30,17 @@ update_artifice_points = {
 				}
 			}
 
+			#5 from Innovative ideas
+			if = {
+				limit = {
+					has_idea = print_culture
+				}
+				change_variable = {
+					which = MaxArtificePoints
+					value = 5
+				}
+			}
+
 			#unique hold wonder
 			if = {
 				limit = {
