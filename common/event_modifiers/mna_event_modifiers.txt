@@ -1,5 +1,6 @@
 recently_hired_advisor_mechanic = {}
 mna_changed_trait = {}
+recently_infiltrated_administration = {}
 
 mna_monarchy_system_adm_0 = {
 	picture = "mna_monarchy_system_icon"

@@ -134,3 +134,7 @@
  mna_centralisation_expanded_infrastructure_8: "Centralisation Expanded Administration"
  mna_centralisation_expanded_infrastructure_9: "Centralisation Expanded Administration"
  mna_centralisation_expanded_infrastructure_10: "Centralisation Expanded Administration"
+
+ mna_infiltrate_administration_title: "§YInfiltrate Administration§!"
+ mna_infiltrate_administration_desc: "Lift the fog of war for one year with all nations you are at war with and have §Y30%§! spy network in. Costs §R20%§! spy network and has a two year cooldown."
+ recently_infiltrated_administration: "Recently Infiltrated Administration"
