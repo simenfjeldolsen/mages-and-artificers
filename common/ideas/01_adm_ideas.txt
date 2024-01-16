@@ -720,12 +720,11 @@ monarchy_ideas = {
 		legitimacy = 1
 	}
 	monarchy_3 = {
-		vassal_income = 0.1
 		reduced_liberty_desire = 10
 	}
 	monarchy_4 = {
 		vassal_forcelimit_bonus = 0.5
-		vassal_naval_forcelimit_bonus = 0.5
+		vassal_income = 0.5
 	}
 	monarchy_5 = {
 		no_stability_loss_on_monarch_death = yes
