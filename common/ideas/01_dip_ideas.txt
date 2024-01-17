@@ -32,7 +32,8 @@ court_ideas = {
 		estate_interaction_cooldown_modifier = -0.20
 	}
 	court_embassies = {
-		monarch_diplomatic_power = 1 
+		monarch_admin_power = 1 
+		monarch_diplomatic_power = 1
 	}
 
 	ai_will_do = {
