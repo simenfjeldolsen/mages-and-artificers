@@ -664,11 +664,11 @@ shock_focus_ideas = {
 	}
 	shock_focus_5 = {
 		assault_fort_ability = 0.5
-		may_refill_garrison = yes
 	}
 	shock_focus_6 = {
-		artillery_barrage_cost = -0.5
+		may_refill_garrison = yes
 		assault_fort_cost_modifier = -0.5
+		artillery_barrage_cost = -0.5
 	}
 	shock_focus_7 = {
 		max_general_maneuver = 1
