@@ -1453,7 +1453,7 @@ country_event = {
 			}
 			remove_idea_group = imperial_ambition_ideas
 			add_idea_group = imperialism_ideas
-			add_idea = imperialism_ideas_1
+			add_idea = imperialism__1
 		}
 		
 		if = {
@@ -1463,8 +1463,8 @@ country_event = {
 			}
 			remove_idea_group = imperial_ambition_ideas
 			add_idea_group = imperialism_ideas
-			add_idea = imperialism_ideas_1
-			add_idea = imperialism_ideas_2
+			add_idea = imperialism__1
+			add_idea = imperialism__2
 		}
 		
 		if = {
@@ -1474,9 +1474,9 @@ country_event = {
 			}
 			remove_idea_group = imperial_ambition_ideas
 			add_idea_group = imperialism_ideas
-			add_idea = imperialism_ideas_1
-			add_idea = imperialism_ideas_2
-			add_idea = imperialism_ideas_3
+			add_idea = imperialism__1
+			add_idea = imperialism__2
+			add_idea = imperialism__3
 		}
 		
 		if = {
@@ -1486,10 +1486,10 @@ country_event = {
 			}
 			remove_idea_group = imperial_ambition_ideas
 			add_idea_group = imperialism_ideas
-			add_idea = imperialism_ideas_1
-			add_idea = imperialism_ideas_2
-			add_idea = imperialism_ideas_3
-			add_idea = imperialism_ideas_4
+			add_idea = imperialism__1
+			add_idea = imperialism__2
+			add_idea = imperialism__3
+			add_idea = imperialism__4
 		}
 		
 		if = {
@@ -1499,11 +1499,11 @@ country_event = {
 			}
 			remove_idea_group = imperial_ambition_ideas
 			add_idea_group = imperialism_ideas
-			add_idea = imperialism_ideas_1
-			add_idea = imperialism_ideas_2
-			add_idea = imperialism_ideas_3
-			add_idea = imperialism_ideas_4
-			add_idea = imperialism_ideas_5
+			add_idea = imperialism__1
+			add_idea = imperialism__2
+			add_idea = imperialism__3
+			add_idea = imperialism__4
+			add_idea = imperialism__5
 		}
 		
 		if = {
@@ -1513,12 +1513,12 @@ country_event = {
 			}
 			remove_idea_group = imperial_ambition_ideas
 			add_idea_group = imperialism_ideas
-			add_idea = imperialism_ideas_1
-			add_idea = imperialism_ideas_2
-			add_idea = imperialism_ideas_3
-			add_idea = imperialism_ideas_4
-			add_idea = imperialism_ideas_5
-			add_idea = imperialism_ideas_6
+			add_idea = imperialism__1
+			add_idea = imperialism__2
+			add_idea = imperialism__3
+			add_idea = imperialism__4
+			add_idea = imperialism__5
+			add_idea = imperialism__6
 		}
 		
 		if = {
@@ -1527,13 +1527,13 @@ country_event = {
 			}
 			remove_idea_group = imperial_ambition_ideas
 			add_idea_group = imperialism_ideas
-			add_idea = imperialism_ideas_1
-			add_idea = imperialism_ideas_2
-			add_idea = imperialism_ideas_3
-			add_idea = imperialism_ideas_4
-			add_idea = imperialism_ideas_5
-			add_idea = imperialism_ideas_6
-			add_idea = imperialism_ideas_7
+			add_idea = imperialism__1
+			add_idea = imperialism__2
+			add_idea = imperialism__3
+			add_idea = imperialism__4
+			add_idea = imperialism__5
+			add_idea = imperialism__6
+			add_idea = imperialism__7
 		}
 	}
 		
@@ -1573,7 +1573,7 @@ country_event = {
 		if = {
 			limit = {
 				has_idea_group = imperialism_ideas
-				NOT = { has_idea = imperialism_ideas_1 }
+				NOT = { has_idea = imperialism__1 }
 			}
 			remove_idea_group = imperialism_ideas
 			add_idea_group = imperial_ambition_ideas
@@ -1582,8 +1582,8 @@ country_event = {
 		
 		if = {
 			limit = { 
-				has_idea = imperialism_ideas_1
-				NOT = { has_idea = imperialism_ideas_2 }
+				has_idea = imperialism__1
+				NOT = { has_idea = imperialism__2 }
 			}
 			remove_idea_group = imperialism_ideas
 			add_idea_group = imperial_ambition_ideas
@@ -1592,8 +1592,8 @@ country_event = {
 		
 		if = {
 			limit = {
-				has_idea = imperialism_ideas_2
-				NOT = { has_idea = imperialism_ideas_3}
+				has_idea = imperialism__2
+				NOT = { has_idea = imperialism__3}
 			}
 			remove_idea_group = imperialism_ideas
 			add_idea_group = imperial_ambition_ideas
@@ -1603,8 +1603,8 @@ country_event = {
 		
 		if = {
 			limit = {
-				has_idea = imperialism_ideas_3
-				NOT = { has_idea = imperialism_ideas_4 }
+				has_idea = imperialism__3
+				NOT = { has_idea = imperialism__4 }
 			}
 			remove_idea_group = imperialism_ideas
 			add_idea_group = imperial_ambition_ideas
@@ -1615,8 +1615,8 @@ country_event = {
 		
 		if = {
 			limit = {
-				has_idea = imperialism_ideas_4
-				NOT = { has_idea = imperialism_ideas_5 }
+				has_idea = imperialism__4
+				NOT = { has_idea = imperialism__5 }
 			}
 			remove_idea_group = imperialism_ideas
 			add_idea_group = imperial_ambition_ideas
@@ -1628,8 +1628,8 @@ country_event = {
 		
 		if = {
 			limit = {
-				has_idea = imperialism_ideas_5
-				NOT = { has_idea = imperialism_ideas_6 }
+				has_idea = imperialism__5
+				NOT = { has_idea = imperialism__6 }
 			}
 			remove_idea_group = imperialism_ideas
 			add_idea_group = imperial_ambition_ideas
@@ -1642,8 +1642,8 @@ country_event = {
 		
 		if = {
 			limit = {
-				has_idea = imperialism_ideas_6
-				NOT = { has_idea = imperialism_ideas_7 }
+				has_idea = imperialism__6
+				NOT = { has_idea = imperialism__7 }
 			}
 			remove_idea_group = imperialism_ideas
 			add_idea_group = imperial_ambition_ideas
@@ -1657,7 +1657,7 @@ country_event = {
 		
 		if = {
 			limit = {
-				has_idea = imperialism_ideas_7
+				has_idea = imperialism__7
 			}
 			remove_idea_group = imperialism_ideas
 			add_idea_group = imperial_ambition_ideas
