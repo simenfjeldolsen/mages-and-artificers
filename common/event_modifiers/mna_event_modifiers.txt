@@ -123,3 +123,12 @@ mna_centralisation_expanded_infrastructure_10 = {
 	trade_goods_size_modifier = 1.0
 	local_manpower_modifier = 2.0
 }
+mna_pluralism_goods_produced_1 = {
+	global_trade_goods_size_modifier = 0.05
+}
+mna_pluralism_goods_produced_2 = {
+	global_trade_goods_size_modifier = 0.10
+}
+mna_pluralism_goods_produced_3 = {
+	global_trade_goods_size_modifier = 0.15
+}

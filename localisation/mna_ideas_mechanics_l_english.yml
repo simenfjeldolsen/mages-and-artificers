@@ -138,3 +138,7 @@
  mna_infiltrate_administration_title: "§YInfiltrate Administration§!"
  mna_infiltrate_administration_desc: "Lift the fog of war for one year with all nations you are at war with and have §Y30%§! spy network in. Costs §R20%§! spy network and has a two year cooldown."
  recently_infiltrated_administration: "Recently Infiltrated Administration"
+
+ mna_pluralism_goods_produced_1: "Pluralism Goods Produced I"
+ mna_pluralism_goods_produced_2: "Pluralism Goods Produced II"
+ mna_pluralism_goods_produced_3: "Pluralism Goods Produced III"
