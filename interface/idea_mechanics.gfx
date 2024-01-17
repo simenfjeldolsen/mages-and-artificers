@@ -1,4 +1,4 @@
-spriteTypes = {
+﻿spriteTypes = {
 	spriteType = {
 		name = "GFX_mna_monarchy_system_icon"
 		texturefile = "gfx//interface//ideas//mna_monarchy_system_icon.dds"
