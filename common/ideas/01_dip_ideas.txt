@@ -620,6 +620,9 @@ high_seas_ideas = {
 
 	trigger = {
 		primitives = no
+		NOT = {
+			has_idea_group = home_waters_ideas
+		}
 	}
 
 	bonus = {
@@ -663,6 +666,9 @@ home_waters_ideas = {
 
 	trigger = {
 		primitives = no
+		NOT = {
+			has_idea_group = high_seas_ideas
+		}
 	}
 
 	bonus = {
@@ -729,6 +735,12 @@ nationalism_ideas = {
 		years_of_nationalism = -10
 	}
 
+	trigger = {
+		NOT = {
+			has_idea_group = pluralism_ideas
+		}
+	}
+
 	nationalism_1 = {
 		hostile_attrition = 1
 	}
@@ -764,6 +776,12 @@ pluralism_ideas = {
 
 	bonus = {
 		num_accepted_cultures = 2
+	}
+
+	trigger = {
+		NOT = {
+			has_idea_group = nationalism_ideas
+		}
 	}
 
 	pluralism_1 = {
