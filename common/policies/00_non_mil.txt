@@ -133,7 +133,7 @@
 	}
 }
 	
-B07_policy = {
+policy_B07 = {
 	monarch_power = ADM
 
 
@@ -440,7 +440,7 @@ B07_policy = {
 	}
 }
 
-A09_policy = {
+policy_A09 = {
 	monarch_power = ADM
 
 
@@ -776,7 +776,7 @@ A09_policy = {
 	}
 }		
 
-B02_policy = {
+policy_B02 = {
 	monarch_power = ADM
 
 
@@ -1305,7 +1305,7 @@ A0B = {
 	}
 }
 
-A08_policy = {
+policy_A08 = {
 	monarch_power = ADM
 
 
@@ -1332,7 +1332,7 @@ A08_policy = {
 	}
 }	
 
-B04_policy = {
+policy_B04 = {
 	monarch_power = ADM
 
 
@@ -1369,7 +1369,7 @@ B04_policy = {
 	}
 }
 
-B08_policy = {
+policy_B08 = {
 	monarch_power = ADM
 
 
@@ -1676,7 +1676,7 @@ B08_policy = {
 	}
 }	
 
-A06_policy = {
+policy_A06 = {
 	monarch_power = ADM
 
 
@@ -1838,7 +1838,7 @@ A06_policy = {
 	}
 }
 
-A02_policy = {
+policy_A02 = {
 	monarch_power = ADM
 
 
@@ -1921,7 +1921,7 @@ A02_policy = {
 	}
 }
 
-A01_policy = {
+policy_A01 = {
 	monarch_power = ADM
 
 
@@ -3174,7 +3174,7 @@ A0C = {
 	}
 }
 
-B09_policy = {
+policy_B09 = {
 	monarch_power = ADM
 
 
@@ -3377,7 +3377,7 @@ B09_policy = {
 	}
 }
 
-A05_policy = {
+policy_A05 = {
 	monarch_power = ADM
 
 
@@ -3405,7 +3405,7 @@ A05_policy = {
 	}
 }
 		
-B06_policy = {
+policy_B06 = {
 	monarch_power = ADM
 
 

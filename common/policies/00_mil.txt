@@ -403,7 +403,7 @@
 	}
 }
 		
-A03_policy = {
+policy_A03 = {
 	monarch_power = MIL
 
 
@@ -737,7 +737,7 @@ B0A = {
 	}
 }
 
-A04_policy = {
+policy_A04 = {
 	monarch_power = MIL
 
 
@@ -1446,7 +1446,7 @@ A04_policy = {
 	}
 }
 
-B03_policy = {
+policy_B03 = {
 	monarch_power = MIL
 
 
@@ -2808,7 +2808,7 @@ B0B = {
 	}
 }
 
-B05_policy = {
+policy_B05 = {
 	monarch_power = MIL
 
 
@@ -3375,7 +3375,7 @@ A0A = {
 	}
 }
 
-B01_policy = {
+policy_B01 = {
 	monarch_power = MIL
 
 
@@ -3759,7 +3759,7 @@ B0C = {
 	}
 }
 
-A07_policy = {
+policy_A07 = {
 	monarch_power = MIL
 
 
