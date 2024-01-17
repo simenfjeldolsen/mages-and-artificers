@@ -644,6 +644,7 @@ high_seas_ideas = {
 	
 	high_seas_5 = {
 		allowed_marine_fraction = 0.25
+		transport_attrition = -0.75
 	}
 	high_seas_6 = {
 		max_flagships = 1
