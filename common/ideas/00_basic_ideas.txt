@@ -54,7 +54,7 @@ diplomatic_ideas = {
 		reduced_stab_impacts = yes
 	}
 	trigger = {
-		has_government_attribute = enables_natives_idea_group
+		always = no
 	}
 	
 	grand_banquets = {
