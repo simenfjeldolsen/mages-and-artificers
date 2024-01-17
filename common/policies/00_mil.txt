@@ -3,12 +3,12 @@
 
 
 	potential = {
-		has_idea_group = spy_ideas
+		has_idea_group = innovativeness_ideas
 		has_idea_group = mercenary_ideas
 	}
 	
 	allow = {
-		full_idea_group = spy_ideas
+		full_idea_group = innovativeness_ideas
 		full_idea_group = mercenary_ideas
 	}
 
@@ -403,7 +403,7 @@
 	}
 }
 		
-A03 = {
+A03_policy = {
 	monarch_power = MIL
 
 
@@ -635,12 +635,12 @@ B0A = {
 
 	potential = {
 		has_idea_group = pluralism_ideas
-		has_idea_group = quality_ideas
+		has_idea_group = standing_army_ideas
 	}
 	
 	allow = {
 		full_idea_group = pluralism_ideas
-		full_idea_group = quality_ideas
+		full_idea_group = standing_army_ideas
 	}
 
 	discipline = 0.035
@@ -737,7 +737,7 @@ B0A = {
 	}
 }
 
-A04 = {
+A04_policy = {
 	monarch_power = MIL
 
 
@@ -763,7 +763,6 @@ A04 = {
 		}
 	}
 }
-
 
 014 = {
 	monarch_power = MIL
@@ -1447,7 +1446,7 @@ A04 = {
 	}
 }
 
-B03 = {
+B03_policy = {
 	monarch_power = MIL
 
 
@@ -1484,7 +1483,7 @@ B03 = {
 	}
 }
 
-B03 = {
+B0B = {
 	monarch_power = MIL
 
 
@@ -2809,7 +2808,7 @@ B03 = {
 	}
 }
 
-B05 = {
+B05_policy = {
 	monarch_power = MIL
 
 
@@ -3270,12 +3269,12 @@ B05 = {
 
 	potential = {
 		has_idea_group = religious_ideas
-		has_idea_group = quality_ideas
+		has_idea_group = logistics_ideas
 	}
 	
 	allow = {
 		full_idea_group = religious_ideas
-		full_idea_group = quality_ideas
+		full_idea_group = logistics_ideas
 	}
 
 	shock_damage = 0.10
@@ -3376,18 +3375,28 @@ A0A = {
 	}
 }
 
-B01 = {
+B01_policy = {
 	monarch_power = MIL
 
 
 	potential = {
-		has_idea_group = innovativeness_ideas
-		has_idea_group = militarism_ideas
+		OR = {
+			has_idea_group = monarchy_ideas
+			has_idea_group = plutocracy_ideas
+			has_idea_group = theocracy_gov_ideas
+			has_idea_group = horde_gov_ideas
+		}
+		has_idea_group = offensive_ideas
 	}
 	
 	allow = {
-		full_idea_group = innovativeness_ideas
-		full_idea_group = militarism_ideas
+		OR = {
+			full_idea_group = monarchy_ideas
+			full_idea_group = plutocracy_ideas
+			full_idea_group = theocracy_gov_ideas
+			full_idea_group = horde_gov_ideas
+		}
+		full_idea_group = offensive_ideas
 	}
 
 	fire_damage = 0.10
@@ -3671,12 +3680,12 @@ B0C = {
 
 
 	potential = {
-		has_idea_group = court_ideas
+		has_idea_group = infrastructure_ideas
 		has_idea_group = shock_focus_ideas
 	}
 	
 	allow = {
-		full_idea_group = court_ideas
+		full_idea_group = infrastructure_ideas
 		full_idea_group = shock_focus_ideas
 	}
 
@@ -3750,7 +3759,7 @@ B0C = {
 	}
 }
 
-A07 = {
+A07_policy = {
 	monarch_power = MIL
 
 
