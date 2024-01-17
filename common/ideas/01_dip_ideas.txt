@@ -788,6 +788,7 @@ pluralism_ideas = {
 	}
 	pluralism_7 = {
 		num_of_parliament_issues = 1
+		parliament_backing_chance = 0.10
 	}
 
 	ai_will_do = {
