@@ -138,23 +138,23 @@ B07_policy = {
 
 
 	potential = {
+		has_idea_group = logistics_ideas
 		OR = {
 			has_idea_group = monarchy_ideas
 			has_idea_group = plutocracy_ideas
 			has_idea_group = theocracy_gov_ideas
 			has_idea_group = horde_gov_ideas
 		}
-		has_idea_group = logistics_ideas
 	}
 	
 	allow = {
+		full_idea_group = logistics_ideas
 		OR = {
 			full_idea_group = monarchy_ideas
 			full_idea_group = plutocracy_ideas
 			full_idea_group = theocracy_gov_ideas
 			full_idea_group = horde_gov_ideas
 		}
-		full_idea_group = logistics_ideas
 	}
 
 	global_tax_modifier = 0.25
@@ -526,19 +526,19 @@ A09_policy = {
 
 
 	potential = {
+		has_idea_group = leadership_ideas
 		OR = {
 			has_idea_group = imperial_ambition_ideas
 			has_idea_group = imperialism_ideas
 		}
-		has_idea_group = leadership_ideas
 	}
 	
 	allow = {
+		full_idea_group = leadership_ideas
 		OR = {
 			full_idea_group = imperial_ambition_ideas
 			full_idea_group = imperialism_ideas
 		}
-		full_idea_group = leadership_ideas
 	}
 
 	production_efficiency = 0.15
@@ -559,19 +559,19 @@ A09_policy = {
 
 
 	potential = {
+		has_idea_group = shock_focus_ideas
 		OR = {
 			has_idea_group = imperial_ambition_ideas
 			has_idea_group = imperialism_ideas
 		}
-		has_idea_group = shock_focus_ideas
 	}
 	
 	allow = {
+		full_idea_group = shock_focus_ideas
 		OR = {
 			full_idea_group = imperial_ambition_ideas
 			full_idea_group = imperialism_ideas
 		}
-		full_idea_group = shock_focus_ideas
 	}
 
 	production_efficiency = 0.15
@@ -781,23 +781,23 @@ B02_policy = {
 
 
 	potential = {
+		has_idea_group = defensive_ideas
 		OR = {
 			has_idea_group = monarchy_ideas
 			has_idea_group = plutocracy_ideas
 			has_idea_group = theocracy_gov_ideas
 			has_idea_group = horde_gov_ideas
 		}
-		has_idea_group = defensive_ideas
 	}
 	
 	allow = {
+		full_idea_group = defensive_ideas
 		OR = {
 			full_idea_group = monarchy_ideas
 			full_idea_group = plutocracy_ideas
 			full_idea_group = theocracy_gov_ideas
 			full_idea_group = horde_gov_ideas
 		}
-		full_idea_group = defensive_ideas
 	}
 
 	trade_efficiency = 0.1
@@ -1088,19 +1088,19 @@ A0B = {
 
 
 	potential = {
+		has_idea_group = logistics_ideas
 		OR = {
 			has_idea_group = imperial_ambition_ideas
 			has_idea_group = imperialism_ideas
 		}
-		has_idea_group = logistics_ideas
 	}
 	
 	allow = {
+		full_idea_group = logistics_ideas
 		OR = {
 			full_idea_group = imperial_ambition_ideas
 			full_idea_group = imperialism_ideas
 		}
-		full_idea_group = logistics_ideas
 	}
 
 	global_trade_goods_size_modifier = 0.075
@@ -1337,23 +1337,23 @@ B04_policy = {
 
 
 	potential = {
+		has_idea_group = quantity_ideas
 		OR = {
 			has_idea_group = monarchy_ideas
 			has_idea_group = plutocracy_ideas
 			has_idea_group = theocracy_gov_ideas
 			has_idea_group = horde_gov_ideas
 		}
-		has_idea_group = quantity_ideas
 	}
 	
 	allow = {
+		full_idea_group = quantity_ideas
 		OR = {
 			full_idea_group = monarchy_ideas
 			full_idea_group = plutocracy_ideas
 			full_idea_group = theocracy_gov_ideas
 			full_idea_group = horde_gov_ideas
 		}
-		full_idea_group = quantity_ideas
 	}
 
 	global_trade_power = 0.25
@@ -1374,23 +1374,23 @@ B08_policy = {
 
 
 	potential = {
+		has_idea_group = mercenary_ideas
 		OR = {
 			has_idea_group = monarchy_ideas
 			has_idea_group = plutocracy_ideas
 			has_idea_group = theocracy_gov_ideas
 			has_idea_group = horde_gov_ideas
 		}
-		has_idea_group = mercenary_ideas
 	}
 	
 	allow = {
+		full_idea_group = mercenary_ideas
 		OR = {
 			full_idea_group = monarchy_ideas
 			full_idea_group = plutocracy_ideas
 			full_idea_group = theocracy_gov_ideas
 			full_idea_group = horde_gov_ideas
 		}
-		full_idea_group = mercenary_ideas
 	}
 
 	global_trade_power = 0.25
@@ -2203,19 +2203,19 @@ A01_policy = {
 
 
 	potential = {
+		has_idea_group = mercenary_ideas
 		OR = {
 			has_idea_group = imperial_ambition_ideas
 			has_idea_group = imperialism_ideas
 		}
-		has_idea_group = mercenary_ideas
 	}
 	
 	allow = {
+		full_idea_group = mercenary_ideas
 		OR = {
 			full_idea_group = imperial_ambition_ideas
 			full_idea_group = imperialism_ideas
 		}
-		full_idea_group = mercenary_ideas
 	}
 
 	improve_relation_modifier = 0.3
@@ -2826,19 +2826,19 @@ A0C = {
 
 
 	potential = {
+		has_idea_group = defensive_ideas
 		OR = {
 			has_idea_group = imperial_ambition_ideas
 			has_idea_group = imperialism_ideas
 		}
-		has_idea_group = defensive_ideas
 	}
 	
 	allow = {
+		full_idea_group = defensive_ideas
 		OR = {
 			full_idea_group = imperial_ambition_ideas
 			full_idea_group = imperialism_ideas
 		}
-		full_idea_group = defensive_ideas
 	}
 
 	global_trade_goods_size_modifier = 0.05
@@ -2944,19 +2944,19 @@ A0C = {
 
 
 	potential = {
+		has_idea_group = militarism_ideas
 		OR = {
 			has_idea_group = imperial_ambition_ideas
 			has_idea_group = imperialism_ideas
 		}
-		has_idea_group = militarism_ideas
 	}
 	
 	allow = {
+		full_idea_group = militarism_ideas
 		OR = {
 			full_idea_group = imperial_ambition_ideas
 			full_idea_group = imperialism_ideas
 		}
-		full_idea_group = militarism_ideas
 	}
 
 	drill_gain_modifier = 0.50
@@ -3090,19 +3090,19 @@ A0C = {
 
 
 	potential = {
+		has_idea_group = quality_ideas
 		OR = {
 			has_idea_group = imperial_ambition_ideas
 			has_idea_group = imperialism_ideas
 		}
-		has_idea_group = quality_ideas
 	}
 	
 	allow = {
+		full_idea_group = quality_ideas
 		OR = {
 			full_idea_group = imperial_ambition_ideas
 			full_idea_group = imperialism_ideas
 		}
-		full_idea_group = quality_ideas
 	}
 
 	reinforce_speed = 0.2
@@ -3179,23 +3179,23 @@ B09_policy = {
 
 
 	potential = {
+		has_idea_group = standing_army_ideas
 		OR = {
 			has_idea_group = monarchy_ideas
 			has_idea_group = plutocracy_ideas
 			has_idea_group = theocracy_gov_ideas
 			has_idea_group = horde_gov_ideas
 		}
-		has_idea_group = standing_army_ideas
 	}
 	
 	allow = {
+		full_idea_group = standing_army_ideas
 		OR = {
 			full_idea_group = monarchy_ideas
 			full_idea_group = plutocracy_ideas
 			full_idea_group = theocracy_gov_ideas
 			full_idea_group = horde_gov_ideas
 		}
-		full_idea_group = standing_army_ideas
 	}
 
 	army_tradition_from_battle = 0.5
@@ -3410,23 +3410,23 @@ B06_policy = {
 
 
 	potential = {
+		has_idea_group = militarism_ideas
 		OR = {
 			has_idea_group = monarchy_ideas
 			has_idea_group = plutocracy_ideas
 			has_idea_group = theocracy_gov_ideas
 			has_idea_group = horde_gov_ideas
 		}
-		has_idea_group = militarism_ideas
 	}
 	
 	allow = {
+		full_idea_group = militarism_ideas
 		OR = {
 			has_idea_group = monarchy_ideas
 			has_idea_group = plutocracy_ideas
 			has_idea_group = theocracy_gov_ideas
 			has_idea_group = horde_gov_ideas
 		}
-		full_idea_group = militarism_ideas
 	}
 
 	all_estate_influence_modifier = 0.1
