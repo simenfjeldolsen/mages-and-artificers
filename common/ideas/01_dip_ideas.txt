@@ -153,18 +153,10 @@ spy_ideas = {
 	}
 
 	ai_will_do = {
-		factor = 1
-		modifier = {
-			factor = 1.1
-			personality = ai_militarist 
-		}
+		factor = 0.5
 		modifier = {
 			factor = 0.45
 			NOT = { monthly_dip = 7 }
-		}
-		modifier = {
-			factor = 1.25
-			has_idea_group = aristocracy_ideas
 		}
 	}
 }
@@ -311,7 +303,7 @@ exploration_ideas = {
 	}
 
 	ai_will_do = {
-		factor = 1
+		factor = 0.75
 		modifier = {
 			factor = 0
 			is_colonial_nation = yes
@@ -330,16 +322,16 @@ exploration_ideas = {
 		}
 		modifier = {
 			factor = 0
-			current_age = age_of_revolutions #too late
+			OR = {
+				current_age = age_of_absolutism #too late
+				current_age = age_of_revolutions
+			}
 		}
 		modifier = {
 			factor = 0
 			NOT = {
 				any_owned_province = {
 					has_port = yes
-					sea_zone = {
-						NOT = { area = eastern_mediterrenean_area }
-					}
 				}
 			}
 			NOT = { 
@@ -349,29 +341,7 @@ exploration_ideas = {
 				} 
 			}
 		}
-		modifier = {
-			factor = 0.5
-			NOT = {
-				any_owned_province = {
-					has_port = yes
-					sea_zone = {
-						OR = {
-							NOT = { region = mediterrenean_region }
-							province_id = 1293 #Gibraltar
-							province_id = 1294 #Almeria
-						}
-						NOT = { area = red_sea_area }
-						NOT = { area = baltic_area }
-					}
-				}
-			}
-			NOT = { 
-				any_owned_province = { 
-					is_in_capital_area = yes
-					has_empty_adjacent_province = yes
-				} 
-			}
-		}
+		#Anbennar - Totally redid this factor
 		modifier = {
 			factor = 0.1
 			NOT = { num_of_ports = 3 }
@@ -383,39 +353,45 @@ exploration_ideas = {
 			}
 		}
 		modifier = {
-			factor = 0.1
+			factor = 0.01
 			NOT = { has_institution = renaissance }
-			NOT = { tag = POR }
-			NOT = { tag = CAS }
+			NOT = { tag = A01 }
+			NOT = { tag = A02 }
+			NOT = { tag = A09 }
+			NOT = { tag = A21 }
 		}
 		modifier = {
 			factor = 0.1
 			capital_scope = {
 				NOT = {
-					region = france_region
-					region = iberia_region
-					region = british_isles_region
-					region = low_countries_region
+					OR = {
+						region = lencenor_region
+						region = dragon_coast_region
+						region = dalr_region
+						region = west_dameshead_region
+						region = east_dameshead_region
+						region = businor_region
+						region = akasik_region
+					}
 				}
 			}
-			NOT = { technology_group = high_american }
 		}
 		modifier = {
 			factor = 0.5
-			tag = ARA
+			culture_group = kobold
 		}
 		modifier = {
 			factor = 0.1
 			NOT = { is_year = 1490 }
 			capital_scope = {
 				NOT = {
-					region = iberia_region
+					OR = {
+						region = lencenor_region
+						region = dragon_coast_region
+						region = akasik_region
+					}
 				}
 			}
-		}
-		modifier = {
-			factor = 10
-			technology_group = high_american
 		}
 		modifier = {
 			factor = 2.0
@@ -436,19 +412,27 @@ exploration_ideas = {
 		modifier = {
 			factor = 1000
 			OR = {
-				tag = POR
-				tag = CAS
-				tag = SPA
+				tag = A01 #Lorent
+				tag = A02 #Deranne
+				tag = A21 #Venail
 			}
 		}
 		modifier = {
-			factor = 2
+			factor = 3
 			OR = {
-				tag = GBR
-				tag = NED
-				tag = ENG
-				tag = FRA
-				tag = KUR
+				tag = A33 #Verne
+				tag = A11 #Pearlsedge
+				tag = A47 #Eborthil
+				tag = A29 #Busilar
+				tag = A09 #Sorncost (if they somehow survive)
+			}
+		}
+		modifier = {
+			factor = 1.5
+			OR = {
+				tag = A13 #Gawed (if they somehow get ports soon enough)
+				tag = A79 #Gnomish Hierarchy (if they somehow form)
+				tag = Z08 #Bjarnrik (if they somehow are successful)
 			}
 		}
 	}
