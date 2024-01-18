@@ -94,7 +94,7 @@ technology = { #Temples
 
 	# Temple
 	temple = yes
-	allowed_idea_groups
+	allowed_idea_groups = 1
 	
 }
 
@@ -486,7 +486,6 @@ technology = { #Rights of Man
 		industrialization = 0.5
 	}
 
-	allowed_idea_groups = 8
 	enlightened_despotism = yes
 	bureaucratic_despotism = yes
 }
