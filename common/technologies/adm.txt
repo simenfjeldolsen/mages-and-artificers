@@ -4,7 +4,8 @@ monarch_power = ADM
 ahead_of_time = {
 	production_efficiency = 0.2
 	yearly_corruption = -0.05
-	monthly_russian_modernization = 0.05
+	yearly_harmony = 0.1
+	# monthly_russian_modernization = 0.05
 }
 
 # Pre-era techs
@@ -27,6 +28,22 @@ technology = { #Tribal Government
 	native_ceremonial_fire_pit = yes
 
 	#effect = { } # When a country researches the technology
+
+	warcamp = yes
+	guild_hall = yes
+	quest_board = yes
+	foragers_camp = yes
+	pioneer_office = yes
+	mustering_field = yes
+	local_exchange = yes
+
+	#world_tree_lvl_1 = yes
+	#world_tree_lvl_2 = yes
+	#world_tree_lvl_3 = yes
+	#world_tree_root = yes
+	#world_tree_dead_root = yes
+	#destroyed_world_tree = yes
+	#destroying_root = yes
 }
 
 technology = { #Advanced Tribes
@@ -64,6 +81,8 @@ technology = { #Medieval Administration
 
 	production_efficiency	=	0.02
 	may_support_rebels = yes
+	
+	mage_tower = yes
 }
  
 technology = { #Temples
@@ -75,7 +94,7 @@ technology = { #Temples
 
 	# Temple
 	temple = yes
-	allowed_idea_groups = 1
+	allowed_idea_groups
 	
 }
 
@@ -398,7 +417,7 @@ technology = { #Improved Production
 	
 	#Improved Farm Animals
 	production_efficiency 	=	0.02
-	allowed_idea_groups = 115
+	allowed_idea_groups = 15
 }
 
 technology = { #Separation of Powers
@@ -414,7 +433,7 @@ technology = { #Separation of Powers
 		enlightenment = 0.5
 	}
 	
-	allowed_idea_groups 	= 	16
+	allowed_idea_groups = 16
 }
 
 technology = { #Modern Bureaucracy
@@ -467,6 +486,7 @@ technology = { #Rights of Man
 		industrialization = 0.5
 	}
 
+	allowed_idea_groups = 8
 	enlightened_despotism = yes
 	bureaucratic_despotism = yes
 }
