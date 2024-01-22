@@ -28,73 +28,8 @@ offensive_ideas = {
 		artillery_levels_available_vs_fort = 1
 	}
 
-	#shock_tactics = {
-	#	morale_damage = 0.1
-	#}
-	#
-	#melee_combat_training = {
-	#	shock_damage = 0.1
-	#}
-	#
-	#volley_fire = {
-	#	fire_damage = 0.1
-	#}
-	#
-	#fort_breaker = {
-	#	assault_fort_ability = 0.1
-	#	assault_fort_cost_modifier = -1
-	#}
-	#
-	#glory_on_the_battlefield = {
-	#	artillery_barrage_cost = -0.25
-	#	warscore_from_battles_modifier = 0.15
-	#}
-
 	ai_will_do = {
-		factor = 3.51
-		modifier = {
-			factor = 1.1
-			has_global_modifier_value = {
-				which = discipline 
-				value = 0.1
-			}
-		}
-		modifier = {
-			factor = 1.25
-			monthly_mil = 7 
-		}
-		modifier = {
-			factor = 1.05
-			is_great_power = yes 
-		}
-		modifier = {
-			factor = 1.25 
-			personality = ai_militarist
-		}
-		modifier = {
-			factor = 1.5
-			OR = {
-				num_of_artillery = 30
-				num_of_galley = 50
-				num_of_heavy_ship = 20
-			}
-		}
-		modifier = {
-			factor = 1.1 
-			national_focus = MIL 
-		}
-		modifier = {
-			factor = 1.15
-			OR = {
-				has_idea_group = economic_ideas 
-				has_idea_group = innovativeness_ideas 
-				has_idea_group = infrastructure_ideas
-			}
-		}
-		modifier = {
-			factor = 1.25
-			is_march = yes
-		}
+		factor = 0
 	}
 }
 
@@ -126,52 +61,10 @@ defensive_ideas = {
 	improved_foraging = {
 		hostile_attrition = 1
 	}
-
-	#until_the_last_man = {
-	#	morale_damage_received = -0.1
-	#}
-	#
-	#improved_body_armor = {
-	#	shock_damage_received = -0.1
-	#}
-	#
-	#terrain_defence = {
-	#	fire_damage_received = -0.1
-	#}
-	#
-	#homeland_specialization = {
-	#	attack_bonus_in_capital_terrain = yes
-	#}
-	#
-	#guerilla_warfare_defense = {
-	#	global_defender_dice_roll_bonus = 1
-	#}
-	#
-	#relentless_charge = {
-	#	global_attacker_dice_roll_bonus = 1
-	#}
-	#
-	#ditch_defense = {
-	#	garrison_damage = 0.5
-	#	garrison_size = 0.25
-	#}
 	
 	ai_will_do = {
 		factor = 2.5
-		modifier = {
-			factor = 1.1
-			has_global_modifier_value = {
-				which = land_morale  
-				value = 0.2
-			}
-		}
-		modifier = {
-			factor = 1.1
-			has_global_modifier_value = {
-				which = defensiveness  
-				value = 0.2
-			}
-		}
+
 		modifier = {
 			factor = 1.25
 			monthly_mil = 7 
@@ -181,21 +74,13 @@ defensive_ideas = {
 			personality = ai_militarist
 		}
 		modifier = {
-			factor = 1.25
-			current_age = age_of_discovery
-			num_of_owned_provinces_with = {
-				has_terrain = mountain
-				value = 5
-			}
-		}
-		modifier = {
-			factor = 1.05 
+			factor = 1.5
 			any_rival_country = {
 				army_size = ROOT 
 			}
 		}
 		modifier = {
-			factor = 1.25
+			factor = 2
 			is_march = yes
 		}
 	}
@@ -233,7 +118,7 @@ quality_ideas = {
 	}
 
 	ai_will_do = {
-		factor = 3.5
+		factor = 4
 		modifier = {
 			factor = 2
 			has_strong_mil_national_ideas = yes 
@@ -253,43 +138,6 @@ quality_ideas = {
 		modifier = { 
 			factor = 1.1
 			personality = ai_militarist  
-		}
-		modifier = {
-			factor = 1.05
-			OR = {
-				has_idea_group = infrastructure_ideas
-				has_idea_group = economic_ideas
-			}
-		}
-		modifier = { 
-			factor = 1.25
-			OR = { 
-				has_global_modifier_value = { 
-					which = infantry_power 
-					value = 0.2
-				}
-				has_global_modifier_value = { 
-					which = cavalry_power 
-					value = 0.25
-				}
-				has_global_modifier_value = { 
-					which = artillery_power 
-					value = 0.1
-				}
-				has_global_modifier_value = { 
-					which = heavy_ship_power 
-					value = 0.1
-				}
-				has_global_modifier_value = { 
-					which = galley_power 
-					value = 0.15
-				}
-				has_global_modifier_value = { 
-					which = army_tradition
-					value = 0.01
-				}
-			}
-			
 		}
 	}
 }
@@ -323,7 +171,7 @@ quantity_ideas = {
 	}
 
 	ai_will_do = {
-		factor = 3.5
+		factor = 4
 		modifier = {
 			factor = 2
 			has_strong_mil_national_ideas = yes 
@@ -344,25 +192,9 @@ quantity_ideas = {
 			factor = 1.1
 			personality = ai_militarist  
 		}
-		modifier = { 
-			factor = 1.25
-			OR = { 
-				has_global_modifier_value = { 
-					which = global_manpower_modifier 
-					value = 0.2
-				}
-				has_global_modifier_value = { 
-					which = land_forcelimit_modifier 
-					value = 0.15
-				}
-			}
-		}
 		modifier = {
-			factor = 1.05
-			OR = {
-				has_idea_group = trade_ideas
-				has_idea_group = economic_ideas
-			}
+			factor = 1.25
+			trade_income_percentage = 0.30
 		}
 	}
 }
@@ -401,7 +233,7 @@ leadership_ideas = {
 	
 
 	ai_will_do = {
-		factor = 2
+		factor = 4
 		
 		modifier = {
 			factor = 0.5
@@ -487,7 +319,7 @@ logistics_ideas = {
 	
 
 	ai_will_do = {
-		factor = 2
+		factor = 4
 		
 		modifier = {
 			factor = 0.5
@@ -573,7 +405,7 @@ standing_army_ideas = {
 	
 
 	ai_will_do = {
-		factor = 2
+		factor = 4
 		
 		modifier = {
 			factor = 0.5
@@ -582,6 +414,10 @@ standing_army_ideas = {
 		modifier = {
 			factor = 1.1
 			personality = ai_militarist 
+		}
+		modifier = {
+			factor = 2
+			has_country_modifier = hobgoblin_military
 		}
 	}
 }
@@ -624,7 +460,7 @@ conscription_ideas = {
 	
 
 	ai_will_do = {
-		factor = 2
+		factor = 4
 		
 		modifier = {
 			factor = 0.5
@@ -676,7 +512,7 @@ shock_focus_ideas = {
 	
 
 	ai_will_do = {
-		factor = 2
+		factor = 4
 		
 		modifier = {
 			factor = 0.5
@@ -685,6 +521,29 @@ shock_focus_ideas = {
 		modifier = {
 			factor = 1.1
 			personality = ai_militarist 
+		}
+		modifier = {
+			factor = 0
+			is_year = 1600
+		}
+		modifier = {
+			factor = 5
+			OR = {
+				has_reform = centaur_horde
+				has_reform = steppe_horde
+			}
+		}
+		modifier = {
+			factor = 2
+			OR = {
+				has_country_modifier = gnollish_military
+				has_country_modifier = orcish_military
+				has_country_modifier = troll_military
+				has_country_modifier = ogre_military
+				has_country_modifier = centaur_military
+				has_country_modifier = harpy_military
+				has_country_modifier = harimari_military
+			}
 		}
 	}
 }
@@ -726,7 +585,7 @@ fire_focus_ideas = {
 	
 
 	ai_will_do = {
-		factor = 2
+		factor = 4
 		
 		modifier = {
 			factor = 0.5
@@ -735,6 +594,25 @@ fire_focus_ideas = {
 		modifier = {
 			factor = 1.1
 			personality = ai_militarist 
+		}
+		modifier = {
+			factor = 0
+			NOT = {
+				is_year = 1550
+			}
+		}
+		modifier = {
+			factor = 2
+			is_year = 1600
+		}
+		modifier = {
+			factor = 2
+			OR = {
+				has_country_modifier = gnomish_military
+				has_country_modifier = goblin_military
+				has_country_modifier = kobold_military
+				has_country_modifier = dwarven_military
+			}
 		}
 	}
 }
