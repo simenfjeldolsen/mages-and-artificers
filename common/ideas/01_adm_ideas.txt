@@ -746,24 +746,13 @@ monarchy_ideas = {
 	ai_will_do = {
 		factor = 3.75
 		
-		modifier = {
-			factor = 1.25
-			trade_income_percentage = 0.4
+		modifier = { 
+			factor = 0.75
+			NOT = { monthly_adm = 8 }
 		}
-		modifier = {
-			factor = 1.25
-			production_income_percentage = 0.35
-		}
-		modifier = {
-			factor = 0.5
-			NOT = { monthly_mil = 7 }
-		}
-		modifier = {
-			factor = 1.1
-			OR = {
-				personality = ai_capitalist
-				personality = ai_militarist 
-			}
+		modifier = { 
+			factor = 1.05
+			national_focus = ADM 
 		}
 	}
 }
@@ -814,10 +803,7 @@ plutocracy_ideas = {
 		}
 		modifier = {
 			factor = 1.1
-			OR = {
-				personality = ai_capitalist
-				personality = ai_militarist 
-			}
+			personality = ai_capitalist
 		}
 	}
 }
