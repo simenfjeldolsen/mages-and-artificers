@@ -444,8 +444,6 @@ trade_ideas = {
 	bonus = {
 		merchants = 1
 		burghers_loyalty_modifier = 0.1
-		jains_loyalty_modifier = 0.1
-		vaisyas_loyalty_modifier = 0.1
 	}
 
 	shrewd_commerce_practise = {

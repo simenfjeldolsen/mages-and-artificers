@@ -3,7 +3,6 @@ offensive_ideas = {
 
 	bonus = {
 		recover_army_morale_speed = 0.1
-		qizilbash_loyalty_modifier = 0.1
 	}
 
 	bayonet_leaders = {
@@ -91,8 +90,6 @@ quality_ideas = {
 
 	bonus = {
 		discipline = 0.025
-		janissaries_loyalty_modifier = 0.1
-		ghulams_loyalty_modifier = 0.1
 	}
 
 	private_to_marshal = {
@@ -205,8 +202,8 @@ leadership_ideas = {
 	bonus = {
 		general_cost = -0.25
 		nobles_loyalty_modifier = 0.1
-		rajput_loyalty_modifier = 0.1
-		maratha_loyalty_modifier = 0.1
+		# ANBENNAR
+		uppercastes_loyalty_modifier = 0.05 #half because Aristo/Divine/Religious also gives 5%
 	}
 	
 	noble_knights = {

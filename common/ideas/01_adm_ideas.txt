@@ -62,7 +62,7 @@ innovativeness_ideas = {
 
 	bonus = {
 		advisor_cost = -0.1
-		artificers_loyalty_modifier = 0.1
+		artificers_loyalty_modifier = 0.1	#Anbennar
 	}
 
 	patron_of_art  = {
@@ -460,8 +460,8 @@ humanist_ideas = {
 	bonus = {
 		harmonization_speed = 0.25
 		yearly_harmony = 0.25  # Used if religion uses harmony (confucianism)
-		brahmins_muslim_loyalty_modifier = 0.1
-		dhimmi_loyalty_modifier = 0.1
+		# ANBENNAR
+		lowercastes_loyalty_modifier = 0.1
 	}
 
 	local_traditions = {
@@ -524,8 +524,9 @@ religious_ideas = {
 
 	bonus = {
 		manpower_in_true_faith_provinces = 0.15
-		brahmins_hindu_loyalty_modifier = 0.1
 		church_loyalty_modifier = 0.1
+		# ANBENNAR
+		uppercastes_loyalty_modifier = 0.05 #half because Aristo/Divine/Religious also gives 5%
 	}
 
 	deus_vult = {
@@ -597,7 +598,7 @@ centralisation_ideas = {
 
 	bonus = {
 		development_cost_modifier = -0.1
-		patricians_loyalty_modifier = 0.1
+		castonath_patricians_loyalty_modifier = 0.1
 	}
 	trigger = {
 		NOT = {
@@ -773,7 +774,9 @@ plutocracy_ideas = {
 	bonus = {
 		land_morale = 0.05
 		burghers_loyalty_modifier = 0.1
-		vaisyas_loyalty_modifier = 0.1
+		castonath_patricians_loyalty_modifier = 0.1
+		middlecastes_loyalty_modifier = 0.1
+
 	}
 
 	trigger = {
@@ -825,8 +828,8 @@ theocracy_gov_ideas = {
 	bonus = {
 		discipline = 0.05
 		church_loyalty_modifier = 0.1
-		brahmins_hindu_loyalty_modifier = 0.1
-		brahmins_muslim_loyalty_modifier = 0.1
+		# ANBENNAR
+		uppercastes_loyalty_modifier = 0.05 #half because Aristo/Divine/Religious also gives 5%
 	}
 	
 	trigger = {
