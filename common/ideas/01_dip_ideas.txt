@@ -208,7 +208,7 @@ imperial_ambition_ideas = {
 	}
 }
 
-imperialism_ideas = {
+diplomatic_ideas = {
 	category = DIP
 
 	bonus = {
@@ -604,7 +604,7 @@ maritime_ideas = {
 	}
 }
 
-high_seas_ideas = {
+naval_ideas = {
 	category = DIP
 
 	trigger = {
@@ -683,7 +683,7 @@ home_waters_ideas = {
 	trigger = {
 		primitives = no
 		NOT = {
-			has_idea_group = high_seas_ideas
+			has_idea_group = naval_ideas
 		}
 	}
 

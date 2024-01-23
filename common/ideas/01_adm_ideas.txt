@@ -1,4 +1,4 @@
-state_administration_ideas = {
+administrative_ideas = {
 	category = ADM
 
 	bonus = {
@@ -708,7 +708,7 @@ decentralisation_ideas = {
 	}
 }
 
-monarchy_ideas = {
+aristocracy_ideas = {
 	category = ADM
 
 	bonus = {

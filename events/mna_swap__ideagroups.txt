@@ -13,7 +13,7 @@ country_event = {
 	
 	trigger = {
         NOT = { has_government_attribute = enables_aristocratic_idea_group }
-		has_idea_group = monarchy_ideas
+		has_idea_group = aristocracy_ideas
 	}
 		
 	
@@ -22,10 +22,10 @@ country_event = {
 		if = {
             limit = {
                 has_government_attribute = enables_plutocratic_idea_group
-                has_idea_group = monarchy_ideas
+                has_idea_group = aristocracy_ideas
                 NOT = { has_idea = monarchy_1 }
             }
-            remove_idea_group = monarchy_ideas
+            remove_idea_group = aristocracy_ideas
             add_idea_group = plutocracy_ideas
 		}
 		
@@ -35,7 +35,7 @@ country_event = {
                 has_idea = monarchy_1
                 NOT = { has_idea = monarchy_2 }
             }
-            remove_idea_group = monarchy_ideas
+            remove_idea_group = aristocracy_ideas
             add_idea_group = plutocracy_ideas
             add_idea = plutocracy_1
 		}
@@ -46,7 +46,7 @@ country_event = {
                 has_idea = monarchy_2
                 NOT = { has_idea = monarchy_3 }
             }
-            remove_idea_group = monarchy_ideas
+            remove_idea_group = aristocracy_ideas
             add_idea_group = plutocracy_ideas
             add_idea = plutocracy_1
             add_idea = plutocracy_2
@@ -58,7 +58,7 @@ country_event = {
                 has_idea = monarchy_3
                 NOT = { has_idea = monarchy_4 }
             }
-            remove_idea_group = monarchy_ideas
+            remove_idea_group = aristocracy_ideas
             add_idea_group = plutocracy_ideas
             add_idea = plutocracy_1
             add_idea = plutocracy_2
@@ -71,7 +71,7 @@ country_event = {
                 has_idea = monarchy_4
                 NOT = { has_idea = monarchy_5 }
             }
-            remove_idea_group = monarchy_ideas
+            remove_idea_group = aristocracy_ideas
             add_idea_group = plutocracy_ideas
             add_idea = plutocracy_1
             add_idea = plutocracy_2
@@ -85,7 +85,7 @@ country_event = {
                 has_idea = monarchy_5
                 NOT = { has_idea = monarchy_6 }
             }
-            remove_idea_group = monarchy_ideas
+            remove_idea_group = aristocracy_ideas
             add_idea_group = plutocracy_ideas
             add_idea = plutocracy_1
             add_idea = plutocracy_2
@@ -100,7 +100,7 @@ country_event = {
                 has_idea = monarchy_6
                 NOT = { has_idea = monarchy_7 }
             }
-            remove_idea_group = monarchy_ideas
+            remove_idea_group = aristocracy_ideas
             add_idea_group = plutocracy_ideas
             add_idea = plutocracy_1
             add_idea = plutocracy_2
@@ -115,7 +115,7 @@ country_event = {
                 has_government_attribute = enables_plutocratic_idea_group
                 has_idea = monarchy_7
             }
-            remove_idea_group = monarchy_ideas
+            remove_idea_group = aristocracy_ideas
             add_idea_group = plutocracy_ideas
             add_idea = plutocracy_1
             add_idea = plutocracy_2
@@ -130,10 +130,10 @@ country_event = {
 		if = {
             limit = {
                 has_government_attribute = enables_divine_idea_group
-                has_idea_group = monarchy_ideas
+                has_idea_group = aristocracy_ideas
                 NOT = { has_idea = monarchy_1 }
             }
-            remove_idea_group = monarchy_ideas
+            remove_idea_group = aristocracy_ideas
             add_idea_group = theocracy_gov_ideas
 		}
 		
@@ -143,7 +143,7 @@ country_event = {
                 has_idea = monarchy_1
                 NOT = { has_idea = monarchy_2 }
             }
-            remove_idea_group = monarchy_ideas
+            remove_idea_group = aristocracy_ideas
             add_idea_group = theocracy_gov_ideas
             add_idea = theocracy_1
 		}
@@ -154,7 +154,7 @@ country_event = {
                 has_idea = monarchy_2
                 NOT = { has_idea = monarchy_3 }
             }
-            remove_idea_group = monarchy_ideas
+            remove_idea_group = aristocracy_ideas
             add_idea_group = theocracy_gov_ideas
             add_idea = theocracy_1
             add_idea = theocracy_2
@@ -166,7 +166,7 @@ country_event = {
                 has_idea = monarchy_3
                 NOT = { has_idea = monarchy_4 }
             }
-            remove_idea_group = monarchy_ideas
+            remove_idea_group = aristocracy_ideas
             add_idea_group = theocracy_gov_ideas
             add_idea = theocracy_1
             add_idea = theocracy_2
@@ -179,7 +179,7 @@ country_event = {
                 has_idea = monarchy_4
                 NOT = { has_idea = monarchy_5 }
             }
-            remove_idea_group = monarchy_ideas
+            remove_idea_group = aristocracy_ideas
             add_idea_group = theocracy_gov_ideas
             add_idea = theocracy_1
             add_idea = theocracy_2
@@ -193,7 +193,7 @@ country_event = {
                 has_idea = monarchy_5
                 NOT = { has_idea = monarchy_6 }
             }
-            remove_idea_group = monarchy_ideas
+            remove_idea_group = aristocracy_ideas
             add_idea_group = theocracy_gov_ideas
             add_idea = theocracy_1
             add_idea = theocracy_2
@@ -208,7 +208,7 @@ country_event = {
                 has_idea = monarchy_6
                 NOT = { has_idea = monarchy_7 }
             }
-            remove_idea_group = monarchy_ideas
+            remove_idea_group = aristocracy_ideas
             add_idea_group = theocracy_gov_ideas
             add_idea = theocracy_1
             add_idea = theocracy_2
@@ -223,7 +223,7 @@ country_event = {
                 has_government_attribute = enables_divine_idea_group
                 has_idea = monarchy_7
             }
-            remove_idea_group = monarchy_ideas
+            remove_idea_group = aristocracy_ideas
             add_idea_group = theocracy_gov_ideas
             add_idea = theocracy_1
             add_idea = theocracy_2
@@ -238,10 +238,10 @@ country_event = {
 		if = {
             limit = {
                 has_government_attribute = enables_horde_idea_group
-                has_idea_group = monarchy_ideas
+                has_idea_group = aristocracy_ideas
                 NOT = { has_idea = monarchy_1 }
             }
-            remove_idea_group = monarchy_ideas
+            remove_idea_group = aristocracy_ideas
             add_idea_group = horde_gov_ideas
 		}
 		
@@ -251,7 +251,7 @@ country_event = {
                 has_idea = monarchy_1
                 NOT = { has_idea = monarchy_2 }
             }
-            remove_idea_group = monarchy_ideas
+            remove_idea_group = aristocracy_ideas
             add_idea_group = horde_gov_ideas
             add_idea = horde_1
 		}
@@ -262,7 +262,7 @@ country_event = {
                 has_idea = monarchy_2
                 NOT = { has_idea = monarchy_3 }
             }
-            remove_idea_group = monarchy_ideas
+            remove_idea_group = aristocracy_ideas
             add_idea_group = horde_gov_ideas
             add_idea = horde_1
             add_idea = horde_2
@@ -274,7 +274,7 @@ country_event = {
                 has_idea = monarchy_3
                 NOT = { has_idea = monarchy_4 }
             }
-            remove_idea_group = monarchy_ideas
+            remove_idea_group = aristocracy_ideas
             add_idea_group = horde_gov_ideas
             add_idea = horde_1
             add_idea = horde_2
@@ -287,7 +287,7 @@ country_event = {
                 has_idea = monarchy_4
                 NOT = { has_idea = monarchy_5 }
             }
-            remove_idea_group = monarchy_ideas
+            remove_idea_group = aristocracy_ideas
             add_idea_group = horde_gov_ideas
             add_idea = horde_1
             add_idea = horde_2
@@ -301,7 +301,7 @@ country_event = {
                 has_idea = monarchy_5
                 NOT = { has_idea = monarchy_6 }
             }
-            remove_idea_group = monarchy_ideas
+            remove_idea_group = aristocracy_ideas
             add_idea_group = horde_gov_ideas
             add_idea = horde_1
             add_idea = horde_2
@@ -316,7 +316,7 @@ country_event = {
                 has_idea = monarchy_6
                 NOT = { has_idea = monarchy_7 }
             }
-            remove_idea_group = monarchy_ideas
+            remove_idea_group = aristocracy_ideas
             add_idea_group = horde_gov_ideas
             add_idea = horde_1
             add_idea = horde_2
@@ -331,7 +331,7 @@ country_event = {
                 has_government_attribute = enables_horde_idea_group
                 has_idea = monarchy_7
             }
-            remove_idea_group = monarchy_ideas
+            remove_idea_group = aristocracy_ideas
             add_idea_group = horde_gov_ideas
             add_idea = horde_1
             add_idea = horde_2
@@ -380,7 +380,7 @@ country_event = {
                 NOT = { has_idea = plutocracy_1 }
             }
             remove_idea_group = plutocracy_ideas
-            add_idea_group = monarchy_ideas
+            add_idea_group = aristocracy_ideas
 		}
 		
 		if = {
@@ -390,7 +390,7 @@ country_event = {
                 NOT = { has_idea = plutocracy_2 }
             }
             remove_idea_group = plutocracy_ideas
-            add_idea_group = monarchy_ideas
+            add_idea_group = aristocracy_ideas
             add_idea = monarchy_1
 		}
 
@@ -401,7 +401,7 @@ country_event = {
                 NOT = { has_idea = plutocracy_3 }
             }
             remove_idea_group = plutocracy_ideas
-            add_idea_group = monarchy_ideas
+            add_idea_group = aristocracy_ideas
             add_idea = monarchy_1
             add_idea = monarchy_2
 		}
@@ -413,7 +413,7 @@ country_event = {
                 NOT = { has_idea = plutocracy_4 }
             }
             remove_idea_group = plutocracy_ideas
-            add_idea_group = monarchy_ideas
+            add_idea_group = aristocracy_ideas
             add_idea = monarchy_1
             add_idea = monarchy_2
             add_idea = monarchy_3
@@ -426,7 +426,7 @@ country_event = {
                 NOT = { has_idea = plutocracy_5 }
             }
             remove_idea_group = plutocracy_ideas
-            add_idea_group = monarchy_ideas
+            add_idea_group = aristocracy_ideas
             add_idea = monarchy_1
             add_idea = monarchy_2
             add_idea = monarchy_3
@@ -440,7 +440,7 @@ country_event = {
                 NOT = { has_idea = plutocracy_6 }
             }
             remove_idea_group = plutocracy_ideas
-            add_idea_group = monarchy_ideas
+            add_idea_group = aristocracy_ideas
             add_idea = monarchy_1
             add_idea = monarchy_2
             add_idea = monarchy_3
@@ -455,7 +455,7 @@ country_event = {
                 NOT = { has_idea = plutocracy_7 }
             }
             remove_idea_group = plutocracy_ideas
-            add_idea_group = monarchy_ideas
+            add_idea_group = aristocracy_ideas
             add_idea = monarchy_1
             add_idea = monarchy_2
             add_idea = monarchy_3
@@ -470,7 +470,7 @@ country_event = {
                 has_idea = plutocracy_7
             }
             remove_idea_group = plutocracy_ideas
-            add_idea_group = monarchy_ideas
+            add_idea_group = aristocracy_ideas
             add_idea = monarchy_1
             add_idea = monarchy_2
             add_idea = monarchy_3
@@ -841,7 +841,7 @@ country_event = {
                 NOT = { has_idea = theocracy_1 }
             }
             remove_idea_group = theocracy_gov_ideas
-            add_idea_group = monarchy_ideas
+            add_idea_group = aristocracy_ideas
 		}
 		
 		if = {
@@ -851,7 +851,7 @@ country_event = {
                 NOT = { has_idea = theocracy_2 }
             }
             remove_idea_group = theocracy_gov_ideas
-            add_idea_group = monarchy_ideas
+            add_idea_group = aristocracy_ideas
             add_idea = monarchy_1
 		}
 
@@ -862,7 +862,7 @@ country_event = {
                 NOT = { has_idea = theocracy_3 }
             }
             remove_idea_group = theocracy_gov_ideas
-            add_idea_group = monarchy_ideas
+            add_idea_group = aristocracy_ideas
             add_idea = monarchy_1
             add_idea = monarchy_2
 		}
@@ -874,7 +874,7 @@ country_event = {
                 NOT = { has_idea = theocracy_4 }
             }
             remove_idea_group = theocracy_gov_ideas
-            add_idea_group = monarchy_ideas
+            add_idea_group = aristocracy_ideas
             add_idea = monarchy_1
             add_idea = monarchy_2
             add_idea = monarchy_3
@@ -887,7 +887,7 @@ country_event = {
                 NOT = { has_idea = theocracy_5 }
             }
             remove_idea_group = theocracy_gov_ideas
-            add_idea_group = monarchy_ideas
+            add_idea_group = aristocracy_ideas
             add_idea = monarchy_1
             add_idea = monarchy_2
             add_idea = monarchy_3
@@ -901,7 +901,7 @@ country_event = {
                 NOT = { has_idea = theocracy_6 }
             }
             remove_idea_group = theocracy_gov_ideas
-            add_idea_group = monarchy_ideas
+            add_idea_group = aristocracy_ideas
             add_idea = monarchy_1
             add_idea = monarchy_2
             add_idea = monarchy_3
@@ -916,7 +916,7 @@ country_event = {
                 NOT = { has_idea = theocracy_7 }
             }
             remove_idea_group = theocracy_gov_ideas
-            add_idea_group = monarchy_ideas
+            add_idea_group = aristocracy_ideas
             add_idea = monarchy_1
             add_idea = monarchy_2
             add_idea = monarchy_3
@@ -931,7 +931,7 @@ country_event = {
                 has_idea = theocracy_7
             }
             remove_idea_group = theocracy_gov_ideas
-            add_idea_group = monarchy_ideas
+            add_idea_group = aristocracy_ideas
             add_idea = monarchy_1
             add_idea = monarchy_2
             add_idea = monarchy_3
@@ -1304,7 +1304,7 @@ country_event = {
                 NOT = { has_idea = horde_1 }
             }
             remove_idea_group = horde_gov_ideas
-            add_idea_group = monarchy_ideas
+            add_idea_group = aristocracy_ideas
 		}
 		
 		if = {
@@ -1314,7 +1314,7 @@ country_event = {
                 NOT = { has_idea = horde_2 }
             }
             remove_idea_group = horde_gov_ideas
-            add_idea_group = monarchy_ideas
+            add_idea_group = aristocracy_ideas
             add_idea = monarchy_1
 		}
 
@@ -1325,7 +1325,7 @@ country_event = {
                 NOT = { has_idea = horde_3 }
             }
             remove_idea_group = horde_gov_ideas
-            add_idea_group = monarchy_ideas
+            add_idea_group = aristocracy_ideas
             add_idea = monarchy_1
             add_idea = monarchy_2
 		}
@@ -1337,7 +1337,7 @@ country_event = {
                 NOT = { has_idea = horde_4 }
             }
             remove_idea_group = horde_gov_ideas
-            add_idea_group = monarchy_ideas
+            add_idea_group = aristocracy_ideas
             add_idea = monarchy_1
             add_idea = monarchy_2
             add_idea = monarchy_3
@@ -1350,7 +1350,7 @@ country_event = {
                 NOT = { has_idea = horde_5 }
             }
             remove_idea_group = horde_gov_ideas
-            add_idea_group = monarchy_ideas
+            add_idea_group = aristocracy_ideas
             add_idea = monarchy_1
             add_idea = monarchy_2
             add_idea = monarchy_3
@@ -1364,7 +1364,7 @@ country_event = {
                 NOT = { has_idea = horde_6 }
             }
             remove_idea_group = horde_gov_ideas
-            add_idea_group = monarchy_ideas
+            add_idea_group = aristocracy_ideas
             add_idea = monarchy_1
             add_idea = monarchy_2
             add_idea = monarchy_3
@@ -1379,7 +1379,7 @@ country_event = {
                 NOT = { has_idea = horde_7 }
             }
             remove_idea_group = horde_gov_ideas
-            add_idea_group = monarchy_ideas
+            add_idea_group = aristocracy_ideas
             add_idea = monarchy_1
             add_idea = monarchy_2
             add_idea = monarchy_3
@@ -1394,7 +1394,7 @@ country_event = {
                 has_idea = horde_7
             }
             remove_idea_group = horde_gov_ideas
-            add_idea_group = monarchy_ideas
+            add_idea_group = aristocracy_ideas
             add_idea = monarchy_1
             add_idea = monarchy_2
             add_idea = monarchy_3
@@ -1415,7 +1415,7 @@ country_event = {
 	}
 }
 
-# imperial_ambition_ideas > imperialism_ideas
+# imperial_ambition_ideas > diplomatic_ideas
 country_event = { 
 
 	id = mna_swap_ideagroups.5
@@ -1442,7 +1442,7 @@ country_event = {
 				NOT = { has_idea = imperial_ambition_1 }
 			}
 			remove_idea_group = imperial_ambition_ideas
-			add_idea_group = imperialism_ideas
+			add_idea_group = diplomatic_ideas
 		}
 		
 		
@@ -1452,7 +1452,7 @@ country_event = {
 				NOT = { has_idea = imperial_ambition_2 }
 			}
 			remove_idea_group = imperial_ambition_ideas
-			add_idea_group = imperialism_ideas
+			add_idea_group = diplomatic_ideas
 			add_idea = imperialism_1
 		}
 		
@@ -1462,7 +1462,7 @@ country_event = {
 				NOT = { has_idea = imperial_ambition_3}
 			}
 			remove_idea_group = imperial_ambition_ideas
-			add_idea_group = imperialism_ideas
+			add_idea_group = diplomatic_ideas
 			add_idea = imperialism_1
 			add_idea = imperialism_2
 		}
@@ -1473,7 +1473,7 @@ country_event = {
 				NOT = { has_idea = imperial_ambition_4 }
 			}
 			remove_idea_group = imperial_ambition_ideas
-			add_idea_group = imperialism_ideas
+			add_idea_group = diplomatic_ideas
 			add_idea = imperialism_1
 			add_idea = imperialism_2
 			add_idea = imperialism_3
@@ -1485,7 +1485,7 @@ country_event = {
 				NOT = { has_idea = imperial_ambition_5 }
 			}
 			remove_idea_group = imperial_ambition_ideas
-			add_idea_group = imperialism_ideas
+			add_idea_group = diplomatic_ideas
 			add_idea = imperialism_1
 			add_idea = imperialism_2
 			add_idea = imperialism_3
@@ -1498,7 +1498,7 @@ country_event = {
 				NOT = { has_idea = imperial_ambition_6 }
 			}
 			remove_idea_group = imperial_ambition_ideas
-			add_idea_group = imperialism_ideas
+			add_idea_group = diplomatic_ideas
 			add_idea = imperialism_1
 			add_idea = imperialism_2
 			add_idea = imperialism_3
@@ -1512,7 +1512,7 @@ country_event = {
 				NOT = { has_idea = imperial_ambition_7 }
 			}
 			remove_idea_group = imperial_ambition_ideas
-			add_idea_group = imperialism_ideas
+			add_idea_group = diplomatic_ideas
 			add_idea = imperialism_1
 			add_idea = imperialism_2
 			add_idea = imperialism_3
@@ -1526,7 +1526,7 @@ country_event = {
 				has_idea = imperial_ambition_7
 			}
 			remove_idea_group = imperial_ambition_ideas
-			add_idea_group = imperialism_ideas
+			add_idea_group = diplomatic_ideas
 			add_idea = imperialism_1
 			add_idea = imperialism_2
 			add_idea = imperialism_3
@@ -1547,7 +1547,7 @@ country_event = {
 	}
 }
 
-#imperialism_ideas Power > imperial_ambition_ideas
+#diplomatic_ideas Power > imperial_ambition_ideas
 country_event = { 
 
 	id = mna_swap_ideagroups.6
@@ -1559,7 +1559,7 @@ country_event = {
 	hidden = yes
 	
 	trigger = {
-		has_idea_group = imperialism_ideas
+		has_idea_group = diplomatic_ideas
 		NOT = {
              OR = {
                 government_rank = 3 
@@ -1572,10 +1572,10 @@ country_event = {
 	immediate = {
 		if = {
 			limit = {
-				has_idea_group = imperialism_ideas
+				has_idea_group = diplomatic_ideas
 				NOT = { has_idea = imperialism_1 }
 			}
-			remove_idea_group = imperialism_ideas
+			remove_idea_group = diplomatic_ideas
 			add_idea_group = imperial_ambition_ideas
 		}
 		
@@ -1585,7 +1585,7 @@ country_event = {
 				has_idea = imperialism_1
 				NOT = { has_idea = imperialism_2 }
 			}
-			remove_idea_group = imperialism_ideas
+			remove_idea_group = diplomatic_ideas
 			add_idea_group = imperial_ambition_ideas
 			add_idea = imperial_ambition_1
 		}
@@ -1595,7 +1595,7 @@ country_event = {
 				has_idea = imperialism_2
 				NOT = { has_idea = imperialism_3}
 			}
-			remove_idea_group = imperialism_ideas
+			remove_idea_group = diplomatic_ideas
 			add_idea_group = imperial_ambition_ideas
 			add_idea = imperial_ambition_1
 			add_idea = imperial_ambition_2
@@ -1606,7 +1606,7 @@ country_event = {
 				has_idea = imperialism_3
 				NOT = { has_idea = imperialism_4 }
 			}
-			remove_idea_group = imperialism_ideas
+			remove_idea_group = diplomatic_ideas
 			add_idea_group = imperial_ambition_ideas
 			add_idea = imperial_ambition_1
 			add_idea = imperial_ambition_2
@@ -1618,7 +1618,7 @@ country_event = {
 				has_idea = imperialism_4
 				NOT = { has_idea = imperialism_5 }
 			}
-			remove_idea_group = imperialism_ideas
+			remove_idea_group = diplomatic_ideas
 			add_idea_group = imperial_ambition_ideas
 			add_idea = imperial_ambition_1
 			add_idea = imperial_ambition_2
@@ -1631,7 +1631,7 @@ country_event = {
 				has_idea = imperialism_5
 				NOT = { has_idea = imperialism_6 }
 			}
-			remove_idea_group = imperialism_ideas
+			remove_idea_group = diplomatic_ideas
 			add_idea_group = imperial_ambition_ideas
 			add_idea = imperial_ambition_1
 			add_idea = imperial_ambition_2
@@ -1645,7 +1645,7 @@ country_event = {
 				has_idea = imperialism_6
 				NOT = { has_idea = imperialism_7 }
 			}
-			remove_idea_group = imperialism_ideas
+			remove_idea_group = diplomatic_ideas
 			add_idea_group = imperial_ambition_ideas
 			add_idea = imperial_ambition_1
 			add_idea = imperial_ambition_2
@@ -1659,7 +1659,7 @@ country_event = {
 			limit = {
 				has_idea = imperialism_7
 			}
-			remove_idea_group = imperialism_ideas
+			remove_idea_group = diplomatic_ideas
 			add_idea_group = imperial_ambition_ideas
 			add_idea = imperial_ambition_1
 			add_idea = imperial_ambition_2

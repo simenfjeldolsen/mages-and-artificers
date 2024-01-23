@@ -4,7 +4,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/nothing.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_state_administration_ideas"
+		name = "GFX_idea_administrative_ideas"
 		texturefile = "gfx//interface//ideas//idea_administrative_ideas.tga"
 		noOfFrames = 1
 		
@@ -32,7 +32,7 @@ spriteTypes = {
 		effectFile = "gfx/FX/buttonstate_linear.lua"
 	}
 	spriteType = {
-		name = "GFX_idea_monarchy_ideas"
+		name = "GFX_idea_aristocracy_ideas"
 		texturefile = "gfx//interface//ideas//idea_monarchie.dds"
 		noOfFrames = 1
 		
@@ -53,14 +53,14 @@ spriteTypes = {
 		effectFile = "gfx/FX/buttonstate_linear.lua"
 	}
 	spriteType = {
-		name = "GFX_idea_imperialism_ideas"
+		name = "GFX_idea_diplomatic_ideas"
 		texturefile = "gfx//interface//ideas//idea_imperialism.dds"
 		noOfFrames = 1
 		
 		effectFile = "gfx/FX/buttonstate_linear.lua"
 	}
 	spriteType = {
-		name = "GFX_idea_high_seas_ideas"
+		name = "GFX_idea_naval_ideas"
 		texturefile = "gfx//interface//ideas//idea_high_seas2.dds"
 		noOfFrames = 1
 		
