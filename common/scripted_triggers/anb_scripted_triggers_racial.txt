@@ -8680,10 +8680,11 @@ can_purge_race = {
 	}
 	if = {
 		limit = {
-			NOT = {
-				has_idea = nationalism_1
-			}
+			has_idea = nationalism_1
 		}
+		always = yes
+	}
+	else = {
 		adm_power = 100
 	}
 }
@@ -8722,10 +8723,11 @@ can_expel_race = {
 	}
 	if = {
 		limit = {
-			NOT = {
-				has_idea = nationalism_1
-			}
+			has_idea = nationalism_1
 		}
+		always = yes
+	}
+	else = {
 		adm_power = 50
 	}
 }
