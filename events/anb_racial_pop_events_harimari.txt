@@ -4790,21 +4790,21 @@ country_event = {
 					}
 				}
 				add_devastation = 15
+				random_list = {
+					1 = {
+						add_base_tax = -1
+					}
+					1 = {
+						add_base_production = -1
+					}
+					1 = {
+						add_base_manpower = -1
+					}
+				}
 			}
 			change_culture = ROOT
 			change_religion = ROOT
 			mother_akasik_mountain_control_check = yes
-			random_list = {
-				1 = {
-					add_base_tax = -1
-				}
-				1 = {
-					add_base_production = -1
-				}
-				1 = {
-					add_base_manpower = -1
-				}
-			}
 			
 			hidden_effect = {
 				remove_province_modifier = harimari_majority_oppressed
