@@ -744,7 +744,7 @@ aristocracy_ideas = {
 	}
 
 	ai_will_do = {
-		factor = 3.75
+		factor = 0.45
 		
 		modifier = { 
 			factor = 0.75
@@ -795,7 +795,7 @@ plutocracy_ideas = {
 	}
 
 	ai_will_do = {
-		factor = 3.75
+		factor = 0.55
 		
 		modifier = {
 			factor = 1.25
@@ -844,7 +844,7 @@ theocracy_gov_ideas = {
 		war_exhaustion = -0.03
 	}
 	ai_will_do = {
-		factor = 3.75
+		factor = 0.65
 		modifier = {
 			factor = 0
 			has_idea_group = humanist_ideas
