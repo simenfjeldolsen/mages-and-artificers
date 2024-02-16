@@ -3499,7 +3499,7 @@ policy_B06 = {
 	}
 }
 
-702 = {
+cultural_unity = {
 	monarch_power = ADM
 
 

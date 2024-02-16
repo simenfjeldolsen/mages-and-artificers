@@ -1392,7 +1392,7 @@ policy_A04 = {
 	}
 }
 
-701 = {
+cultural_recognition_act = {
 	monarch_power = MIL
 
 
@@ -2725,7 +2725,7 @@ B0B = {
 	}
 }
 	
-203 = {
+the_education_act = {
 	monarch_power = MIL
 
 
