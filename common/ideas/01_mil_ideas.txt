@@ -40,7 +40,7 @@ defensive_ideas = {
 	}
 
 	battlefield_commisions = {
-		land_morale = 0.075
+		morale_damage_received = -0.15
 	}
 	military_drill = {
 		global_regiment_recruit_speed = -0.2
