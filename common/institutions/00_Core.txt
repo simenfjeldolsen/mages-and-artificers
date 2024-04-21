@@ -725,7 +725,6 @@ printing_press = {
 	
 	bonus = {
 		stability_cost_modifier = -0.05
-		cav_to_inf_ratio = 0.50
 	}
 	
 	trade_company_efficiency = 0.8
