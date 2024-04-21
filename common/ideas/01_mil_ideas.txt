@@ -21,7 +21,7 @@ offensive_ideas = {
 		reinforce_speed = 0.2
 	}
 	grand_army = {
-		leader_land_manuever = 1
+		morale_damage = 0.075
 	}
 	napoleonic_warfare = {
 		artillery_levels_available_vs_fort = 1
