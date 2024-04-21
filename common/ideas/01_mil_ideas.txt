@@ -484,7 +484,7 @@ shock_focus_ideas = {
 	}
 	
 	shock_focus_1 = {
-		shock_damage = 0.10
+		shock_damage = 0.20
 	}
 	shock_focus_2 = {
 		cavalry_power = 0.1
@@ -493,7 +493,7 @@ shock_focus_ideas = {
 		infantry_power = 0.1
 	}
 	shock_focus_4 = {
-		fire_damage_received = -0.10
+		fire_damage_received = -0.15
 	}
 	shock_focus_5 = {
 		assault_fort_ability = 0.5
