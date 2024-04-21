@@ -378,13 +378,13 @@ standing_army_ideas = {
 	}
 	
 	standing_army_1 = {
-		shock_damage = 0.10
+		shock_damage = 0.20
 	}
 	standing_army_2 = {
-		morale_damage = 0.10
+		leader_land_shock = 1
 	}
 	standing_army_3 = {
-		fire_damage = 0.10
+		fire_damage = 0.20
 	}
 	standing_army_4 = {
 		drill_gain_modifier = 0.50
