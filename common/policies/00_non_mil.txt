@@ -106,6 +106,33 @@
 	}
 }
 
+807 = {
+	monarch_power = ADM
+
+
+	potential = {
+		has_idea_group = religious_ideas
+		has_idea_group = logistics_ideas
+	}
+	
+	allow = {
+		full_idea_group = religious_ideas
+		full_idea_group = logistics_ideas
+	}
+
+	global_tax_modifier = 0.25
+	
+	effect = {}
+	removed_effect = {}
+	ai_will_do = {
+		factor = 0.6
+		modifier = {
+			factor = 0.2
+			is_at_war = yes
+		}
+	}
+}
+
 90C = {
 	monarch_power = ADM
 
@@ -118,6 +145,43 @@
 	allow = {
 		full_idea_group = centralisation_ideas
 		full_idea_group = fire_focus_ideas
+	}
+
+	global_tax_modifier = 0.25
+	
+	effect = {}
+	removed_effect = {}
+	ai_will_do = {
+		factor = 0.6
+		modifier = {
+			factor = 0.2
+			is_at_war = yes
+		}
+	}
+}
+
+policy_B01 = {
+	monarch_power = ADM
+
+
+	potential = {
+		has_idea_group = offensive_ideas
+		OR = {
+			has_idea_group = aristocracy_ideas
+			has_idea_group = plutocracy_ideas
+			has_idea_group = theocracy_gov_ideas
+			has_idea_group = horde_gov_ideas
+		}
+	}
+	
+	allow = {
+		full_idea_group = offensive_ideas
+		OR = {
+			full_idea_group = aristocracy_ideas
+			full_idea_group = plutocracy_ideas
+			full_idea_group = theocracy_gov_ideas
+			full_idea_group = horde_gov_ideas
+		}
 	}
 
 	global_tax_modifier = 0.25
@@ -155,6 +219,33 @@ policy_B07 = {
 			full_idea_group = theocracy_gov_ideas
 			full_idea_group = horde_gov_ideas
 		}
+	}
+
+	global_tax_modifier = 0.25
+	
+	effect = {}
+	removed_effect = {}
+	ai_will_do = {
+		factor = 0.6
+		modifier = {
+			factor = 0.2
+			is_at_war = yes
+		}
+	}
+}
+
+032 = {
+	monarch_power = DIP
+
+
+	potential = {
+		has_idea_group = spy_ideas
+		has_idea_group = defensive_ideas
+	}
+	
+	allow = {
+		full_idea_group = spy_ideas
+		full_idea_group = defensive_ideas
 	}
 
 	global_tax_modifier = 0.25
@@ -330,7 +421,34 @@ policy_B07 = {
 			is_at_war = yes
 		}
 	}
-}	
+}
+
+206 = {
+	monarch_power = ADM
+
+
+	potential = {
+		has_idea_group = innovativeness_ideas
+		has_idea_group = militarism_ideas
+	}
+	
+	allow = {
+		full_idea_group = innovativeness_ideas
+		full_idea_group = militarism_ideas
+	}
+
+	production_efficiency = 0.15
+	
+	effect = {}
+	removed_effect = {}
+	ai_will_do = {
+		factor = 0.6
+		modifier = {
+			factor = 0.2
+			is_at_war = yes
+		}
+	}
+}
 
 306 = {
 	monarch_power = ADM
@@ -398,6 +516,33 @@ policy_B07 = {
 	allow = {
 		full_idea_group = expansion_ideas
 		full_idea_group = conscription_ideas
+	}
+
+	production_efficiency = 0.15
+	
+	effect = {}
+	removed_effect = {}
+	ai_will_do = {
+		factor = 0.6
+		modifier = {
+			factor = 0.2
+			is_at_war = yes
+		}
+	}
+}
+
+803 = {
+	monarch_power = ADM
+
+
+	potential = {
+		has_idea_group = religious_ideas
+		has_idea_group = quality_ideas
+	}
+	
+	allow = {
+		full_idea_group = religious_ideas
+		full_idea_group = quality_ideas
 	}
 
 	production_efficiency = 0.15
@@ -552,40 +697,7 @@ policy_A09 = {
 			is_at_war = yes
 		}
 	}
-}	
-
-04B = {
-	monarch_power = DIP
-
-
-	potential = {
-		has_idea_group = shock_focus_ideas
-		OR = {
-			has_idea_group = imperial_ambition_ideas
-			has_idea_group = diplomatic_ideas
-		}
-	}
-	
-	allow = {
-		full_idea_group = shock_focus_ideas
-		OR = {
-			full_idea_group = imperial_ambition_ideas
-			full_idea_group = diplomatic_ideas
-		}
-	}
-
-	production_efficiency = 0.15
-	
-	effect = {}
-	removed_effect = {}
-	ai_will_do = {
-		factor = 0.6
-		modifier = {
-			factor = 0.2
-			is_at_war = yes
-		}
-	}
-}	
+}		
 
 071 = {
 	monarch_power = DIP
@@ -599,6 +711,60 @@ policy_A09 = {
 	allow = {
 		full_idea_group = maritime_ideas
 		full_idea_group = offensive_ideas
+	}
+
+	production_efficiency = 0.15
+	
+	effect = {}
+	removed_effect = {}
+	ai_will_do = {
+		factor = 0.6
+		modifier = {
+			factor = 0.2
+			is_at_war = yes
+		}
+	}
+}
+
+07A = {
+	monarch_power = DIP
+
+
+	potential = {
+		has_idea_group = maritime_ideas
+		has_idea_group = conscription_ideas
+	}
+	
+	allow = {
+		full_idea_group = maritime_ideas
+		full_idea_group = conscription_ideas
+	}
+
+	production_efficiency = 0.15
+	
+	effect = {}
+	removed_effect = {}
+	ai_will_do = {
+		factor = 0.6
+		modifier = {
+			factor = 0.2
+			is_at_war = yes
+		}
+	}
+}
+
+08C = {
+	monarch_power = DIP
+
+
+	potential = {
+		has_idea_group = naval_ideas
+		has_idea_group = fire_focus_ideas
+	}
+	
+	allow = {
+		full_idea_group = naval_ideas
+		full_idea_group = fire_focus_ideas
 	}
 
 	production_efficiency = 0.15
@@ -749,6 +915,33 @@ policy_A09 = {
 	}
 }
 
+801 = {
+	monarch_power = ADM
+
+
+	potential = {
+		has_idea_group = religious_ideas
+		has_idea_group = offensive_ideas
+	}
+	
+	allow = {
+		full_idea_group = religious_ideas
+		full_idea_group = offensive_ideas
+	}
+
+	trade_efficiency = 0.1
+	
+	effect = {}
+	removed_effect = {}
+	ai_will_do = {
+		factor = 0.6
+		modifier = {
+			factor = 0.2
+			is_at_war = yes
+		}
+	}
+}
+
 80C = {
 	monarch_power = ADM
 
@@ -798,6 +991,33 @@ policy_B02 = {
 			full_idea_group = theocracy_gov_ideas
 			full_idea_group = horde_gov_ideas
 		}
+	}
+
+	trade_efficiency = 0.1
+	
+	effect = {}
+	removed_effect = {}
+	ai_will_do = {
+		factor = 0.6
+		modifier = {
+			factor = 0.2
+			is_at_war = yes
+		}
+	}
+}
+	
+052 = {
+	monarch_power = DIP
+
+
+	potential = {
+		has_idea_group = exploration_ideas
+		has_idea_group = defensive_ideas
+	}
+	
+	allow = {
+		full_idea_group = exploration_ideas
+		full_idea_group = defensive_ideas
 	}
 
 	trade_efficiency = 0.1
@@ -921,6 +1141,33 @@ policy_B02 = {
 	}
 }
 
+0B1 = {
+	monarch_power = DIP
+
+
+	potential = {
+		has_idea_group = pluralism_ideas
+		has_idea_group = offensive_ideas
+	}
+	
+	allow = {
+		full_idea_group = pluralism_ideas
+		full_idea_group = offensive_ideas
+	}
+
+	trade_efficiency = 0.1
+	
+	effect = {}
+	removed_effect = {}
+	ai_will_do = {
+		factor = 0.6
+		modifier = {
+			factor = 0.2
+			is_at_war = yes
+		}
+	}
+}
+
 108 = {
 	monarch_power = ADM
 
@@ -960,6 +1207,60 @@ policy_B02 = {
 	allow = {
 		full_idea_group = innovativeness_ideas
 		full_idea_group = defensive_ideas
+	}
+
+	global_trade_goods_size_modifier = 0.075
+	
+	effect = {}
+	removed_effect = {}
+	ai_will_do = {
+		factor = 0.6
+		modifier = {
+			factor = 0.2
+			is_at_war = yes
+		}
+	}
+}
+
+207 = {
+	monarch_power = ADM
+
+
+	potential = {
+		has_idea_group = innovativeness_ideas
+		has_idea_group = logistics_ideas
+	}
+	
+	allow = {
+		full_idea_group = innovativeness_ideas
+		full_idea_group = logistics_ideas
+	}
+
+	global_trade_goods_size_modifier = 0.075
+	
+	effect = {}
+	removed_effect = {}
+	ai_will_do = {
+		factor = 0.6
+		modifier = {
+			factor = 0.2
+			is_at_war = yes
+		}
+	}
+}
+
+305 = {
+	monarch_power = ADM
+
+
+	potential = {
+		has_idea_group = economic_ideas
+		has_idea_group = leadership_ideas
+	}
+	
+	allow = {
+		full_idea_group = economic_ideas
+		full_idea_group = leadership_ideas
 	}
 
 	global_trade_goods_size_modifier = 0.075
@@ -1196,6 +1497,33 @@ A0B = {
 		}
 	}
 }
+
+089 = {
+	monarch_power = DIP
+
+
+	potential = {
+		has_idea_group = naval_ideas
+		has_idea_group = standing_army_ideas
+	}
+	
+	allow = {
+		full_idea_group = naval_ideas
+		full_idea_group = standing_army_ideas
+	}
+
+	global_trade_goods_size_modifier = 0.075
+	
+	effect = {}
+	removed_effect = {}
+	ai_will_do = {
+		factor = 0.6
+		modifier = {
+			factor = 0.2
+			is_at_war = yes
+		}
+	}
+}
 	
 091 = {
 	monarch_power = DIP
@@ -1330,7 +1658,34 @@ policy_A08 = {
 			is_at_war = yes
 		}
 	}
-}	
+}
+
+A0A = {
+	monarch_power = ADM
+
+
+	potential = {
+		has_idea_group = decentralisation_ideas
+		has_idea_group = conscription_ideas
+	}
+	
+	allow = {
+		full_idea_group = decentralisation_ideas
+		full_idea_group = conscription_ideas
+	}
+
+	global_trade_power = 0.25
+	
+	effect = {}
+	removed_effect = {}
+	ai_will_do = {
+		factor = 0.6
+		modifier = {
+			factor = 0.2
+			is_at_war = yes
+		}
+	}
+}
 
 policy_B04 = {
 	monarch_power = ADM
@@ -1460,6 +1815,34 @@ policy_B08 = {
 	}
 }	
 
+
+057 = {
+	monarch_power = DIP
+
+
+	potential = {
+		has_idea_group = exploration_ideas
+		has_idea_group = logistics_ideas
+	}
+	
+	allow = {
+		full_idea_group = exploration_ideas
+		full_idea_group = logistics_ideas
+	}
+
+	global_trade_power = 0.25
+	
+	effect = {}
+	removed_effect = {}
+	ai_will_do = {
+		factor = 0.6
+		modifier = {
+			factor = 0.2
+			is_at_war = yes
+		}
+	}
+}
+
 067 = {
 	monarch_power = DIP
 
@@ -1512,7 +1895,34 @@ policy_B08 = {
 			is_at_war = yes
 		}
 	}
-}	
+}
+
+0B5 = {
+	monarch_power = DIP
+
+
+	potential = {
+		has_idea_group = pluralism_ideas
+		has_idea_group = leadership_ideas
+	}
+	
+	allow = {
+		full_idea_group = pluralism_ideas
+		full_idea_group = leadership_ideas
+	}
+
+	global_trade_power = 0.25
+	
+	effect = {}
+	removed_effect = {}
+	ai_will_do = {
+		factor = 0.6
+		modifier = {
+			factor = 0.2
+			is_at_war = yes
+		}
+	}
+}
 	
 0BB = {
 	monarch_power = DIP
@@ -1649,6 +2059,60 @@ policy_B08 = {
 	}
 }	
 
+708 = {
+	monarch_power = ADM
+
+
+	potential = {
+		has_idea_group = humanist_ideas
+		has_idea_group = mercenary_ideas
+	}
+	
+	allow = {
+		full_idea_group = humanist_ideas
+		full_idea_group = mercenary_ideas
+	}
+
+	max_absolutism = 15
+	
+	effect = {}
+	removed_effect = {}
+	ai_will_do = {
+		factor = 0.6
+		modifier = {
+			factor = 0.2
+			is_at_war = yes
+		}
+	}
+}
+
+70A = {
+	monarch_power = ADM
+
+
+	potential = {
+		has_idea_group = humanist_ideas
+		has_idea_group = conscription_ideas
+	}
+	
+	allow = {
+		full_idea_group = humanist_ideas
+		full_idea_group = conscription_ideas
+	}
+
+	max_absolutism = 15
+	
+	effect = {}
+	removed_effect = {}
+	ai_will_do = {
+		factor = 0.6
+		modifier = {
+			factor = 0.2
+			is_at_war = yes
+		}
+	}
+}
+
 905 = {
 	monarch_power = ADM
 
@@ -1701,7 +2165,34 @@ policy_A06 = {
 			is_at_war = yes
 		}
 	}
-}	
+}
+	
+023 = {
+	monarch_power = DIP
+
+
+	potential = {
+		has_idea_group = influence_ideas
+		has_idea_group = quality_ideas
+	}
+	
+	allow = {
+		full_idea_group = influence_ideas
+		full_idea_group = quality_ideas
+	}
+
+	max_absolutism = 15
+	
+	effect = {}
+	removed_effect = {}
+	ai_will_do = {
+		factor = 0.6
+		modifier = {
+			factor = 0.2
+			is_at_war = yes
+		}
+	}
+}
 
 02B = {
 	monarch_power = DIP
