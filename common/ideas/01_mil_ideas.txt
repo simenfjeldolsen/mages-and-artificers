@@ -49,7 +49,7 @@ defensive_ideas = {
 		global_manpower_modifier = 0.20
 	}
 	regimental_system = {
-		drill_decay_modifier = -0.25
+		drill_decay_modifier = -0.20
 	}
 	defensive_mentality = {
 		defensiveness = 0.20
