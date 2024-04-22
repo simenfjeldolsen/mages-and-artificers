@@ -106,7 +106,6 @@ technology = { #National Ideas
 		renaissance = 0.15
 	}
 
-	allowed_idea_groups = 2
 	production_efficiency	 =	0.02
 }
 
@@ -122,6 +121,7 @@ technology = { #Workshop
 	farm_estate = yes
 	workshop = yes
 	ramparts = yes
+	allowed_idea_groups = 2
 }
 
 technology = { #Renaissance Thought
@@ -133,7 +133,6 @@ technology = { #Renaissance Thought
 	}
 	
 	#Noble Republic
-	allowed_idea_groups = 3	
 }
 
 technology = { #Courthouse
@@ -146,7 +145,7 @@ technology = { #Courthouse
 
 	courthouse = yes
 	governing_capacity = 100
-
+	allowed_idea_groups = 3	
 }
 
 technology = { #The Scythe
@@ -160,9 +159,6 @@ technology = { #The Scythe
 	
 	#The Scythe
 	production_efficiency 	=	0.02
-	allowed_idea_groups = 4
-	
-
 }
 
 technology = { #Modern Theocracy
@@ -173,8 +169,8 @@ technology = { #Modern Theocracy
 		renaissance = 0.5
 		new_world_i = 0.3
 	}
-	
-	allowed_idea_groups = 5
+
+	allowed_idea_groups = 4
 	theocratic_government = yes
 }
 
@@ -205,7 +201,7 @@ technology = { #Early Modern Administration
 	administrative_republic	= yes
 	governing_capacity = 100
 	state_house = yes
-	allowed_idea_groups = 6
+	allowed_idea_groups = 5
 }
 
 technology = { #Improved Drainage
@@ -220,7 +216,6 @@ technology = { #Improved Drainage
 	
 	#Improved Drainage
 	production_efficiency 	=	0.02
-	allowed_idea_groups = 7
 }
 
 technology = { #Scientific Experimentation
@@ -234,7 +229,7 @@ technology = { #Scientific Experimentation
 	}
 	
 	plantations = yes
-	allowed_idea_groups	= 8
+	allowed_idea_groups	= 6
 }
 
 technology = { #Military Administration
@@ -249,6 +244,7 @@ technology = { #Military Administration
 	
 	may_force_march = yes
 	soldier_households = yes
+	allowed_idea_groups	= 7
 }
 
 technology = { #Metallurgy
@@ -263,7 +259,7 @@ technology = { #Metallurgy
 	
 	mills = yes
 	production_efficiency 	=	0.02
-	allowed_idea_groups = 9
+	allowed_idea_groups = 8
 
 
 }
@@ -284,7 +280,6 @@ technology = { #University
 	
 	administrative_efficiency = 0.1
 	development_cost_modifier = -0.1
-	allowed_idea_groups = 10
 }
 
 technology = { #National Sovereignty
@@ -298,7 +293,7 @@ technology = { #National Sovereignty
 		global_trade = 0.3
 	}
 	
-	allowed_idea_groups	= 11
+	allowed_idea_groups	= 9
 }
 
 technology = { #Cathedral
@@ -329,7 +324,7 @@ technology = { #Absolute Rulership
 	
 	republican_dictatorship = yes
 	governing_capacity = 250
-	allowed_idea_groups = 12
+	allowed_idea_groups = 10
 }
 
 technology = { #Land Clearance
@@ -361,7 +356,7 @@ technology = { #The Constitution
 		manufactories = 0.3
 	}
 	
-	allowed_idea_groups = 13
+	allowed_idea_groups = 11
 	constitutional_monarchy = yes
 	constitutional_republic = yes  
 
@@ -382,7 +377,6 @@ technology = { #Measuring the World
 	
 	administrative_efficiency = 0.1
 	development_cost_modifier = -0.1
-	allowed_idea_groups = 14
 }
 
 technology = { #Bonds and Tontines
@@ -400,6 +394,7 @@ technology = { #Bonds and Tontines
 	
 	counting_house = yes  
 	governing_capacity = 250
+	allowed_idea_groups = 12
 }
 
 technology = { #Improved Production
@@ -417,7 +412,6 @@ technology = { #Improved Production
 	
 	#Improved Farm Animals
 	production_efficiency 	=	0.02
-	allowed_idea_groups = 15
 }
 
 technology = { #Separation of Powers
@@ -433,7 +427,7 @@ technology = { #Separation of Powers
 		enlightenment = 0.5
 	}
 	
-	allowed_idea_groups = 16
+	allowed_idea_groups = 13
 }
 
 technology = { #Modern Bureaucracy
@@ -452,6 +446,7 @@ technology = { #Modern Bureaucracy
 	administrative_efficiency = 0.1
 	development_cost_modifier = -0.1	
 	governing_capacity = 250
+	allowed_idea_groups = 14
 }
 
 technology = { #Rotherham Plough
@@ -470,6 +465,7 @@ technology = { #Rotherham Plough
 	
 	#Rotherham Plough
 	production_efficiency 	=	0.02
+	allowed_idea_groups = 15
 }
 
 technology = { #Rights of Man
@@ -488,6 +484,7 @@ technology = { #Rights of Man
 
 	enlightened_despotism = yes
 	bureaucratic_despotism = yes
+	allowed_idea_groups = 16
 }
 
 technology = { #Advanced Production
