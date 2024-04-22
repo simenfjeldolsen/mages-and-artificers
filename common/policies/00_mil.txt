@@ -2018,6 +2018,7 @@ B0B = {
 	}
 
 	infantry_power = 0.10
+	cavalry_power = 0.10
 	
 	effect = {}
 	removed_effect = {}
@@ -2045,6 +2046,7 @@ B0B = {
 	}
 
 	infantry_power = 0.10
+	cavalry_power = 0.10
 	
 	effect = {}
 	removed_effect = {}
@@ -2072,6 +2074,7 @@ B0B = {
 	}
 
 	infantry_power = 0.10
+	cavalry_power = 0.10
 	
 	effect = {}
 	removed_effect = {}
@@ -2099,6 +2102,7 @@ B0B = {
 	}
 
 	infantry_power = 0.10
+	cavalry_power = 0.10
 	
 	effect = {}
 	removed_effect = {}
@@ -2126,6 +2130,7 @@ B0B = {
 	}
 
 	infantry_power = 0.10
+	cavalry_power = 0.10
 	
 	effect = {}
 	removed_effect = {}
@@ -2159,6 +2164,7 @@ B0B = {
 	}
 
 	infantry_power = 0.10
+	cavalry_power = 0.10
 	
 	effect = {}
 	removed_effect = {}
@@ -2192,6 +2198,7 @@ B0B = {
 	}
 
 	infantry_power = 0.10
+	cavalry_power = 0.10
 	
 	effect = {}
 	removed_effect = {}
@@ -2219,6 +2226,7 @@ B0B = {
 	}
 
 	infantry_power = 0.10
+	cavalry_power = 0.10
 	
 	effect = {}
 	removed_effect = {}
@@ -2246,6 +2254,7 @@ B0B = {
 	}
 
 	infantry_power = 0.10
+	cavalry_power = 0.10
 	
 	effect = {}
 	removed_effect = {}
@@ -2273,6 +2282,7 @@ B0B = {
 	}
 
 	infantry_power = 0.10
+	cavalry_power = 0.10
 	
 	effect = {}
 	removed_effect = {}
@@ -2300,6 +2310,7 @@ B0B = {
 	}
 
 	infantry_power = 0.10
+	cavalry_power = 0.10
 	
 	effect = {}
 	removed_effect = {}
@@ -2745,6 +2756,7 @@ the_education_act = {
 		full_idea_group = quantity_ideas
 	}
 
+	infantry_power = 0.10
 	cavalry_power = 0.10
 	
 	effect = {}
@@ -2782,6 +2794,7 @@ policy_B05 = {
 		}
 	}
 
+	infantry_power = 0.10
 	cavalry_power = 0.10
 	
 	effect = {}
@@ -2809,6 +2822,7 @@ policy_B05 = {
 		full_idea_group = quality_ideas
 	}
 
+	infantry_power = 0.10
 	cavalry_power = 0.10
 	
 	effect = {}
@@ -2836,6 +2850,7 @@ policy_B05 = {
 		full_idea_group = leadership_ideas
 	}
 
+	infantry_power = 0.10
 	cavalry_power = 0.10
 	
 	effect = {}
