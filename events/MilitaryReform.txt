@@ -93,4 +93,9 @@ country_event = {
 			duration = 3650
 		}
 	}
+	option = {
+		name = mna_great_men.1.exit
+		custom_tooltip = mna_great_men.1.exit_description
+		clr_country_flag = military_reform
+	}
 }
