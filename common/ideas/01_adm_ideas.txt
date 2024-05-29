@@ -883,7 +883,7 @@ horde_gov_ideas = {
 	}
 	
 	horde_1 = {
-		raze_power_gain = 0.33
+		raze_power_gain = 0.15
 	}
 	horde_2 = {	
 		cavalry_cost = -0.15
