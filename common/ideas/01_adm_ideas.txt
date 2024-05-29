@@ -620,7 +620,7 @@ centralisation_ideas = {
 		centralize_state_cost = -0.25
 	}
 	centralisation_6 = {
-		expand_infrastructure_cost_modifier = -0.5
+		expand_infrastructure_cost_modifier = -0.25
 	}
 	centralisation_7 = {
 		all_estate_influence_modifier = -0.1
