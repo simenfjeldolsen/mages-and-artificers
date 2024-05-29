@@ -58,6 +58,10 @@ country_event = {
 		add_prestige = 50
 		set_country_flag = philosopher
 	}
+	option = {
+		name = mna_great_men.1.exit
+		custom_tooltip = mna_great_men.1.exit_description
+	}
 }
 
 # Natural Scientist
@@ -127,6 +131,10 @@ country_event = {
 			duration = 2190
 		}
 		set_country_flag = natural_scientist
+	}
+	option = {
+		name = mna_great_men.1.exit
+		custom_tooltip = mna_great_men.1.exit_description
 	}
 }
 
@@ -199,6 +207,10 @@ country_event = {
 		}
 		set_country_flag = army_reformer
 	}
+	option = {
+		name = mna_great_men.1.exit
+		custom_tooltip = mna_great_men.1.exit_description
+	}
 }
 
 # Naval reformer
@@ -268,6 +280,10 @@ country_event = {
 			duration = 2190
 		}
 		set_country_flag = naval_reformer
+	}
+	option = {
+		name = mna_great_men.1.exit
+		custom_tooltip = mna_great_men.1.exit_description
 	}
 }
 
@@ -341,6 +357,10 @@ country_event = {
 		}
 		set_country_flag = artist
 	}
+	option = {
+		name = mna_great_men.1.exit
+		custom_tooltip = mna_great_men.1.exit_description
+	}
 }
 
 
@@ -412,6 +432,10 @@ country_event = {
 			duration = 2190
 		}
 		set_country_flag = treasurer
+	}
+	option = {
+		name = mna_great_men.1.exit
+		custom_tooltip = mna_great_men.1.exit_description
 	}
 }
 
@@ -485,6 +509,10 @@ country_event = {
 		}		
 		set_country_flag = theologian
 	}
+	option = {
+		name = mna_great_men.1.exit
+		custom_tooltip = mna_great_men.1.exit_description
+	}
 }
 
 
@@ -556,6 +584,10 @@ country_event = {
 			duration = 2190
 		}
 		set_country_flag = statesman
+	}
+	option = {
+		name = mna_great_men.1.exit
+		custom_tooltip = mna_great_men.1.exit_description
 	}
 }
 
@@ -629,6 +661,10 @@ country_event = {
 		}
 		set_country_flag = colonial_governor
 	}
+	option = {
+		name = mna_great_men.1.exit
+		custom_tooltip = mna_great_men.1.exit_description
+	}
 }
 
 
@@ -700,6 +736,10 @@ country_event = {
 		}
 		set_country_flag = spymaster		
 	}
+	option = {
+		name = mna_great_men.1.exit
+		custom_tooltip = mna_great_men.1.exit_description
+	}
 }
 
 
@@ -765,6 +805,10 @@ country_event = {
 		add_dip_power = 50
 		set_country_flag = diplomat
 	}
+	option = {
+		name = mna_great_men.1.exit
+		custom_tooltip = mna_great_men.1.exit_description
+	}
 }
 
 # Trader
@@ -829,6 +873,10 @@ country_event = {
 		add_prestige = 50
 		add_dip_power = 25
 		set_country_flag = trader
+	}
+	option = {
+		name = mna_great_men.1.exit
+		custom_tooltip = mna_great_men.1.exit_description
 	}
 }
 
@@ -901,6 +949,10 @@ country_event = {
 		}
 		set_country_flag = master_of_mint
 	}
+	option = {
+		name = mna_great_men.1.exit
+		custom_tooltip = mna_great_men.1.exit_description
+	}
 }
 
 
@@ -971,6 +1023,10 @@ country_event = {
 			duration = 2190
 		}
 		set_country_flag = navigator
+	}
+	option = {
+		name = mna_great_men.1.exit
+		custom_tooltip = mna_great_men.1.exit_description
 	}
 }
 
@@ -1043,6 +1099,10 @@ country_event = {
 		}
 		set_country_flag = grand_captain
 	}
+	option = {
+		name = mna_great_men.1.exit
+		custom_tooltip = mna_great_men.1.exit_description
+	}
 }
 
 
@@ -1113,6 +1173,10 @@ country_event = {
 			duration = 2190
 		}
 		set_country_flag = army_organiser
+	}
+	option = {
+		name = mna_great_men.1.exit
+		custom_tooltip = mna_great_men.1.exit_description
 	}
 }
 
@@ -1186,6 +1250,10 @@ country_event = {
 		}
 		set_country_flag = commandant
 	}
+	option = {
+		name = mna_great_men.1.exit
+		custom_tooltip = mna_great_men.1.exit_description
+	}
 }
 
 
@@ -1256,6 +1324,10 @@ country_event = {
 			duration = 2190
 		}
 		set_country_flag = quartermaster
+	}
+	option = {
+		name = mna_great_men.1.exit
+		custom_tooltip = mna_great_men.1.exit_description
 	}
 }
 
@@ -1328,6 +1400,10 @@ country_event = {
 		}
 		set_country_flag = recruitmaster
 	}
+	option = {
+		name = mna_great_men.1.exit
+		custom_tooltip = mna_great_men.1.exit_description
+	}
 }
 
 
@@ -1398,6 +1474,10 @@ country_event = {
 			duration = 2190
 		}
 		set_country_flag = fortification_expert
+	}
+	option = {
+		name = mna_great_men.1.exit
+		custom_tooltip = mna_great_men.1.exit_description
 	}
 }
 
@@ -1470,5 +1550,9 @@ country_event = {
 			duration = 2190
 		}
 		set_country_flag = inquisitor
+	}
+	option = {
+		name = mna_great_men.1.exit
+		custom_tooltip = mna_great_men.1.exit_description
 	}
 }

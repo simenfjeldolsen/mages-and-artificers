@@ -148,3 +148,6 @@
  mna_pluralism_goods_produced_1: "Pluralism Goods Produced I"
  mna_pluralism_goods_produced_2: "Pluralism Goods Produced II"
  mna_pluralism_goods_produced_3: "Pluralism Goods Produced III"
+
+ mna_great_men.1.exit: "§ONow is not the time to use that!§!"
+ mna_great_men.1.exit_description: "Allow this event to fire at a later time."
