@@ -264,7 +264,7 @@ jurisprudence_ideas = {
 		yearly_corruption = -0.1
 	}
 	jurisprudence_3 = {
-		idea_cost = -0.1
+		idea_cost = -0.15
 	}
 	jurisprudence_4 = {
 		interest = -0.5
@@ -464,8 +464,7 @@ humanist_ideas = {
 	}
 
 	local_traditions = {
-		idea_cost = -0.1
-		leader_cost = -0.10
+		idea_cost = -0.15
 	}
 	indirect_rule = {
 		religious_unity = 0.25
