@@ -682,10 +682,10 @@ decentralisation_ideas = {
 		core_creation = -0.15
 	}
 	decentralisation_2 = {
-		global_monthly_devastation = -0.05
+		global_monthly_devastation = -0.10
 	}
 	decentralisation_3 = {
-		global_autonomy = -0.05
+		global_autonomy = -0.10
 	}
 	decentralisation_4 = {
 		governing_capacity = 100
