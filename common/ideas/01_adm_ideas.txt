@@ -810,7 +810,7 @@ theocracy_gov_ideas = {
 	category = ADM
 	
 	bonus = {
-		discipline = 0.05
+		discipline = 0.025
 		church_loyalty_modifier = 0.1
 		# ANBENNAR
 		uppercastes_loyalty_modifier = 0.05 #half because Aristo/Divine/Religious also gives 5%
