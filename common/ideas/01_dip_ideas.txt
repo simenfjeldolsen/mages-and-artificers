@@ -34,6 +34,7 @@ court_ideas = {
 	court_embassies = {
 		monarch_admin_power = 1 
 		monarch_diplomatic_power = 1
+		candidate_random_bonus = 1
 	}
 
 	ai_will_do = {
