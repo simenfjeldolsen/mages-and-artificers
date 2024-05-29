@@ -86,7 +86,37 @@ country_decisions = {
 
 		effect = {
 			country_event = { id = mna_idea_mechanics.5 }
-			custom_tooltip = mna_change_trait_tooltip
+			
+			if = {
+				limit = { has_ruler_flag = is_a_lich }
+				custom_tooltip = mna_change_trait_tooltip_lich
+			}
+			else_if = {
+				limit = { ruler_is_gnomish = yes }
+				custom_tooltip = mna_change_trait_tooltip_gnomish
+			}
+			else_if = {
+				limit = {
+					ruler_is_elven = yes
+					primary_culture = wood_elf
+				}
+				custom_tooltip = mna_change_trait_tooltip_wood_elf
+			}
+			else_if = {
+				limit = { ruler_is_elven = yes }
+				custom_tooltip = mna_change_trait_tooltip_elven
+			}
+			else_if = {
+				limit = { ruler_is_half_elven = yes }
+				custom_tooltip = mna_change_trait_tooltip_half_elven
+			}
+			else_if = {
+				limit = { ruler_is_dwarven = yes }
+				custom_tooltip = mna_change_trait_tooltip_dwarven
+			}
+			else = {
+				custom_tooltip = mna_change_trait_tooltip
+			}
 		}
 	}
 	mna_infiltrate_administration = {

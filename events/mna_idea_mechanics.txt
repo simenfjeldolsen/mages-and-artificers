@@ -449,10 +449,63 @@ country_event = {
 		}
 		remove_ruler_personality = babbling_buffoon_personality
 		
-		add_ruler_modifier = {
-			name = mna_changed_trait
-			duration = 3650
-			hidden = yes
+		if = {
+			limit = { ruler_is_dwarven = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 7300
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { ruler_is_gnomish = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 9125
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				ruler_is_elven = yes
+				primary_culture = wood_elf
+			}
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 9125
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { ruler_is_elven = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 14600
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { ruler_is_half_elven = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 3650
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { has_ruler_flag = is_a_lich }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 14600
+				hidden = yes
+			}
+		}
+		else = {
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 3650
+				hidden = yes
+			}
 		}
 	}
 
@@ -463,10 +516,63 @@ country_event = {
 		}
 		remove_ruler_personality = embezzler_personality
 		
-		add_ruler_modifier = {
-			name = mna_changed_trait
-			duration = 3650
-			hidden = yes
+		if = {
+			limit = { ruler_is_dwarven = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 7300
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { ruler_is_gnomish = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 9125
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				ruler_is_elven = yes
+				primary_culture = wood_elf
+			}
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 9125
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { ruler_is_elven = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 14600
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { ruler_is_half_elven = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 3650
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { has_ruler_flag = is_a_lich }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 14600
+				hidden = yes
+			}
+		}
+		else = {
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 3650
+				hidden = yes
+			}
 		}
 	}
 
@@ -477,10 +583,63 @@ country_event = {
 		}
 		remove_ruler_personality = infertile_personality
 		
-		add_ruler_modifier = {
-			name = mna_changed_trait
-			duration = 3650
-			hidden = yes
+		if = {
+			limit = { ruler_is_dwarven = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 7300
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { ruler_is_gnomish = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 9125
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				ruler_is_elven = yes
+				primary_culture = wood_elf
+			}
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 9125
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { ruler_is_elven = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 14600
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { ruler_is_half_elven = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 3650
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { has_ruler_flag = is_a_lich }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 14600
+				hidden = yes
+			}
+		}
+		else = {
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 3650
+				hidden = yes
+			}
 		}
 	}
 
@@ -491,10 +650,63 @@ country_event = {
 		}
 		remove_ruler_personality = drunkard_personality
 		
-		add_ruler_modifier = {
-			name = mna_changed_trait
-			duration = 3650
-			hidden = yes
+		if = {
+			limit = { ruler_is_dwarven = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 7300
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { ruler_is_gnomish = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 9125
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				ruler_is_elven = yes
+				primary_culture = wood_elf
+			}
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 9125
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { ruler_is_elven = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 14600
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { ruler_is_half_elven = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 3650
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { has_ruler_flag = is_a_lich }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 14600
+				hidden = yes
+			}
+		}
+		else = {
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 3650
+				hidden = yes
+			}
 		}
 	}
 	
@@ -505,10 +717,63 @@ country_event = {
 		}
 		remove_ruler_personality = sinner_personality
 		
-		add_ruler_modifier = {
-			name = mna_changed_trait
-			duration = 3650
-			hidden = yes
+		if = {
+			limit = { ruler_is_dwarven = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 7300
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { ruler_is_gnomish = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 9125
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				ruler_is_elven = yes
+				primary_culture = wood_elf
+			}
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 9125
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { ruler_is_elven = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 14600
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { ruler_is_half_elven = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 3650
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { has_ruler_flag = is_a_lich }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 14600
+				hidden = yes
+			}
+		}
+		else = {
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 3650
+				hidden = yes
+			}
 		}
 	}
 
@@ -519,10 +784,63 @@ country_event = {
 		}
 		remove_ruler_personality = greedy_personality
 		
-		add_ruler_modifier = {
-			name = mna_changed_trait
-			duration = 3650
-			hidden = yes
+		if = {
+			limit = { ruler_is_dwarven = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 7300
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { ruler_is_gnomish = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 9125
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				ruler_is_elven = yes
+				primary_culture = wood_elf
+			}
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 9125
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { ruler_is_elven = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 14600
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { ruler_is_half_elven = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 3650
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { has_ruler_flag = is_a_lich }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 14600
+				hidden = yes
+			}
+		}
+		else = {
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 3650
+				hidden = yes
+			}
 		}
 	}
 
@@ -533,10 +851,63 @@ country_event = {
 		}
 		remove_ruler_personality = cruel_personality
 		
-		add_ruler_modifier = {
-			name = mna_changed_trait
-			duration = 3650
-			hidden = yes
+		if = {
+			limit = { ruler_is_dwarven = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 7300
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { ruler_is_gnomish = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 9125
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				ruler_is_elven = yes
+				primary_culture = wood_elf
+			}
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 9125
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { ruler_is_elven = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 14600
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { ruler_is_half_elven = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 3650
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { has_ruler_flag = is_a_lich }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 14600
+				hidden = yes
+			}
+		}
+		else = {
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 3650
+				hidden = yes
+			}
 		}
 	}
 
@@ -547,10 +918,63 @@ country_event = {
 		}
 		remove_ruler_personality = naive_personality
 		
-		add_ruler_modifier = {
-			name = mna_changed_trait
-			duration = 3650
-			hidden = yes
+		if = {
+			limit = { ruler_is_dwarven = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 7300
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { ruler_is_gnomish = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 9125
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				ruler_is_elven = yes
+				primary_culture = wood_elf
+			}
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 9125
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { ruler_is_elven = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 14600
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { ruler_is_half_elven = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 3650
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { has_ruler_flag = is_a_lich }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 14600
+				hidden = yes
+			}
+		}
+		else = {
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 3650
+				hidden = yes
+			}
 		}
 	}
 
@@ -561,10 +985,63 @@ country_event = {
 		}
 		remove_ruler_personality = craven_personality
 		
-		add_ruler_modifier = {
-			name = mna_changed_trait
-			duration = 3650
-			hidden = yes
+		if = {
+			limit = { ruler_is_dwarven = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 7300
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { ruler_is_gnomish = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 9125
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				ruler_is_elven = yes
+				primary_culture = wood_elf
+			}
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 9125
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { ruler_is_elven = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 14600
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { ruler_is_half_elven = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 3650
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { has_ruler_flag = is_a_lich }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 14600
+				hidden = yes
+			}
+		}
+		else = {
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 3650
+				hidden = yes
+			}
 		}
 	}
 
@@ -575,10 +1052,63 @@ country_event = {
 		}
 		remove_ruler_personality = loose_lips_personality
 		
-		add_ruler_modifier = {
-			name = mna_changed_trait
-			duration = 3650
-			hidden = yes
+		if = {
+			limit = { ruler_is_dwarven = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 7300
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { ruler_is_gnomish = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 9125
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				ruler_is_elven = yes
+				primary_culture = wood_elf
+			}
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 9125
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { ruler_is_elven = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 14600
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { ruler_is_half_elven = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 3650
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { has_ruler_flag = is_a_lich }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 14600
+				hidden = yes
+			}
+		}
+		else = {
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 3650
+				hidden = yes
+			}
 		}
 	}
 
@@ -589,10 +1119,63 @@ country_event = {
 		}
 		remove_ruler_personality = obsessive_perfectionist_personality
 		
-		add_ruler_modifier = {
-			name = mna_changed_trait
-			duration = 3650
-			hidden = yes
+		if = {
+			limit = { ruler_is_dwarven = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 7300
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { ruler_is_gnomish = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 9125
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				ruler_is_elven = yes
+				primary_culture = wood_elf
+			}
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 9125
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { ruler_is_elven = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 14600
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { ruler_is_half_elven = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 3650
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { has_ruler_flag = is_a_lich }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 14600
+				hidden = yes
+			}
+		}
+		else = {
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 3650
+				hidden = yes
+			}
 		}
 	}
 
@@ -603,10 +1186,63 @@ country_event = {
 		}
 		remove_ruler_personality = malevolent_personality
 		
-		add_ruler_modifier = {
-			name = mna_changed_trait
-			duration = 3650
-			hidden = yes
+		if = {
+			limit = { ruler_is_dwarven = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 7300
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { ruler_is_gnomish = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 9125
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				ruler_is_elven = yes
+				primary_culture = wood_elf
+			}
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 9125
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { ruler_is_elven = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 14600
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { ruler_is_half_elven = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 3650
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { has_ruler_flag = is_a_lich }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 14600
+				hidden = yes
+			}
+		}
+		else = {
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 3650
+				hidden = yes
+			}
 		}
 	}
 
@@ -617,10 +1253,63 @@ country_event = {
 		}
 		remove_ruler_personality = just_personality
 		
-		add_ruler_modifier = {
-			name = mna_changed_trait
-			duration = 3650
-			hidden = yes
+		if = {
+			limit = { ruler_is_dwarven = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 7300
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { ruler_is_gnomish = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 9125
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				ruler_is_elven = yes
+				primary_culture = wood_elf
+			}
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 9125
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { ruler_is_elven = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 14600
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { ruler_is_half_elven = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 3650
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { has_ruler_flag = is_a_lich }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 14600
+				hidden = yes
+			}
+		}
+		else = {
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 3650
+				hidden = yes
+			}
 		}
 	}
 
@@ -631,10 +1320,63 @@ country_event = {
 		}
 		remove_ruler_personality = tolerant_personality
 		
-		add_ruler_modifier = {
-			name = mna_changed_trait
-			duration = 3650
-			hidden = yes
+		if = {
+			limit = { ruler_is_dwarven = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 7300
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { ruler_is_gnomish = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 9125
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				ruler_is_elven = yes
+				primary_culture = wood_elf
+			}
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 9125
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { ruler_is_elven = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 14600
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { ruler_is_half_elven = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 3650
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { has_ruler_flag = is_a_lich }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 14600
+				hidden = yes
+			}
+		}
+		else = {
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 3650
+				hidden = yes
+			}
 		}
 	}
 
@@ -645,10 +1387,63 @@ country_event = {
 		}
 		remove_ruler_personality = righteous_personality
 		
-		add_ruler_modifier = {
-			name = mna_changed_trait
-			duration = 3650
-			hidden = yes
+		if = {
+			limit = { ruler_is_dwarven = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 7300
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { ruler_is_gnomish = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 9125
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				ruler_is_elven = yes
+				primary_culture = wood_elf
+			}
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 9125
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { ruler_is_elven = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 14600
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { ruler_is_half_elven = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 3650
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { has_ruler_flag = is_a_lich }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 14600
+				hidden = yes
+			}
+		}
+		else = {
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 3650
+				hidden = yes
+			}
 		}
 	}
 
@@ -659,10 +1454,63 @@ country_event = {
 		}
 		remove_ruler_personality = kind_hearted_personality
 		
-		add_ruler_modifier = {
-			name = mna_changed_trait
-			duration = 3650
-			hidden = yes
+		if = {
+			limit = { ruler_is_dwarven = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 7300
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { ruler_is_gnomish = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 9125
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				ruler_is_elven = yes
+				primary_culture = wood_elf
+			}
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 9125
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { ruler_is_elven = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 14600
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { ruler_is_half_elven = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 3650
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { has_ruler_flag = is_a_lich }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 14600
+				hidden = yes
+			}
+		}
+		else = {
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 3650
+				hidden = yes
+			}
 		}
 	}
 
@@ -673,10 +1521,63 @@ country_event = {
 		}
 		remove_ruler_personality = free_thinker_personality
 		
-		add_ruler_modifier = {
-			name = mna_changed_trait
-			duration = 3650
-			hidden = yes
+		if = {
+			limit = { ruler_is_dwarven = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 7300
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { ruler_is_gnomish = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 9125
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				ruler_is_elven = yes
+				primary_culture = wood_elf
+			}
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 9125
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { ruler_is_elven = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 14600
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { ruler_is_half_elven = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 3650
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { has_ruler_flag = is_a_lich }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 14600
+				hidden = yes
+			}
+		}
+		else = {
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 3650
+				hidden = yes
+			}
 		}
 	}
 
@@ -687,10 +1588,63 @@ country_event = {
 		}
 		remove_ruler_personality = well_connected_personality
 		
-		add_ruler_modifier = {
-			name = mna_changed_trait
-			duration = 3650
-			hidden = yes
+		if = {
+			limit = { ruler_is_dwarven = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 7300
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { ruler_is_gnomish = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 9125
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				ruler_is_elven = yes
+				primary_culture = wood_elf
+			}
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 9125
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { ruler_is_elven = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 14600
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { ruler_is_half_elven = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 3650
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { has_ruler_flag = is_a_lich }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 14600
+				hidden = yes
+			}
+		}
+		else = {
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 3650
+				hidden = yes
+			}
 		}
 	}
 
@@ -701,10 +1655,63 @@ country_event = {
 		}
 		remove_ruler_personality = calm_personality
 		
-		add_ruler_modifier = {
-			name = mna_changed_trait
-			duration = 3650
-			hidden = yes
+		if = {
+			limit = { ruler_is_dwarven = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 7300
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { ruler_is_gnomish = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 9125
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				ruler_is_elven = yes
+				primary_culture = wood_elf
+			}
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 9125
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { ruler_is_elven = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 14600
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { ruler_is_half_elven = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 3650
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { has_ruler_flag = is_a_lich }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 14600
+				hidden = yes
+			}
+		}
+		else = {
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 3650
+				hidden = yes
+			}
 		}
 	}
 
@@ -715,10 +1722,63 @@ country_event = {
 		}
 		remove_ruler_personality = careful_personality
 		
-		add_ruler_modifier = {
-			name = mna_changed_trait
-			duration = 3650
-			hidden = yes
+		if = {
+			limit = { ruler_is_dwarven = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 7300
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { ruler_is_gnomish = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 9125
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				ruler_is_elven = yes
+				primary_culture = wood_elf
+			}
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 9125
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { ruler_is_elven = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 14600
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { ruler_is_half_elven = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 3650
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { has_ruler_flag = is_a_lich }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 14600
+				hidden = yes
+			}
+		}
+		else = {
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 3650
+				hidden = yes
+			}
 		}
 	}
 
@@ -729,10 +1789,63 @@ country_event = {
 		}
 		remove_ruler_personality = secretive_personality
 		
-		add_ruler_modifier = {
-			name = mna_changed_trait
-			duration = 3650
-			hidden = yes
+		if = {
+			limit = { ruler_is_dwarven = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 7300
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { ruler_is_gnomish = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 9125
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				ruler_is_elven = yes
+				primary_culture = wood_elf
+			}
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 9125
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { ruler_is_elven = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 14600
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { ruler_is_half_elven = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 3650
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { has_ruler_flag = is_a_lich }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 14600
+				hidden = yes
+			}
+		}
+		else = {
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 3650
+				hidden = yes
+			}
 		}
 	}
 
@@ -743,10 +1856,63 @@ country_event = {
 		}
 		remove_ruler_personality = intricate_web_weaver_personality
 		
-		add_ruler_modifier = {
-			name = mna_changed_trait
-			duration = 3650
-			hidden = yes
+		if = {
+			limit = { ruler_is_dwarven = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 7300
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { ruler_is_gnomish = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 9125
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				ruler_is_elven = yes
+				primary_culture = wood_elf
+			}
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 9125
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { ruler_is_elven = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 14600
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { ruler_is_half_elven = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 3650
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { has_ruler_flag = is_a_lich }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 14600
+				hidden = yes
+			}
+		}
+		else = {
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 3650
+				hidden = yes
+			}
 		}
 	}
 
@@ -757,10 +1923,63 @@ country_event = {
 		}
 		remove_ruler_personality = fertile_personality
 		
-		add_ruler_modifier = {
-			name = mna_changed_trait
-			duration = 3650
-			hidden = yes
+		if = {
+			limit = { ruler_is_dwarven = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 7300
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { ruler_is_gnomish = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 9125
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				ruler_is_elven = yes
+				primary_culture = wood_elf
+			}
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 9125
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { ruler_is_elven = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 14600
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { ruler_is_half_elven = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 3650
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { has_ruler_flag = is_a_lich }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 14600
+				hidden = yes
+			}
+		}
+		else = {
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 3650
+				hidden = yes
+			}
 		}
 	}
 
@@ -771,10 +1990,63 @@ country_event = {
 		}
 		remove_ruler_personality = well_advised_personality
 		
-		add_ruler_modifier = {
-			name = mna_changed_trait
-			duration = 3650
-			hidden = yes
+		if = {
+			limit = { ruler_is_dwarven = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 7300
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { ruler_is_gnomish = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 9125
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				ruler_is_elven = yes
+				primary_culture = wood_elf
+			}
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 9125
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { ruler_is_elven = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 14600
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { ruler_is_half_elven = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 3650
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { has_ruler_flag = is_a_lich }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 14600
+				hidden = yes
+			}
+		}
+		else = {
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 3650
+				hidden = yes
+			}
 		}
 	}
 
@@ -785,10 +2057,63 @@ country_event = {
 		}
 		remove_ruler_personality = benevolent_personality
 		
-		add_ruler_modifier = {
-			name = mna_changed_trait
-			duration = 3650
-			hidden = yes
+		if = {
+			limit = { ruler_is_dwarven = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 7300
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { ruler_is_gnomish = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 9125
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				ruler_is_elven = yes
+				primary_culture = wood_elf
+			}
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 9125
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { ruler_is_elven = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 14600
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { ruler_is_half_elven = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 3650
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { has_ruler_flag = is_a_lich }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 14600
+				hidden = yes
+			}
+		}
+		else = {
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 3650
+				hidden = yes
+			}
 		}
 	}
 
@@ -799,10 +2124,63 @@ country_event = {
 		}
 		remove_ruler_personality = zealot_personality
 		
-		add_ruler_modifier = {
-			name = mna_changed_trait
-			duration = 3650
-			hidden = yes
+		if = {
+			limit = { ruler_is_dwarven = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 7300
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { ruler_is_gnomish = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 9125
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				ruler_is_elven = yes
+				primary_culture = wood_elf
+			}
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 9125
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { ruler_is_elven = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 14600
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { ruler_is_half_elven = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 3650
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { has_ruler_flag = is_a_lich }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 14600
+				hidden = yes
+			}
+		}
+		else = {
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 3650
+				hidden = yes
+			}
 		}
 	}
 
@@ -813,10 +2191,63 @@ country_event = {
 		}
 		remove_ruler_personality = pious_personality
 		
-		add_ruler_modifier = {
-			name = mna_changed_trait
-			duration = 3650
-			hidden = yes
+		if = {
+			limit = { ruler_is_dwarven = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 7300
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { ruler_is_gnomish = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 9125
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				ruler_is_elven = yes
+				primary_culture = wood_elf
+			}
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 9125
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { ruler_is_elven = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 14600
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { ruler_is_half_elven = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 3650
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { has_ruler_flag = is_a_lich }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 14600
+				hidden = yes
+			}
+		}
+		else = {
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 3650
+				hidden = yes
+			}
 		}
 	}
 
@@ -827,10 +2258,63 @@ country_event = {
 		}
 		remove_ruler_personality = lawgiver_personality
 		
-		add_ruler_modifier = {
-			name = mna_changed_trait
-			duration = 3650
-			hidden = yes
+		if = {
+			limit = { ruler_is_dwarven = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 7300
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { ruler_is_gnomish = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 9125
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				ruler_is_elven = yes
+				primary_culture = wood_elf
+			}
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 9125
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { ruler_is_elven = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 14600
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { ruler_is_half_elven = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 3650
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { has_ruler_flag = is_a_lich }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 14600
+				hidden = yes
+			}
+		}
+		else = {
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 3650
+				hidden = yes
+			}
 		}
 	}
 
@@ -841,10 +2325,63 @@ country_event = {
 		}
 		remove_ruler_personality = midas_touched_personality
 		
-		add_ruler_modifier = {
-			name = mna_changed_trait
-			duration = 3650
-			hidden = yes
+		if = {
+			limit = { ruler_is_dwarven = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 7300
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { ruler_is_gnomish = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 9125
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				ruler_is_elven = yes
+				primary_culture = wood_elf
+			}
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 9125
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { ruler_is_elven = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 14600
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { ruler_is_half_elven = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 3650
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { has_ruler_flag = is_a_lich }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 14600
+				hidden = yes
+			}
+		}
+		else = {
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 3650
+				hidden = yes
+			}
 		}
 	}
 
@@ -855,10 +2392,63 @@ country_event = {
 		}
 		remove_ruler_personality = incorruptible_personality
 		
-		add_ruler_modifier = {
-			name = mna_changed_trait
-			duration = 3650
-			hidden = yes
+		if = {
+			limit = { ruler_is_dwarven = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 7300
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { ruler_is_gnomish = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 9125
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				ruler_is_elven = yes
+				primary_culture = wood_elf
+			}
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 9125
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { ruler_is_elven = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 14600
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { ruler_is_half_elven = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 3650
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { has_ruler_flag = is_a_lich }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 14600
+				hidden = yes
+			}
+		}
+		else = {
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 3650
+				hidden = yes
+			}
 		}
 	}
 
@@ -869,10 +2459,63 @@ country_event = {
 		}
 		remove_ruler_personality = architectural_visionary_personality
 		
-		add_ruler_modifier = {
-			name = mna_changed_trait
-			duration = 3650
-			hidden = yes
+		if = {
+			limit = { ruler_is_dwarven = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 7300
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { ruler_is_gnomish = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 9125
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				ruler_is_elven = yes
+				primary_culture = wood_elf
+			}
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 9125
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { ruler_is_elven = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 14600
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { ruler_is_half_elven = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 3650
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { has_ruler_flag = is_a_lich }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 14600
+				hidden = yes
+			}
+		}
+		else = {
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 3650
+				hidden = yes
+			}
 		}
 	}
 
@@ -883,10 +2526,63 @@ country_event = {
 		}
 		remove_ruler_personality = scholar_personality
 		
-		add_ruler_modifier = {
-			name = mna_changed_trait
-			duration = 3650
-			hidden = yes
+		if = {
+			limit = { ruler_is_dwarven = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 7300
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { ruler_is_gnomish = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 9125
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				ruler_is_elven = yes
+				primary_culture = wood_elf
+			}
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 9125
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { ruler_is_elven = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 14600
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { ruler_is_half_elven = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 3650
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { has_ruler_flag = is_a_lich }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 14600
+				hidden = yes
+			}
+		}
+		else = {
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 3650
+				hidden = yes
+			}
 		}
 	}
 
@@ -897,10 +2593,63 @@ country_event = {
 		}
 		remove_ruler_personality = entrepreneur_personality
 		
-		add_ruler_modifier = {
-			name = mna_changed_trait
-			duration = 3650
-			hidden = yes
+		if = {
+			limit = { ruler_is_dwarven = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 7300
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { ruler_is_gnomish = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 9125
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				ruler_is_elven = yes
+				primary_culture = wood_elf
+			}
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 9125
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { ruler_is_elven = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 14600
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { ruler_is_half_elven = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 3650
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { has_ruler_flag = is_a_lich }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 14600
+				hidden = yes
+			}
+		}
+		else = {
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 3650
+				hidden = yes
+			}
 		}
 	}
 
@@ -911,10 +2660,63 @@ country_event = {
 		}
 		remove_ruler_personality = industrious_personality
 		
-		add_ruler_modifier = {
-			name = mna_changed_trait
-			duration = 3650
-			hidden = yes
+		if = {
+			limit = { ruler_is_dwarven = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 7300
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { ruler_is_gnomish = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 9125
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				ruler_is_elven = yes
+				primary_culture = wood_elf
+			}
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 9125
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { ruler_is_elven = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 14600
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { ruler_is_half_elven = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 3650
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { has_ruler_flag = is_a_lich }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 14600
+				hidden = yes
+			}
+		}
+		else = {
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 3650
+				hidden = yes
+			}
 		}
 	}
 
@@ -925,10 +2727,63 @@ country_event = {
 		}
 		remove_ruler_personality = expansionist_personality
 		
-		add_ruler_modifier = {
-			name = mna_changed_trait
-			duration = 3650
-			hidden = yes
+		if = {
+			limit = { ruler_is_dwarven = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 7300
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { ruler_is_gnomish = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 9125
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				ruler_is_elven = yes
+				primary_culture = wood_elf
+			}
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 9125
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { ruler_is_elven = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 14600
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { ruler_is_half_elven = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 3650
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { has_ruler_flag = is_a_lich }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 14600
+				hidden = yes
+			}
+		}
+		else = {
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 3650
+				hidden = yes
+			}
 		}
 	}
 
@@ -939,10 +2794,63 @@ country_event = {
 		}
 		remove_ruler_personality = charismatic_negotiator_personality
 		
-		add_ruler_modifier = {
-			name = mna_changed_trait
-			duration = 3650
-			hidden = yes
+		if = {
+			limit = { ruler_is_dwarven = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 7300
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { ruler_is_gnomish = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 9125
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				ruler_is_elven = yes
+				primary_culture = wood_elf
+			}
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 9125
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { ruler_is_elven = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 14600
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { ruler_is_half_elven = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 3650
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { has_ruler_flag = is_a_lich }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 14600
+				hidden = yes
+			}
+		}
+		else = {
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 3650
+				hidden = yes
+			}
 		}
 	}
 
@@ -953,10 +2861,63 @@ country_event = {
 		}
 		remove_ruler_personality = silver_tongue_personality
 		
-		add_ruler_modifier = {
-			name = mna_changed_trait
-			duration = 3650
-			hidden = yes
+		if = {
+			limit = { ruler_is_dwarven = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 7300
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { ruler_is_gnomish = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 9125
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				ruler_is_elven = yes
+				primary_culture = wood_elf
+			}
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 9125
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { ruler_is_elven = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 14600
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { ruler_is_half_elven = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 3650
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { has_ruler_flag = is_a_lich }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 14600
+				hidden = yes
+			}
+		}
+		else = {
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 3650
+				hidden = yes
+			}
 		}
 	}
 
@@ -967,10 +2928,63 @@ country_event = {
 		}
 		remove_ruler_personality = conqueror_personality
 		
-		add_ruler_modifier = {
-			name = mna_changed_trait
-			duration = 3650
-			hidden = yes
+		if = {
+			limit = { ruler_is_dwarven = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 7300
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { ruler_is_gnomish = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 9125
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				ruler_is_elven = yes
+				primary_culture = wood_elf
+			}
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 9125
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { ruler_is_elven = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 14600
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { ruler_is_half_elven = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 3650
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { has_ruler_flag = is_a_lich }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 14600
+				hidden = yes
+			}
+		}
+		else = {
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 3650
+				hidden = yes
+			}
 		}
 	}
 
@@ -981,10 +2995,63 @@ country_event = {
 		}
 		remove_ruler_personality = tactical_genius_personality
 		
-		add_ruler_modifier = {
-			name = mna_changed_trait
-			duration = 3650
-			hidden = yes
+		if = {
+			limit = { ruler_is_dwarven = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 7300
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { ruler_is_gnomish = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 9125
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				ruler_is_elven = yes
+				primary_culture = wood_elf
+			}
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 9125
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { ruler_is_elven = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 14600
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { ruler_is_half_elven = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 3650
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { has_ruler_flag = is_a_lich }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 14600
+				hidden = yes
+			}
+		}
+		else = {
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 3650
+				hidden = yes
+			}
 		}
 	}
 
@@ -995,10 +3062,63 @@ country_event = {
 		}
 		remove_ruler_personality = bold_fighter_personality
 		
-		add_ruler_modifier = {
-			name = mna_changed_trait
-			duration = 3650
-			hidden = yes
+		if = {
+			limit = { ruler_is_dwarven = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 7300
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { ruler_is_gnomish = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 9125
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				ruler_is_elven = yes
+				primary_culture = wood_elf
+			}
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 9125
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { ruler_is_elven = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 14600
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { ruler_is_half_elven = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 3650
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { has_ruler_flag = is_a_lich }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 14600
+				hidden = yes
+			}
+		}
+		else = {
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 3650
+				hidden = yes
+			}
 		}
 	}
 
@@ -1009,10 +3129,63 @@ country_event = {
 		}
 		remove_ruler_personality = strict_personality
 		
-		add_ruler_modifier = {
-			name = mna_changed_trait
-			duration = 3650
-			hidden = yes
+		if = {
+			limit = { ruler_is_dwarven = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 7300
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { ruler_is_gnomish = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 9125
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				ruler_is_elven = yes
+				primary_culture = wood_elf
+			}
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 9125
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { ruler_is_elven = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 14600
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { ruler_is_half_elven = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 3650
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { has_ruler_flag = is_a_lich }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 14600
+				hidden = yes
+			}
+		}
+		else = {
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 3650
+				hidden = yes
+			}
 		}
 	}
 
@@ -1023,10 +3196,63 @@ country_event = {
 		}
 		remove_ruler_personality = inspiring_leader_personality
 		
-		add_ruler_modifier = {
-			name = mna_changed_trait
-			duration = 3650
-			hidden = yes
+		if = {
+			limit = { ruler_is_dwarven = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 7300
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { ruler_is_gnomish = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 9125
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				ruler_is_elven = yes
+				primary_culture = wood_elf
+			}
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 9125
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { ruler_is_elven = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 14600
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { ruler_is_half_elven = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 3650
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { has_ruler_flag = is_a_lich }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 14600
+				hidden = yes
+			}
+		}
+		else = {
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 3650
+				hidden = yes
+			}
 		}
 	}
 
@@ -1037,10 +3263,63 @@ country_event = {
 		}
 		remove_ruler_personality = martial_educator_personality
 		
-		add_ruler_modifier = {
-			name = mna_changed_trait
-			duration = 3650
-			hidden = yes
+		if = {
+			limit = { ruler_is_dwarven = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 7300
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { ruler_is_gnomish = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 9125
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				ruler_is_elven = yes
+				primary_culture = wood_elf
+			}
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 9125
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { ruler_is_elven = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 14600
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { ruler_is_half_elven = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 3650
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { has_ruler_flag = is_a_lich }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 14600
+				hidden = yes
+			}
+		}
+		else = {
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 3650
+				hidden = yes
+			}
 		}
 	}
 
@@ -1051,10 +3330,63 @@ country_event = {
 		}
 		remove_ruler_personality = navigator_personality
 		
-		add_ruler_modifier = {
-			name = mna_changed_trait
-			duration = 3650
-			hidden = yes
+		if = {
+			limit = { ruler_is_dwarven = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 7300
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { ruler_is_gnomish = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 9125
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				ruler_is_elven = yes
+				primary_culture = wood_elf
+			}
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 9125
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { ruler_is_elven = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 14600
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { ruler_is_half_elven = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 3650
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { has_ruler_flag = is_a_lich }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 14600
+				hidden = yes
+			}
+		}
+		else = {
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 3650
+				hidden = yes
+			}
 		}
 	}
 
@@ -1065,10 +3397,63 @@ country_event = {
 		}
 		remove_ruler_personality = fierce_negotiator_personality
 		
-		add_ruler_modifier = {
-			name = mna_changed_trait
-			duration = 3650
-			hidden = yes
+		if = {
+			limit = { ruler_is_dwarven = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 7300
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { ruler_is_gnomish = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 9125
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				ruler_is_elven = yes
+				primary_culture = wood_elf
+			}
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 9125
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { ruler_is_elven = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 14600
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { ruler_is_half_elven = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 3650
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { has_ruler_flag = is_a_lich }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 14600
+				hidden = yes
+			}
+		}
+		else = {
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 3650
+				hidden = yes
+			}
 		}
 	}
 
@@ -1079,10 +3464,63 @@ country_event = {
 		}
 		remove_ruler_personality = humane_personality
 		
-		add_ruler_modifier = {
-			name = mna_changed_trait
-			duration = 3650
-			hidden = yes
+		if = {
+			limit = { ruler_is_dwarven = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 7300
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { ruler_is_gnomish = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 9125
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				ruler_is_elven = yes
+				primary_culture = wood_elf
+			}
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 9125
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { ruler_is_elven = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 14600
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { ruler_is_half_elven = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 3650
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { has_ruler_flag = is_a_lich }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 14600
+				hidden = yes
+			}
+		}
+		else = {
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 3650
+				hidden = yes
+			}
 		}
 	}
 
@@ -1093,10 +3531,63 @@ country_event = {
 		}
 		remove_ruler_personality = petty_personality
 		
-		add_ruler_modifier = {
-			name = mna_changed_trait
-			duration = 3650
-			hidden = yes
+		if = {
+			limit = { ruler_is_dwarven = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 7300
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { ruler_is_gnomish = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 9125
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				ruler_is_elven = yes
+				primary_culture = wood_elf
+			}
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 9125
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { ruler_is_elven = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 14600
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { ruler_is_half_elven = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 3650
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { has_ruler_flag = is_a_lich }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 14600
+				hidden = yes
+			}
+		}
+		else = {
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 3650
+				hidden = yes
+			}
 		}
 	}
 
@@ -1107,10 +3598,63 @@ country_event = {
 		}
 		remove_ruler_personality = reformist_personality
 		
-		add_ruler_modifier = {
-			name = mna_changed_trait
-			duration = 3650
-			hidden = yes
+		if = {
+			limit = { ruler_is_dwarven = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 7300
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { ruler_is_gnomish = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 9125
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				ruler_is_elven = yes
+				primary_culture = wood_elf
+			}
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 9125
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { ruler_is_elven = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 14600
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { ruler_is_half_elven = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 3650
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { has_ruler_flag = is_a_lich }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 14600
+				hidden = yes
+			}
+		}
+		else = {
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 3650
+				hidden = yes
+			}
 		}
 	}
 
@@ -1121,10 +3665,63 @@ country_event = {
 		}
 		remove_ruler_personality = patron_of_arts_personality
 		
-		add_ruler_modifier = {
-			name = mna_changed_trait
-			duration = 3650
-			hidden = yes
+		if = {
+			limit = { ruler_is_dwarven = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 7300
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { ruler_is_gnomish = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 9125
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				ruler_is_elven = yes
+				primary_culture = wood_elf
+			}
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 9125
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { ruler_is_elven = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 14600
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { ruler_is_half_elven = yes }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 3650
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { has_ruler_flag = is_a_lich }
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 14600
+				hidden = yes
+			}
+		}
+		else = {
+			add_ruler_modifier = {
+				name = mna_changed_trait
+				duration = 3650
+				hidden = yes
+			}
 		}
 	}
 }

@@ -46,7 +46,13 @@
 
  mna_change_trait_title: "§YReroll Trait§!"
  mna_change_trait_desc: "With Humanist ideas you can reroll any ruler trait every ten years."
- mna_change_trait_tooltip: "\nYou will be able to get rid of any ruler trait of your choosing. You can only do this every §Yten years§!."
+ mna_change_trait_tooltip: "\nYou will be able to get rid of any ruler trait of your choosing. You can only do this every §Y10 years§!."
+ mna_change_trait_tooltip_dwarven: "\nYou will be able to get rid of any ruler trait of your choosing. Dwarves can only do this every §Y20 years§!."
+ mna_change_trait_tooltip_gnomish: "\nYou will be able to get rid of any ruler trait of your choosing. Gnomes can only do this every §Y25 years§!."
+ mna_change_trait_tooltip_wood_elf: "\nYou will be able to get rid of any ruler trait of your choosing. Wood elves can only do this every §Y25 years§!."
+ mna_change_trait_tooltip_elven: "\nYou will be able to get rid of any ruler trait of your choosing. Elves can only do this every §Y40 years§!."
+ mna_change_trait_tooltip_half_elven: "\nYou will be able to get rid of any ruler trait of your choosing. You can only do this every §Yten years§!."
+ mna_change_trait_tooltip_lich: "\nYou will be able to get rid of any ruler trait of your choosing. Liches can only do this every §Y40 years§!."
  mna_changed_trait: "Recently rerolled trait"
 
  mna_idea_mechanics.5.t: "Reroll a Trait"
