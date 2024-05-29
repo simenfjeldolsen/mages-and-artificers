@@ -206,7 +206,7 @@ infrastructure_ideas = {
 		fort_maintenance_modifier = -0.2
  	}
 	organised_construction = {
-		build_cost = -0.15 
+		build_cost = -0.10
 	}
 	efficient_construction_plans = {
 		build_time = -0.25
@@ -216,7 +216,6 @@ infrastructure_ideas = {
 		trade_company_investment_cost = -0.5
 	}
 	administrative_efficiency_idea = {
-		expand_infrastructure_cost_modifier = -0.25
 		global_prosperity_growth = 0.5
 	}
 	state_efficiency = {
