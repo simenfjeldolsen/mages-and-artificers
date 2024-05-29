@@ -226,7 +226,7 @@ leadership_ideas = {
 		leader_siege = 1
 	}
 	local_nobility = {
-		army_tradition_decay = -0.0025
+		army_tradition_decay = -0.005
 	}
 	
 
