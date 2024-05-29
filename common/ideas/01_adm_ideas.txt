@@ -539,7 +539,7 @@ religious_ideas = {
 	}
 	church_attendance_duty = { 
 		papal_influence = 2
-		devotion = 0.1
+		devotion = 1
 		monthly_fervor_increase = 1
 		church_power_modifier = 0.20
 		monthly_piety_accelerator = 0.001
