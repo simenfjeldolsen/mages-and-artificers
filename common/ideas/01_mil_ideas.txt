@@ -97,13 +97,13 @@ quality_ideas = {
 		infantry_power = 0.1
 	}
 	quality_education = {
-		army_tradition_decay = -0.005
+		army_tradition_decay = -0.003
 	}
 	finest_of_horses = {
 		cavalry_power = 0.1
 	}
 	escort_ships = {
-		reserves_organisation = 0.25
+		reserves_organisation = 0.10
 	}
 	naval_drill = {
 		movement_speed = 0.10
