@@ -5,5 +5,5 @@ tags={
 }
 picture="thumbnail.png"
 name="1.36 Mages & Artificers"
-supported_version="1.36.2"
+supported_version="v1.37.*"
 remote_file_id="3141656608"
