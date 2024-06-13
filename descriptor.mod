@@ -4,6 +4,6 @@ tags={
 	"Military"
 }
 picture="thumbnail.png"
-name="1.36 Mages & Artificers"
+name="1.37 Mages & Artificers"
 supported_version="v1.37.*"
 remote_file_id="3141656608"
