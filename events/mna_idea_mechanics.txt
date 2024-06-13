@@ -4409,6 +4409,7 @@ country_event = {
 	}
 }
 
+# Pluralism Goods produced
 country_event = {
 	id = mna_idea_mechanics.8
 	title = mna_idea_mechanics.8.t
