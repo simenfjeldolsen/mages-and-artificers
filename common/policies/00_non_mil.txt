@@ -4175,10 +4175,10 @@ policy_B06 = {
 	allow = {
 		full_idea_group = militarism_ideas
 		OR = {
-			has_idea_group = aristocracy_ideas
-			has_idea_group = plutocracy_ideas
-			has_idea_group = theocracy_gov_ideas
-			has_idea_group = horde_gov_ideas
+			full_idea_group = aristocracy_ideas
+			full_idea_group = plutocracy_ideas
+			full_idea_group = theocracy_gov_ideas
+			full_idea_group = horde_gov_ideas
 		}
 	}
 
