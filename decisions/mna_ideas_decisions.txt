@@ -163,5 +163,22 @@ country_decisions = {
 			factor = 0
 		}
 	}
+	mna_edict_management = {
+		major = yes
+		potential = {
+			ai = no
+		}
+
+		allow = {
+			NOT = { has_country_flag = disable_all_state_edicts }
+		}
+		effect = {
+			country_event = { id = mna_quality_of_life.1 }
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
 }
 

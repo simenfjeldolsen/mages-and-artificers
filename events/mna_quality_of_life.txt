@@ -1,0 +1,147 @@
+namespace = mna_quality_of_life
+
+# Turn on edicts
+country_event = {
+	id = mna_quality_of_life.1
+	title = mna_quality_of_life.1.t
+	desc = mna_quality_of_life.1.d
+	picture = CITY_DEVELOPMENT_eventPicture
+
+	is_triggered_only = yes
+
+	option = {
+		name = mna_quality_of_life.1.exit
+	}
+
+	option = {
+		name = "mna_quality_of_life.1.turn_off"
+		custom_tooltip = mna_quality_of_life.1.turn_off_description
+		every_owned_province = {
+			limit = {
+				is_state = yes
+				has_any_state_edict = yes
+			}
+			set_state_edict = revoke_state_edict
+		}
+	}
+
+	option = {
+		name = "mna_quality_of_life.1.advancement_effort"
+		custom_tooltip = mna_quality_of_life.1.advancement_effort_description
+		every_owned_province = {
+			limit = {
+				is_state = yes
+				has_any_state_edict = no
+			}
+			set_state_edict = edict_advancement_effort
+		}
+	}
+	option = {
+		name = "mna_quality_of_life.1.centralization_effort"
+		custom_tooltip = mna_quality_of_life.1.centralization_effort_description
+		every_owned_province = {
+			limit = {
+				is_state = yes
+				has_any_state_edict = no
+			}
+			set_state_edict = edict_centralization_effort
+		}
+	}
+	option = {
+		name = "mna_quality_of_life.1.defensive_edict"
+		custom_tooltip = mna_quality_of_life.1.defensive_edict_description
+		every_owned_province = {
+			limit = {
+				is_state = yes
+				has_any_state_edict = no
+			}
+			set_state_edict = edict_defensive_edict
+		}
+	}
+	option = {
+		name = "mna_quality_of_life.1.edict_of_absolutism"
+		custom_tooltip = mna_quality_of_life.1.edict_of_absolutism_description
+		trigger = {
+			has_country_flag = edict_of_absolutism
+		}
+		every_owned_province = {
+			limit = {
+				is_state = yes
+				has_any_state_edict = no
+			}
+			set_state_edict = edict_of_absolutism
+		}
+	}
+	option = {
+		name = "mna_quality_of_life.1.encourage_development"
+		custom_tooltip = mna_quality_of_life.1.encourage_development_description
+		every_owned_province = {
+			limit = {
+				is_state = yes
+				has_any_state_edict = no
+			}
+			set_state_edict = edict_encourage_development
+		}
+	}
+	option = {
+		name = "mna_quality_of_life.1.feudal_de_jure_law"
+		custom_tooltip = mna_quality_of_life.1.feudal_de_jure_law_description
+		trigger = {
+			has_country_flag = feudal_de_jure_law
+		}
+		every_owned_province = {
+			limit = {
+				is_state = yes
+				has_any_state_edict = no
+			}
+			set_state_edict = edict_feudal_de_jure_law
+		}
+	}
+	option = {
+		name = "mna_quality_of_life.1.promote_military_recruitment"
+		custom_tooltip = mna_quality_of_life.1.promote_military_recruitment_description
+		every_owned_province = {
+			limit = {
+				is_state = yes
+				has_any_state_edict = no
+			}
+			set_state_edict = edict_promote_military_recruitment
+		}
+	}
+	option = {
+		name = "mna_quality_of_life.1.protect_trade"
+		custom_tooltip = mna_quality_of_life.1.protect_trade_description
+		every_owned_province = {
+			limit = {
+				is_state = yes
+				has_any_state_edict = no
+			}
+			set_state_edict = edict_protect_trade
+		}
+	}
+	option = {
+		name = "mna_quality_of_life.1.religion_enforced"
+		custom_tooltip = mna_quality_of_life.1.religion_enforced_description
+		trigger = {
+			has_country_flag = religion_enforced_edict
+		}
+		every_owned_province = {
+			limit = {
+				is_state = yes
+				has_any_state_edict = no
+			}
+			set_state_edict = edict_religion_enforced
+		}
+	}
+	option = {
+		name = "mna_quality_of_life.1.religious_unity"
+		custom_tooltip = mna_quality_of_life.1.religious_unity_description
+		every_owned_province = {
+			limit = {
+				is_state = yes
+				has_any_state_edict = no
+			}
+			set_state_edict = edict_religious_unity
+		}
+	}
+}
