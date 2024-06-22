@@ -2383,7 +2383,7 @@ policy_A01 = {
 }
 
 the_education_act = {
-	monarch_power = MIL
+	monarch_power = ADM
 
 
 	potential = {
