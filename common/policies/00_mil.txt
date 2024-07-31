@@ -654,7 +654,800 @@ B0A = {
 			is_at_war = yes
 		}
 	}
-}		
+}				
+		
+10B = {
+	monarch_power = MIL
+
+
+	potential = {
+		has_idea_group = administrative_ideas
+		has_idea_group = shock_focus_ideas
+	}
+	
+	allow = {
+		full_idea_group = administrative_ideas
+		full_idea_group = shock_focus_ideas
+	}
+
+	mercenary_discipline = 0.05
+	
+	effect = {}
+	removed_effect = {}
+	ai_will_do = {
+		factor = 0.6
+		modifier = {
+			factor = 0.2
+			is_at_war = yes
+		}
+	}
+}	
+
+027 = {
+	monarch_power = MIL
+
+
+	potential = {
+		has_idea_group = influence_ideas
+		has_idea_group = logistics_ideas
+	}
+	
+	allow = {
+		full_idea_group = influence_ideas
+		full_idea_group = logistics_ideas
+	}
+
+	mercenary_discipline = 0.05
+	
+	effect = {}
+	removed_effect = {}
+	ai_will_do = {
+		factor = 0.6
+		modifier = {
+			factor = 0.2
+			is_at_war = yes
+		}
+	}
+}
+
+041 = {
+	monarch_power = MIL
+
+
+	potential = {
+		has_idea_group = offensive_ideas
+		OR = {
+			has_idea_group = imperial_ambition_ideas
+			has_idea_group = diplomatic_ideas
+		}
+	}
+	
+	allow = {
+		full_idea_group = offensive_ideas
+		OR = {
+			full_idea_group = imperial_ambition_ideas
+			full_idea_group = diplomatic_ideas
+		}
+	}
+
+	mercenary_discipline = 0.05
+	
+	effect = {}
+	removed_effect = {}
+	ai_will_do = {
+		factor = 0.6
+		modifier = {
+			factor = 0.2
+			is_at_war = yes
+		}
+	}
+}
+		
+109 = {
+	monarch_power = MIL
+
+
+	potential = {
+		has_idea_group = administrative_ideas
+		has_idea_group = standing_army_ideas
+	}
+	
+	allow = {
+		full_idea_group = administrative_ideas
+		full_idea_group = standing_army_ideas
+	}
+
+	infantry_power = 0.075
+	cavalry_power = 0.075
+	artillery_power = 0.075
+	
+	effect = {}
+	removed_effect = {}
+	ai_will_do = {
+		factor = 0.6
+		modifier = {
+			factor = 0.2
+			is_at_war = yes
+		}
+	}
+}
+
+307 = {
+	monarch_power = MIL
+
+
+	potential = {
+		has_idea_group = economic_ideas
+		has_idea_group = logistics_ideas
+	}
+	
+	allow = {
+		full_idea_group = economic_ideas
+		full_idea_group = logistics_ideas
+	}
+
+	infantry_power = 0.075
+	cavalry_power = 0.075
+	artillery_power = 0.075
+	
+	effect = {}
+	removed_effect = {}
+	ai_will_do = {
+		factor = 0.6
+		modifier = {
+			factor = 0.2
+			is_at_war = yes
+		}
+	}
+}
+
+40C = {
+	monarch_power = MIL
+
+
+	potential = {
+		has_idea_group = infrastructure_ideas
+		has_idea_group = fire_focus_ideas
+	}
+	
+	allow = {
+		full_idea_group = infrastructure_ideas
+		full_idea_group = fire_focus_ideas
+	}
+
+	infantry_power = 0.075
+	cavalry_power = 0.075
+	artillery_power = 0.075
+	
+	effect = {}
+	removed_effect = {}
+	ai_will_do = {
+		factor = 0.6
+		modifier = {
+			factor = 0.2
+			is_at_war = yes
+		}
+	}
+}
+
+507 = {
+	monarch_power = MIL
+
+
+	potential = {
+		has_idea_group = jurisprudence_ideas
+		has_idea_group = logistics_ideas
+	}
+	
+	allow = {
+		full_idea_group = jurisprudence_ideas
+		full_idea_group = logistics_ideas
+	}
+
+	infantry_power = 0.075
+	cavalry_power = 0.075
+	artillery_power = 0.075
+	
+	effect = {}
+	removed_effect = {}
+	ai_will_do = {
+		factor = 0.6
+		modifier = {
+			factor = 0.2
+			is_at_war = yes
+		}
+	}
+}
+
+70C = {
+	monarch_power = MIL
+
+
+	potential = {
+		has_idea_group = humanist_ideas
+		has_idea_group = fire_focus_ideas
+	}
+	
+	allow = {
+		full_idea_group = humanist_ideas
+		full_idea_group = fire_focus_ideas
+	}
+
+	infantry_power = 0.075
+	cavalry_power = 0.075
+	artillery_power = 0.075
+	
+	effect = {}
+	removed_effect = {}
+	ai_will_do = {
+		factor = 0.6
+		modifier = {
+			factor = 0.2
+			is_at_war = yes
+		}
+	}
+}	
+
+904 = {
+	monarch_power = MIL
+
+
+	potential = {
+		has_idea_group = centralisation_ideas
+		has_idea_group = quantity_ideas
+	}
+	
+	allow = {
+		full_idea_group = centralisation_ideas
+		full_idea_group = quantity_ideas
+	}
+
+	infantry_power = 0.075
+	cavalry_power = 0.075
+	artillery_power = 0.075
+	
+	effect = {}
+	removed_effect = {}
+	ai_will_do = {
+		factor = 0.6
+		modifier = {
+			factor = 0.2
+			is_at_war = yes
+		}
+	}
+}
+
+04B = {
+	monarch_power = MIL
+
+
+	potential = {
+		has_idea_group = shock_focus_ideas
+		OR = {
+			has_idea_group = imperial_ambition_ideas
+			has_idea_group = diplomatic_ideas
+		}
+	}
+	
+	allow = {
+		full_idea_group = shock_focus_ideas
+		OR = {
+			full_idea_group = imperial_ambition_ideas
+			full_idea_group = diplomatic_ideas
+		}
+	}
+
+	infantry_power = 0.075
+	cavalry_power = 0.075
+	artillery_power = 0.075
+	
+	effect = {}
+	removed_effect = {}
+	ai_will_do = {
+		factor = 0.6
+		modifier = {
+			factor = 0.2
+			is_at_war = yes
+		}
+	}
+}
+
+058 = {
+	monarch_power = MIL
+
+
+	potential = {
+		has_idea_group = exploration_ideas
+		has_idea_group = mercenary_ideas
+	}
+	
+	allow = {
+		full_idea_group = exploration_ideas
+		full_idea_group = mercenary_ideas
+	}
+
+	infantry_power = 0.075
+	cavalry_power = 0.075
+	artillery_power = 0.075
+	
+	effect = {}
+	removed_effect = {}
+	ai_will_do = {
+		factor = 0.6
+		modifier = {
+			factor = 0.2
+			is_at_war = yes
+		}
+	}
+}
+
+085 = {
+	monarch_power = MIL
+
+
+	potential = {
+		has_idea_group = naval_ideas
+		has_idea_group = leadership_ideas
+	}
+	
+	allow = {
+		full_idea_group = naval_ideas
+		full_idea_group = leadership_ideas
+	}
+
+	infantry_power = 0.075
+	cavalry_power = 0.075
+	artillery_power = 0.075
+	
+	effect = {}
+	removed_effect = {}
+	ai_will_do = {
+		factor = 0.6
+		modifier = {
+			factor = 0.2
+			is_at_war = yes
+		}
+	}
+}
+
+098 = {
+	monarch_power = MIL
+
+
+	potential = {
+		has_idea_group = home_waters_ideas
+		has_idea_group = mercenary_ideas
+	}
+	
+	allow = {
+		full_idea_group = home_waters_ideas
+		full_idea_group = mercenary_ideas
+	}
+
+	infantry_power = 0.075
+	cavalry_power = 0.075
+	artillery_power = 0.075
+	
+	effect = {}
+	removed_effect = {}
+	ai_will_do = {
+		factor = 0.6
+		modifier = {
+			factor = 0.2
+			is_at_war = yes
+		}
+	}
+}
+
+09C = {
+	monarch_power = MIL
+
+
+	potential = {
+		has_idea_group = home_waters_ideas
+		has_idea_group = fire_focus_ideas
+	}
+	
+	allow = {
+		full_idea_group = home_waters_ideas
+		full_idea_group = fire_focus_ideas
+	}
+
+	infantry_power = 0.075
+	cavalry_power = 0.075
+	artillery_power = 0.075
+	
+	effect = {}
+	removed_effect = {}
+	ai_will_do = {
+		factor = 0.6
+		modifier = {
+			factor = 0.2
+			is_at_war = yes
+		}
+	}
+}
+
+0B8 = {
+	monarch_power = MIL
+
+
+	potential = {
+		has_idea_group = pluralism_ideas
+		has_idea_group = mercenary_ideas
+	}
+	
+	allow = {
+		full_idea_group = pluralism_ideas
+		full_idea_group = mercenary_ideas
+	}
+
+	infantry_power = 0.075
+	cavalry_power = 0.075
+	artillery_power = 0.075
+	
+	effect = {}
+	removed_effect = {}
+	ai_will_do = {
+		factor = 0.6
+		modifier = {
+			factor = 0.2
+			is_at_war = yes
+		}
+	}
+}
+
+301 = {
+	monarch_power = MIL
+
+
+	potential = {
+		has_idea_group = economic_ideas
+		has_idea_group = offensive_ideas
+	}
+	
+	allow = {
+		full_idea_group = economic_ideas
+		full_idea_group = offensive_ideas
+	}
+
+	infantry_power = 0.10
+	cavalry_power = 0.10
+	
+	effect = {}
+	removed_effect = {}
+	ai_will_do = {
+		factor = 0.6
+		modifier = {
+			factor = 0.2
+			is_at_war = yes
+		}
+	}
+}
+
+508 = {
+	monarch_power = MIL
+
+
+	potential = {
+		has_idea_group = jurisprudence_ideas
+		has_idea_group = mercenary_ideas
+	}
+	
+	allow = {
+		full_idea_group = jurisprudence_ideas
+		full_idea_group = mercenary_ideas
+	}
+
+	infantry_power = 0.10
+	cavalry_power = 0.10
+	
+	effect = {}
+	removed_effect = {}
+	ai_will_do = {
+		factor = 0.6
+		modifier = {
+			factor = 0.2
+			is_at_war = yes
+		}
+	}
+}
+
+602 = {
+	monarch_power = MIL
+
+
+	potential = {
+		has_idea_group = expansion_ideas
+		has_idea_group = defensive_ideas
+	}
+	
+	allow = {
+		full_idea_group = expansion_ideas
+		full_idea_group = defensive_ideas
+	}
+
+	infantry_power = 0.10
+	cavalry_power = 0.10
+	
+	effect = {}
+	removed_effect = {}
+	ai_will_do = {
+		factor = 0.6
+		modifier = {
+			factor = 0.2
+			is_at_war = yes
+		}
+	}
+}
+
+806 = {
+	monarch_power = MIL
+
+
+	potential = {
+		has_idea_group = religious_ideas
+		has_idea_group = militarism_ideas
+	}
+	
+	allow = {
+		full_idea_group = religious_ideas
+		full_idea_group = militarism_ideas
+	}
+
+	infantry_power = 0.10
+	cavalry_power = 0.10
+	
+	effect = {}
+	removed_effect = {}
+	ai_will_do = {
+		factor = 0.6
+		modifier = {
+			factor = 0.2
+			is_at_war = yes
+		}
+	}
+}
+
+036 = {
+	monarch_power = MIL
+
+
+	potential = {
+		has_idea_group = spy_ideas
+		has_idea_group = militarism_ideas
+	}
+	
+	allow = {
+		full_idea_group = spy_ideas
+		full_idea_group = militarism_ideas
+	}
+
+	infantry_power = 0.10
+	cavalry_power = 0.10
+	
+	effect = {}
+	removed_effect = {}
+	ai_will_do = {
+		factor = 0.6
+		modifier = {
+			factor = 0.2
+			is_at_war = yes
+		}
+	}
+}
+
+049 = {
+	monarch_power = MIL
+
+
+	potential = {
+		has_idea_group = standing_army_ideas
+		OR = {
+			has_idea_group = imperial_ambition_ideas
+			has_idea_group = diplomatic_ideas
+		}
+	}
+	
+	allow = {
+		full_idea_group = standing_army_ideas
+		OR = {
+			full_idea_group = imperial_ambition_ideas
+			full_idea_group = diplomatic_ideas
+		}
+	}
+
+	infantry_power = 0.10
+	cavalry_power = 0.10
+	
+	effect = {}
+	removed_effect = {}
+	ai_will_do = {
+		factor = 0.6
+		modifier = {
+			factor = 0.2
+			is_at_war = yes
+		}
+	}
+}	
+
+053 = {
+	monarch_power = MIL
+
+
+	potential = {
+		has_idea_group = exploration_ideas
+		has_idea_group = quality_ideas
+	}
+	
+	allow = {
+		full_idea_group = exploration_ideas
+		full_idea_group = quality_ideas
+	}
+
+	infantry_power = 0.10
+	cavalry_power = 0.10
+	
+	effect = {}
+	removed_effect = {}
+	ai_will_do = {
+		factor = 0.6
+		modifier = {
+			factor = 0.2
+			is_at_war = yes
+		}
+	}
+}	
+
+055 = {
+	monarch_power = MIL
+
+
+	potential = {
+		has_idea_group = exploration_ideas
+		has_idea_group = leadership_ideas
+	}
+	
+	allow = {
+		full_idea_group = exploration_ideas
+		full_idea_group = leadership_ideas
+	}
+
+	infantry_power = 0.10
+	cavalry_power = 0.10
+	
+	effect = {}
+	removed_effect = {}
+	ai_will_do = {
+		factor = 0.6
+		modifier = {
+			factor = 0.2
+			is_at_war = yes
+		}
+	}
+}
+
+06B = {
+	monarch_power = MIL
+
+
+	potential = {
+		has_idea_group = trade_ideas
+		has_idea_group = shock_focus_ideas
+	}
+	
+	allow = {
+		full_idea_group = trade_ideas
+		full_idea_group = shock_focus_ideas
+	}
+
+	infantry_power = 0.10
+	cavalry_power = 0.10
+	
+	effect = {}
+	removed_effect = {}
+	ai_will_do = {
+		factor = 0.6
+		modifier = {
+			factor = 0.2
+			is_at_war = yes
+		}
+	}
+}
+
+policy_B05 = {
+	monarch_power = MIL
+
+
+	potential = {
+		has_idea_group = leadership_ideas
+		OR = {
+			has_idea_group = aristocracy_ideas
+			has_idea_group = plutocracy_ideas
+			has_idea_group = theocracy_gov_ideas
+			has_idea_group = horde_gov_ideas
+		}
+	}
+	
+	allow = {
+		full_idea_group = leadership_ideas
+		OR = {
+			full_idea_group = aristocracy_ideas
+			full_idea_group = plutocracy_ideas
+			full_idea_group = theocracy_gov_ideas
+			full_idea_group = horde_gov_ideas
+		}
+	}
+
+	infantry_power = 0.10
+	cavalry_power = 0.10
+	
+	effect = {}
+	removed_effect = {}
+	ai_will_do = {
+		factor = 0.6
+		modifier = {
+			factor = 0.2
+			is_at_war = yes
+		}
+	}
+}
+
+063 = {
+	monarch_power = MIL
+
+
+	potential = {
+		has_idea_group = trade_ideas
+		has_idea_group = quality_ideas
+	}
+	
+	allow = {
+		full_idea_group = trade_ideas
+		full_idea_group = quality_ideas
+	}
+
+	infantry_power = 0.10
+	cavalry_power = 0.10
+	
+	effect = {}
+	removed_effect = {}
+	ai_will_do = {
+		factor = 0.6
+		modifier = {
+			factor = 0.2
+			is_at_war = yes
+		}
+	}
+}
+
+0A5 = {
+	monarch_power = MIL
+
+
+	potential = {
+		has_idea_group = nationalism_ideas
+		has_idea_group = leadership_ideas
+	}
+	
+	allow = {
+		full_idea_group = nationalism_ideas
+		full_idea_group = leadership_ideas
+	}
+
+	infantry_power = 0.10
+	cavalry_power = 0.10
+	
+	effect = {}
+	removed_effect = {}
+	ai_will_do = {
+		factor = 0.6
+		modifier = {
+			factor = 0.2
+			is_at_war = yes
+		}
+	}
+}
 
 103 = {
 	monarch_power = MIL
@@ -1653,800 +2446,7 @@ B0B = {
 			is_at_war = yes
 		}
 	}
-}			
-		
-10B = {
-	monarch_power = MIL
-
-
-	potential = {
-		has_idea_group = administrative_ideas
-		has_idea_group = shock_focus_ideas
-	}
-	
-	allow = {
-		full_idea_group = administrative_ideas
-		full_idea_group = shock_focus_ideas
-	}
-
-	mercenary_discipline = 0.05
-	
-	effect = {}
-	removed_effect = {}
-	ai_will_do = {
-		factor = 0.6
-		modifier = {
-			factor = 0.2
-			is_at_war = yes
-		}
-	}
 }	
-
-027 = {
-	monarch_power = MIL
-
-
-	potential = {
-		has_idea_group = influence_ideas
-		has_idea_group = logistics_ideas
-	}
-	
-	allow = {
-		full_idea_group = influence_ideas
-		full_idea_group = logistics_ideas
-	}
-
-	mercenary_discipline = 0.05
-	
-	effect = {}
-	removed_effect = {}
-	ai_will_do = {
-		factor = 0.6
-		modifier = {
-			factor = 0.2
-			is_at_war = yes
-		}
-	}
-}
-
-041 = {
-	monarch_power = MIL
-
-
-	potential = {
-		has_idea_group = offensive_ideas
-		OR = {
-			has_idea_group = imperial_ambition_ideas
-			has_idea_group = diplomatic_ideas
-		}
-	}
-	
-	allow = {
-		full_idea_group = offensive_ideas
-		OR = {
-			full_idea_group = imperial_ambition_ideas
-			full_idea_group = diplomatic_ideas
-		}
-	}
-
-	mercenary_discipline = 0.05
-	
-	effect = {}
-	removed_effect = {}
-	ai_will_do = {
-		factor = 0.6
-		modifier = {
-			factor = 0.2
-			is_at_war = yes
-		}
-	}
-}
-		
-109 = {
-	monarch_power = MIL
-
-
-	potential = {
-		has_idea_group = administrative_ideas
-		has_idea_group = standing_army_ideas
-	}
-	
-	allow = {
-		full_idea_group = administrative_ideas
-		full_idea_group = standing_army_ideas
-	}
-
-	infantry_power = 0.075
-	cavalry_power = 0.075
-	artillery_power = 0.075
-	
-	effect = {}
-	removed_effect = {}
-	ai_will_do = {
-		factor = 0.6
-		modifier = {
-			factor = 0.2
-			is_at_war = yes
-		}
-	}
-}
-
-307 = {
-	monarch_power = MIL
-
-
-	potential = {
-		has_idea_group = economic_ideas
-		has_idea_group = logistics_ideas
-	}
-	
-	allow = {
-		full_idea_group = economic_ideas
-		full_idea_group = logistics_ideas
-	}
-
-	infantry_power = 0.075
-	cavalry_power = 0.075
-	artillery_power = 0.075
-	
-	effect = {}
-	removed_effect = {}
-	ai_will_do = {
-		factor = 0.6
-		modifier = {
-			factor = 0.2
-			is_at_war = yes
-		}
-	}
-}
-
-40C = {
-	monarch_power = MIL
-
-
-	potential = {
-		has_idea_group = infrastructure_ideas
-		has_idea_group = fire_focus_ideas
-	}
-	
-	allow = {
-		full_idea_group = infrastructure_ideas
-		full_idea_group = fire_focus_ideas
-	}
-
-	infantry_power = 0.075
-	cavalry_power = 0.075
-	artillery_power = 0.075
-	
-	effect = {}
-	removed_effect = {}
-	ai_will_do = {
-		factor = 0.6
-		modifier = {
-			factor = 0.2
-			is_at_war = yes
-		}
-	}
-}
-
-507 = {
-	monarch_power = MIL
-
-
-	potential = {
-		has_idea_group = jurisprudence_ideas
-		has_idea_group = logistics_ideas
-	}
-	
-	allow = {
-		full_idea_group = jurisprudence_ideas
-		full_idea_group = logistics_ideas
-	}
-
-	infantry_power = 0.075
-	cavalry_power = 0.075
-	artillery_power = 0.075
-	
-	effect = {}
-	removed_effect = {}
-	ai_will_do = {
-		factor = 0.6
-		modifier = {
-			factor = 0.2
-			is_at_war = yes
-		}
-	}
-}
-
-70C = {
-	monarch_power = MIL
-
-
-	potential = {
-		has_idea_group = humanist_ideas
-		has_idea_group = fire_focus_ideas
-	}
-	
-	allow = {
-		full_idea_group = humanist_ideas
-		full_idea_group = fire_focus_ideas
-	}
-
-	infantry_power = 0.075
-	cavalry_power = 0.075
-	artillery_power = 0.075
-	
-	effect = {}
-	removed_effect = {}
-	ai_will_do = {
-		factor = 0.6
-		modifier = {
-			factor = 0.2
-			is_at_war = yes
-		}
-	}
-}	
-
-904 = {
-	monarch_power = MIL
-
-
-	potential = {
-		has_idea_group = centralisation_ideas
-		has_idea_group = quantity_ideas
-	}
-	
-	allow = {
-		full_idea_group = centralisation_ideas
-		full_idea_group = quantity_ideas
-	}
-
-	infantry_power = 0.075
-	cavalry_power = 0.075
-	artillery_power = 0.075
-	
-	effect = {}
-	removed_effect = {}
-	ai_will_do = {
-		factor = 0.6
-		modifier = {
-			factor = 0.2
-			is_at_war = yes
-		}
-	}
-}
-
-04B = {
-	monarch_power = MIL
-
-
-	potential = {
-		has_idea_group = shock_focus_ideas
-		OR = {
-			has_idea_group = imperial_ambition_ideas
-			has_idea_group = diplomatic_ideas
-		}
-	}
-	
-	allow = {
-		full_idea_group = shock_focus_ideas
-		OR = {
-			full_idea_group = imperial_ambition_ideas
-			full_idea_group = diplomatic_ideas
-		}
-	}
-
-	infantry_power = 0.075
-	cavalry_power = 0.075
-	artillery_power = 0.075
-	
-	effect = {}
-	removed_effect = {}
-	ai_will_do = {
-		factor = 0.6
-		modifier = {
-			factor = 0.2
-			is_at_war = yes
-		}
-	}
-}
-
-058 = {
-	monarch_power = MIL
-
-
-	potential = {
-		has_idea_group = exploration_ideas
-		has_idea_group = mercenary_ideas
-	}
-	
-	allow = {
-		full_idea_group = exploration_ideas
-		full_idea_group = mercenary_ideas
-	}
-
-	infantry_power = 0.075
-	cavalry_power = 0.075
-	artillery_power = 0.075
-	
-	effect = {}
-	removed_effect = {}
-	ai_will_do = {
-		factor = 0.6
-		modifier = {
-			factor = 0.2
-			is_at_war = yes
-		}
-	}
-}
-
-085 = {
-	monarch_power = MIL
-
-
-	potential = {
-		has_idea_group = naval_ideas
-		has_idea_group = leadership_ideas
-	}
-	
-	allow = {
-		full_idea_group = naval_ideas
-		full_idea_group = leadership_ideas
-	}
-
-	infantry_power = 0.075
-	cavalry_power = 0.075
-	artillery_power = 0.075
-	
-	effect = {}
-	removed_effect = {}
-	ai_will_do = {
-		factor = 0.6
-		modifier = {
-			factor = 0.2
-			is_at_war = yes
-		}
-	}
-}
-
-098 = {
-	monarch_power = MIL
-
-
-	potential = {
-		has_idea_group = home_waters_ideas
-		has_idea_group = mercenary_ideas
-	}
-	
-	allow = {
-		full_idea_group = home_waters_ideas
-		full_idea_group = mercenary_ideas
-	}
-
-	infantry_power = 0.075
-	cavalry_power = 0.075
-	artillery_power = 0.075
-	
-	effect = {}
-	removed_effect = {}
-	ai_will_do = {
-		factor = 0.6
-		modifier = {
-			factor = 0.2
-			is_at_war = yes
-		}
-	}
-}
-
-09C = {
-	monarch_power = MIL
-
-
-	potential = {
-		has_idea_group = home_waters_ideas
-		has_idea_group = fire_focus_ideas
-	}
-	
-	allow = {
-		full_idea_group = home_waters_ideas
-		full_idea_group = fire_focus_ideas
-	}
-
-	infantry_power = 0.075
-	cavalry_power = 0.075
-	artillery_power = 0.075
-	
-	effect = {}
-	removed_effect = {}
-	ai_will_do = {
-		factor = 0.6
-		modifier = {
-			factor = 0.2
-			is_at_war = yes
-		}
-	}
-}
-
-0B8 = {
-	monarch_power = MIL
-
-
-	potential = {
-		has_idea_group = pluralism_ideas
-		has_idea_group = mercenary_ideas
-	}
-	
-	allow = {
-		full_idea_group = pluralism_ideas
-		full_idea_group = mercenary_ideas
-	}
-
-	infantry_power = 0.075
-	cavalry_power = 0.075
-	artillery_power = 0.075
-	
-	effect = {}
-	removed_effect = {}
-	ai_will_do = {
-		factor = 0.6
-		modifier = {
-			factor = 0.2
-			is_at_war = yes
-		}
-	}
-}
-
-301 = {
-	monarch_power = MIL
-
-
-	potential = {
-		has_idea_group = economic_ideas
-		has_idea_group = offensive_ideas
-	}
-	
-	allow = {
-		full_idea_group = economic_ideas
-		full_idea_group = offensive_ideas
-	}
-
-	infantry_power = 0.10
-	cavalry_power = 0.10
-	
-	effect = {}
-	removed_effect = {}
-	ai_will_do = {
-		factor = 0.6
-		modifier = {
-			factor = 0.2
-			is_at_war = yes
-		}
-	}
-}
-
-508 = {
-	monarch_power = MIL
-
-
-	potential = {
-		has_idea_group = jurisprudence_ideas
-		has_idea_group = mercenary_ideas
-	}
-	
-	allow = {
-		full_idea_group = jurisprudence_ideas
-		full_idea_group = mercenary_ideas
-	}
-
-	infantry_power = 0.10
-	cavalry_power = 0.10
-	
-	effect = {}
-	removed_effect = {}
-	ai_will_do = {
-		factor = 0.6
-		modifier = {
-			factor = 0.2
-			is_at_war = yes
-		}
-	}
-}
-
-602 = {
-	monarch_power = MIL
-
-
-	potential = {
-		has_idea_group = expansion_ideas
-		has_idea_group = defensive_ideas
-	}
-	
-	allow = {
-		full_idea_group = expansion_ideas
-		full_idea_group = defensive_ideas
-	}
-
-	infantry_power = 0.10
-	cavalry_power = 0.10
-	
-	effect = {}
-	removed_effect = {}
-	ai_will_do = {
-		factor = 0.6
-		modifier = {
-			factor = 0.2
-			is_at_war = yes
-		}
-	}
-}
-
-806 = {
-	monarch_power = MIL
-
-
-	potential = {
-		has_idea_group = religious_ideas
-		has_idea_group = militarism_ideas
-	}
-	
-	allow = {
-		full_idea_group = religious_ideas
-		full_idea_group = militarism_ideas
-	}
-
-	infantry_power = 0.10
-	cavalry_power = 0.10
-	
-	effect = {}
-	removed_effect = {}
-	ai_will_do = {
-		factor = 0.6
-		modifier = {
-			factor = 0.2
-			is_at_war = yes
-		}
-	}
-}
-
-036 = {
-	monarch_power = MIL
-
-
-	potential = {
-		has_idea_group = spy_ideas
-		has_idea_group = militarism_ideas
-	}
-	
-	allow = {
-		full_idea_group = spy_ideas
-		full_idea_group = militarism_ideas
-	}
-
-	infantry_power = 0.10
-	cavalry_power = 0.10
-	
-	effect = {}
-	removed_effect = {}
-	ai_will_do = {
-		factor = 0.6
-		modifier = {
-			factor = 0.2
-			is_at_war = yes
-		}
-	}
-}
-
-049 = {
-	monarch_power = MIL
-
-
-	potential = {
-		has_idea_group = standing_army_ideas
-		OR = {
-			has_idea_group = imperial_ambition_ideas
-			has_idea_group = diplomatic_ideas
-		}
-	}
-	
-	allow = {
-		full_idea_group = standing_army_ideas
-		OR = {
-			full_idea_group = imperial_ambition_ideas
-			full_idea_group = diplomatic_ideas
-		}
-	}
-
-	infantry_power = 0.10
-	cavalry_power = 0.10
-	
-	effect = {}
-	removed_effect = {}
-	ai_will_do = {
-		factor = 0.6
-		modifier = {
-			factor = 0.2
-			is_at_war = yes
-		}
-	}
-}	
-
-053 = {
-	monarch_power = MIL
-
-
-	potential = {
-		has_idea_group = exploration_ideas
-		has_idea_group = quality_ideas
-	}
-	
-	allow = {
-		full_idea_group = exploration_ideas
-		full_idea_group = quality_ideas
-	}
-
-	infantry_power = 0.10
-	cavalry_power = 0.10
-	
-	effect = {}
-	removed_effect = {}
-	ai_will_do = {
-		factor = 0.6
-		modifier = {
-			factor = 0.2
-			is_at_war = yes
-		}
-	}
-}	
-
-055 = {
-	monarch_power = MIL
-
-
-	potential = {
-		has_idea_group = exploration_ideas
-		has_idea_group = leadership_ideas
-	}
-	
-	allow = {
-		full_idea_group = exploration_ideas
-		full_idea_group = leadership_ideas
-	}
-
-	infantry_power = 0.10
-	cavalry_power = 0.10
-	
-	effect = {}
-	removed_effect = {}
-	ai_will_do = {
-		factor = 0.6
-		modifier = {
-			factor = 0.2
-			is_at_war = yes
-		}
-	}
-}
-
-06B = {
-	monarch_power = MIL
-
-
-	potential = {
-		has_idea_group = trade_ideas
-		has_idea_group = shock_focus_ideas
-	}
-	
-	allow = {
-		full_idea_group = trade_ideas
-		full_idea_group = shock_focus_ideas
-	}
-
-	infantry_power = 0.10
-	cavalry_power = 0.10
-	
-	effect = {}
-	removed_effect = {}
-	ai_will_do = {
-		factor = 0.6
-		modifier = {
-			factor = 0.2
-			is_at_war = yes
-		}
-	}
-}
-
-policy_B05 = {
-	monarch_power = MIL
-
-
-	potential = {
-		has_idea_group = leadership_ideas
-		OR = {
-			has_idea_group = aristocracy_ideas
-			has_idea_group = plutocracy_ideas
-			has_idea_group = theocracy_gov_ideas
-			has_idea_group = horde_gov_ideas
-		}
-	}
-	
-	allow = {
-		full_idea_group = leadership_ideas
-		OR = {
-			full_idea_group = aristocracy_ideas
-			full_idea_group = plutocracy_ideas
-			full_idea_group = theocracy_gov_ideas
-			full_idea_group = horde_gov_ideas
-		}
-	}
-
-	infantry_power = 0.10
-	cavalry_power = 0.10
-	
-	effect = {}
-	removed_effect = {}
-	ai_will_do = {
-		factor = 0.6
-		modifier = {
-			factor = 0.2
-			is_at_war = yes
-		}
-	}
-}
-
-063 = {
-	monarch_power = MIL
-
-
-	potential = {
-		has_idea_group = trade_ideas
-		has_idea_group = quality_ideas
-	}
-	
-	allow = {
-		full_idea_group = trade_ideas
-		full_idea_group = quality_ideas
-	}
-
-	infantry_power = 0.10
-	cavalry_power = 0.10
-	
-	effect = {}
-	removed_effect = {}
-	ai_will_do = {
-		factor = 0.6
-		modifier = {
-			factor = 0.2
-			is_at_war = yes
-		}
-	}
-}
-
-0A5 = {
-	monarch_power = MIL
-
-
-	potential = {
-		has_idea_group = nationalism_ideas
-		has_idea_group = leadership_ideas
-	}
-	
-	allow = {
-		full_idea_group = nationalism_ideas
-		full_idea_group = leadership_ideas
-	}
-
-	infantry_power = 0.10
-	cavalry_power = 0.10
-	
-	effect = {}
-	removed_effect = {}
-	ai_will_do = {
-		factor = 0.6
-		modifier = {
-			factor = 0.2
-			is_at_war = yes
-		}
-	}
-}
 		
 105 = {
 	monarch_power = MIL
@@ -2616,90 +2616,6 @@ policy_B05 = {
 	}
 }
 
-60B = {
-	monarch_power = MIL
-
-
-	potential = {
-		has_idea_group = expansion_ideas
-		has_idea_group = shock_focus_ideas
-	}
-	
-	allow = {
-		full_idea_group = expansion_ideas
-		full_idea_group = shock_focus_ideas
-	}
-
-	morale_damage = 0.10
-	leader_land_manuever = 1
-	
-	effect = {}
-	removed_effect = {}
-	ai_will_do = {
-		factor = 0.6
-		modifier = {
-			factor = 0.2
-			is_at_war = yes
-		}
-	}
-}
-
-504 = {
-	monarch_power = MIL
-
-
-	potential = {
-		has_idea_group = jurisprudence_ideas
-		has_idea_group = quantity_ideas
-	}
-	
-	allow = {
-		full_idea_group = jurisprudence_ideas
-		full_idea_group = quantity_ideas
-	}
-
-	morale_damage = 0.10
-	recover_army_morale_speed = 0.05
-	
-	effect = {}
-	removed_effect = {}
-	ai_will_do = {
-		factor = 0.6
-		modifier = {
-			factor = 0.2
-			is_at_war = yes
-		}
-	}
-}
-
-408 = {
-	monarch_power = MIL
-
-
-	potential = {
-		has_idea_group = infrastructure_ideas
-		has_idea_group = mercenary_ideas
-	}
-	
-	allow = {
-		full_idea_group = infrastructure_ideas
-		full_idea_group = mercenary_ideas
-	}
-
-	morale_damage = 0.10
-	army_tradition_from_battle = 0.5
-	
-	effect = {}
-	removed_effect = {}
-	ai_will_do = {
-		factor = 0.6
-		modifier = {
-			factor = 0.2
-			is_at_war = yes
-		}
-	}
-}
-
 B0C = {
 	monarch_power = MIL
 
@@ -2754,34 +2670,6 @@ B0C = {
 
 	military_tactics = 0.1
 	leader_siege = 1
-	
-	effect = {}
-	removed_effect = {}
-	ai_will_do = {
-		factor = 0.6
-		modifier = {
-			factor = 0.2
-			is_at_war = yes
-		}
-	}
-}
-
-406 = {
-	monarch_power = MIL
-
-
-	potential = {
-		has_idea_group = infrastructure_ideas
-		has_idea_group = militarism_ideas
-	}
-	
-	allow = {
-		full_idea_group = infrastructure_ideas
-		full_idea_group = militarism_ideas
-	}
-
-	hostile_attrition = 3
-	max_hostile_attrition = 3
 	
 	effect = {}
 	removed_effect = {}
@@ -3092,6 +2980,118 @@ policy_A07 = {
 	}
 
 	leader_land_fire = 1
+	
+	effect = {}
+	removed_effect = {}
+	ai_will_do = {
+		factor = 0.6
+		modifier = {
+			factor = 0.2
+			is_at_war = yes
+		}
+	}
+}
+
+60B = {
+	monarch_power = MIL
+
+
+	potential = {
+		has_idea_group = expansion_ideas
+		has_idea_group = shock_focus_ideas
+	}
+	
+	allow = {
+		full_idea_group = expansion_ideas
+		full_idea_group = shock_focus_ideas
+	}
+
+	morale_damage = 0.10
+	leader_land_manuever = 1
+	
+	effect = {}
+	removed_effect = {}
+	ai_will_do = {
+		factor = 0.6
+		modifier = {
+			factor = 0.2
+			is_at_war = yes
+		}
+	}
+}
+
+504 = {
+	monarch_power = MIL
+
+
+	potential = {
+		has_idea_group = jurisprudence_ideas
+		has_idea_group = quantity_ideas
+	}
+	
+	allow = {
+		full_idea_group = jurisprudence_ideas
+		full_idea_group = quantity_ideas
+	}
+
+	morale_damage = 0.10
+	recover_army_morale_speed = 0.05
+	
+	effect = {}
+	removed_effect = {}
+	ai_will_do = {
+		factor = 0.6
+		modifier = {
+			factor = 0.2
+			is_at_war = yes
+		}
+	}
+}
+
+408 = {
+	monarch_power = MIL
+
+
+	potential = {
+		has_idea_group = infrastructure_ideas
+		has_idea_group = mercenary_ideas
+	}
+	
+	allow = {
+		full_idea_group = infrastructure_ideas
+		full_idea_group = mercenary_ideas
+	}
+
+	morale_damage = 0.10
+	army_tradition_from_battle = 0.5
+	
+	effect = {}
+	removed_effect = {}
+	ai_will_do = {
+		factor = 0.6
+		modifier = {
+			factor = 0.2
+			is_at_war = yes
+		}
+	}
+}
+
+406 = {
+	monarch_power = MIL
+
+
+	potential = {
+		has_idea_group = infrastructure_ideas
+		has_idea_group = militarism_ideas
+	}
+	
+	allow = {
+		full_idea_group = infrastructure_ideas
+		full_idea_group = militarism_ideas
+	}
+
+	hostile_attrition = 3
+	max_hostile_attrition = 3
 	
 	effect = {}
 	removed_effect = {}
