@@ -18,4 +18,4 @@ NDefines.NDiplomacy.MIN_RELATIONS_TO_ALLY = -200
 -- Military
 NDefines.NMilitary.DEFAULT_WARGOAL_TICKINGWARSCORE_BONUS = 0.67
 NDefines.NMilitary.WARGOAL_MAX_BONUS = 40
-NDefines.NMilitary.BACK_LINE_MORALE_DAMAGE_TAKEN_MODIFIER = 0.0 -- Cannons not retreating?
+NDefines.NMilitary.BACK_LINE_MORALE_DAMAGE_TAKEN_MODIFIER = 0.0 -- Cannons not taking active morale damage
