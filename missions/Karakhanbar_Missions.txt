@@ -2383,17 +2383,19 @@ Z54_3_1 = {
             custom_trigger_tooltip = {
                 tooltip = karakhanbar_might_makes_right_trigger_tt
                 OR = {
-                    full_idea_group = aristocracy_ideas
-                    full_idea_group = plutocracy_ideas
-                    full_idea_group = horde_gov_ideas
-                    full_idea_group = theocracy_gov_ideas
                     full_idea_group = indigenous_ideas
                     full_idea_group = offensive_ideas
                     full_idea_group = defensive_ideas
                     full_idea_group = quality_ideas
                     full_idea_group = quantity_ideas
-                    full_idea_group = naval_ideas
                     full_idea_group = mercenary_ideas
+                    full_idea_group = leadership_ideas
+                    full_idea_group = militarism_ideas
+                    full_idea_group = logistics_ideas
+                    full_idea_group = standing_army_ideas
+                    full_idea_group = conscription_ideas
+                    full_idea_group = shock_focus_ideas
+                    full_idea_group = fire_focus_ideas
                 }
             }
         }
