@@ -50,14 +50,13 @@ witch_king_modifier = {	#the witch king event should also give a ruler_flag, so 
 	diplomatic_reputation = -3
 	improve_relation_modifier = -0.2
 	global_unrest = 2
-	ae_impact = 0.10
-	republican_tradition = -1
-	yearly_karma_decay = 0.05 #subverts the corinite faith. they are might makes right and cult of personality around them
-
 	unjustified_demands = -0.33
-	
 	max_absolutism = 20
 	discipline = 0.05
+	ae_impact = 0.10
+	republican_tradition = -1
+
+	yearly_karma_decay = 0.05 #subverts the corinite faith. they are might makes right and cult of personality around them
 	picture = "witch_king"
 }
 
@@ -358,6 +357,14 @@ magic_realm_transmutation_plant_growth_4 = {
 }
 
 #Siege Magic
+siege_magic_instant_siege = {
+	local_defensiveness = -10
+	fort_level = -20
+}
+
+siege_no_hold_damage = {
+}
+
 siege_magic_elemental_besieger = {
 	local_defensiveness = -0.33
 }
