@@ -85,6 +85,7 @@ update_artifice_points = {
 					which = MaxArtificePoints
 					value = 5
 				}
+			}
 			if = {
 				limit = {
 					trading_part = {
@@ -2057,7 +2058,7 @@ artifice_research_select_innovation_options_effect = {
 							has_country_flag = artifice_researching_society
 						}
 					}
-					religion_group = bulwari
+					culture_group = bulwari
 				}
 				set_country_flag = research_artifice_invention_sunbeam_armaments
 				subtract_variable = {
