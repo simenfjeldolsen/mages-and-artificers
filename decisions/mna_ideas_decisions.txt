@@ -164,7 +164,7 @@ country_decisions = {
 		}
 	}
 	mna_edict_management = {
-		major = yes
+		color = { 195 160 20 }
 		potential = {
 			ai = no
 		}
@@ -173,6 +173,9 @@ country_decisions = {
 			NOT = { has_country_flag = disable_all_state_edicts }
 		}
 		effect = {
+			hidden_effect = {
+				set_country_flag = disable_all_state_edicts
+			}
 			country_event = { id = mna_quality_of_life.1 }
 		}
 

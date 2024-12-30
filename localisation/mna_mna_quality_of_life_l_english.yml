@@ -2,6 +2,7 @@
 
  mna_edict_management_title: "Manage State Edicts"
  mna_edict_management_desc: "Open a menu to turn on state edicts in all provinces without an existing edict."
+ disable_all_state_edicts: "State Edict Menu Open"
 
  mna_quality_of_life.1.t: "Manage State Edicts"
  mna_quality_of_life.1.d: "Turn on state edicts in all states without an existing edict."

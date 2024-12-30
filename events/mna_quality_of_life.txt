@@ -9,6 +9,10 @@ country_event = {
 
 	is_triggered_only = yes
 
+	after = {
+		clr_country_flag = disable_all_state_edicts
+	}
+
 	option = {
 		name = mna_quality_of_life.1.exit
 	}
