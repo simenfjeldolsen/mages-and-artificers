@@ -9,7 +9,7 @@
 
  mna_quality_of_life.1.exit: "Exit"
  mna_quality_of_life.1.turn_off: "Remove all state edicts"
- mna_quality_of_life.1.turn_off_description: "Turn off state edicts in all states. You will be unable to set a new state edict until the start of the enxt month."
+ mna_quality_of_life.1.turn_off_description: "Turn off state edicts in all states. You will be unable to set a new state edict until the start of the next month."
  mna_quality_of_life.1.advancement_effort: "Advancement Effort"
  mna_quality_of_life.1.advancement_effort_description: "Turn on §YAdvancement Effort§! in every state without an existing edict."
  mna_quality_of_life.1.centralization_effort: "Centralization Effort"

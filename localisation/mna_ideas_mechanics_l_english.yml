@@ -7,7 +7,7 @@
  mna_idea_mechanics.1.t: "Picking an Advisor"
  mna_idea_mechanics.1.d: "In this labyrinth of possibilities, your Liege, I beseech you to illuminate the path that aligns with your vision for the kingdom. Shall our advisor wield the pen, the olive branch, or the sword? The choice is yours, my Liege, as we await the revelation of the focus that will define the guiding light of your council."
 
- mna_idea_mechanics.1.exit: "§OActually, we don't need one.§!"
+ mna_idea_mechanics.1.exit: "§OActually, we don't need one§!"
  mna_idea_mechanics.1.return: "§OReturn to Selection§!"
  mna_idea_mechanics.1.adm: "Administrative"
  mna_idea_mechanics.1.dip: "Diplomatic"
