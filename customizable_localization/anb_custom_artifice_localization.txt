@@ -1855,7 +1855,7 @@ defined_text = {
 			OR = {
 				tag =  H89
 				was_tag = H89
-			}|
+			}
 		}
 	}
 }
