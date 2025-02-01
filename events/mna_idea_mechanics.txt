@@ -4557,7 +4557,7 @@ province_event = {
 	}
 }
 
-# Expand Infrastructure 0
+# Reduce Infrastructure
 province_event = {
 	id = mna_idea_mechanics.10
 	title = mna_idea_mechanics.10.t
