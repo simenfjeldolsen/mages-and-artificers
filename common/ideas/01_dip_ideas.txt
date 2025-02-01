@@ -23,7 +23,8 @@ court_ideas = {
 		monthly_persian_influence = 0.1
 	}
 	tranquil_coordination = {
-		diplomatic_reputation = 1
+		advisor_cost = -0.10
+		advisor_pool = 2
 	}
 	respected_authority = {
 		all_estate_possible_privileges = 1
@@ -32,9 +33,7 @@ court_ideas = {
 		estate_interaction_cooldown_modifier = -0.20
 	}
 	court_embassies = {
-		monarch_admin_power = 1 
-		monarch_diplomatic_power = 1
-		candidate_random_bonus = 1
+		allow_free_estate_privilege_revocation = yes
 	}
 
 	ai_will_do = {
@@ -808,11 +807,11 @@ pluralism_ideas = {
 		promote_culture_cost = -0.75
 	}
 	pluralism_3 = {
-		advisor_cost = -0.10
+		reduced_liberty_desire = 10
 	}
 	
 	pluralism_4 = {
-		advisor_pool = 2
+		diplomatic_reputation = 1
 	}
 	
 	pluralism_5 = {
