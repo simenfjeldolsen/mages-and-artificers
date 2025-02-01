@@ -87,7 +87,6 @@ mna_centralisation_expanded_infrastructure = {
 	trade_goods_size_modifier = 0.15
 	local_manpower_modifier = 0.3
 }
-}
 mna_pluralism_goods_produced_1 = {
 	global_trade_goods_size_modifier = 0.05
 }
