@@ -597,7 +597,7 @@
  monarchy_5:0 "Monarchy 5"
  monarchy_5_desc:0 "The life of a state with a monarch heavily depends upon the ruler that sits upon the throne. In one occasion you may have decades of great statesmanship, in others you wish ill upon the monarch."
  monarchy_6:0 "Monarchy 6"
- monarchy_6_desc:0 "Every state faces down times. This is when the discontented or the excluded feel it is time to rebel. If we build up an administration that is resilient in the face of these upsets, we will be able to recover much quicker from this sad state of affairs.\n\n§YMechanic:§! Depending on monarch skill, you will receive varying levels of bonuses, each independent of the other.\n§R0§!/§R1§!/§g2§!/§g3§!/§G4§!/§G5§!/§G6§!\n\n£adm£Administrative Skill - Production Efficiency: §R-10%§!/§R-5%§!/§gNone§!/§gNone§!/§G+5%§!/§G+10%§!/§G+20%§!\n£dip£Diplomatic Skill - Global Trade Power: §R-10%§!/§R-5%§!/§gNone§!/§gNone§!/§G+5%§!/§G+10%§!/§G+20%§!\n£mil£Military Skill - Morale of Armies: §R-5%§!/§R-2.5%§!/§gNone§!/§gNone§!/§G+2.5%§!/§G+5%§!/§G+10%§!\n"
+ monarchy_6_desc:0 "Every state faces down times. This is when the discontented or the excluded feel it is time to rebel. If we build up an administration that is resilient in the face of these upsets, we will be able to recover much quicker from this sad state of affairs."
  monarchy_7:0 "Monarchy 7"
  monarchy_7_desc:0 "Warfare is when the country is at its most vulnerable, the stresses of wars can seriously undermine the ability to rule. By ensuring that key players are involved during time of warfare we can avoid these stresses."
  ENG_ideas:0 "English Ideas"

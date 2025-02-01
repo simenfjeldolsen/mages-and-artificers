@@ -719,26 +719,25 @@ aristocracy_ideas = {
 	}
 
 	monarchy_1 = {
-		prestige_decay = -0.005
+		monarch_admin_power = 1
 	}
 	monarchy_2 = {
-		legitimacy = 1
+		prestige_decay = -0.005
 	}
 	monarchy_3 = {
-		reduced_liberty_desire = 10
+		legitimacy = 1
 	}
 	monarchy_4 = {
-		vassal_forcelimit_bonus = 0.5
-		vassal_income = 0.5
+		monarch_diplomatic_power = 1
 	}
 	monarchy_5 = {
 		no_stability_loss_on_monarch_death = yes
 	}
 	monarchy_6 = {
-		heir_chance = 0.5
+		yearly_absolutism = 1
 	}
 	monarchy_7 = {
-		yearly_absolutism = 1
+		monarch_military_power = 1
 	}
 
 	ai_will_do = {
