@@ -4521,7 +4521,7 @@ country_event = {
 	}
 }
 
-# Expand Infrastructure 1
+# Expand Infrastructure
 province_event = {
 	id = mna_idea_mechanics.9.1
 	title = mna_idea_mechanics.9.t
@@ -4533,8 +4533,7 @@ province_event = {
 	trigger = {
 		num_of_times_expanded_infrastructure = 1
 		NOT = {
-			num_of_times_expanded_infrastructure = 2
-			has_province_modifier = mna_centralisation_expanded_infrastructure_1
+			has_province_modifier = mna_centralisation_expanded_infrastructure
 		}
 		owner = {
 			has_idea = centralisation_6
@@ -4547,432 +4546,10 @@ province_event = {
 	
 	immediate = {
 		add_province_modifier = {
-			name = mna_centralisation_expanded_infrastructure_1
+			name = mna_centralisation_expanded_infrastructure
 			duration = -1
 			hidden = yes
 		}
-		remove_province_modifier = mna_centralisation_expanded_infrastructure_2
-		remove_province_modifier = mna_centralisation_expanded_infrastructure_3
-		remove_province_modifier = mna_centralisation_expanded_infrastructure_4
-		remove_province_modifier = mna_centralisation_expanded_infrastructure_5
-		remove_province_modifier = mna_centralisation_expanded_infrastructure_6
-		remove_province_modifier = mna_centralisation_expanded_infrastructure_7
-		remove_province_modifier = mna_centralisation_expanded_infrastructure_8
-		remove_province_modifier = mna_centralisation_expanded_infrastructure_9
-		remove_province_modifier = mna_centralisation_expanded_infrastructure_10
-	}
-	
-	option = {
-		name = mna_idea_mechanics.9.a
-	}
-}
-
-# Expand Infrastructure 2
-province_event = {
-	id = mna_idea_mechanics.9.2
-	title = mna_idea_mechanics.9.t
-	desc = mna_idea_mechanics.9.d
-	picture = WESTERNISATION_eventPicture
-	hidden = yes
-	
-
-	trigger = {
-		num_of_times_expanded_infrastructure = 2
-		NOT = {
-			num_of_times_expanded_infrastructure = 3
-			has_province_modifier = mna_centralisation_expanded_infrastructure_2
-		}
-		owner = {
-			has_idea = centralisation_6
-		}
-	}
-	
-	mean_time_to_happen = {
-		days = 30
-	}
-	
-	immediate = {
-		add_province_modifier = {
-			name = mna_centralisation_expanded_infrastructure_2
-			duration = -1
-			hidden = yes
-		}
-		remove_province_modifier = mna_centralisation_expanded_infrastructure_1
-		remove_province_modifier = mna_centralisation_expanded_infrastructure_3
-		remove_province_modifier = mna_centralisation_expanded_infrastructure_4
-		remove_province_modifier = mna_centralisation_expanded_infrastructure_5
-		remove_province_modifier = mna_centralisation_expanded_infrastructure_6
-		remove_province_modifier = mna_centralisation_expanded_infrastructure_7
-		remove_province_modifier = mna_centralisation_expanded_infrastructure_8
-		remove_province_modifier = mna_centralisation_expanded_infrastructure_9
-		remove_province_modifier = mna_centralisation_expanded_infrastructure_10
-	}
-	
-	option = {
-		name = mna_idea_mechanics.9.a
-	}
-}
-
-# Expand Infrastructure 3
-province_event = {
-	id = mna_idea_mechanics.9.3
-	title = mna_idea_mechanics.9.t
-	desc = mna_idea_mechanics.9.d
-	picture = WESTERNISATION_eventPicture
-	hidden = yes
-	
-
-	trigger = {
-		num_of_times_expanded_infrastructure = 3
-		NOT = {
-			num_of_times_expanded_infrastructure = 4
-			has_province_modifier = mna_centralisation_expanded_infrastructure_3
-		}
-		owner = {
-			has_idea = centralisation_6
-		}
-	}
-	
-	mean_time_to_happen = {
-		days = 30
-	}
-	
-	immediate = {
-		add_province_modifier = {
-			name = mna_centralisation_expanded_infrastructure_3
-			duration = -1
-			hidden = yes
-		}
-		remove_province_modifier = mna_centralisation_expanded_infrastructure_1
-		remove_province_modifier = mna_centralisation_expanded_infrastructure_2
-		remove_province_modifier = mna_centralisation_expanded_infrastructure_4
-		remove_province_modifier = mna_centralisation_expanded_infrastructure_5
-		remove_province_modifier = mna_centralisation_expanded_infrastructure_6
-		remove_province_modifier = mna_centralisation_expanded_infrastructure_7
-		remove_province_modifier = mna_centralisation_expanded_infrastructure_8
-		remove_province_modifier = mna_centralisation_expanded_infrastructure_9
-		remove_province_modifier = mna_centralisation_expanded_infrastructure_10
-	}
-	
-	option = {
-		name = mna_idea_mechanics.9.a
-	}
-}
-
-# Expand Infrastructure 4
-province_event = {
-	id = mna_idea_mechanics.9.4
-	title = mna_idea_mechanics.9.t
-	desc = mna_idea_mechanics.9.d
-	picture = WESTERNISATION_eventPicture
-	hidden = yes
-	
-
-	trigger = {
-		num_of_times_expanded_infrastructure = 4
-		NOT = {
-			num_of_times_expanded_infrastructure = 5
-			has_province_modifier = mna_centralisation_expanded_infrastructure_4
-		}
-		owner = {
-			has_idea = centralisation_6
-		}
-	}
-	
-	mean_time_to_happen = {
-		days = 30
-	}
-	
-	immediate = {
-		add_province_modifier = {
-			name = mna_centralisation_expanded_infrastructure_4
-			duration = -1
-			hidden = yes
-		}
-		remove_province_modifier = mna_centralisation_expanded_infrastructure_1
-		remove_province_modifier = mna_centralisation_expanded_infrastructure_2
-		remove_province_modifier = mna_centralisation_expanded_infrastructure_3
-		remove_province_modifier = mna_centralisation_expanded_infrastructure_5
-		remove_province_modifier = mna_centralisation_expanded_infrastructure_6
-		remove_province_modifier = mna_centralisation_expanded_infrastructure_7
-		remove_province_modifier = mna_centralisation_expanded_infrastructure_8
-		remove_province_modifier = mna_centralisation_expanded_infrastructure_9
-		remove_province_modifier = mna_centralisation_expanded_infrastructure_10
-	}
-	
-	option = {
-		name = mna_idea_mechanics.9.a
-	}
-}
-
-# Expand Infrastructure 5
-province_event = {
-	id = mna_idea_mechanics.9.5
-	title = mna_idea_mechanics.9.t
-	desc = mna_idea_mechanics.9.d
-	picture = WESTERNISATION_eventPicture
-	hidden = yes
-	
-
-	trigger = {
-		num_of_times_expanded_infrastructure = 5
-		NOT = {
-			num_of_times_expanded_infrastructure = 6
-			has_province_modifier = mna_centralisation_expanded_infrastructure_5
-		}
-		owner = {
-			has_idea = centralisation_6
-		}
-	}
-	
-	mean_time_to_happen = {
-		days = 30
-	}
-	
-	immediate = {
-		add_province_modifier = {
-			name = mna_centralisation_expanded_infrastructure_5
-			duration = -1
-			hidden = yes
-		}
-		remove_province_modifier = mna_centralisation_expanded_infrastructure_1
-		remove_province_modifier = mna_centralisation_expanded_infrastructure_2
-		remove_province_modifier = mna_centralisation_expanded_infrastructure_3
-		remove_province_modifier = mna_centralisation_expanded_infrastructure_4
-		remove_province_modifier = mna_centralisation_expanded_infrastructure_6
-		remove_province_modifier = mna_centralisation_expanded_infrastructure_7
-		remove_province_modifier = mna_centralisation_expanded_infrastructure_8
-		remove_province_modifier = mna_centralisation_expanded_infrastructure_9
-		remove_province_modifier = mna_centralisation_expanded_infrastructure_10
-	}
-	
-	option = {
-		name = mna_idea_mechanics.9.a
-	}
-}
-
-# Expand Infrastructure 6
-province_event = {
-	id = mna_idea_mechanics.9.6
-	title = mna_idea_mechanics.9.t
-	desc = mna_idea_mechanics.9.d
-	picture = WESTERNISATION_eventPicture
-	hidden = yes
-	
-
-	trigger = {
-		num_of_times_expanded_infrastructure = 6
-		NOT = {
-			num_of_times_expanded_infrastructure = 7
-			has_province_modifier = mna_centralisation_expanded_infrastructure_6
-		}
-		owner = {
-			has_idea = centralisation_6
-		}
-	}
-	
-	mean_time_to_happen = {
-		days = 30
-	}
-	
-	immediate = {
-		add_province_modifier = {
-			name = mna_centralisation_expanded_infrastructure_6
-			duration = -1
-			hidden = yes
-		}
-		remove_province_modifier = mna_centralisation_expanded_infrastructure_1
-		remove_province_modifier = mna_centralisation_expanded_infrastructure_2
-		remove_province_modifier = mna_centralisation_expanded_infrastructure_3
-		remove_province_modifier = mna_centralisation_expanded_infrastructure_4
-		remove_province_modifier = mna_centralisation_expanded_infrastructure_5
-		remove_province_modifier = mna_centralisation_expanded_infrastructure_7
-		remove_province_modifier = mna_centralisation_expanded_infrastructure_8
-		remove_province_modifier = mna_centralisation_expanded_infrastructure_9
-		remove_province_modifier = mna_centralisation_expanded_infrastructure_10
-	}
-	
-	option = {
-		name = mna_idea_mechanics.9.a
-	}
-}
-
-# Expand Infrastructure 7
-province_event = {
-	id = mna_idea_mechanics.9.7
-	title = mna_idea_mechanics.9.t
-	desc = mna_idea_mechanics.9.d
-	picture = WESTERNISATION_eventPicture
-	hidden = yes
-	
-
-	trigger = {
-		num_of_times_expanded_infrastructure = 7
-		NOT = {
-			num_of_times_expanded_infrastructure = 8
-			has_province_modifier = mna_centralisation_expanded_infrastructure_7
-		}
-		owner = {
-			has_idea = centralisation_6
-		}
-	}
-	
-	mean_time_to_happen = {
-		days = 30
-	}
-	
-	immediate = {
-		add_province_modifier = {
-			name = mna_centralisation_expanded_infrastructure_7
-			duration = -1
-			hidden = yes
-		}
-		remove_province_modifier = mna_centralisation_expanded_infrastructure_1
-		remove_province_modifier = mna_centralisation_expanded_infrastructure_2
-		remove_province_modifier = mna_centralisation_expanded_infrastructure_3
-		remove_province_modifier = mna_centralisation_expanded_infrastructure_4
-		remove_province_modifier = mna_centralisation_expanded_infrastructure_5
-		remove_province_modifier = mna_centralisation_expanded_infrastructure_6
-		remove_province_modifier = mna_centralisation_expanded_infrastructure_8
-		remove_province_modifier = mna_centralisation_expanded_infrastructure_9
-		remove_province_modifier = mna_centralisation_expanded_infrastructure_10
-	}
-	
-	option = {
-		name = mna_idea_mechanics.9.a
-	}
-}
-
-# Expand Infrastructure 8
-province_event = {
-	id = mna_idea_mechanics.9.8
-	title = mna_idea_mechanics.9.t
-	desc = mna_idea_mechanics.9.d
-	picture = WESTERNISATION_eventPicture
-	hidden = yes
-	
-
-	trigger = {
-		num_of_times_expanded_infrastructure = 8
-		NOT = {
-			num_of_times_expanded_infrastructure = 9
-			has_province_modifier = mna_centralisation_expanded_infrastructure_8
-		}
-		owner = {
-			has_idea = centralisation_6
-		}
-	}
-	
-	mean_time_to_happen = {
-		days = 30
-	}
-	
-	immediate = {
-		add_province_modifier = {
-			name = mna_centralisation_expanded_infrastructure_8
-			duration = -1
-			hidden = yes
-		}
-		remove_province_modifier = mna_centralisation_expanded_infrastructure_1
-		remove_province_modifier = mna_centralisation_expanded_infrastructure_2
-		remove_province_modifier = mna_centralisation_expanded_infrastructure_3
-		remove_province_modifier = mna_centralisation_expanded_infrastructure_4
-		remove_province_modifier = mna_centralisation_expanded_infrastructure_5
-		remove_province_modifier = mna_centralisation_expanded_infrastructure_6
-		remove_province_modifier = mna_centralisation_expanded_infrastructure_7
-		remove_province_modifier = mna_centralisation_expanded_infrastructure_9
-		remove_province_modifier = mna_centralisation_expanded_infrastructure_10
-	}
-	
-	option = {
-		name = mna_idea_mechanics.9.a
-	}
-}
-
-# Expand Infrastructure 9
-province_event = {
-	id = mna_idea_mechanics.9.9
-	title = mna_idea_mechanics.9.t
-	desc = mna_idea_mechanics.9.d
-	picture = WESTERNISATION_eventPicture
-	hidden = yes
-	
-
-	trigger = {
-		num_of_times_expanded_infrastructure = 9
-		NOT = {
-			num_of_times_expanded_infrastructure = 10
-			has_province_modifier = mna_centralisation_expanded_infrastructure_9
-		}
-		owner = {
-			has_idea = centralisation_6
-		}
-	}
-	
-	mean_time_to_happen = {
-		days = 30
-	}
-	
-	immediate = {
-		add_province_modifier = {
-			name = mna_centralisation_expanded_infrastructure_9
-			duration = -1
-			hidden = yes
-		}
-		remove_province_modifier = mna_centralisation_expanded_infrastructure_1
-		remove_province_modifier = mna_centralisation_expanded_infrastructure_2
-		remove_province_modifier = mna_centralisation_expanded_infrastructure_3
-		remove_province_modifier = mna_centralisation_expanded_infrastructure_4
-		remove_province_modifier = mna_centralisation_expanded_infrastructure_5
-		remove_province_modifier = mna_centralisation_expanded_infrastructure_6
-		remove_province_modifier = mna_centralisation_expanded_infrastructure_7
-		remove_province_modifier = mna_centralisation_expanded_infrastructure_8
-		remove_province_modifier = mna_centralisation_expanded_infrastructure_10
-	}
-	
-	option = {
-		name = mna_idea_mechanics.9.a
-	}
-}
-
-# Expand Infrastructure 10
-province_event = {
-	id = mna_idea_mechanics.9.10
-	title = mna_idea_mechanics.9.t
-	desc = mna_idea_mechanics.9.d
-	picture = WESTERNISATION_eventPicture
-	hidden = yes
-	
-
-	trigger = {
-		num_of_times_expanded_infrastructure = 10
-		NOT = {
-			has_province_modifier = mna_centralisation_expanded_infrastructure_10
-		}
-		owner = {
-			has_idea = centralisation_6
-		}
-	}
-	
-	mean_time_to_happen = {
-		days = 30
-	}
-	
-	immediate = {
-		add_province_modifier = {
-			name = mna_centralisation_expanded_infrastructure_10
-			duration = -1
-			hidden = yes
-		}
-		remove_province_modifier = mna_centralisation_expanded_infrastructure_1
-		remove_province_modifier = mna_centralisation_expanded_infrastructure_2
-		remove_province_modifier = mna_centralisation_expanded_infrastructure_3
-		remove_province_modifier = mna_centralisation_expanded_infrastructure_4
-		remove_province_modifier = mna_centralisation_expanded_infrastructure_5
-		remove_province_modifier = mna_centralisation_expanded_infrastructure_6
-		remove_province_modifier = mna_centralisation_expanded_infrastructure_7
-		remove_province_modifier = mna_centralisation_expanded_infrastructure_8
-		remove_province_modifier = mna_centralisation_expanded_infrastructure_9
 	}
 	
 	option = {
@@ -4994,16 +4571,7 @@ province_event = {
 			num_of_times_expanded_infrastructure = 1
 		}
 		OR = {
-			has_province_modifier = mna_centralisation_expanded_infrastructure_1
-			has_province_modifier = mna_centralisation_expanded_infrastructure_2
-			has_province_modifier = mna_centralisation_expanded_infrastructure_3
-			has_province_modifier = mna_centralisation_expanded_infrastructure_4
-			has_province_modifier = mna_centralisation_expanded_infrastructure_5
-			has_province_modifier = mna_centralisation_expanded_infrastructure_6
-			has_province_modifier = mna_centralisation_expanded_infrastructure_7
-			has_province_modifier = mna_centralisation_expanded_infrastructure_8
-			has_province_modifier = mna_centralisation_expanded_infrastructure_9
-			has_province_modifier = mna_centralisation_expanded_infrastructure_10
+			has_province_modifier = mna_centralisation_expanded_infrastructure
 		}
 	}
 	
@@ -5012,16 +4580,7 @@ province_event = {
 	}
 	
 	immediate = {
-		remove_province_modifier = mna_centralisation_expanded_infrastructure_1
-		remove_province_modifier = mna_centralisation_expanded_infrastructure_2
-		remove_province_modifier = mna_centralisation_expanded_infrastructure_3
-		remove_province_modifier = mna_centralisation_expanded_infrastructure_4
-		remove_province_modifier = mna_centralisation_expanded_infrastructure_5
-		remove_province_modifier = mna_centralisation_expanded_infrastructure_6
-		remove_province_modifier = mna_centralisation_expanded_infrastructure_7
-		remove_province_modifier = mna_centralisation_expanded_infrastructure_8
-		remove_province_modifier = mna_centralisation_expanded_infrastructure_9
-		remove_province_modifier = mna_centralisation_expanded_infrastructure_10
+		remove_province_modifier = mna_centralisation_expanded_infrastructure
 	}
 	
 	option = {
@@ -5040,16 +4599,7 @@ province_event = {
 
 	trigger = {
 		OR = {
-			has_province_modifier = mna_centralisation_expanded_infrastructure_1
-			has_province_modifier = mna_centralisation_expanded_infrastructure_2
-			has_province_modifier = mna_centralisation_expanded_infrastructure_3
-			has_province_modifier = mna_centralisation_expanded_infrastructure_4
-			has_province_modifier = mna_centralisation_expanded_infrastructure_5
-			has_province_modifier = mna_centralisation_expanded_infrastructure_6
-			has_province_modifier = mna_centralisation_expanded_infrastructure_7
-			has_province_modifier = mna_centralisation_expanded_infrastructure_8
-			has_province_modifier = mna_centralisation_expanded_infrastructure_9
-			has_province_modifier = mna_centralisation_expanded_infrastructure_10
+			has_province_modifier = mna_centralisation_expanded_infrastructure
 		}
 		owner = {
 			NOT = {
@@ -5063,16 +4613,7 @@ province_event = {
 	}
 	
 	immediate = {
-		remove_province_modifier = mna_centralisation_expanded_infrastructure_1
-		remove_province_modifier = mna_centralisation_expanded_infrastructure_2
-		remove_province_modifier = mna_centralisation_expanded_infrastructure_3
-		remove_province_modifier = mna_centralisation_expanded_infrastructure_4
-		remove_province_modifier = mna_centralisation_expanded_infrastructure_5
-		remove_province_modifier = mna_centralisation_expanded_infrastructure_6
-		remove_province_modifier = mna_centralisation_expanded_infrastructure_7
-		remove_province_modifier = mna_centralisation_expanded_infrastructure_8
-		remove_province_modifier = mna_centralisation_expanded_infrastructure_9
-		remove_province_modifier = mna_centralisation_expanded_infrastructure_10
+		remove_province_modifier = mna_centralisation_expanded_infrastructure
 	}
 	
 	option = {
