@@ -716,6 +716,11 @@ aristocracy_ideas = {
 
 	trigger = {
 		has_government_attribute = enables_aristocratic_idea_group
+		NOT = {
+			has_idea_group = plutocracy_ideas
+			has_idea_group = theocracy_gov_ideas
+			has_idea_group = horde_gov_ideas
+		}
 	}
 
 	monarchy_1 = {
@@ -767,6 +772,11 @@ plutocracy_ideas = {
 
 	trigger = {
 		has_government_attribute = enables_plutocratic_idea_group
+		NOT = {
+			has_idea_group = aristocracy_ideas
+			has_idea_group = theocracy_gov_ideas
+			has_idea_group = horde_gov_ideas
+		}
 	}
 
 	plutocracy_1 = {
@@ -817,6 +827,11 @@ theocracy_gov_ideas = {
 	
 	trigger = {
 		has_government_attribute = enables_divine_idea_group
+		NOT = {
+			has_idea_group = aristocracy_ideas
+			has_idea_group = plutocracy_ideas
+			has_idea_group = horde_gov_ideas
+		}
 	}
 	theocracy_1 = {
 		devotion = 1
@@ -879,6 +894,11 @@ horde_gov_ideas = {
 	
 	trigger = {
 		has_government_attribute = enables_horde_idea_group
+		NOT = {
+			has_idea_group = aristocracy_ideas
+			has_idea_group = plutocracy_ideas
+			has_idea_group = theocracy_gov_ideas
+		}
 	}
 	
 	horde_1 = {
