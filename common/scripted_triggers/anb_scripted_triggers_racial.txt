@@ -9981,10 +9981,11 @@ can_purge_race = {
 	NOT = { has_country_flag = disabled_purging_flag }
 	if = {
 		limit = {
-			NOT = {
-				has_idea = nationalism_1
-			}
+			has_idea = nationalism_1
 		}
+		always = yes
+	}
+	else {
 		adm_power = 100
 	}
 }
@@ -10016,10 +10017,11 @@ can_expel_race = {
 	NOT = { has_country_flag = disabled_expelling_flag }
 	if = {
 		limit = {
-			NOT = {
-				has_idea = nationalism_1
-			}
+			has_idea = nationalism_1
 		}
+		always = yes
+	}
+	else {
 		adm_power = 50
 	}
 }
