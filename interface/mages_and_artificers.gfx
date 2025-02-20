@@ -33,7 +33,7 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_idea_aristocracy_ideas"
-		texturefile = "gfx//interface//ideas//idea_monarchie.dds"
+		texturefile = "gfx//interface//ideas//idea_monarchy.dds"
 		noOfFrames = 1
 		
 		effectFile = "gfx/FX/buttonstate_linear.lua"
@@ -61,14 +61,14 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_idea_naval_ideas"
-		texturefile = "gfx//interface//ideas//idea_high_seas2.dds"
+		texturefile = "gfx//interface//ideas//idea_high_seas.dds"
 		noOfFrames = 1
 		
 		effectFile = "gfx/FX/buttonstate_linear.lua"
 	}
 	spriteType = {
 		name = "GFX_idea_home_waters_ideas"
-		texturefile = "gfx//interface//ideas//idea_naval_ideas.dds"
+		texturefile = "gfx//interface//ideas//idea_home_waters.dds"
 		noOfFrames = 1
 		
 		effectFile = "gfx/FX/buttonstate_linear.lua"
@@ -89,7 +89,7 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_idea_leadership_ideas"
-		texturefile = "gfx//interface//ideas//idea_generalstab.tga"
+		texturefile = "gfx//interface//ideas//idea_leadership.tga"
 		noOfFrames = 1
 		
 		effectFile = "gfx/FX/buttonstate_linear.lua"
@@ -117,7 +117,7 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_idea_conscription_ideas"
-		texturefile = "gfx//interface//ideas//idea_wehrpflicht.tga"
+		texturefile = "gfx//interface//ideas//idea_conscription.tga"
 		noOfFrames = 1
 		
 		effectFile = "gfx/FX/buttonstate_linear.lua"
@@ -131,7 +131,7 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_idea_fire_focus_ideas"
-		texturefile = "gfx//interface//ideas//idea_feuerfocus.tga"
+		texturefile = "gfx//interface//ideas//idea_firefocus.tga"
 		noOfFrames = 1
 		
 		effectFile = "gfx/FX/buttonstate_linear.lua"
