@@ -5,6 +5,12 @@
 liberation_of_the_sexes = {
 	sprite = "GFX_sky_domain_repel_interlopers"
 	cost = 100
+
+	trigger = {
+		NOT = {
+			has_country_modifier = sexes_liberated
+		}
+	}
 	
 	effect = {
 		custom_tooltip = liberation_of_the_sexes_tt
@@ -35,6 +41,12 @@ all_walk_nitikamarja = {
 guru_diplomacy = {
 	sprite = "GFX_sky_domain_denounce_yrilak"
 	cost = 100
+
+	trigger = {
+		NOT = {
+			has_country_modifier = guru_diplomatic_effort
+		}
+	}
 	
 	effect = {
 		custom_tooltip = guru_diplomacy_tt
@@ -50,6 +62,12 @@ guru_diplomacy = {
 horizons_of_mind = {
 	sprite = "GFX_innovativeness_aspect"
 	cost = 100
+
+	trigger = {
+		NOT = {
+			has_country_modifier = expanded_horizons_of_mind
+		}
+	}
 	
 	effect = {
 		custom_tooltip = horizons_of_mind_tt
@@ -80,6 +98,12 @@ promote_long_path = {
 paradigmatic_zeal = {
 	sprite = "GFX_invoke_warrior_heritage"
 	cost = 200
+
+	trigger = {
+		NOT = {
+			has_country_modifier = paradigmatic_zealousness
+		}
+	}
 	
 	effect = {
 		custom_tooltip = paradigmatic_zeal_tt
@@ -105,6 +129,15 @@ debate_nature_of_praxis = {
 			owns_or_non_sovereign_subject_of = 4391
 			owns_or_non_sovereign_subject_of = 4367
 			owns_or_non_sovereign_subject_of = 4383  # Two more schools may be added post update
+		}
+		NOT = {
+			has_country_modifier = debated_nature
+			has_country_modifier = debated_nature2
+			has_country_modifier = debated_nature3
+			has_country_modifier = debated_nature4
+			has_country_modifier = debated_nature5
+			has_country_modifier = debated_nature6
+			has_country_modifier = debated_nature7
 		}
 	}
 	
