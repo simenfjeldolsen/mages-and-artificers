@@ -107,6 +107,7 @@ technology = { #National Ideas
 		renaissance = 0.15
 	}
 
+	governing_capacity = 100
 	production_efficiency	 =	0.02
 }
 
@@ -132,7 +133,8 @@ technology = { #Renaissance Thought
 		feudalism = 0.5
 		renaissance = 0.5
 	}
-	
+
+	governing_capacity = 100
 	#Noble Republic
 }
 
@@ -145,7 +147,6 @@ technology = { #Courthouse
 	}
 
 	courthouse = yes
-	governing_capacity = 100
 	allowed_idea_groups = 3	
 }
 
@@ -159,6 +160,7 @@ technology = { #The Scythe
 	}
 	
 	#The Scythe
+	governing_capacity = 100
 	production_efficiency 	=	0.02
 }
 
@@ -186,6 +188,7 @@ technology = { #Textile Manufactory
 	
 	#Textile Manufactory
 	textile = yes  
+	governing_capacity = 100
 
 }
 
@@ -200,7 +203,6 @@ technology = { #Early Modern Administration
 	
 	administrative_monarchy	= yes 
 	administrative_republic	= yes
-	governing_capacity = 100
 	state_house = yes
 	allowed_idea_groups = 5
 }
@@ -216,6 +218,7 @@ technology = { #Improved Drainage
 	}
 	
 	#Improved Drainage
+	governing_capacity = 100
 	production_efficiency 	=	0.02
 }
 
@@ -245,7 +248,7 @@ technology = { #Military Administration
 	
 	may_force_march = yes
 	soldier_households = yes
-	allowed_idea_groups	= 7
+	governing_capacity = 100
 }
 
 technology = { #Metallurgy
@@ -260,7 +263,7 @@ technology = { #Metallurgy
 	
 	mills = yes
 	production_efficiency 	=	0.02
-	allowed_idea_groups = 8
+	allowed_idea_groups = 7
 
 
 }
@@ -294,7 +297,7 @@ technology = { #National Sovereignty
 		global_trade = 0.3
 	}
 	
-	allowed_idea_groups	= 9
+	allowed_idea_groups	= 8
 }
 
 technology = { #Cathedral
@@ -309,6 +312,7 @@ technology = { #Cathedral
 	}
 	
 	#Cathedral
+	allowed_idea_groups = 9
 	cathedral = yes
 }
 
@@ -325,7 +329,6 @@ technology = { #Absolute Rulership
 	
 	republican_dictatorship = yes
 	governing_capacity = 250
-	allowed_idea_groups = 10
 }
 
 technology = { #Land Clearance
@@ -342,6 +345,7 @@ technology = { #Land Clearance
 	
 	#Land Clearance
 	production_efficiency 	=	0.02
+	allowed_idea_groups = 10
 	furnace = yes
 }
 
@@ -375,7 +379,7 @@ technology = { #Measuring the World
 		global_trade = 0.5
 		manufactories = 0.5
 	}
-	
+	governing_capacity = 250
 	administrative_efficiency = 0.1
 	development_cost_modifier = -0.1
 }
@@ -394,7 +398,6 @@ technology = { #Bonds and Tontines
 	}
 	
 	counting_house = yes  
-	governing_capacity = 250
 	allowed_idea_groups = 12
 }
 
@@ -412,6 +415,7 @@ technology = { #Improved Production
 	}
 	
 	#Improved Farm Animals
+	allowed_idea_groups = 13
 	production_efficiency 	=	0.02
 }
 
@@ -427,8 +431,7 @@ technology = { #Separation of Powers
 		manufactories = 0.5
 		enlightenment = 0.5
 	}
-	
-	allowed_idea_groups = 13
+	governing_capacity = 250
 }
 
 technology = { #Modern Bureaucracy
