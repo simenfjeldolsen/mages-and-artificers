@@ -407,7 +407,7 @@ spriteTypes = {
 	# NEW Abilities	
 	spriteType = {
 		name = "GFX_ab_cavalry_armies"
-		texturefile = "gfx/interface/ages/ab_cavalry_armies.dds"
+		texturefile = "gfx/interface/ideas/cavalry_power.dds"
 	}
 	
 	spriteType = {
