@@ -68,7 +68,7 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_idea_home_waters_ideas"
-		texturefile = "gfx//interface//ideas//idea_naval_ideas.dds"
+		texturefile = "gfx//interface//ideas//idea_home_waters.dds"
 		noOfFrames = 1
 		
 		effectFile = "gfx/FX/buttonstate_linear.lua"
