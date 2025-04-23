@@ -7,25 +7,27 @@ administrative_ideas = {
 	}
 
 	administrative_council = {
-		administrative_efficiency = 0.05
+		idea_cost = -0.15
 	}
 	centralization = {
-		global_tax_modifier = 0.15
-	}
-	cultural_regulations = {
 		adm_advisor_cost = -0.15
 	}
-	stable_government = {
+	cultural_regulations = {
 		adm_tech_cost_modifier = -0.1
 	}
-	local_rule = {
-		state_governing_cost = -0.1
+	stable_government = {
+		global_autonomy = -0.10
+		yearly_corruption = -0.1
 	}
-	adaptability = {
+	local_rule = {
+		inflation_reduction = 0.1
 		inflation_action_cost = -0.25
 	}
+	adaptability = {
+		global_unrest = -2
+	}
 	civil_servants = {
-		state_maintenance_modifier = -0.25
+		administrative_efficiency = 0.05
 	}
 
 	ai_will_do = {
