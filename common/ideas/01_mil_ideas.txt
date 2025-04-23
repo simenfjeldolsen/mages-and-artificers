@@ -106,7 +106,7 @@ quality_ideas = {
 		reserves_organisation = 0.10
 	}
 	naval_drill = {
-		movement_speed = 0.10
+		drill_gain_modifier = 0.25
 	}
 	copper_bottoms = {
 		special_unit_forcelimit = 0.10
