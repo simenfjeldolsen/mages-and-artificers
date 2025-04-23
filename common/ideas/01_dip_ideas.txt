@@ -620,31 +620,32 @@ naval_ideas = {
 
 	high_seas_1 = {
 		heavy_ship_cost = -0.2
-		heavy_ship_power = 0.10
+		heavy_ship_power = 0.1
 	}
 	high_seas_2 = {
 		sailor_maintenance_modifer = -0.25
 	}
 
 	high_seas_3 = {
-		naval_forcelimit_modifier = 0.25
-	}
-	
-	high_seas_4 = {
-		leader_naval_fire = 1
-		naval_attrition = -0.25
-	}
-	
-	high_seas_5 = {
 		global_sailors_modifier = -0.25
 		allowed_marine_fraction = 0.25
 		transport_attrition = -0.75
 	}
+	
+	high_seas_4 = {
+		naval_tradition_from_battle = 1
+	}
+	
+	high_seas_5 = {
+		naval_attrition = -0.25
+		naval_forcelimit_modifier = 0.25
+	}
 	high_seas_6 = {
-		max_flagships = 1
+		leader_naval_fire = 1
+
 	}
 	high_seas_7 = {
-		ship_durability = 0.1
+		disengagement_chance = 0.1
 	}
 
 	ai_will_do = {
