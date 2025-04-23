@@ -2,26 +2,26 @@ offensive_ideas = {
 	category = MIL
 
 	bonus = {
-		recover_army_morale_speed = 0.1
+		drill_decay_modifier = -0.20
 	}
 
 	bayonet_leaders = {
-		army_tradition_from_battle = 0.5
-	}
-	national_conscripts = {
-		global_attacker_dice_roll_bonus = 1
-	}
-	superior_firepower = {
 		siege_ability = 0.20
 	}
-	glorious_arms = {
+	national_conscripts = {
 		land_attrition = -0.20
 	}
+	superior_firepower = {
+		global_attacker_dice_roll_bonus = 1
+	}
+	glorious_arms = {
+		movement_speed = 0.10
+	}
 	engineer_corps = {
-		reinforce_speed = 0.2
+		morale_damage = 0.10
 	}
 	grand_army = {
-		morale_damage = 0.075
+		assault_fort_ability = 0.25
 	}
 	napoleonic_warfare = {
 		artillery_levels_available_vs_fort = 1
