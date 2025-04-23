@@ -690,7 +690,7 @@ home_waters_ideas = {
 	}
 
 	bonus = {
-		own_coast_naval_combat_bonus = 1.0
+		own_coast_naval_combat_bonus = 3.0
 	}
 
 	boarding_parties = {
@@ -702,19 +702,21 @@ home_waters_ideas = {
 	}
 	oak_forests_for_ships = {
 		global_ship_recruit_speed = -0.20
-	}
-	naval_cadets = {
-		sunk_ship_morale_hit_recieved = -0.25
-	}
-	press_gangs = {
-		global_sailors_modifier = 0.15
+		global_sailors_modifier = -0.10
 		allowed_marine_fraction = 0.10
 	}
+	naval_cadets = {
+		naval_tradition_from_battle = 1
+	}
+	press_gangs = {
+		sunk_ship_morale_hit_recieved = -0.25
+		global_sailors_modifier = 0.25
+	}
 	superior_seamanship = {
-		disengagement_chance = 0.05
+		ship_durability = 0.10
 	}
 	naval_glory = {
-		naval_morale = 0.1
+		naval_morale = 0.10
 	}
 
 	ai_will_do = {
