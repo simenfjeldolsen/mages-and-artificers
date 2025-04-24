@@ -1,0 +1,166 @@
+on_province_owner_change_mna = {
+	if = {
+		limit = {
+			OR = {
+				has_province_modifier = mna_decentralisation_development_cost_drylands
+				has_province_modifier = mna_decentralisation_development_cost_woods
+				has_province_modifier = mna_decentralisation_development_cost_forest
+				has_province_modifier = mna_decentralisation_development_cost_hills
+				has_province_modifier = mna_decentralisation_development_cost_dwarven_road
+				has_province_modifier = mna_decentralisation_development_cost_mountain
+				has_province_modifier = mna_decentralisation_development_cost_desert
+				has_province_modifier = mna_decentralisation_development_cost_cavern
+				has_province_modifier = mna_decentralisation_development_cost_gladeway
+			}
+			FROM = { has_idea = decentralisation_5 }
+			NOT = { owner = { has_idea = decentralisation_5 } }
+		}
+		remove_province_modifier = mna_decentralisation_development_cost_drylands
+		remove_province_modifier = mna_decentralisation_development_cost_woods
+		remove_province_modifier = mna_decentralisation_development_cost_forest
+		remove_province_modifier = mna_decentralisation_development_cost_hills
+		remove_province_modifier = mna_decentralisation_development_cost_dwarven_road
+		remove_province_modifier = mna_decentralisation_development_cost_mountain
+		remove_province_modifier = mna_decentralisation_development_cost_desert
+		remove_province_modifier = mna_decentralisation_development_cost_cavern
+		remove_province_modifier = mna_decentralisation_development_cost_gladeway
+	}
+	if = {
+		limit = {
+			NOT = {
+				OR = {
+					has_province_modifier = mna_decentralisation_development_cost_drylands
+					has_province_modifier = mna_decentralisation_development_cost_woods
+					has_province_modifier = mna_decentralisation_development_cost_forest
+					has_province_modifier = mna_decentralisation_development_cost_hills
+					has_province_modifier = mna_decentralisation_development_cost_dwarven_road
+					has_province_modifier = mna_decentralisation_development_cost_mountain
+					has_province_modifier = mna_decentralisation_development_cost_desert
+					has_province_modifier = mna_decentralisation_development_cost_cavern
+					has_province_modifier = mna_decentralisation_development_cost_gladeway
+				}
+			}
+			owner = { has_idea = decentralisation_5 }
+			NOT = { FROM = { has_idea = decentralisation_5 } }
+		}
+		hidden_effect = {
+			if = {
+				limit = {
+					has_terrain = drylands
+				}
+				add_province_modifier = { 
+					name = mna_decentralisation_development_cost_drylands
+					duration = -1
+					hidden = yes
+				}
+			}
+			if = {
+				limit = {
+					OR = {
+						has_terrain = woods
+						has_terrain = savannah
+					}
+				}
+				add_province_modifier = { 
+					name = mna_decentralisation_development_cost_woods
+					duration = -1
+					hidden = yes
+				}
+			}
+			if = {
+				limit = {
+					OR = {
+						has_terrain = forest
+						has_terrain = highlands
+						has_terrain = steppe
+						has_terrain = bloodgroves
+					}
+				}
+				add_province_modifier = { 
+					name = mna_decentralisation_development_cost_forest
+					duration = -1
+					hidden = yes
+				}
+			}
+			if = {
+				limit = {
+					OR = {
+						has_terrain = hills
+						has_terrain = ancient_forest
+						has_terrain = marsh
+						has_terrain = coastline
+						has_terrain = mushroom_forest_terrain
+					}
+				}
+				add_province_modifier = { 
+					name = mna_decentralisation_development_cost_hills
+					duration = -1
+					hidden = yes
+				}
+			}
+			if = {
+				limit = {
+					has_terrain = dwarven_road
+				}
+				add_province_modifier = { 
+					name = mna_decentralisation_development_cost_dwarven_road
+					duration = -1
+					hidden = yes
+				}
+			}
+			if = {
+				limit = {
+					OR = {
+						has_terrain = mountain
+						has_terrain = jungle
+						has_terrain = coastal_desert
+					}
+				}
+				add_province_modifier = { 
+					name = mna_decentralisation_development_cost_mountain
+					duration = -1
+					hidden = yes
+				}
+			}
+			if = {
+				limit = {
+					OR = {
+						has_terrain = desert
+						has_terrain = glacier
+					}
+				}
+				add_province_modifier = { 
+					name = mna_decentralisation_development_cost_desert
+					duration = -1
+					hidden = yes
+				}
+			}
+			if = {
+				limit = {
+					OR = {
+						has_terrain = cavern
+						has_terrain = shadow_swamp_terrain
+					}
+				}
+				add_province_modifier = { 
+					name = mna_decentralisation_development_cost_cavern
+					duration = -1
+					hidden = yes
+				}
+			}
+			if = {
+				limit = {
+					OR = {
+						has_terrain = gladeway
+						has_terrain = fey_gladeway
+					}
+				}
+				add_province_modifier = { 
+					name = mna_decentralisation_development_cost_gladeway
+					duration = -1
+					hidden = yes
+				}
+			}
+		}
+	}
+}

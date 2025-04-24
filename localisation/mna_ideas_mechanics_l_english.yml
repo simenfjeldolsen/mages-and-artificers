@@ -118,5 +118,15 @@
  mna_pluralism_goods_produced_2: "Pluralism Goods Produced II"
  mna_pluralism_goods_produced_3: "Pluralism Goods Produced III"
 
+ mna_decentralisation_development_cost_drylands: "Decentralisation 5"
+ mna_decentralisation_development_cost_woods: "Decentralisation 5"
+ mna_decentralisation_development_cost_forest: "Decentralisation 5"
+ mna_decentralisation_development_cost_hills: "Decentralisation 5"
+ mna_decentralisation_development_cost_dwarven_road: "Decentralisation 5"
+ mna_decentralisation_development_cost_mountain: "Decentralisation 5"
+ mna_decentralisation_development_cost_desert: "Decentralisation 5"
+ mna_decentralisation_development_cost_cavern: "Decentralisation 5"
+ mna_decentralisation_development_cost_gladeway: "Decentralisation 5"
+
  mna_great_men.1.exit: "§ONow is not the time to use that!§!"
  mna_great_men.1.exit_description: "Allow this event to fire at a later time."

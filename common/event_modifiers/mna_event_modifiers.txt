@@ -15,3 +15,31 @@ mna_pluralism_goods_produced_2 = {
 mna_pluralism_goods_produced_3 = {
 	global_trade_goods_size_modifier = 0.10
 }
+
+mna_decentralisation_development_cost_drylands = {
+	local_development_cost = -0.025
+}
+mna_decentralisation_development_cost_woods = {
+	local_development_cost = -0.075
+}
+mna_decentralisation_development_cost_forest = {
+	local_development_cost = -0.10
+}
+mna_decentralisation_development_cost_hills = {
+	local_development_cost = -0.125
+}
+mna_decentralisation_development_cost_dwarven_road = {
+	local_development_cost = -0.15
+}
+mna_decentralisation_development_cost_mountain = {
+	local_development_cost = -0.175
+}
+mna_decentralisation_development_cost_desert = {
+	local_development_cost = -0.25
+}
+mna_decentralisation_development_cost_cavern = {
+	local_development_cost = -0.4
+}
+mna_decentralisation_development_cost_gladeway = {
+	local_development_cost = -0.5
+}

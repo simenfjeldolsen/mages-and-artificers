@@ -11354,7 +11354,7 @@ on_province_owner_change = {
 			country_event = { id = flavor_bhuvauri.8 }
 		}
 	}
-	
+	on_province_owner_change_mna = yes
 	on_province_owner_change_effect = yes
 	if = {
 		limit = {
