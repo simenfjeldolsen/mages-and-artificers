@@ -146,10 +146,8 @@ spy_ideas = {
 		yearly_corruption = -0.2
 	}
 	
-	
 	blackmailing = {
 		siege_ability = 0.1
-		assault_fort_ability = 0.5
 	}
 
 	ai_will_do = {
