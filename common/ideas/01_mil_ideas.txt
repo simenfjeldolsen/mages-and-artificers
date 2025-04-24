@@ -565,19 +565,20 @@ fire_focus_ideas = {
 		artillery_cost = -0.25
 	}
 	fire_focus_2 = {
-		fire_damage = 0.20
+		fire_damage = 0.15
 	}
 	fire_focus_3 = {
 		artillery_power = 0.1
 	}
 	fire_focus_4 = {
-		shock_damage_received = -0.15
+		shock_damage_received = -0.10
 	}
 	fire_focus_5 = {
 		artillery_levels_available_vs_fort = 1
 	}
 	fire_focus_6 = {
-		backrow_artillery_damage = 0.10
+		infantry_fire = 0.2
+		cavalry_fire = 0.3
 	}
 	fire_focus_7 = {
 		leader_siege = 1
