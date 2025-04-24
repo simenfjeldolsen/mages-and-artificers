@@ -20,7 +20,6 @@ court_ideas = {
 	}
 	welcoming_ceremonies = {
 		prestige_decay = -0.005
-		monthly_persian_influence = 0.1
 	}
 	tranquil_coordination = {
 		advisor_cost = -0.10

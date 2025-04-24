@@ -279,7 +279,6 @@ militarism_ideas = {
 	}
 	militarism_7 = {
 		war_exhaustion = -0.05
-		monthly_militarized_society = 0.05
 	}
 	
 
