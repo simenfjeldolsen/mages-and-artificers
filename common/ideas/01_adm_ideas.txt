@@ -669,7 +669,7 @@ decentralisation_ideas = {
 	category = ADM
 
 	bonus = {
-		governing_capacity_modifier = 0.2
+		governing_capacity_modifier = 0.1
 	}
 	trigger = {
 		NOT = {
