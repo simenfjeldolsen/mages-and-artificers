@@ -49,6 +49,7 @@ defensive_ideas = {
 	}
 	improved_manuever = {
 		global_regiment_recruit_speed = -0.3
+		global_manpower_modifier = 0.3
 	}
 	regimental_system = {
 		leader_land_fire = 1
