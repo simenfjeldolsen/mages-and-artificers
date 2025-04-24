@@ -156,7 +156,7 @@ economic_ideas = {
 	smithian_economics = { 
 		#Mechanic: +1/-1 Dev from Manufactories		#Note for modders; the two mechanics introduced in 1.35   
 		#for eco ideas are done so via on_actions 
-		monthly_gold_inflation_modifier = -0.1
+		monthly_gold_inflation_modifier = -0.5
  	}	
 
 	ai_will_do = {
