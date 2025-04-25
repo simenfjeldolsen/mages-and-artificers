@@ -1497,7 +1497,7 @@ policy_A07 = {
 		full_idea_group = logistics_ideas
 	}
 
-	leader_land_manuever = 1
+	morale_damage = 0.10
 	army_tradition_from_battle = 0.5
 	
 	effect = {}
