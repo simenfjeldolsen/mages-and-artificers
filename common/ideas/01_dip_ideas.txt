@@ -134,6 +134,7 @@ spy_ideas = {
 
 	efficient_spies = {
 		spy_offence = 0.5
+		artificers_research_time = -0.20
 	}	
 	
 	agent_training = {
