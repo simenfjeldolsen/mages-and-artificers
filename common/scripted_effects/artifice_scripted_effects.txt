@@ -79,7 +79,7 @@ update_artifice_points = {
 			#+5 Artifice capacity from Innovative ideas
 			if = {
 				limit = {
-					has_idea = print_culture
+					has_idea = dynamic_court
 				}
 				change_variable = {
 					which = MaxArtificePoints
@@ -520,6 +520,15 @@ update_artifice_points = {
 				change_variable = {
 					which = ArtificePointsMultiplier
 					value = 0.25
+				}
+			}
+			if = {
+				limit = { 
+					has_idea = print_culture
+				}
+				change_variable = {
+					which = ArtificePointsMultiplier
+					value = 0.10
 				}
 			}
 			

@@ -41,6 +41,13 @@ defined_text = {
         }
     }
 
+    text = {
+        localisation_key = innovative_ideas_artifice_multiplier
+        trigger = {
+			has_idea = print_culture
+        }
+    }
+
 	text = {
         localisation_key = artifice_mode_none
         trigger = {
@@ -323,7 +330,7 @@ defined_text = {
 	text = {
 		localisation_key = artifice_innovative_ideas_yes
 		trigger = {
-			has_idea = print_culture
+			has_idea = dynamic_court
 		}
 	}
 	text = {
@@ -494,6 +501,7 @@ defined_text = {
 					has_country_flag = magic_artificery_artificery_only 
 					ruler_has_mage_personality = yes
 				}
+				has_idea = print_culture
 			}
         }
     }

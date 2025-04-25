@@ -119,8 +119,9 @@
  early_artifice_bonus:0 "§G+[Root.ResearchArtificePoints.GetValue]§! - From researching Inventions before 1650\n"
  early_artifice_bonus_none:0 ""
 
- artifice_innovative_ideas_yes:0 "§G+5§! - From Innovative ideas\n"
+ artifice_innovative_ideas_yes:0 "§G+5§! - Innovative 4\n"
  artifice_innovative_ideas_none:0 ""
+ innovative_ideas_artifice_multiplier:0 "§G+10%§! - Innovative 5\n"
 
  artifice_hold_wonder_yes:0 "§G+5§! - Has Wonder: Grand Artificer Academy\n"
  artifice_hold_wonder_none:0 ""
