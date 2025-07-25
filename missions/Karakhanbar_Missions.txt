@@ -1,50 +1,50 @@
 Z54_1_branching = {
-	slot = 1
-	generic = no
-	ai = yes
-	has_country_shield = yes
+    slot = 1
+    generic = no
+    ai = yes
+    has_country_shield = yes
 
-	potential = { 
+    potential = { 
         tag = Z54
-		NOT = { has_country_flag = Z54_hardliner_branch }
-		NOT = { has_country_flag = Z54_moderate_branch }
-	} 
+        NOT = { has_country_flag = Z54_hardliner_branch }
+        NOT = { has_country_flag = Z54_moderate_branch }
+    } 
 
-	Z54_branching2 = {
-		icon = mission_unknown_mission
-		position = 3
-		required_missions = { 
+    Z54_branching2 = {
+        icon = mission_unknown_mission
+        position = 3
+        required_missions = { 
             Z54_branching1
         }
-		trigger = {
-			custom_trigger_tooltip = { 
+        trigger = {
+            custom_trigger_tooltip = { 
                 tooltip = karakhanbar_this_is_a_branching_mission_tt 
                 always = no 
             }
-		}
-		effect = {
-			custom_tooltip = karakhanbar_this_is_a_branching_mission_tt
-		} 
-	}
+        }
+        effect = {
+            custom_tooltip = karakhanbar_this_is_a_branching_mission_tt
+        } 
+    }
 
-	Z54_branching4 = {
-		icon = mission_unknown_mission
-		position = 4
-		required_missions = {
+    Z54_branching4 = {
+        icon = mission_unknown_mission
+        position = 4
+        required_missions = {
             Z54_branching2
             Z54_branching3
         } 
 
-		trigger = {  
-			custom_trigger_tooltip = { 
+        trigger = {  
+            custom_trigger_tooltip = { 
                 tooltip = karakhanbar_this_is_a_branching_mission_tt 
                 always = no 
             }
-		}
-		effect = {  
-			custom_tooltip = karakhanbar_this_is_a_branching_mission_tt
-		} 
-	}
+        }
+        effect = {  
+            custom_tooltip = karakhanbar_this_is_a_branching_mission_tt
+        } 
+    }
     
     Z54_spread_the_songs_B = {
         icon = league_of_the_public_weal
@@ -105,51 +105,51 @@ Z54_1_branching = {
 }
 
 Z54_2_branching = {
-	slot = 2
-	generic = no
-	ai = yes
-	has_country_shield = yes
+    slot = 2
+    generic = no
+    ai = yes
+    has_country_shield = yes
 
-	potential = { 
+    potential = { 
         tag = Z54
-		NOT = { has_country_flag = Z54_hardliner_branch }
-		NOT = { has_country_flag = Z54_moderate_branch }
-	} 
+        NOT = { has_country_flag = Z54_hardliner_branch }
+        NOT = { has_country_flag = Z54_moderate_branch }
+    } 
 
-	Z54_branching1 = {
-		icon = mission_unknown_mission
-		position = 2
-		required_missions = { 
+    Z54_branching1 = {
+        icon = mission_unknown_mission
+        position = 2
+        required_missions = { 
             Z54_aftermath_of_the_emeraldtide
         }
-		trigger = {
-			custom_trigger_tooltip = { 
+        trigger = {
+            custom_trigger_tooltip = { 
                 tooltip = karakhanbar_this_is_a_branching_mission_tt 
                 always = no 
             }
-		}
-		effect = {
-			custom_tooltip = karakhanbar_this_is_a_branching_mission_tt
-		} 
-	}
+        }
+        effect = {
+            custom_tooltip = karakhanbar_this_is_a_branching_mission_tt
+        } 
+    }
 
-	Z54_branching3 = {
-		icon = mission_unknown_mission
-		position = 3
-		required_missions = {
+    Z54_branching3 = {
+        icon = mission_unknown_mission
+        position = 3
+        required_missions = {
             Z54_branching1
         } 
 
-		trigger = {  
-			custom_trigger_tooltip = { 
+        trigger = {  
+            custom_trigger_tooltip = { 
                 tooltip = karakhanbar_this_is_a_branching_mission_tt 
                 always = no 
             }
-		}
-		effect = {  
-			custom_tooltip = karakhanbar_this_is_a_branching_mission_tt
-		} 
-	}
+        }
+        effect = {  
+            custom_tooltip = karakhanbar_this_is_a_branching_mission_tt
+        } 
+    }
 
     Z54_fey_repellant_B = {
         icon = mission_hanged_tree
@@ -226,8 +226,8 @@ Z54_2_branching = {
         effect = {
             add_prestige_or_monarch_power = { amount = 20 }
             custom_tooltip = karakhanbar_fey_repellant_effect_tt
-            clr_country_flag = karakhanbar_common_fey_nuissance
-            set_country_flag = karakhanbar_rare_fey_nuissance
+            clr_country_flag = karakhanbar_common_fey_nuisance
+            set_country_flag = karakhanbar_rare_fey_nuisance
         }
     }
 
@@ -302,23 +302,50 @@ Z54_2_branching = {
 }
 
 Z54_1_hardliner = {
-	slot = 1
-	generic = no
-	ai = yes
-	has_country_shield = yes
+    slot = 1
+    generic = no
+    ai = yes
+    has_country_shield = yes
 
-	potential = { 
+    potential = { 
         tag = Z54
         has_country_flag = Z54_hardliner_branch
-	} 
+    } 
 
-	Z54_root_out_their_influence = {
-		icon = mission_burning_man
-		position = 3
-		required_missions = { 
+    Z54_root_out_their_influence = {
+        icon = mission_burning_man
+        position = 3
+        required_missions = { 
             Z54_last_shards_of_emerald
         }
-		trigger = {
+        provinces_to_highlight = {
+            OR = {
+                AND = {
+                    owned_by = ROOT
+                    superregion = deepwoods_superregion
+                    OR = {
+                        culture = wood_elf
+                        culture = forest_goblin
+                    }
+                    AND = {
+                        NOT = { has_province_modifier = autonomy_decreased }
+                        local_autonomy_above_min = 10
+                    }
+                }
+                AND = {
+                    is_capital = yes
+                    superregion = deepwoods_superregion
+                    owner = {
+                        OR = {
+                            culture = forest_goblin
+                            culture = wood_elf
+                        }
+                        NOT = { has_been_insulted_by_root = yes }
+                    }
+                }
+            }
+        }
+        trigger = {
             if = {
                 limit = {
                     any_known_country = {
@@ -333,21 +360,16 @@ Z54_1_hardliner = {
                 }
                 all_known_country = {
                     OR = {
-                        culture = forest_goblin
-                        culture = wood_elf
-                    }
-                    capital_scope = {
-                        superregion = deepwoods_superregion
-                    }
-                    OR = {
-                        has_opinion_modifier = {
-                            who = ROOT
-                            modifier = insulted
+                        NOT = {
+                            culture = forest_goblin
+                            culture = wood_elf
                         }
-                        has_opinion_modifier = {
-                            who = ROOT
-                            modifier = scornfully_insulted
+                        NOT = {
+                            capital_scope = {
+                                superregion = deepwoods_superregion
+                            }
                         }
+                        has_been_insulted_by_root = yes
                     }
                 }
             }
@@ -363,8 +385,8 @@ Z54_1_hardliner = {
                 }
                 all_owned_province = {
                     OR = {
+                        NOT = { superregion = deepwoods_superregion }
                         NOT = {
-                            superregion = deepwoods_superregion
                             culture = wood_elf
                             culture = forest_goblin
                         }
@@ -387,33 +409,42 @@ Z54_1_hardliner = {
                 has_country_modifier = racial_pop_goblin_purge
                 has_country_modifier = racial_pop_goblin_expulsion
             }
-		}
-		effect = {
+        }
+        effect = {
             add_stability_or_adm_power = yes
-            every_owned_province = {
-                limit = { culture = green_orc }
-                change_culture = karakhanbari_orc
-            }
-            for = {
-                amount = 5
-                effect = "random_owned_province = { limit = { culture = karakhanbari_orc NOT = { has_country_flag = karakhanbar_manpower_gained } } add_base_production = 1 set_province_flag = karakhanbar_manpower_gained }"
+            custom_tooltip = karakhanbar_root_out_their_influence_effect_tt
+            hidden_effect = {
+                every_owned_province = {
+                    limit = { culture = green_orc }
+                    change_culture = karakhanbari_orc
+                }
+                for = {
+                    amount = 5
+                    effect = "random_owned_province = { limit = { culture = karakhanbari_orc NOT = { has_province_flag = karakhanbar_production_gained } } add_base_production = 1 set_province_flag = karakhanbar_production_gained }"
+                }
             }
             define_advisor = {
                 type = artist
                 cost_multiplier = 0.5
             }
-		} 
-	}
+        } 
+    }
 
-	Z54_bane_of_the_deepwoods = {
-		icon = mission_burning_separation
-		position = 4
-		required_missions = {
+    Z54_bane_of_the_deepwoods = {
+        icon = mission_burning_separation
+        position = 4
+        required_missions = {
             Z54_root_out_their_influence
             Z54_support_of_shamans
-        } 
-
-		trigger = {
+        }
+        provinces_to_highlight = {
+            superregion = deepwoods_superregion
+            NOT = {
+                culture = green_orc
+                culture = karakhanbari_orc
+            }
+        }
+        trigger = {
             deepwoods_superregion = {
                 type = all
                 OR = {
@@ -421,8 +452,8 @@ Z54_1_hardliner = {
                     culture = karakhanbari_orc
                 }
             }
-		}
-		effect = {
+        }
+        effect = {
             custom_tooltip = karakhanbar_branching_missions_end_effect_tt
             custom_tooltip = karakhanbar_bane_of_the_deepwoods_effect_tt
             set_country_flag = karakhanbar_hardliners_won
@@ -431,8 +462,8 @@ Z54_1_hardliner = {
                 name = karakhanbar_bane_of_the_deepwoods
                 duration = -1
             }
-		} 
-	}
+        } 
+    }
 
     Z54_spread_the_songs_H = {
         icon = league_of_the_public_weal
@@ -493,23 +524,33 @@ Z54_1_hardliner = {
 }
 
 Z54_2_hardliner = {
-	slot = 2
-	generic = no
-	ai = yes
-	has_country_shield = yes
+    slot = 2
+    generic = no
+    ai = yes
+    has_country_shield = yes
 
-	potential = { 
+    potential = { 
         tag = Z54
-		has_country_flag = Z54_hardliner_branch
-	} 
+        has_country_flag = Z54_hardliner_branch
+    } 
 
-	Z54_last_shards_of_emerald = {
-		icon = mission_transmutation
-		position = 2
-		required_missions = { 
+    Z54_last_shards_of_emerald = {
+        icon = mission_transmutation
+        position = 2
+        required_missions = { 
             Z54_aftermath_of_the_emeraldtide
         }
-		trigger = {
+        provinces_to_highlight = {
+            owned_by = ROOT
+            culture = emerald_orc
+            NOT = {
+                num_of_units_in_province = {
+                    who = ROOT
+                    amount = 2
+                }
+            }
+        }
+        trigger = {
             if = {
                 limit = {
                     any_owned_province = {
@@ -517,10 +558,12 @@ Z54_2_hardliner = {
                     }
                 }
                 all_owned_province = {
-                    culture = emerald_orc
-                    num_of_units_in_province = {
-                        who = ROOT
-                        amount = 2
+                    OR = {
+                        NOT = { culture = emerald_orc }
+                        num_of_units_in_province = {
+                            who = ROOT
+                            amount = 2
+                        }
                     }
                 }
             }
@@ -541,8 +584,8 @@ Z54_2_hardliner = {
                 }
             }
             mil_power = 50
-		}
-		effect = {
+        }
+        effect = {
             add_mil_power = -50
             every_owned_province = {
                 limit = { 
@@ -569,17 +612,17 @@ Z54_2_hardliner = {
                 name = karakhanbar_anti_fey_sentiment
                 duration = 18250
             }
-		} 
-	}
+        } 
+    }
 
-	Z54_support_of_shamans = {
-		icon = mission_gain_mana
-		position = 3
-		required_missions = {
+    Z54_support_of_shamans = {
+        icon = mission_gain_mana
+        position = 3
+        required_missions = {
             Z54_last_shards_of_emerald
         } 
 
-		trigger = {
+        trigger = {
             num_of_estate_agendas_completed = {
                 estate = estate_church
                 value = 2
@@ -589,8 +632,8 @@ Z54_2_hardliner = {
                 value = 3
             }
             has_estate_privilege = estate_church_for_the_faith
-		}
-		effect = {
+        }
+        effect = {
             set_country_flag = karakhanbar_zealous_feyslayers
             set_estate_privilege = estate_church_karakhanbar_zealous_feyslayers
             define_general = {
@@ -600,8 +643,8 @@ Z54_2_hardliner = {
                 siege = 5
                 trait = war_wizard_personality
             }
-		} 
-	}
+        } 
+    }
 
     Z54_fey_repellant_H = {
         icon = mission_hanged_tree
@@ -678,8 +721,8 @@ Z54_2_hardliner = {
         effect = {
             add_prestige_or_monarch_power = { amount = 20 }
             custom_tooltip = karakhanbar_fey_repellant_effect_tt
-            clr_country_flag = karakhanbar_common_fey_nuissance
-            set_country_flag = karakhanbar_rare_fey_nuissance
+            clr_country_flag = karakhanbar_common_fey_nuisance
+            set_country_flag = karakhanbar_rare_fey_nuisance
         }
     }
 
@@ -753,23 +796,23 @@ Z54_2_hardliner = {
 }
 
 Z54_1_moderate = {
-	slot = 1
-	generic = no
-	ai = yes
-	has_country_shield = yes
+    slot = 1
+    generic = no
+    ai = yes
+    has_country_shield = yes
 
-	potential = { 
+    potential = { 
         tag = Z54
         has_country_flag = Z54_moderate_branch
-	} 
+    } 
 
-	Z54_elven_dissidents = {
-		icon = mission_elf_smiling
-		position = 3
-		required_missions = { 
+    Z54_elven_dissidents = {
+        icon = mission_elf_smiling
+        position = 3
+        required_missions = { 
             Z54_different_but_not_lost
         }
-		trigger = {
+        trigger = {
             OR = {
                 medium_tolerance_elven_race_trigger = yes
                 high_tolerance_elven_race_trigger = yes
@@ -782,13 +825,12 @@ Z54_1_moderate = {
                 }
             }
             dip_power = 100
-		}
-		effect = {
+        }
+        effect = {
             add_dip_power = -100
             if = {
                 limit = { has_country_flag = removing_monstrous }
-                custom_tooltip = decrease_monstrous_10_tooltip
-			    hidden_effect = { subtract_variable = { monstrousPoints = 25 } }
+                decrease_monstrous_25 = yes
             }
             else = {
                 change_government_reform_progress = 50
@@ -802,25 +844,25 @@ Z54_1_moderate = {
                     effect = "random_owned_province = { limit = { NOT = { has_terrain = gladeway has_terrain = fey_gladeway has_province_flag = karakhanbar_elves } } add_elven_minority_size_effect = yes set_province_flag = karakhanbar_elves }"
                 }
             }
-		} 
-	}
+        } 
+    }
 
-	Z54_united_in_the_forest = {
-		icon = mission_city_prosperity
-		position = 4
-		required_missions = {
+    Z54_united_in_the_forest = {
+        icon = mission_city_prosperity
+        position = 4
+        required_missions = {
             Z54_elven_dissidents
             Z54_kartels_of_deepwoods
         } 
 
-		trigger = {
+        trigger = {
             accepted_culture = forest_goblin
             accepted_culture = wood_elf
             accepted_culture = emerald_orc
             high_tolerance_elven_race_trigger = yes
             high_tolerance_goblin_race_trigger = yes
-		}
-		effect = {
+        }
+        effect = {
             custom_tooltip = karakhanbar_branching_missions_end_effect_tt
             set_country_flag = karakhanbar_moderates_won
             clr_country_flag = karakhanbar_hardliners_vs_moderates
@@ -829,8 +871,8 @@ Z54_1_moderate = {
                 name = karakhanbar_knowledge_of_forest_dwellers
                 duration = -1
             }
-		} 
-	}
+        } 
+    }
 
     Z54_spread_the_songs_M = {
         icon = league_of_the_public_weal
@@ -891,23 +933,23 @@ Z54_1_moderate = {
 }
 
 Z54_2_moderate = {
-	slot = 2
-	generic = no
-	ai = yes
-	has_country_shield = yes
+    slot = 2
+    generic = no
+    ai = yes
+    has_country_shield = yes
 
-	potential = { 
+    potential = { 
         tag = Z54
-		has_country_flag = Z54_moderate_branch
-	} 
+        has_country_flag = Z54_moderate_branch
+    } 
 
-	Z54_different_but_not_lost = {
-		icon = mission_forest_shrine
-		position = 2
-		required_missions = { 
+    Z54_different_but_not_lost = {
+        icon = mission_forest_shrine
+        position = 2
+        required_missions = { 
             Z54_aftermath_of_the_emeraldtide
         }
-		trigger = {
+        trigger = {
             OR = {
                 AND = {
                     num_of_estate_agendas_completed = {
@@ -936,13 +978,16 @@ Z54_2_moderate = {
                     }
                 }
             }
-		}
-		effect = {
+        }
+        effect = {
             every_owned_province = {
                 limit = { superregion = deepwoods_superregion is_core = I46 }
                 remove_core = I46
             }
-            add_accepted_culture = emerald_orc
+            anb_add_accepted_culture_or_dip_power = {
+                culture = emerald_orc
+                free = yes
+            }
             every_owned_province = {
                 limit = { culture = emerald_orc }
                 add_province_modifier = {
@@ -956,17 +1001,17 @@ Z54_2_moderate = {
             }
             large_increase_of_goblin_tolerance_effect = yes
             large_increase_of_elven_tolerance_effect = yes
-		} 
-	}
+        } 
+    }
 
-	Z54_kartels_of_deepwoods = {
-		icon = mission_globlin
-		position = 3
-		required_missions = {
+    Z54_kartels_of_deepwoods = {
+        icon = mission_globlin
+        position = 3
+        required_missions = {
             Z54_different_but_not_lost
         } 
 
-		trigger = {
+        trigger = {
             OR = {
                 medium_tolerance_goblin_race_trigger = yes
                 high_tolerance_goblin_race_trigger = yes
@@ -980,7 +1025,7 @@ Z54_2_moderate = {
                 treasury = 400
             }
         }
-		effect = {
+        effect = {
             if = {
                 limit = { has_dlc = "Domination" }
                 remove_estate_privilege = estate_burghers_control_over_the_coinage
@@ -1076,8 +1121,8 @@ Z54_2_moderate = {
         effect = {
             add_prestige_or_monarch_power = { amount = 20 }
             custom_tooltip = karakhanbar_fey_repellant_effect_tt
-            clr_country_flag = karakhanbar_common_fey_nuissance
-            set_country_flag = karakhanbar_rare_fey_nuissance
+            clr_country_flag = karakhanbar_common_fey_nuisance
+            set_country_flag = karakhanbar_rare_fey_nuisance
         }
     }
 
@@ -1151,13 +1196,13 @@ Z54_2_moderate = {
 }
 
 Z54_1_1 = {
-	slot = 1
-	generic = no
-	ai = yes
-	has_country_shield = yes
-	potential = {
-		tag = Z54
-	}
+    slot = 1
+    generic = no
+    ai = yes
+    has_country_shield = yes
+    potential = {
+        tag = Z54
+    }
 
     Z54_better_solution = {
         icon = league_of_the_public_weal
@@ -1174,10 +1219,10 @@ Z54_1_1 = {
             calc_true_if = {
                 amount = 3
                 808 = { #Vernham
-	                trade_share = {
-		                country = ROOT
-		                share = 25
-	                }
+                    trade_share = {
+                        country = ROOT
+                        share = 25
+                    }
                 }
                 880 = { #Esswyck
                     trade_share = {
@@ -1799,10 +1844,12 @@ Z54_2_1 = {
                 select_highest_dev_province_with_limit = { 
                     limit = "OR = { region = ourdia_region region = daravans_folly_region } has_port = yes has_dock_building_trigger = yes has_shipyard_building_trigger = yes province_has_current_tech_fort_trigger = yes" 
                     effect = "add_province_modifier = { name = karakhanbar_headquarters_of_the_burning_navy duration = -1 }"
+                    index = 1
                 }
                 select_highest_dev_province_with_limit = { 
                     limit = "OR = { region = ourdia_region region = daravans_folly_region } has_port = yes NOT = { has_province_modifier = karakhanbar_headquarters_of_the_burning_navy } has_dock_building_trigger = yes has_shipyard_building_trigger = yes province_has_current_tech_fort_trigger = yes" 
                     effect = "add_province_modifier = { name = karakhanbar_headquarters_of_the_burning_navy duration = -1 }"
+                    index = 2
                 }
             }
         }
@@ -1833,7 +1880,7 @@ Z54_2_1 = {
                 religion = 8
                 cost_multiplier = 0.5
             }
-            clr_country_flag = karakhanbar_rare_fey_nuissance
+            clr_country_flag = karakhanbar_rare_fey_nuisance
             custom_tooltip = karakhanbar_history_of_ashentree_effect_tt
             country_event = {
                 id = flavour_karakhanbar.9
@@ -1857,20 +1904,20 @@ Z54_3_1 = {
         icon = mission_alone_in_the_forest
         position = 1
         provinces_to_highlight = { 
-		    controlled_by = REB
-	    }
+            controlled_by = REB
+        }
         trigger = {
-       		if = {
-			    limit = { NOT = { was_tag = I41 } }
-			    custom_trigger_tooltip = {
+            if = {
+                limit = { NOT = { was_tag = I41 } }
+                custom_trigger_tooltip = {
                     tooltip = karakhanbar_aftermath_of_the_emeraldtide_trigger_tt
                     has_country_flag = green_orc_war_of_the_black_trees_won
-            	}
-		    }
-		    NOT = { num_of_rebel_controlled_provinces = 1 }
-		    NOT = { war_exhaustion = 1 }
-		    manpower_percentage = 0.4
-        	is_at_war = no
+                }
+            }
+            NOT = { num_of_rebel_controlled_provinces = 1 }
+            NOT = { war_exhaustion = 1 }
+            manpower_percentage = 0.4
+            is_at_war = no
         }
         effect = {
             deepwoods_superregion = {
@@ -1903,7 +1950,7 @@ Z54_3_1 = {
                 }
                 province_id = 6258
             }
-            else {
+            else = {
                 OR = {
                     province_id = 3058
                     province_id = 3053
@@ -1930,8 +1977,8 @@ Z54_3_1 = {
                 owns_core_province = 3052
                 owns_core_province = 3058
                 custom_trigger_tooltip = {
-		            tooltip = karakhanbar_strike_the_heart_of_fey_trigger_tt
-		            OR = {
+                    tooltip = karakhanbar_strike_the_heart_of_fey_trigger_tt
+                    OR = {
                         3053 = {
                             num_of_units_in_province = {
                                 who = ROOT
@@ -1954,7 +2001,7 @@ Z54_3_1 = {
                             unit_has_leader = yes
                         }
                     }
-		        }
+                }
             }
         }
         effect = {
@@ -1987,7 +2034,7 @@ Z54_3_1 = {
                         NOT = { has_building = workshop }
                     }
                 }
-		        province_id = 3023
+                province_id = 3023
             }
         }
         trigger = {
@@ -2003,7 +2050,7 @@ Z54_3_1 = {
                 value = 10
                 has_manpower_building_trigger = yes
             }
-		    mercantilism = 15
+            mercantilism = 15
             trading_policy_in_node = {
                 node = 3023 # Deepwoods node
                 policy = improve_inland_routes
@@ -2037,15 +2084,15 @@ Z54_3_1 = {
                     effect = "random_owned_province = { limit = { has_production_building_trigger = yes NOT = { has_province_flag = karakhanbar_production_building } } add_or_upgrade_production_building = yes set_province_flag = karakhanbar_production_building }"
                 }
             }
-		    else_if = {
+            else_if = {
                 limit = {
                     num_of_owned_provinces_with = {
                         value = 10
                         has_production_building_trigger = yes
                     }
                 }
-			    custom_tooltip = karakhanbar_our_cities_in_woods_effect_10_production_building_tt
-		        for = {
+                custom_tooltip = karakhanbar_our_cities_in_woods_effect_10_production_building_tt
+                for = {
                     amount = 3
                     effect = "random_owned_province = { limit = { has_production_building_trigger = yes NOT = { has_province_flag = karakhanbar_production_building } } add_or_upgrade_production_building = yes set_province_flag = karakhanbar_production_building }"
                 }
@@ -2510,11 +2557,7 @@ Z54_3_1 = {
                     owner = { army_size = ROOT }
                 }
                 AND = {
-                    OR = {
-                        region = south_castanor_region
-                        region = inner_castanor_region
-                        region = west_castanor_region
-                    }
+                    province_group = escann_proper
                     is_capital = yes
                     owner = {
                         culture_group = orcish
@@ -2535,44 +2578,34 @@ Z54_3_1 = {
                     any_known_country = {
                         culture_group = orcish
                         capital_scope = {
-                            OR = {
-                                region = south_castanor_region
-                                region = inner_castanor_region
-                                region = west_castanor_region
-                            }
+                            province_group = escann_proper
                         }
                     }
                 }
                 OR = {
-                    NOT = {
-                        any_known_country = {
-                            culture_group = orcish
-                            capital_scope = {
-                                OR = {
-                                    region = south_castanor_region
-                                    region = inner_castanor_region
-                                    region = west_castanor_region
+                    all_known_country = {
+                        OR = {
+                            NOT = { culture_group = orcish }
+                            NOT = {
+                                capital_scope = {
+                                    province_group = escann_proper
                                 }
                             }
-                            NOT = {
-                                has_opinion = {
-                                    who = ROOT
-                                    value = 100
-                                }
+                            has_opinion = {
+                                who = ROOT
+                                value = 100
                             }
                         }
                     }
-                    NOT = {
-                        any_known_country = {
-                            culture_group = orcish
-                            capital_scope = {
-                                OR = {
-                                    region = south_castanor_region
-                                    region = inner_castanor_region
-                                    region = west_castanor_region
+                    all_known_country = {
+                        OR = {
+                            NOT = { culture_group = orcish }
+                            NOT = {
+                                capital_scope = {
+                                    province_group = escann_proper
                                 }
                             }
-                            NOT = { has_been_insulted_by_root = yes }
+                            has_been_insulted_by_root = yes
                         }
                     }
                 }
@@ -2851,16 +2884,16 @@ Z54_4_1 = {
         }
         provinces_to_highlight = {
             province_group = deepwoods_outward_gladeways
-		    NOT = { 
-			    OR = {
-				    base_manpower = 3
-				    province_has_current_tech_fort_trigger = yes
-			    }
-		    }
+            NOT = { 
+                OR = {
+                    base_manpower = 3
+                    province_has_current_tech_fort_trigger = yes
+                }
+            }
         }
         trigger = {
             deepwoods_outward_gladeways = {
-		        type = all
+                type = all
                 OR = {
                     base_manpower = 3
                     province_has_current_tech_fort_trigger = yes
@@ -2868,7 +2901,7 @@ Z54_4_1 = {
             }
         }
         effect = {
-		    deepwoods_outward_gladeways = {
+            deepwoods_outward_gladeways = {
                 add_province_modifier = {
                     name = karakhanbar_walls_of_the_deepwoods_fortress
                     duration = -1
@@ -3294,23 +3327,23 @@ Z54_5_1 = {
         position = 1
         required_missions = {}
         provinces_to_highlight = {
-		    is_capital_of = ROOT
+            is_capital_of = ROOT
         }
         trigger = {
             capital_scope = {
                 development = 20
-                has_building = fort_15th
-                has_building = marketplace
-                has_building = temple
+                has_fort_building_trigger = yes
+                has_trade_building_trigger = yes
+                has_tax_building_trigger = yes
                 if = {
                     limit = { has_dlc = "Leviathan" }
                     num_of_times_expanded_infrastructure = 1
                 }
             }
            custom_trigger_tooltip = {
-		        tooltip = karakhanbar_preserve_the_black_hearth_trigger_tt
-		        has_country_flag = had_bron_event
-		    }
+                tooltip = karakhanbar_preserve_the_black_hearth_trigger_tt
+                has_country_flag = had_bron_event
+            }
         }
         effect = {
             capital_scope = {
@@ -3336,13 +3369,35 @@ Z54_5_1 = {
                     center_of_trade = 1
                 }
             }
-            add_government_reform = karakhanbar_black_hearth_council_reform
-            hidden_effect = {
-                set_variable = {
-                    which = karakhanbarGovButtonCost
-                    value = 0
+            if = {
+                limit = {
+                    was_tag = I40
                 }
-                add_republican_tradition = 10
+                country_event = { 
+                    id = flavour_cursed_howl.15
+                    days = 10
+                }
+                country_event = { 
+                    id = flavour_cursed_howl.16
+                    days = 30
+                }
+                hidden_effect = {
+                    set_variable = {
+                        which = karakhanbarGovButtonCost
+                        value = 0
+                    }
+                }
+            }
+            else = {
+                change_government = republic
+                add_government_reform = karakhanbar_black_hearth_council_reform
+                hidden_effect = {
+                    set_variable = {
+                        which = karakhanbarGovButtonCost
+                        value = 0
+                    }
+                    add_republican_tradition = 10
+                }
             }
             if = {
                 limit = {
@@ -3368,15 +3423,15 @@ Z54_5_1 = {
             NOT = { owned_by = ROOT }
         }
         trigger = {
-		    if = {
-			    limit = { 
-				    has_country_flag = bron_the_bonfire_is_leader
-			    }
-			    custom_trigger_tooltip = {
-				    tooltip = karakhanbar_fires_burning_bright_trigger_tt
-				    has_country_flag = bron_the_bonfire_is_leader
-			    }
-		    }
+            if = {
+                limit = { 
+                    has_country_flag = bron_the_bonfire_is_leader
+                }
+                custom_trigger_tooltip = {
+                    tooltip = karakhanbar_fires_burning_bright_trigger_tt
+                    has_country_flag = bron_the_bonfire_is_leader
+                }
+            }
             else = {
                 estate_loyalty = {
                     estate = estate_church
@@ -3389,8 +3444,8 @@ Z54_5_1 = {
                 owned_by = ROOT
             }
             num_of_owned_provinces_with = {
-	            value = 5
-	            has_province_modifier = karakhanbar_slash_and_burn
+                value = 5
+                has_province_modifier = karakhanbar_slash_and_burn
             }
         }
         effect = {
@@ -3432,55 +3487,55 @@ Z54_5_1 = {
             }
             7008 = {
                 change_trade_goods = copper
-		        hidden_effect = {
-                	add_province_modifier = {
-                   		name = karakhanbar_fledgeling_mines
-                    	duration = 9125
-                	}
-		        }
+                hidden_effect = {
+                    add_province_modifier = {
+                        name = karakhanbar_fledgeling_mines
+                        duration = 9125
+                    }
+                }
             }
             3019 = {
                 change_trade_goods = copper
-		        hidden_effect = {
-                	add_province_modifier = {
-                   		name = karakhanbar_fledgeling_mines
-                    	duration = 9125
-                	}
-		        }
+                hidden_effect = {
+                    add_province_modifier = {
+                        name = karakhanbar_fledgeling_mines
+                        duration = 9125
+                    }
+                }
             }
             3021 = {
                 change_trade_goods = iron
-		        hidden_effect = {
-                	add_province_modifier = {
-                   		name = karakhanbar_fledgeling_mines
-                    	duration = 9125
-                	}
-		        }
+                hidden_effect = {
+                    add_province_modifier = {
+                        name = karakhanbar_fledgeling_mines
+                        duration = 9125
+                    }
+                }
             }
             3022 = {
                 change_trade_goods = iron
-		        hidden_effect = {
-                	add_province_modifier = {
-                   		name = karakhanbar_fledgeling_mines
-                    	duration = 9125
-                	}
-		        }
+                hidden_effect = {
+                    add_province_modifier = {
+                        name = karakhanbar_fledgeling_mines
+                        duration = 9125
+                    }
+                }
             }
             7010 = {
                 change_trade_goods = iron
-		        hidden_effect = {
-                	add_province_modifier = {
-                   		name = karakhanbar_fledgeling_mines
-                    	duration = 9125
-                	}
-		        }
+                hidden_effect = {
+                    add_province_modifier = {
+                        name = karakhanbar_fledgeling_mines
+                        duration = 9125
+                    }
+                }
             }
-		    tooltip = {
-			    add_province_modifier = {
-                   	name = karakhanbar_fledgeling_mines
+            tooltip = {
+                add_province_modifier = {
+                    name = karakhanbar_fledgeling_mines
                     duration = 9125
                 }
-		    }
+            }
             3020 = {
                 province_event = {
                     id = flavour_karakhanbar.3
@@ -3632,10 +3687,7 @@ Z54_5_1 = {
             if = {
                 limit = { has_country_flag = karakhanbar_static_artificery_cap_increase_potential }
                 ROOT = {
-                    change_variable = {
-                        which = MaxArtificePoints
-                        value = 10
-                    }
+                    mission_reward_artifice_points_10 = yes
                 }
             }
             else = {
@@ -3715,9 +3767,9 @@ Z54_5_1 = {
                     cost = 0
                 }
             }
-			bahar_region = {
-				add_permanent_claim = ROOT
-			}
+            bahar_region = {
+                add_permanent_claim = ROOT
+            }
         }
     }
 
@@ -3857,12 +3909,13 @@ Z54_5_1 = {
                 duration = 7300
             }
             custom_tooltip = karakhanbar_the_torchbearers_effect_artificery_tt
-            set_country_flag = unlocked_black_hearth_torches_invention
+            set_country_flag = unlocked_artifice_invention_karakhanbar_black_hearth_torches
             custom_tooltip = karakhanbar_the_torchbearers_effect_coal_tt
             hidden_effect = {
                 select_highest_dev_province_with_limit = { 
                     limit = "superregion = deepwoods_superregion trade_goods = tropical_wood" 
                     effect = "change_trade_goods = coal"
+                    index = 1
                 }
             }
         }
@@ -3871,15 +3924,15 @@ Z54_5_1 = {
 }
 
 Z54_2_endgame = {
-	slot = 2
-	generic = no
-	ai = yes
-	has_country_shield = yes
+    slot = 2
+    generic = no
+    ai = yes
+    has_country_shield = yes
 
-	potential = { 
+    potential = { 
         tag = Z54
-		has_country_flag = Z54_found_the_origins
-	}
+        has_country_flag = Z54_found_the_origins
+    }
 
     Z54_seek_power = {
         icon = mission_the_covenant
@@ -3919,15 +3972,15 @@ Z54_2_endgame = {
 }
 
 Z54_3_endgame = {
-	slot = 3
-	generic = no
-	ai = yes
-	has_country_shield = yes
+    slot = 3
+    generic = no
+    ai = yes
+    has_country_shield = yes
 
-	potential = { 
+    potential = { 
         tag = Z54
-		has_country_flag = Z54_found_the_origins
-	}
+        has_country_flag = Z54_found_the_origins
+    }
 
     Z54_second_burning_of_the_worldtree = {
         icon = mission_fire_acolyte
@@ -3963,15 +4016,15 @@ Z54_3_endgame = {
 }
 
 Z54_4_endgame = {
-	slot = 4
-	generic = no
-	ai = yes
-	has_country_shield = yes
+    slot = 4
+    generic = no
+    ai = yes
+    has_country_shield = yes
 
-	potential = { 
+    potential = { 
         tag = Z54
-		has_country_flag = Z54_found_the_origins
-	}
+        has_country_flag = Z54_found_the_origins
+    }
 
     Z54_break_through_white_walls = {
         icon = mission_white_tower
