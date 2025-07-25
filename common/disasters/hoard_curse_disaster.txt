@@ -1,22 +1,22 @@
 
 hoardcurse = {
 	potential = {
-		ai = no
-		tag = I05
-		culture_group = dwarven
-		NOT = { has_country_flag = hoardcurse_happened }
-		total_development = 600
-		OR = {
-			capital_scope = { continent = serpentspine }
-			AND = {
-				capital_scope = { province_id = 4097 }	#Marrhold
-				owns = 4065		#Nativirod 2
-			}
-			hold_province = {
-				owned_by = ROOT
-				continent = serpentspine
-			}
-		}
+		always = no
+		#tag = I05
+		#culture_group = dwarven
+		#NOT = { has_country_flag = hoardcurse_happened }
+		#total_development = 600
+		#OR = {
+		#	capital_scope = { continent = serpentspine }
+		#	AND = {
+		#		capital_scope = { province_id = 4097 }	#Marrhold
+		#		owns = 4065		#Nativirod 2
+		#	}
+		#	hold_province = {
+		#		owned_by = ROOT
+		#		continent = serpentspine
+		#	}
+		#}
 	}
 
 	
